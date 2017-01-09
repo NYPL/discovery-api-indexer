@@ -1,0 +1,23 @@
+{
+  "author": "NYPL Discovery",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^3.5.5",
+    "config": "^1.21.0",
+    "elasticsearch": "^11.0.1",
+    "fast-csv": "^2.3.0",
+    "highland": "^2.10.0",
+    "mongodb": "^2.2.10",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "standard && mocha test"
+  },
+  "description": "",
+  "license": "MIT",
+  "name": "indexer",
+  "preferGlobal": false,
+  "private": false,
+  "version": "0.0.1"
+}

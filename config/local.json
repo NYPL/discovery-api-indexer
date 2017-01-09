@@ -1,0 +1,11 @@
+{
+  "elasticsearch": {
+    "host": "104.131.17.200",
+    "indexes": {
+      "resources": "discovery-resources2"
+    }
+  },
+  "mongo": {
+    "url": "mongodb://localhost:27017/discovery"
+  }
+}
