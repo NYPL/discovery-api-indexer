@@ -7,5 +7,9 @@
   },
   "mongo": {
     "url": ""
+  },
+  "pg": {
+    "url": "postgresql://...",
+    "idleTimeoutMillis": 30000
   }
 }
