@@ -4,15 +4,19 @@ This app pulls data from the Discovery store (aka PCDM Store) and pushes it into
 
 ## Usage
 
-The indexer currently has the ability to build and manage resources indexes. Note that you'll first need to create a `config/local.json` to override the meaningless config defaults.
+The indexer currently has the ability to build and manage resources indexes.
+
+Before anything you'll need to:
+* Create a `config/local.json` to override the meaningless config defaults
+* `npm install`
 
 ### Building Resources Index
 
-```node jobs/index-resources [--threads THREADS] [--index INDEX] [--rebuild] [--disablescreen]```
+```node jobs/index-resources [--threads THREADS] [--rebuild] [--disablescreen]```
 
 This builds the given index. Optional arguments:
 * `threads`: Specifies the number of concurrent threads to use. 3 is fine since any more than this risks crippling the db. (Also, the app will prevent any more than this from running concurrently as a precaution.)
-* `index`: Specifies the index to write to. This overrides `elasticsearch.indexes.resources` in config/*.json
+* ~~`index`: Specifies the index to write to. This overrides `elasticsearch.indexes.resources` in config/*.json~~
 * `rebuild`: If set, tells indexer to first destroy whatever index is there and re-assert the field mapping. (Useful for schema changes.)
 * `disablescreen`: By default, a fancy curses-like library ([blessed-contrib](https://github.com/yaronn/blessed-contrib)) is used to visualize the progress. This has the side-effect of garbling emitted errors/debug messages. Specify `--disablescreen` to disable the fancy curses screen takeover to view all output to stdout.
 
