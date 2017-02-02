@@ -1,12 +1,11 @@
 {
-  "Elasticsearch": {
+  "elasticsearch": {
     "host": "",
+    "port": 443,
+    "protocol": "https",
     "indexes": {
-      "resources": "resources"
+      "resources": "resources-index-name"
     }
-  },
-  "mongo": {
-    "url": ""
   },
   "pg": {
     "url": "postgresql://...",
