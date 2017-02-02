@@ -1,5 +1,7 @@
 'use strict'
 
+const config = require('config')
+
 const IndexerRunner = require('../lib/indexer-runner')
 const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
 const db = require('../lib/db')
@@ -8,6 +10,11 @@ const index = require('../lib/index')
 var cluster = require('cluster')
 
 var VALID_TYPES = ['all', 'collection', 'component', 'item']
+
+/*
+ *  node jobs/index-resources --threads 3 [--index resources-scratch]
+ *  node jobs/index-resources --threads 3 --index resources-2017-01-10
+ */
 
 // Parsc cmd line opts:
 var argv = require('optimist')
@@ -20,6 +27,7 @@ var argv = require('optimist')
   .describe('disablescreen', 'If set, output printed to stdout rather than taking over screen with fancy visuals')
   .describe('rebuild', 'If set, all data in index deleted and new schema applied')
   .describe('debug', 'Print debug info')
+  .describe('index', 'Specify index name')
   .argv
 
 // TODO Need to resolve whether or not to index resources according to their domain type: collection, container, item, capture
@@ -69,23 +77,30 @@ if (argv.uri) {
 
   var buildByQuery = function (query) {
     var runner = new IndexerRunner('resources', query, cluster, {
-      botCount: 5,
+      botCount: argv.threads,
       useScreen: useScreen
     })
     runner.run()
   }
 
   var tasks = []
-  // tasks.push(function () { buildByQuery({'rdf:type': 'nypl:Bib'}) })
   tasks.push(function () { buildByQuery({}) })
-  // tasks.push(function () { buildByQuery({'rdf:type': 'nypl:Item'}) })
 
   var buildNext = function () {
     if (tasks.length > 0) tasks.shift()()
   }
 
-  if (rebuild) index.resources.prepare().then(() => buildNext())
-  else buildNext()
+  if (rebuild) {
+    // If rebuilding, make sure the currently configured index doesn't have a live alias
+    index.admin.indexIsActive(config.get('elasticsearch.indexes.resources')).then((active) => {
+      if (active) {
+        console.error('ABORT: Refusing to rebuild index that appears to be active')
+        process.exit()
+      } else {
+        index.resources.prepare().then(() => buildNext())
+      }
+    })
+  } else buildNext()
 
 // Worker script:
 } else {
@@ -97,98 +112,33 @@ if (argv.uri) {
   process.on('message', (msg) => {
     if (typeof msg.start !== 'number') return
 
-    // db.resources().then((resources) => {
-      // _(resourcesCollection.find(msg.query).skip(parseInt(msg.start)).limit(msg.total).batchSize(msg.total).stream())
-      // var stream = _(resources.find(msg.query).skip(parseInt(msg.start)).limit(msg.total).batchSize(msg.total).stream())
-
     db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total }).then((stream) => {
       _(stream)
         .map((rec) => {
           var doc = ResourceSerializer.fromStatements(rec).then((serialized) => {
-            // console.log('got serialized: ', serialized)
             return serialized
           })
           return doc
-          // console.log('stmts: ', JSON.stringify(rec, null, 2))
-          /* var bnum = rec.filter((s) => s.predicate === 'dcterms:identifier' && s.object_id.match(/urn:bnum:/))[0]
-          if (bnum) {
-            return db.getItemStatements(bnum.object_id).then((itemStatements) => {
-              console.log('got item statements: ', itemStatements)
-              return rec
-            })
-          } else {
-            return Promise.resolve(rec)
-          }
-          */
         })
+        .flatMap((p) => _(p))
+        .batchWithTimeOrCount(100, 1000)
+        .map((recs) => {
+          // console.log('updating recs: ', recs.length)
+          return recs
+        })
+        .map(index.resources.save)
         .flatMap((p) => _(p))
         .stopOnError((e) => {
           console.error('error: ', e, e.stack)
         })
-        .map((rec) => {
-          // console.log('Save Doc: ', JSON.stringify(rec, null, 2))
-          return rec
-        })
         .map((resp) => {
-          process.send({ totalUpdate: 1 })
+          process.send({ totalUpdate: resp.items.length })
         })
         .done((s) => console.log('done? ', s))
     }).catch((e) => {
       console.log('error', e)
       console.trace(e)
     })
-
-    // stream
-
-    /*
-     *  stream
-      .map(db.TriplesDoc.from)
-      .map(attachItems)
-      .filter((bib) => {
-        // Filter out anything that's not research
-        var items = bib._items || []
-        var researchItems = items.filter((item) => item['nypl:itemType.objectUri'].filter((type) => type === 'urn:itemtype:research') > 0)
-        // Must either have 0 items, or at least one research item:
-        var valid = items.length === 0 || researchItems.length > 0
-        if (items.length > 0) console.log('valid? ', items.length, researchItems.length, valid)
-        return valid
-      })
-      .flatMap((promise) => _(promise))
-      .map(ResourceSerializer.serialize)
-      .flatMap((promise) => _(promise))
-      .map((serialized) => {
-        // if (true) console.log('Serialized: ', JSON.stringify(serialized, null, 2))
-        return serialized
-      })
-      .filter((resource) => resource.uri)
-      .stopOnError((e) => {
-        console.log('Error with: ', e)
-        process.exit()
-      })
-
-    stream.batchWithTimeOrCount(100, 100)
-      // .map((recs) => index.resources.save(recs, msg.query['rdf:type'] === 'nypl:Item'))
-      .map((recs) => index.resources.save(recs))
-      .flatMap((promise) => {
-        // console.log('got: ', promise)
-        return _(promise)
-      })             // Resolve mongo insert promises
-      .stopOnError((e) => {                         // Check for mongo errors
-        console.error('Error saving:', e)
-        console.trace('  Error:', e)
-        process.exit()
-      })
-      .map((resp) => {
-        process.send({ totalUpdate: resp.items.length })
-      })
-      .done(function (err) {
-        if (err) console.info(err)
-        // console.log(`Done updating resources (${offset}, ${limit})`)
-        process.exit()
-      })
-    // })
-
-    */
   })
 }
 

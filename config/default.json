@@ -2,7 +2,7 @@
   "Elasticsearch": {
     "host": "",
     "indexes": {
-      "resources": "discovery-resources2"
+      "resources": "resources"
     }
   },
   "mongo": {
