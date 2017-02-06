@@ -6,6 +6,7 @@ const IndexerRunner = require('../lib/indexer-runner')
 const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
 const db = require('../lib/db')
 const index = require('../lib/index')
+const log = require('loglevel')
 
 var cluster = require('cluster')
 
@@ -23,12 +24,17 @@ var argv = require('optimist')
   .describe('type', 'Specify type to index (' + VALID_TYPES.join(', ') + ')')
   .default('uri', null)
   .describe('uri', 'Specify single uri to inex')
-  .boolean(['disablescreen', 'rebuild', 'debug'])
+  .boolean(['disablescreen', 'rebuild'])
   .describe('disablescreen', 'If set, output printed to stdout rather than taking over screen with fancy visuals')
   .describe('rebuild', 'If set, all data in index deleted and new schema applied')
-  .describe('debug', 'Print debug info')
+  .describe('loglevel', 'Specify log level (default info)')
   .describe('index', 'Specify index name')
   .argv
+
+log.setLevel(argv.loglevel || 'info')
+
+const DEFAULT_RESOURCES_INDEX = config.get('elasticsearch').indexes.resources
+const indexName = argv.index || DEFAULT_RESOURCES_INDEX
 
 // TODO Need to resolve whether or not to index resources according to their domain type: collection, container, item, capture
 // For now, not doing this. Seems to add more trouble than benefit atm
@@ -63,7 +69,7 @@ if (argv.uri) {
       console.log('________________')
       console.log(JSON.stringify(record, null, 2))
 
-      return index.resources.save([record]).then((res) => {
+      return index.resources.save(indexName, [record]).then((res) => {
         console.log('Done saving', JSON.stringify(res, null, 2))
         process.exit()
       })
@@ -76,18 +82,29 @@ if (argv.uri) {
   var rebuild = argv.rebuild
 
   var buildByQuery = function (query) {
-    var runner = new IndexerRunner('resources', query, cluster, {
-      botCount: argv.threads,
-      useScreen: useScreen
+    return new Promise((resolve, reject) => {
+      var runner = new IndexerRunner('resources', query, cluster, {
+        botCount: argv.threads,
+        useScreen: useScreen,
+        onComplete: resolve
+      })
+      runner.run()
     })
-    runner.run()
   }
 
   var tasks = []
-  tasks.push(function () { buildByQuery({}) })
+  tasks.push(() => index.resources.prepare(indexName, rebuild))
+  tasks.push(() => buildByQuery({}))
 
   var buildNext = function () {
-    if (tasks.length > 0) tasks.shift()()
+    if (tasks.length > 0) {
+      return tasks.shift()()
+        .then(buildNext)
+        .catch((e) => {
+          log.error('Error building: ' + e.message)
+          process.exit()
+        })
+    }
   }
 
   if (rebuild) {
@@ -97,7 +114,7 @@ if (argv.uri) {
         console.error('ABORT: Refusing to rebuild index that appears to be active')
         process.exit()
       } else {
-        index.resources.prepare().then(() => buildNext())
+        buildNext()
       }
     })
   } else buildNext()
@@ -112,24 +129,26 @@ if (argv.uri) {
   process.on('message', (msg) => {
     if (typeof msg.start !== 'number') return
 
+    var processed = 0
+
     db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total }).then((stream) => {
       _(stream)
-        .map((rec) => {
-          var doc = ResourceSerializer.fromStatements(rec).then((serialized) => {
-            return serialized
-          })
-          return doc
-        })
+        .map((rec) => ResourceSerializer.fromStatements(rec))
         .flatMap((p) => _(p))
+        .map((resource) => {
+          processed += 1
+          log.info('Index resource: ' + resource.uri + ' (offset ' + (msg.start + processed) + ')')
+          return resource
+        })
         .batchWithTimeOrCount(100, 1000)
         .map((recs) => {
           // console.log('updating recs: ', recs.length)
           return recs
         })
-        .map(index.resources.save)
+        .map((recs) => index.resources.save(indexName, recs))
         .flatMap((p) => _(p))
         .stopOnError((e) => {
-          console.error('error: ', e, e.stack)
+          log.error('error: ', e, e.stack)
         })
         .map((resp) => {
           process.send({ totalUpdate: resp.items.length })
