@@ -85,3 +85,11 @@ Will execute the equivalent of:
 ./jobs/index-resources --uri doc2
 ./jobs/index-resources --uri doc3
 ```
+
+Deploy to an existing Lambda like:
+
+```
+node-lambda deploy --functionName indexDocumentQueue --environment production
+```
+
+Will deploy to a Lambda called indexDocumentQueue-production. Add a Kinesis stream trigger to execute function if not already added.
