@@ -36,7 +36,7 @@ We use Elasticsearch index aliases to enable zero-downtime rebuilds. This means 
 
 ```
 node jobs/index-admin list
-Indexes: 
+Indexes:
   ...
   resources-2017-01-09.2 (20684 records)
   resources-2017-01-09 > "resources" (474603 records)
@@ -54,3 +54,34 @@ So, for example, to create an alias called 'resources' pointing to index 'resour
 ```node jobs/index-admin activate --index resources-2017-01-09```
 
 The code assumes from the timestamped index name that the desired alias is "resources" and will unassign the "resources" alias if it already exists.
+
+### Local Lambda development
+
+Install node-lambda if necessary and setup
+
+```
+npm install -g node-lambda
+node-lambda setup
+```
+
+Copy `event.document.sample.json` data into `event.json`. It's encoded with avro schema in base64, but will eventually resolve to something like this:
+
+```
+{"uri":"doc1","type":"test"}
+{"uri":"doc2","type":"test"}
+{"uri":"doc3","type":"test"}
+```
+
+Run lambda locally using data in `event.json`
+
+```
+node-lambda run --handler document-stream-listener.handler
+```
+
+Will execute the equivalent of:
+
+```
+./jobs/index-resources --uri doc1
+./jobs/index-resources --uri doc2
+./jobs/index-resources --uri doc3
+```
