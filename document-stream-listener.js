@@ -4,73 +4,142 @@
   then runs the index job with the document URI
 */
 
-console.log('Loading Document Stream Listener');
+const log = require('loglevel')
+log.info('Loading Document Stream Listener')
 
-const _ = require('highland');
-const avro = require('avsc');
-const childProcess = require('child_process');
-const schema = require('./document-avro-schema.js');
+const _ = require('highland')
+const avro = require('avsc')
+const db = require('./lib/db')
+const index = require('./lib/index')
+const ResourceSerializer = require('./lib/es-serializer').ResourceSerializer
+const kmsHelper = require('./lib/kms-helper')
+const request = require('request')
+
+const INDEX_NAME = process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-2017-02-15-pb'
+const SCHEMA_TYPE = process.env['INCOMING_SCHEMA_TYPE'] || 'IndexDocument'
+
+// General purpose global hash of things to remember:
+var CACHE = {}
+
+log.setLevel(process.env['LOGLEVEL'] || 'info')
+
+function getSchema () {
+  // schema in cache; just return it as a instant promise
+  if (CACHE[SCHEMA_TYPE]) {
+    log.debug(`Already have ${SCHEMA_TYPE} schema`)
+    return Promise.resolve(CACHE[SCHEMA_TYPE])
+  }
+
+  return new Promise((resolve, reject) => {
+    var options = {
+      uri: process.env['NYPL_API_SCHEMA_URL'] + SCHEMA_TYPE,
+      json: true
+    }
+
+    log.debug(`Loading ${SCHEMA_TYPE} schema...`)
+    request(options, (error, resp, body) => {
+      if (error) {
+        reject(error)
+      }
+      if (body.data && body.data.schema) {
+        log.debug(`Sucessfully loaded ${SCHEMA_TYPE} schema`)
+        var schema = JSON.parse(body.data.schema)
+        CACHE[SCHEMA_TYPE] = avro.parse(schema)
+        resolve(CACHE[SCHEMA_TYPE])
+      } else {
+        reject()
+      }
+    })
+  })
+}
 
 // kinesis stream handler
-exports.kinesisHandler = function(records, context) {
-  console.log('Processing ' + records.length + ' records');
+exports.kinesisHandler = function (records, context, callback) {
+  log.info('Processing ' + records.length + ' record(s)')
 
   // initialize avro schema
-  const avroType = avro.parse(schema);
+  const avroType = CACHE[SCHEMA_TYPE]
 
   // process kinesis records
   var data = records
-    .map(parseData);
+    .map(parseData)
 
   // index each document
   _(data)
-    .each(indexDocument);
+    .map(indexDocument)
+    .flatMap((h) => _(h))
+    .stopOnError((e) => {
+      callback(e)
+    })
+    .done(() => {
+      log.info('Completed processing ' + data.length + ' doc(s)')
+      callback(null, 'Wrote ' + data.length + ' docs(s)')
+    })
 
   // executes a index resource job with URI
-  function indexDocument(doc) {
-    var args = ['--uri', `${doc.uri}`];
-    runScript(`./jobs/index-resources`, args, function (err) {
-      if (err) throw err;
-    });
+  function indexDocument (doc) {
+    log.debug('Indexing ' + doc.uri)
+
+    return db.resources.bib(doc.uri)
+      .then((statements) => ResourceSerializer.fromStatements(statements))
+      .then((resource) => index.resources.save(INDEX_NAME, [resource]))
+      .then((result) => {
+        if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors)
+        else return
+      }, (err) => console.error('Error serializing: ', err))
   }
 
   // map to records objects as needed
-  function parseData(payload) {
+  function parseData (payload) {
     // decode base64
-    var buf = new Buffer(payload.kinesis.data, 'base64');
+    var buf = new Buffer(payload.kinesis.data, 'base64')
     // decode avro
-    var record = avroType.fromBuffer(buf);
-    return record;
+    var record = avroType.fromBuffer(buf)
+    return record
   }
+}
 
-  function runScript(scriptPath, args, callback) {
-    // keep track of whether callback has been invoked to prevent multiple invocations
-    var invoked = false;
-    var process = childProcess.fork(scriptPath, args);
-
-    // listen for errors as they may prevent the exit event from firing
-    process.on('error', function (err) {
-      if (invoked) return;
-      invoked = true;
-      callback(err);
-    });
-
-    // execute the callback once the process has finished running
-    process.on('exit', function (code) {
-      if (invoked) return;
-      invoked = true;
-      var err = code === 0 ? null : new Error('exit code ' + code);
-      callback(err);
-    });
+function dbConnect () {
+  // If db is connected, return immediately:
+  if (CACHE['db-connected']) return Promise.resolve()
+  // Otherwise, decrypt creds, and init db:
+  else {
+    return kmsHelper.decryptDbCreds()
+      .then((uri) => db.setConnection(uri))
+      .then(() => {
+        log.debug('Decrypted and set DB connection uri')
+        CACHE['db-connected'] = true
+      })
   }
+}
 
-  context.done();
-};
+function elasticConnect () {
+  // If es is connected, return immediately:
+  if (CACHE['es-connected']) return Promise.resolve()
+  // Otherwise, decrypt creds, and init es:
+  else {
+    return kmsHelper.decryptElasticCreds()
+      .then((uri) => index.setConnection(uri))
+      .then(() => {
+        log.debug('Decrypted and set ES connection uri')
+        CACHE['es-connected'] = true
+      })
+  }
+}
 
 // main function
-exports.handler = function(event, context) {
-  var record = event.Records[0];
-  if (record.kinesis) {
-    exports.kinesisHandler(event.Records, context);
-  }
-};
+exports.handler = function (event, context, callback) {
+  context.callbackWaitsForEmptyEventLoop = false
+
+  Promise.all([ getSchema(), dbConnect(), elasticConnect() ])
+    .then(() => {
+      var record = event.Records[0]
+      if (record.kinesis) {
+        exports.kinesisHandler(event.Records, context, callback)
+      }
+    })
+    .catch((e) => {
+      log.error('Error: ', e)
+      callback(e)
+    })
+}

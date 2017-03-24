@@ -12,7 +12,7 @@ Before anything you'll need to:
 
 ### Building Resources Index
 
-```node jobs/index-resources [--threads THREADS] [--rebuild] [--disablescreen]```
+`node jobs/index-resources [--threads THREADS] [--rebuild] [--disablescreen]`
 
 This builds the given index. Optional arguments:
 * `threads`: Specifies the number of concurrent threads to use. 3 is fine since any more than this risks crippling the db. (Also, the app will prevent any more than this from running concurrently as a precaution.)
@@ -24,11 +24,11 @@ This builds the given index. Optional arguments:
 
 To **list** all indexes in the configured Elasticsearch instance:
 
-```node jobs/index-admin list```
+`node jobs/index-admin list`
 
 To **delete** an index:
 
-```node jobs/index-admin delete --index INDEX```
+`node jobs/index-admin delete --index INDEX`
 
 Note that this will prompt you to supply an additional parameter to that command *for security*.
 
@@ -47,15 +47,15 @@ A single "resources" alias points to the index that is "active". In the above, `
 
 To **activate** an index:
 
-```node jobs/index-admin activate --index [datestamped-index-name]```
+`node jobs/index-admin activate --index [datestamped-index-name]`
 
 So, for example, to create an alias called 'resources' pointing to index 'resources-2017-01-09', run:
 
-```node jobs/index-admin activate --index resources-2017-01-09```
+`node jobs/index-admin activate --index resources-2017-01-09`
 
 The code assumes from the timestamped index name that the desired alias is "resources" and will unassign the "resources" alias if it already exists.
 
-### Local Lambda development
+## Local Lambda development
 
 Install node-lambda if necessary and setup
 
@@ -64,32 +64,37 @@ npm install -g node-lambda
 node-lambda setup
 ```
 
-Copy `event.document.sample.json` data into `event.json`. It's encoded with avro schema in base64, but will eventually resolve to something like this:
-
+Ensure `deploy.env` has the following:
 ```
-{"uri":"doc1","type":"test"}
-{"uri":"doc2","type":"test"}
-{"uri":"doc3","type":"test"}
-```
-
-Run lambda locally using data in `event.json`
-
-```
-node-lambda run --handler document-stream-listener.handler
+DISCOVERY_STORE_CONNECTION_URI=[encrypted rds connection string]
+ELASTICSEARCH_CONNECTION_URI=[encrypted es connection string]
+NYPL_API_SCHEMA_URI=[*not* encrypted nypl data api base url]
 ```
 
-Will execute the equivalent of:
+Similarly, `.env` should minimally have:
+```
+AWS_ACCESS_KEY_ID=...
+AWS_SECRET_ACCESS_KEY=...
+AWS_ROLE_ARN=...
+AWS_REGION=...
+```
+
+Edit `event.unencoded.json` with your desired test ids. Then commit your changes to `event.json` using the `kinesify-data` utility as follows:
 
 ```
-./jobs/index-resources --uri doc1
-./jobs/index-resources --uri doc2
-./jobs/index-resources --uri doc3
+node kinesify-data event.unencoded.json event.json https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument
+```
+
+Now run the app locally against `event.json`
+
+```
+node-lambda run -f deploy.env
 ```
 
 Deploy to an existing Lambda like:
 
 ```
-node-lambda deploy --functionName indexDocumentQueue --environment production
+node-lambda deploy -f deploy.env
 ```
 
-Will deploy to a Lambda called indexDocumentQueue-production. Add a Kinesis stream trigger to execute function if not already added.
+Will deploy to a Lambda called "discovery-api-indexer". Add a Kinesis stream trigger to execute function if not already added.

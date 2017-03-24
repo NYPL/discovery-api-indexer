@@ -46,6 +46,7 @@ if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
   process.exit()
 }
 
+/*
 var attachItems = (bib) => {
   if (!bib) return Promise.resolve(bib)
 
@@ -58,23 +59,22 @@ var attachItems = (bib) => {
     })
   })
 }
+*/
 
 // Index single item by uri:
 if (argv.uri) {
   console.log('uri: ', argv.uri)
-  db.resources.findOne({ uri: `${argv.uri}` }).then(attachItems).then((resource) => {
-    ResourceSerializer.serialize(resource).then((record) => {
-      console.log('Extract index fields for resource:')
-      console.log(JSON.stringify(resource, null, 2))
-      console.log('________________')
-      console.log(JSON.stringify(record, null, 2))
-
-      return index.resources.save(indexName, [record]).then((res) => {
-        console.log('Done saving', JSON.stringify(res, null, 2))
-        process.exit()
-      })
+  // db.resources.findOne({ uri: `${argv.uri}` }).then(attachItems).then((resource) => {
+  db.resources.bib(argv.uri)
+    .then((s) => {
+      console.log('statements: ', s)
+      return s
+    })
+    .then((statements) => ResourceSerializer.fromStatements(statements))
+    // .then((resource) => index.resources.save(indexName, [resource]))
+    .then((result) => {
+      console.log('Done saving', JSON.stringify(result, null, 2))
     }, (err) => console.error('Error serializing: ', err))
-  }, (err) => console.error('Error retrieving: ', err))
 
 // Master script:
 } else if (cluster.isMaster) {

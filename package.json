@@ -1,8 +1,9 @@
 {
   "author": "NYPL Discovery",
   "dependencies": {
-    "avsc": "^4.1.11",
     "JSONStream": "^1.2.1",
+    "avsc": "^4.1.11",
+    "aws-sdk": "^2.32.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^3.5.5",
     "config": "^1.21.0",
@@ -21,7 +22,7 @@
   },
   "description": "",
   "license": "MIT",
-  "name": "indexer",
+  "name": "discovery-api-indexer",
   "preferGlobal": false,
   "private": false,
   "version": "0.0.1"
