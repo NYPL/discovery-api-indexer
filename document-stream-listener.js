@@ -101,28 +101,26 @@ exports.kinesisHandler = function (records, context, callback) {
 
 function dbConnect () {
   // If db is connected, return immediately:
-  if (CACHE['db-connected']) return Promise.resolve()
+  if (db.connected()) return Promise.resolve()
   // Otherwise, decrypt creds, and init db:
   else {
     return kmsHelper.decryptDbCreds()
       .then((uri) => db.setConnection(uri))
       .then(() => {
         log.debug('Decrypted and set DB connection uri')
-        CACHE['db-connected'] = true
       })
   }
 }
 
 function elasticConnect () {
   // If es is connected, return immediately:
-  if (CACHE['es-connected']) return Promise.resolve()
+  if (index.connected()) return Promise.resolve()
   // Otherwise, decrypt creds, and init es:
   else {
     return kmsHelper.decryptElasticCreds()
       .then((uri) => index.setConnection(uri))
       .then(() => {
         log.debug('Decrypted and set ES connection uri')
-        CACHE['es-connected'] = true
       })
   }
 }

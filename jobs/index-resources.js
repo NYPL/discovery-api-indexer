@@ -1,12 +1,14 @@
 'use strict'
 
 const config = require('config')
+const log = require('loglevel')
+const dotenv = require('dotenv')
 
 const IndexerRunner = require('../lib/indexer-runner')
 const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
 const db = require('../lib/db')
 const index = require('../lib/index')
-const log = require('loglevel')
+const kmsHelper = require('../lib/kms-helper')
 
 var cluster = require('cluster')
 
@@ -31,8 +33,6 @@ var argv = require('optimist')
   .describe('index', 'Specify index name')
   .argv
 
-log.setLevel(argv.loglevel || 'info')
-
 const DEFAULT_RESOURCES_INDEX = config.get('elasticsearch').indexes.resources
 const indexName = argv.index || DEFAULT_RESOURCES_INDEX
 
@@ -46,35 +46,52 @@ if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
   process.exit()
 }
 
-/*
-var attachItems = (bib) => {
-  if (!bib) return Promise.resolve(bib)
-
-  // console.log('looking up items for bib: ', bib.uri)
-  return db.resources().then((resources) => {
-    return resources.find({'rdf:type': 'nypl:Item', 'dcterms:identifier.objectUri': `urn:bnum:${bib.uri}`}).limit(100).toArray().then((items) => {
-      // console.log('found? ', items)
-      bib._items = items.map(db.TriplesDoc.from)
-      return bib
-    })
-  })
+function dbConnect () {
+  if (db.connected()) return Promise.resolve()
+  else {
+    return kmsHelper.decryptDbCreds()
+      .then((uri) => db.setConnection(uri))
+  }
 }
-*/
+
+function elasticConnect () {
+  // If es is connected, return immediately:
+  if (index.connected()) return Promise.resolve()
+  // Otherwise, decrypt creds, and init es:
+  else {
+    return kmsHelper.decryptElasticCreds()
+      .then((uri) => index.setConnection(uri))
+  }
+}
+
+function init () {
+  // Ensure necessary env variables loaded
+  dotenv.config({ path: './deploy.env' })
+  dotenv.config({ path: './.env' })
+
+  log.setLevel(argv.loglevel || process.env.LOGLEVEL || 'info')
+  return Promise.all([ elasticConnect(), dbConnect() ])
+}
 
 // Index single item by uri:
 if (argv.uri) {
-  console.log('uri: ', argv.uri)
-  // db.resources.findOne({ uri: `${argv.uri}` }).then(attachItems).then((resource) => {
-  db.resources.bib(argv.uri)
+  log.info('Indexing uri: ', argv.uri)
+  init()
+    .then(() => db.resources.bib(argv.uri))
     .then((s) => {
-      console.log('statements: ', s)
+      log.debug('Got statements: ', s)
       return s
     })
     .then((statements) => ResourceSerializer.fromStatements(statements))
-    // .then((resource) => index.resources.save(indexName, [resource]))
+    .then((r) => {
+      console.log('res: ', r)
+      return r
+    })
+    .then((resource) => index.resources.save(indexName, [resource]))
     .then((result) => {
-      console.log('Done saving', JSON.stringify(result, null, 2))
-    }, (err) => console.error('Error serializing: ', err))
+      log.info('Done saving ' + argv.uri)
+      log.debug('Save result: ', JSON.stringify(result, null, 2))
+    }, (err) => log.error('Error serializing: ', err))
 
 // Master script:
 } else if (cluster.isMaster) {
