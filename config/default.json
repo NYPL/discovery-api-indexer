@@ -12,6 +12,11 @@
     "idleTimeoutMillis": 30000
   },
 
+  "kinesisWriteStream": {
+    "shards": 1,
+    "stream": "IndexDocumentProcessed",
+    "waitBetweenDescribeCallsInSeconds": 5
+  },
   "kinesisReadStream": "arn:aws:kinesis:us-east-1:224280085904:stream/IndexDocument",
   "kinesisReadStreamType": "IndexDocument"
 

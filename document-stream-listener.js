@@ -8,72 +8,52 @@ const log = require('loglevel')
 log.info('Loading Document Stream Listener')
 
 const _ = require('highland')
-const avro = require('avsc')
+
 const db = require('./lib/db')
 const index = require('./lib/index')
 const ResourceSerializer = require('./lib/es-serializer').ResourceSerializer
 const kmsHelper = require('./lib/kms-helper')
-const request = require('request')
+const Kinesis = require('./lib/kinesis')
+const kinesis = new Kinesis()
+const avroHelper = require('./lib/avro-helper')
 
 const INDEX_NAME = process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-2017-02-15-pb'
-const SCHEMA_TYPE = process.env['INCOMING_SCHEMA_TYPE'] || 'IndexDocument'
-
-// General purpose global hash of things to remember:
-var CACHE = {}
+const INCOMING_SCHEMA_TYPE = process.env['INCOMING_SCHEMA_TYPE'] || 'IndexDocument'
+const OUTGOING_SCHEMA_TYPE = process.env['OUTGOING_SCHEMA_TYPE'] || 'IndexDocumentProcessed'
 
 log.setLevel(process.env['LOGLEVEL'] || 'info')
-
-function getSchema () {
-  // schema in cache; just return it as a instant promise
-  if (CACHE[SCHEMA_TYPE]) {
-    log.debug(`Already have ${SCHEMA_TYPE} schema`)
-    return Promise.resolve(CACHE[SCHEMA_TYPE])
-  }
-
-  return new Promise((resolve, reject) => {
-    var options = {
-      uri: process.env['NYPL_API_SCHEMA_URL'] + SCHEMA_TYPE,
-      json: true
-    }
-
-    log.debug(`Loading ${SCHEMA_TYPE} schema...`)
-    request(options, (error, resp, body) => {
-      if (error) {
-        reject(error)
-      }
-      if (body.data && body.data.schema) {
-        log.debug(`Sucessfully loaded ${SCHEMA_TYPE} schema`)
-        var schema = JSON.parse(body.data.schema)
-        CACHE[SCHEMA_TYPE] = avro.parse(schema)
-        resolve(CACHE[SCHEMA_TYPE])
-      } else {
-        reject()
-      }
-    })
-  })
-}
 
 // kinesis stream handler
 exports.kinesisHandler = function (records, context, callback) {
   log.info('Processing ' + records.length + ' record(s)')
 
-  // initialize avro schema
-  const avroType = CACHE[SCHEMA_TYPE]
+  var incomingSchema = null
+  var outgoingSchema = null
 
-  // process kinesis records
-  var data = records
-    .map(parseData)
+  // Ensure schemas loaded:
+  avroHelper.getSchemas([INCOMING_SCHEMA_TYPE, OUTGOING_SCHEMA_TYPE])
+    .then((schemas) => {
+      incomingSchema = schemas[INCOMING_SCHEMA_TYPE]
+      outgoingSchema = schemas[OUTGOING_SCHEMA_TYPE]
+      console.log('got schema: ', incomingSchema)
 
-  // index each document
-  _(data)
-    .map(indexDocument)
-    .flatMap((h) => _(h))
-    .stopOnError((e) => {
+      // process kinesis records
+      var data = records
+        .map(parseData)
+
+      // index each document
+      _(data)
+        .map(indexDocument)
+        .flatMap((h) => _(h))
+        .stopOnError((e) => {
+          callback(e)
+        })
+        .done(() => {
+          log.info('Completed processing ' + records.length + ' doc(s)')
+          callback(null, 'Wrote ' + records.length + ' docs(s)')
+        })
+    }).catch((e) => {
       callback(e)
-    })
-    .done(() => {
-      log.info('Completed processing ' + data.length + ' doc(s)')
-      callback(null, 'Wrote ' + data.length + ' docs(s)')
     })
 
   // executes a index resource job with URI
@@ -82,11 +62,23 @@ exports.kinesisHandler = function (records, context, callback) {
 
     return db.resources.bib(doc.uri)
       .then((statements) => ResourceSerializer.fromStatements(statements))
-      .then((resource) => index.resources.save(INDEX_NAME, [resource]))
-      .then((result) => {
-        if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors)
-        else return
-      }, (err) => console.error('Error serializing: ', err))
+      .then((resource) => {
+        return index.resources.save(INDEX_NAME, [resource])
+          .then((result) => {
+            if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors)
+            else return
+          }, (err) => console.error('Error serializing: ', err))
+          .then(() => {
+            // TODO: This is hacked to deliver the internal standard identifiers;
+            // All serialization flows should carry these identifiers w/out needing to derive them like this..
+            var indexDocumentProcessed = {
+              id: resource.uri.replace(/^[a-z]+/, ''),
+              nyplSource: 'sierra-nypl',
+              nyplType: 'bib'
+            }
+            return kinesis.write(indexDocumentProcessed, outgoingSchema)
+          })
+      })
   }
 
   // map to records objects as needed
@@ -94,7 +86,7 @@ exports.kinesisHandler = function (records, context, callback) {
     // decode base64
     var buf = new Buffer(payload.kinesis.data, 'base64')
     // decode avro
-    var record = avroType.fromBuffer(buf)
+    var record = incomingSchema.fromBuffer(buf)
     return record
   }
 }
@@ -129,7 +121,8 @@ function elasticConnect () {
 exports.handler = function (event, context, callback) {
   context.callbackWaitsForEmptyEventLoop = false
 
-  Promise.all([ getSchema(), dbConnect(), elasticConnect() ])
+  log.debug('Root Handler got data: ', event)
+  Promise.all([ dbConnect(), elasticConnect() ])
     .then(() => {
       var record = event.Records[0]
       if (record.kinesis) {
