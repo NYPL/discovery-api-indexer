@@ -1,8 +1,9 @@
 {
   "author": "NYPL Discovery",
   "dependencies": {
-    "avsc": "^4.1.11",
     "JSONStream": "^1.2.1",
+    "avsc": "^5.0.0",
+    "aws-sdk": "^2.32.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^3.5.5",
     "config": "^1.21.0",
@@ -15,13 +16,16 @@
     "pg-promise": "^5.5.0",
     "pg-query-stream": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "mocha": "^3.2.0"
+  },
   "scripts": {
     "test": "standard && mocha test"
   },
   "description": "",
   "license": "MIT",
-  "name": "indexer",
+  "name": "discovery-api-indexer",
   "preferGlobal": false,
   "private": false,
   "version": "0.0.1"
