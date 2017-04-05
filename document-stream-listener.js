@@ -4,8 +4,7 @@
   then runs the index job with the document URI
 */
 
-const log = require('loglevel')
-log.info('Loading Document Stream Listener')
+var log = null
 
 const _ = require('highland')
 
@@ -21,8 +20,6 @@ const INDEX_NAME = process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-201
 const INCOMING_SCHEMA_TYPE = process.env['INCOMING_SCHEMA_TYPE'] || 'IndexDocument'
 const OUTGOING_SCHEMA_TYPE = process.env['OUTGOING_SCHEMA_TYPE'] || 'IndexDocumentProcessed'
 
-log.setLevel(process.env['LOGLEVEL'] || 'info')
-
 // kinesis stream handler
 exports.kinesisHandler = function (records, context, callback) {
   log.info('Processing ' + records.length + ' record(s)')
@@ -35,11 +32,12 @@ exports.kinesisHandler = function (records, context, callback) {
     .then((schemas) => {
       incomingSchema = schemas[INCOMING_SCHEMA_TYPE]
       outgoingSchema = schemas[OUTGOING_SCHEMA_TYPE]
-      console.log('got schema: ', incomingSchema)
 
       // process kinesis records
       var data = records
         .map(parseData)
+
+      var totalProcessed = 0
 
       // index each document
       _(data)
@@ -48,9 +46,15 @@ exports.kinesisHandler = function (records, context, callback) {
         .stopOnError((e) => {
           callback(e)
         })
+        // Count the number of successful indexings:
+        .reduce(0, (total, result) => total + result.count)
+        .map((count) => {
+          // `reduce` reduced this to a one-item stream, but we have to `map` over it anyway to get count
+          totalProcessed = count
+        })
         .done(() => {
-          log.info('Completed processing ' + records.length + ' doc(s)')
-          callback(null, 'Wrote ' + records.length + ' docs(s)')
+          log.info('Completed processing ' + totalProcessed + ' doc(s)')
+          callback(null, 'Wrote ' + totalProcessed + ' docs(s)')
         })
     }).catch((e) => {
       callback(e)
@@ -78,6 +82,15 @@ exports.kinesisHandler = function (records, context, callback) {
             }
             return kinesis.write(indexDocumentProcessed, outgoingSchema)
           })
+      })
+      .then(() => ({ count: 1 }))
+      .catch((e) => {
+        // If it's just a bad bib id, quiet failure:
+        if (e.name === 'QueryResultError') {
+          log.info('Invalid bib id: ' + doc.uri + '. Moving on.')
+          return { count: 0 }
+        // Otherwise: throw error to stop all execution because it's probably not record specific:
+        } else throw e
       })
   }
 
@@ -120,6 +133,11 @@ function elasticConnect () {
 // main function
 exports.handler = function (event, context, callback) {
   context.callbackWaitsForEmptyEventLoop = false
+
+  log = require('loglevel')
+  log.setLevel(process.env['LOGLEVEL'] || 'info')
+
+  log.info('Loading Document Stream Listener')
 
   log.debug('Root Handler got data: ', event)
   Promise.all([ dbConnect(), elasticConnect() ])
