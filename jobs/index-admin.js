@@ -10,7 +10,7 @@ var argv = require('optimist')
 
 var command = argv._[0]
 
-const validCommands = ['list', 'activate', 'delete']
+const validCommands = ['list', 'activate', 'delete', 'prepare']
 if (validCommands.indexOf(command) < 0) console.error('Specify command: ' + validCommands.join(', '))
 
 // List indexes (with aliases)
@@ -41,5 +41,14 @@ if (command === 'list') {
     index.admin.deleteIndex(argv.index).then(() => console.log('Deleted "' + argv.index + '"'))
       .catch((e) => console.error(e.message, e.stack))
   } else console.error('To delete an index, add --confirm [indexname]')
+
+// Prepare
+} else if (command === 'prepare') {
+  if (!argv.index || !argv.index.match(/-*/)) throw new Error('Invalid index given')
+
+  index.resources.prepare(argv.index, false)
+    .then((res) => {
+      console.log('Created ' + argv.index)
+    })
 }
 

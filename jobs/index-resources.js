@@ -27,14 +27,17 @@ var argv = require('optimist')
   .default('uri', null)
   .describe('uri', 'Specify single uri to inex')
   .boolean(['disablescreen', 'rebuild'])
+  .default('threads', 1)
+  .default('limit', 100)
   .describe('disablescreen', 'If set, output printed to stdout rather than taking over screen with fancy visuals')
   .describe('rebuild', 'If set, all data in index deleted and new schema applied')
-  .describe('loglevel', 'Specify log level (default info)')
   .describe('index', 'Specify index name')
   .argv
 
-const DEFAULT_RESOURCES_INDEX = config.get('elasticsearch').indexes.resources
-const indexName = argv.index || DEFAULT_RESOURCES_INDEX
+  // don't do this because it's not passed to workers
+  // .describe('loglevel', 'Specify log level (default info)')
+
+var indexName = null
 
 // TODO Need to resolve whether or not to index resources according to their domain type: collection, container, item, capture
 // For now, not doing this. Seems to add more trouble than benefit atm
@@ -64,19 +67,26 @@ function elasticConnect () {
   }
 }
 
-function init () {
+function init (initConnections) {
+  initConnections = (typeof initConnections === 'undefined') ? true : initConnections
+
   // Ensure necessary env variables loaded
   dotenv.config({ path: './deploy.env' })
   dotenv.config({ path: './.env' })
 
-  log.setLevel(argv.loglevel || process.env.LOGLEVEL || 'info')
-  return Promise.all([ elasticConnect(), dbConnect() ])
+  // What index are we writing to?
+  // (First check --index, then pull from deploy.env, then default.)
+  indexName = argv.index || process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-2017-02-15-pb'
+  console.log('Writing to ' + indexName)
+
+  log.setLevel(process.env.LOGLEVEL || 'info')
+  return initConnections ? Promise.all([ elasticConnect(), dbConnect() ]) : Promise.resolve()
 }
 
 // Index single item by uri:
 if (argv.uri) {
-  log.info('Indexing uri: ', argv.uri)
-  init()
+  console.log('Indexing uri: ', argv.uri)
+  init(true)
     .then(() => db.resources.bib(argv.uri))
     .then((s) => {
       log.debug('Got statements: ', s)
@@ -89,8 +99,9 @@ if (argv.uri) {
     })
     .then((resource) => index.resources.save(indexName, [resource]))
     .then((result) => {
-      log.info('Done saving ' + argv.uri)
-      log.debug('Save result: ', JSON.stringify(result, null, 2))
+      if (result.errors) log.error('Errors: ', JSON.stringify(result, null, 2))
+      else log.info('Done saving ' + argv.uri, result)
+      // log.debug('Save result: ', JSON.stringify(result, null, 2))
     }, (err) => log.error('Error serializing: ', err))
 
 // Master script:
@@ -99,14 +110,21 @@ if (argv.uri) {
   var rebuild = argv.rebuild
 
   var buildByQuery = function (query) {
-    return new Promise((resolve, reject) => {
-      var runner = new IndexerRunner('resources', query, cluster, {
-        botCount: argv.threads,
-        useScreen: useScreen,
-        onComplete: resolve
+    var limit = parseInt(argv.limit) || null
+    // FIXME this is hardcoded for now until getting a distinct resources count isn't an expensive query..
+    if (!limit) limit = 1000000
+
+    return init(false).then(
+      new Promise((resolve, reject) => {
+        var runner = new IndexerRunner('resources', query, cluster, {
+          botCount: argv.threads,
+          useScreen: useScreen,
+          onComplete: resolve,
+          limit
+        })
+        runner.run()
       })
-      runner.run()
-    })
+    )
   }
 
   var tasks = []
@@ -147,8 +165,7 @@ if (argv.uri) {
     if (typeof msg.start !== 'number') return
 
     var processed = 0
-
-    db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total }).then((stream) => {
+    var processStream = (stream) => {
       _(stream)
         .map((rec) => ResourceSerializer.fromStatements(rec))
         .flatMap((p) => _(p))
@@ -158,10 +175,6 @@ if (argv.uri) {
           return resource
         })
         .batchWithTimeOrCount(100, 1000)
-        .map((recs) => {
-          // console.log('updating recs: ', recs.length)
-          return recs
-        })
         .map((recs) => index.resources.save(indexName, recs))
         .flatMap((p) => _(p))
         .stopOnError((e) => {
@@ -170,11 +183,16 @@ if (argv.uri) {
         .map((resp) => {
           process.send({ totalUpdate: resp.items.length })
         })
-        .done((s) => console.log('done? ', s))
-    }).catch((e) => {
-      console.log('error', e)
-      console.trace(e)
-    })
+        .done((s) => console.log('Done? ', s))
+    }
+
+    init(true)
+      .then(() => db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total }))
+      .then(processStream)
+      .catch((e) => {
+        console.log('error', e)
+        console.trace(e)
+      })
   })
 }
 
