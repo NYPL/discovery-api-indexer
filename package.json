@@ -3,10 +3,11 @@
   "dependencies": {
     "JSONStream": "^1.2.1",
     "avsc": "^5.0.0",
-    "aws-sdk": "^2.32.0",
+    "aws-sdk": "^2.53.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^3.5.5",
     "config": "^1.21.0",
+    "dotenv": "^4.0.0",
     "elasticsearch": "^11.0.1",
     "fast-csv": "^2.3.0",
     "highland": "^2.10.0",

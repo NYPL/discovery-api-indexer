@@ -77,7 +77,7 @@ function init (initConnections) {
   // What index are we writing to?
   // (First check --index, then pull from deploy.env, then default.)
   indexName = argv.index || process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-2017-02-15-pb'
-  console.log('Writing to ' + indexName)
+  log.info('Writing to ' + indexName)
 
   log.setLevel(process.env.LOGLEVEL || 'info')
   return initConnections ? Promise.all([ elasticConnect(), dbConnect() ]) : Promise.resolve()
@@ -114,17 +114,15 @@ if (argv.uri) {
     // FIXME this is hardcoded for now until getting a distinct resources count isn't an expensive query..
     if (!limit) limit = 1000000
 
-    return init(false).then(
-      new Promise((resolve, reject) => {
-        var runner = new IndexerRunner('resources', query, cluster, {
-          botCount: argv.threads,
-          useScreen: useScreen,
-          onComplete: resolve,
-          limit
-        })
-        runner.run()
+    return new Promise((resolve, reject) => {
+      var runner = new IndexerRunner('resources', query, cluster, {
+        botCount: argv.threads,
+        useScreen: useScreen,
+        onComplete: resolve,
+        limit
       })
-    )
+      runner.run()
+    })
   }
 
   var tasks = []
@@ -142,17 +140,19 @@ if (argv.uri) {
     }
   }
 
-  if (rebuild) {
-    // If rebuilding, make sure the currently configured index doesn't have a live alias
-    index.admin.indexIsActive(config.get('elasticsearch.indexes.resources')).then((active) => {
-      if (active) {
-        console.error('ABORT: Refusing to rebuild index that appears to be active')
-        process.exit()
-      } else {
-        buildNext()
-      }
-    })
-  } else buildNext()
+  init(true).then(() => {
+    if (rebuild) {
+      // If rebuilding, make sure the currently configured index doesn't have a live alias
+      index.admin.indexIsActive(indexName).then((active) => {
+        if (active) {
+          console.error('ABORT: Refusing to rebuild index that appears to be active')
+          process.exit()
+        } else {
+          buildNext()
+        }
+      })
+    } else buildNext()
+  })
 
 // Worker script:
 } else {
