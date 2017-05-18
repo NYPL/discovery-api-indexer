@@ -1,6 +1,5 @@
 'use strict'
 
-const config = require('config')
 const log = require('loglevel')
 const dotenv = require('dotenv')
 
@@ -183,7 +182,10 @@ if (argv.uri) {
         .map((resp) => {
           process.send({ totalUpdate: resp.items.length })
         })
-        .done((s) => console.log('Done? ', s))
+        .done((s) => {
+          log.info('Done')
+          process.exit()
+        })
     }
 
     init(true)
