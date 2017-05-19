@@ -50,5 +50,8 @@ if (command === 'list') {
     .then((res) => {
       console.log('Created ' + argv.index)
     })
+    .catch((e) => {
+      console.error('Error: ', e)
+    })
 }
 
