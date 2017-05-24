@@ -10,13 +10,14 @@ Before anything you'll need to:
 * Create a `config/local.json` to override the meaningless config defaults
 * `npm install`
 
-### Building Resources Index
+### Bulk Building Resources Index
 
-`node jobs/index-resources [--threads THREADS] [--rebuild] [--disablescreen]`
+Normally this runs in AWS Lambda, but it can be run in bulk mode:
+
+`node jobs/index-resources [--threads THREADS] [--rebuild] [--disablescreen] [--loglevel LOGLEVEL]`
 
 This builds the given index. Optional arguments:
 * `threads`: Specifies the number of concurrent threads to use. 3 is fine since any more than this risks crippling the db. (Also, the app will prevent any more than this from running concurrently as a precaution.)
-* ~~`index`: Specifies the index to write to. This overrides `elasticsearch.indexes.resources` in config/*.json~~
 * `rebuild`: If set, tells indexer to first destroy whatever index is there and re-assert the field mapping. (Useful for schema changes.)
 * `disablescreen`: By default, a fancy curses-like library ([blessed-contrib](https://github.com/yaronn/blessed-contrib)) is used to visualize the progress. This has the side-effect of garbling emitted errors/debug messages. Specify `--disablescreen` to disable the fancy curses screen takeover to view all output to stdout.
 
@@ -43,7 +44,7 @@ Indexes:
   resources-2017-02-02 (2043378 records)
 ```
 
-A single "resources" alias points to the index that is "active". In the above, `resources-2017-01-09` is the active index. In practice, one should only "activate" an index after it has finished building and only after it has been tested to work with the presently deployed [discovery-api](https://github.com/nypl-discovery/discovery-api)
+As a convenience, a single "resources" alias points to the index that is "active". In the above, `resources-2017-01-09` is the active index. In practice, one should only "activate" an index after it has finished building and only after it has been tested to work with the presently deployed [discovery-api](https://github.com/nypl-discovery/discovery-api)
 
 To **activate** an index:
 
@@ -69,12 +70,28 @@ Ensure `deploy.env` has the following:
 DISCOVERY_STORE_CONNECTION_URI=[encrypted rds connection string]
 ELASTICSEARCH_CONNECTION_URI=[encrypted es connection string]
 NYPL_API_SCHEMA_URI=[*not* encrypted nypl data api base url]
+LOGLEVEL=info
+ELASTIC_RESOURCES_INDEX_NAME=[name of resources index]
 ```
 
 Similarly, `.env` should minimally have:
 ```
 AWS_ACCESS_KEY_ID=...
 AWS_SECRET_ACCESS_KEY=...
+AWS_PROFILE=
+AWS_SESSION_TOKEN=
+AWS_ROLE_ARN=arn:aws:iam::224280085904:role/lambda_basic_execution
+AWS_REGION=us-east-1
+AWS_FUNCTION_NAME=discoveryIndexPoster
+AWS_HANDLER=document-stream-listener.handler
+AWS_MEMORY_SIZE=512
+AWS_TIMEOUT=30
+AWS_DESCRIPTION=
+AWS_RUNTIME=nodejs4.3
+AWS_VPC_SUBNETS=subnet-f4fe56af
+AWS_VPC_SECURITY_GROUPS=sg-1d544067
+EXCLUDE_GLOBS="event.json"
+PACKAGE_DIRECTORY=build
 AWS_ROLE_ARN=...
 AWS_REGION=...
 ```

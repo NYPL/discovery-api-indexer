@@ -1,13 +1,12 @@
 'use strict'
 
 const log = require('loglevel')
-const dotenv = require('dotenv')
 
 const IndexerRunner = require('../lib/indexer-runner')
 const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
 const db = require('../lib/db')
 const index = require('../lib/index')
-const kmsHelper = require('../lib/kms-helper')
+const envConfigHelper = require('../lib/env-config-helper')
 
 var cluster = require('cluster')
 
@@ -36,8 +35,6 @@ var argv = require('optimist')
   // don't do this because it's not passed to workers
   // .describe('loglevel', 'Specify log level (default info)')
 
-var indexName = null
-
 // TODO Need to resolve whether or not to index resources according to their domain type: collection, container, item, capture
 // For now, not doing this. Seems to add more trouble than benefit atm
 // This flag controls a couple local decision points,
@@ -48,44 +45,14 @@ if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
   process.exit()
 }
 
-function dbConnect () {
-  if (db.connected()) return Promise.resolve()
-  else {
-    return kmsHelper.decryptDbCreds()
-      .then((uri) => db.setConnection(uri))
-  }
-}
-
-function elasticConnect () {
-  // If es is connected, return immediately:
-  if (index.connected()) return Promise.resolve()
-  // Otherwise, decrypt creds, and init es:
-  else {
-    return kmsHelper.decryptElasticCreds()
-      .then((uri) => index.setConnection(uri))
-  }
-}
-
-function init (initConnections) {
-  initConnections = (typeof initConnections === 'undefined') ? true : initConnections
-
-  // Ensure necessary env variables loaded
-  dotenv.config({ path: './deploy.env' })
-  dotenv.config({ path: './.env' })
-
-  // What index are we writing to?
-  // (First check --index, then pull from deploy.env, then default.)
-  indexName = argv.index || process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-2017-02-15-pb'
-  log.info('Writing to ' + indexName)
-
-  log.setLevel(process.env.LOGLEVEL || 'info')
-  return initConnections ? Promise.all([ elasticConnect(), dbConnect() ]) : Promise.resolve()
-}
-
 // Index single item by uri:
 if (argv.uri) {
   console.log('Indexing uri: ', argv.uri)
-  init(true)
+  var indexName = null
+  envConfigHelper.init({ db, index, log })
+    .then((opts) => {
+      indexName = opts.indexName
+    })
     .then(() => db.resources.bib(argv.uri))
     .then((s) => {
       log.debug('Got statements: ', s)
@@ -125,7 +92,7 @@ if (argv.uri) {
   }
 
   var tasks = []
-  tasks.push(() => index.resources.prepare(indexName, rebuild))
+  // tasks.push(() => index.resources.prepare(indexName, rebuild))
   tasks.push(() => buildByQuery({}))
 
   var buildNext = function () {
@@ -139,10 +106,10 @@ if (argv.uri) {
     }
   }
 
-  init(true).then(() => {
+  envConfigHelper.init({ db, index, log }).then((opts) => {
     if (rebuild) {
       // If rebuilding, make sure the currently configured index doesn't have a live alias
-      index.admin.indexIsActive(indexName).then((active) => {
+      index.admin.indexIsActive(opts.indexName).then((active) => {
         if (active) {
           console.error('ABORT: Refusing to rebuild index that appears to be active')
           process.exit()
@@ -162,6 +129,8 @@ if (argv.uri) {
 
   process.on('message', (msg) => {
     if (typeof msg.start !== 'number') return
+
+    var indexName = null
 
     var processed = 0
     var processStream = (stream) => {
@@ -188,7 +157,10 @@ if (argv.uri) {
         })
     }
 
-    init(true)
+    envConfigHelper.init({ db, index, log })
+      .then((opts) => {
+        indexName = opts.indexName
+      })
       .then(() => db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total }))
       .then(processStream)
       .catch((e) => {

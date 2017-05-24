@@ -69,7 +69,7 @@ exports.kinesisHandler = function (records, context, callback) {
       .then((resource) => {
         return index.resources.save(INDEX_NAME, [resource])
           .then((result) => {
-            if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors)
+            if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors, JSON.stringify(result.errors, null, 2))
             else return
           }, (err) => console.error('Error serializing: ', err))
           .then(() => {
