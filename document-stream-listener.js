@@ -12,9 +12,9 @@ const db = require('./lib/db')
 const index = require('./lib/index')
 const ResourceSerializer = require('./lib/es-serializer').ResourceSerializer
 const kmsHelper = require('./lib/kms-helper')
-const Kinesis = require('./lib/kinesis')
-const kinesis = new Kinesis()
 const avroHelper = require('./lib/avro-helper')
+
+const NyplStreamsClient = require('@nypl/nypl-streams-client')
 
 const INDEX_NAME = process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-2017-02-15-pb'
 const INCOMING_SCHEMA_TYPE = process.env['INCOMING_SCHEMA_TYPE'] || 'IndexDocument'
@@ -25,13 +25,62 @@ exports.kinesisHandler = function (records, context, callback) {
   log.info('Processing ' + records.length + ' record(s)')
 
   var incomingSchema = null
-  var outgoingSchema = null
+
+  // map to records objects as needed
+  function parseData (payload) {
+    // decode base64
+    var buf = new Buffer(payload.kinesis.data, 'base64')
+    // decode avro
+    var record = incomingSchema.fromBuffer(buf)
+    return record
+  }
+
+  function getResourceStatements (doc) {
+    return db.resources.bib(doc.uri)
+      .catch((e) => {
+        // If it's just a bad bib id, quiet failure:
+        if (e.name === 'QueryResultError') {
+          log.info('Invalid bib id: ' + doc.uri + '. Moving on.')
+          return null
+        // Otherwise: throw error to stop all execution because it's probably not record specific:
+        } else throw e
+      })
+  }
+
+  function writeResourcesToIndex (resources) {
+    log.debug('Saving batch of ' + resources.length + 'resources', resources)
+    return index.resources.save(INDEX_NAME, resources)
+      .then((result) => {
+        if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors, JSON.stringify(result.errors, null, 2))
+        else return
+      })
+      .then(() => resources)
+  }
+
+  function notifyIndexDocumentProcessed (resources) {
+    // Build records to post to stream:
+    var indexDocumentProcessedRecords = resources.map((resource) => {
+      return {
+        id: resource.uri.replace(/^[a-z]+/, ''),
+        nyplSource: 'sierra-nypl',
+        nyplType: 'bib'
+      }
+    })
+
+    // Pass records to streams client:
+    return (new NyplStreamsClient({ nyplDataApiClientBase: process.env['NYPL_API_BASE_URL'], logLevel: 'error' }))
+      .write(OUTGOING_SCHEMA_TYPE, indexDocumentProcessedRecords)
+      .then((res) => {
+        log.info(`Wrote ${res.Records.length} records to ${OUTGOING_SCHEMA_TYPE}`)
+      }).catch((e) => {
+        log.error(`Error writing to to ${OUTGOING_SCHEMA_TYPE}`, e)
+      })
+  }
 
   // Ensure schemas loaded:
-  avroHelper.getSchemas([INCOMING_SCHEMA_TYPE, OUTGOING_SCHEMA_TYPE])
+  avroHelper.getSchemas([INCOMING_SCHEMA_TYPE])
     .then((schemas) => {
       incomingSchema = schemas[INCOMING_SCHEMA_TYPE]
-      outgoingSchema = schemas[OUTGOING_SCHEMA_TYPE]
 
       // process kinesis records
       var data = records
@@ -41,7 +90,24 @@ exports.kinesisHandler = function (records, context, callback) {
 
       // index each document
       _(data)
-        .map(indexDocument)
+        // Look up statements by uri
+        .map(getResourceStatements)
+        .flatMap((h) => _(h))
+        // Strip missing (null) records
+        .compact()
+        // Cast to wrapper class
+        .map((statements) => ResourceSerializer.fromStatements(statements))
+        .flatMap((h) => _(h))
+        // Batch write 100 at a time
+        .batch(100)
+        // Write to index in batches
+        .map(writeResourcesToIndex)
+        .flatMap((h) => _(h))
+        // write to 'IndeDocumentProcessed' stream, passing count downstream
+        .map((resources) => {
+          return notifyIndexDocumentProcessed(resources)
+            .then(() => ({ count: resources.length }))
+        })
         .flatMap((h) => _(h))
         .stopOnError((e) => {
           callback(e)
@@ -59,49 +125,6 @@ exports.kinesisHandler = function (records, context, callback) {
     }).catch((e) => {
       callback(e)
     })
-
-  // executes a index resource job with URI
-  function indexDocument (doc) {
-    log.debug('Indexing ' + doc.uri)
-
-    return db.resources.bib(doc.uri)
-      .then((statements) => ResourceSerializer.fromStatements(statements))
-      .then((resource) => {
-        return index.resources.save(INDEX_NAME, [resource])
-          .then((result) => {
-            if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors, JSON.stringify(result.errors, null, 2))
-            else return
-          }, (err) => console.error('Error serializing: ', err))
-          .then(() => {
-            // TODO: This is hacked to deliver the internal standard identifiers;
-            // All serialization flows should carry these identifiers w/out needing to derive them like this..
-            var indexDocumentProcessed = {
-              id: resource.uri.replace(/^[a-z]+/, ''),
-              nyplSource: 'sierra-nypl',
-              nyplType: 'bib'
-            }
-            return kinesis.write(indexDocumentProcessed, outgoingSchema)
-          })
-      })
-      .then(() => ({ count: 1 }))
-      .catch((e) => {
-        // If it's just a bad bib id, quiet failure:
-        if (e.name === 'QueryResultError') {
-          log.info('Invalid bib id: ' + doc.uri + '. Moving on.')
-          return { count: 0 }
-        // Otherwise: throw error to stop all execution because it's probably not record specific:
-        } else throw e
-      })
-  }
-
-  // map to records objects as needed
-  function parseData (payload) {
-    // decode base64
-    var buf = new Buffer(payload.kinesis.data, 'base64')
-    // decode avro
-    var record = incomingSchema.fromBuffer(buf)
-    return record
-  }
 }
 
 function dbConnect () {

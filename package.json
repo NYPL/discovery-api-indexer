@@ -1,6 +1,7 @@
 {
   "author": "NYPL Discovery",
   "dependencies": {
+    "@nypl/nypl-streams-client": "^0.1.2",
     "JSONStream": "^1.2.1",
     "avsc": "^5.0.0",
     "aws-sdk": "^2.53.0",
