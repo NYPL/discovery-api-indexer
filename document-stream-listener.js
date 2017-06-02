@@ -98,6 +98,22 @@ exports.kinesisHandler = function (records, context, callback) {
         // Cast to wrapper class
         .map((statements) => ResourceSerializer.fromStatements(statements))
         .flatMap((h) => _(h))
+        .map((r) => {
+          // Check if suppressed:
+          var suppressed = Array.isArray(r.suppressed) ? r.suppressed[0] : false
+          if (suppressed) {
+            log.info('Suppressing ' + r.uri)
+            // Delete from index (in case previously not suppressed
+            // Resolve `null` to indicate it should not be saved
+            return index.resources.delete(INDEX_NAME, r.uri)
+              .then((res) => null)
+              .catch((e) => null)
+          }
+          return Promise.resolve(r)
+        })
+        .flatMap((h) => _(h))
+        // Strip null (suppressed) records:
+        .compact()
         // Batch write 100 at a time
         .batch(100)
         // Write to index in batches
