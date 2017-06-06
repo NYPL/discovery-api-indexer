@@ -1,9 +1,11 @@
 'use strict'
 
 const log = require('loglevel')
+const _ = require('highland')
 
+const resourcesIndexer = require('../lib/resource-indexer')
 const IndexerRunner = require('../lib/indexer-runner')
-const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
+const Bib = require('../lib/models/bib')
 const db = require('../lib/db')
 const index = require('../lib/index')
 const envConfigHelper = require('../lib/env-config-helper')
@@ -48,22 +50,21 @@ if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
 // Index single item by uri:
 if (argv.uri) {
   console.log('Indexing uri: ', argv.uri)
-  var indexName = null
   envConfigHelper.init({ db, index, log })
-    .then((opts) => {
-      indexName = opts.indexName
-    })
     .then(() => db.resources.bib(argv.uri))
     .then((s) => {
       log.debug('Got statements: ', s)
       return s
     })
-    .then((statements) => ResourceSerializer.fromStatements(statements))
-    .then((r) => {
-      console.log('res: ', r)
-      return r
+    .then((statements) => Bib.fromStatements(statements))
+    .then((bib) => {
+      return resourcesIndexer.processStreamOfBibs(_([bib]))
+        .map((counts) => {
+          console.log('Done: ', counts)
+        })
+        .done(() => {
+        })
     })
-    .then((resource) => index.resources.save(indexName, [resource]))
     .then((result) => {
       if (result.errors) log.error('Errors: ', JSON.stringify(result, null, 2))
       else log.info('Done saving ' + argv.uri, result)
@@ -122,34 +123,22 @@ if (argv.uri) {
 
 // Worker script:
 } else {
-  var _ = require('highland')
-
   // ask for where to start
   process.send({ start: true })
 
   process.on('message', (msg) => {
     if (typeof msg.start !== 'number') return
 
-    var indexName = null
-
-    var processed = 0
     var processStream = (stream) => {
-      _(stream)
-        .map((rec) => ResourceSerializer.fromStatements(rec))
-        .flatMap((p) => _(p))
-        .map((resource) => {
-          processed += 1
-          log.info('Index resource: ' + resource.uri + ' (offset ' + (msg.start + processed) + ')')
-          return resource
-        })
-        .batchWithTimeOrCount(100, 1000)
-        .map((recs) => index.resources.save(indexName, recs))
-        .flatMap((p) => _(p))
-        .stopOnError((e) => {
-          log.error('error: ', e, e.stack)
-        })
-        .map((resp) => {
-          process.send({ totalUpdate: resp.items.length })
+      var s = _(stream)
+        .map((rec) => Bib.fromStatements(rec))
+
+      // Pass off stream of bibs to resources indexer
+      return resourcesIndexer.processStreamOfBibs(s)
+        .map((counts) => {
+          // For the purpose of tracking progress of batch job, best to consider both suppressed and saved records as 'updates'
+          process.send({ totalUpdate: counts.savedCount + counts.suppressedCount })
+          log.info('Suppressed? ', counts.suppressedCount)
         })
         .done((s) => {
           log.info('Done')
@@ -158,9 +147,6 @@ if (argv.uri) {
     }
 
     envConfigHelper.init({ db, index, log })
-      .then((opts) => {
-        indexName = opts.indexName
-      })
       .then(() => db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total }))
       .then(processStream)
       .catch((e) => {

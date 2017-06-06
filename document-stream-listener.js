@@ -10,15 +10,12 @@ const _ = require('highland')
 
 const db = require('./lib/db')
 const index = require('./lib/index')
-const ResourceSerializer = require('./lib/es-serializer').ResourceSerializer
+const Bib = require('./lib/models/bib')
 const kmsHelper = require('./lib/kms-helper')
 const avroHelper = require('./lib/avro-helper')
+const resourcesIndexer = require('./lib/resource-indexer')
 
-const NyplStreamsClient = require('@nypl/nypl-streams-client')
-
-const INDEX_NAME = process.env['ELASTIC_RESOURCES_INDEX_NAME'] || 'resources-2017-02-15-pb'
 const INCOMING_SCHEMA_TYPE = process.env['INCOMING_SCHEMA_TYPE'] || 'IndexDocument'
-const OUTGOING_SCHEMA_TYPE = process.env['OUTGOING_SCHEMA_TYPE'] || 'IndexDocumentProcessed'
 
 // kinesis stream handler
 exports.kinesisHandler = function (records, context, callback) {
@@ -47,36 +44,6 @@ exports.kinesisHandler = function (records, context, callback) {
       })
   }
 
-  function writeResourcesToIndex (resources) {
-    log.debug('Saving batch of ' + resources.length + 'resources', resources)
-    return index.resources.save(INDEX_NAME, resources)
-      .then((result) => {
-        if (result && result.errors) return Promise.reject('Elastic reports errors: ' + result.errors, JSON.stringify(result.errors, null, 2))
-        else return
-      })
-      .then(() => resources)
-  }
-
-  function notifyIndexDocumentProcessed (resources) {
-    // Build records to post to stream:
-    var indexDocumentProcessedRecords = resources.map((resource) => {
-      return {
-        id: resource.uri.replace(/^[a-z]+/, ''),
-        nyplSource: 'sierra-nypl',
-        nyplType: 'bib'
-      }
-    })
-
-    // Pass records to streams client:
-    return (new NyplStreamsClient({ nyplDataApiClientBase: process.env['NYPL_API_BASE_URL'], logLevel: 'error' }))
-      .write(OUTGOING_SCHEMA_TYPE, indexDocumentProcessedRecords)
-      .then((res) => {
-        log.info(`Wrote ${res.Records.length} records to ${OUTGOING_SCHEMA_TYPE}`)
-      }).catch((e) => {
-        log.error(`Error writing to to ${OUTGOING_SCHEMA_TYPE}`, e)
-      })
-  }
-
   // Ensure schemas loaded:
   avroHelper.getSchemas([INCOMING_SCHEMA_TYPE])
     .then((schemas) => {
@@ -87,55 +54,31 @@ exports.kinesisHandler = function (records, context, callback) {
         .map(parseData)
 
       var totalProcessed = 0
+      var totalSuppressed = 0
 
       // index each document
-      _(data)
+      var stream = _(data)
         // Look up statements by uri
         .map(getResourceStatements)
         .flatMap((h) => _(h))
         // Strip missing (null) records
         .compact()
         // Cast to wrapper class
-        .map((statements) => ResourceSerializer.fromStatements(statements))
-        .flatMap((h) => _(h))
-        .map((r) => {
-          // Check if suppressed:
-          var suppressed = Array.isArray(r.suppressed) ? r.suppressed[0] : false
-          if (suppressed) {
-            log.info('Suppressing ' + r.uri)
-            // Delete from index (in case previously not suppressed
-            // Resolve `null` to indicate it should not be saved
-            return index.resources.delete(INDEX_NAME, r.uri)
-              .then((res) => null)
-              .catch((e) => null)
-          }
-          return Promise.resolve(r)
+        .map((statements) => Bib.fromStatements(statements))
+
+      // This call does all the work of suppressing/updating index using given stream of Bib instances
+      // It returns a stream with one item giving stats
+      return resourcesIndexer.processStreamOfBibs(stream)
+        .map((counts) => {
+          totalProcessed = counts.savedCount
+          totalSuppressed = counts.suppressedCount
         })
-        .flatMap((h) => _(h))
-        // Strip null (suppressed) records:
-        .compact()
-        // Batch write 100 at a time
-        .batch(100)
-        // Write to index in batches
-        .map(writeResourcesToIndex)
-        .flatMap((h) => _(h))
-        // write to 'IndeDocumentProcessed' stream, passing count downstream
-        .map((resources) => {
-          return notifyIndexDocumentProcessed(resources)
-            .then(() => ({ count: resources.length }))
-        })
-        .flatMap((h) => _(h))
         .stopOnError((e) => {
           callback(e)
         })
-        // Count the number of successful indexings:
-        .reduce(0, (total, result) => total + result.count)
-        .map((count) => {
-          // `reduce` reduced this to a one-item stream, but we have to `map` over it anyway to get count
-          totalProcessed = count
-        })
         .done(() => {
           log.info('Completed processing ' + totalProcessed + ' doc(s)')
+          if (totalSuppressed) log.info('  Suppressed ' + totalSuppressed + ' doc(s)')
           callback(null, 'Wrote ' + totalProcessed + ' docs(s)')
         })
     }).catch((e) => {
