@@ -29,6 +29,7 @@ var argv = require('optimist')
   .boolean(['disablescreen', 'rebuild'])
   .default('threads', 1)
   .default('limit', 100)
+  .default('offset', 0)
   .describe('disablescreen', 'If set, output printed to stdout rather than taking over screen with fancy visuals')
   .describe('rebuild', 'If set, all data in index deleted and new schema applied')
   .describe('index', 'Specify index name')
@@ -81,12 +82,16 @@ if (argv.uri) {
     // FIXME this is hardcoded for now until getting a distinct resources count isn't an expensive query..
     if (!limit) limit = 1000000
 
+    var offset = parseInt(argv.offset) || null
+    if (!offset) offset = 0
+
     return new Promise((resolve, reject) => {
       var runner = new IndexerRunner('resources', query, cluster, {
         botCount: argv.threads,
         useScreen: useScreen,
         onComplete: resolve,
-        limit
+        limit,
+        offset
       })
       runner.run()
     })
@@ -129,26 +134,53 @@ if (argv.uri) {
   process.on('message', (msg) => {
     if (typeof msg.start !== 'number') return
 
+    var _received = false
+
     var processStream = (stream) => {
       var s = _(stream)
+        .map((rec) => {
+          if (!_received) {
+            process.send({log: 'received first record'})
+            _received = true
+          }
+          return rec
+        })
         .map((rec) => Bib.fromStatements(rec))
 
-      // Pass off stream of bibs to resources indexer
-      return resourcesIndexer.processStreamOfBibs(s)
+      return new Promise((resolve, reject) => {
+        // Pass off stream of bibs to resources indexer
+        resourcesIndexer.processStreamOfBibs(s, {
+          notifyDocumentProcessed: false,
+          onBatchComplete: (num) => {
+            process.send({ totalUpdate: num })
+          },
+          onBibSuppressed: (bib) => {
+            // For the purpose of tracking progress of batch job suppressed items should contribute to total:
+            process.send({ totalUpdate: 1 })
+          }
+        })
         .map((counts) => {
-          // For the purpose of tracking progress of batch job, best to consider both suppressed and saved records as 'updates'
-          process.send({ totalUpdate: counts.savedCount + counts.suppressedCount })
-          log.info('Suppressed? ', counts.suppressedCount)
+          // This gives us counts.savedCount & counds.suppressedCount
+          // if we care. We don't.
         })
         .done((s) => {
           log.info('Done')
-          process.exit()
+          resolve(null)
         })
+      })
     }
 
     envConfigHelper.init({ db, index, log })
-      .then(() => db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total }))
+      .then(() => {
+        process.send({ log: 'SQL query sent for ' + msg.start + ', limit ' + msg.total })
+      })
+      .then(() => db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total, batchSize: 500 }))
       .then(processStream)
+      .then(db.disconnect)
+      .then(() => {
+        process.send({log: 'released DB'})
+        process.exit()
+      })
       .catch((e) => {
         console.log('error', e)
         console.trace(e)

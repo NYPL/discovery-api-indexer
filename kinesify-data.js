@@ -10,7 +10,6 @@ const args = process.argv.slice(2)
 const avro = require('avsc')
 const fs = require('fs')
 const request = require('request')
-const config = require('config')
 
 // config
 const infile = args[0]
@@ -81,7 +80,7 @@ function kinesify (record, avroType) {
     'eventName': 'aws:kinesis:record',
     'invokeIdentityArn': 'arn:aws:iam::EXAMPLE',
     'awsRegion': 'us-east-1',
-    'eventSourceARN': config.get('kinesisReadStream')
+    'eventSourceARN': 'arn:aws:kinesis:us-east-1:224280085904:stream/IndexDocument'
   }
 }
 
