@@ -48,7 +48,7 @@ exports.kinesisHandler = function (records, context, callback) {
         // If it's just a bad bib id, quiet failure:
         if (e.name === 'QueryResultError') {
           log.info('Invalid bib ids: ' + uris + '. Moving on.')
-          return null
+          return []
         // Otherwise: throw error to stop all execution because it's probably not record specific:
         } else throw e
       })
