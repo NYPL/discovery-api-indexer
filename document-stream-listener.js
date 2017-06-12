@@ -32,12 +32,22 @@ exports.kinesisHandler = function (records, context, callback) {
     return record
   }
 
-  function getResourceStatements (doc) {
-    return db.resources.bib(doc.uri)
+  // Given an array of uris (bnums), returns a Promise that resolves multiple raw results
+  function getResourceStatements (uris) {
+    // Make sure it's an array:
+    uris = Array.isArray(uris) ? uris : [uris]
+    // Make sure none are repeated:
+    uris = Object.keys(uris.reduce((h, uri) => {
+      h[uri] = true
+      return h
+    }, {}))
+    log.info('Fetching statements for ' + uris.join(', '))
+    // Get bibs:
+    return db.resources.bibs(uris)
       .catch((e) => {
         // If it's just a bad bib id, quiet failure:
         if (e.name === 'QueryResultError') {
-          log.info('Invalid bib id: ' + doc.uri + '. Moving on.')
+          log.info('Invalid bib ids: ' + uris + '. Moving on.')
           return null
         // Otherwise: throw error to stop all execution because it's probably not record specific:
         } else throw e
@@ -58,9 +68,15 @@ exports.kinesisHandler = function (records, context, callback) {
 
       // index each document
       var stream = _(data)
+        // Just need the uri:
+        .map((r) => r.uri)
+        // Flatten stream to array:
+        .reduce([], (a, uri) => a.concat([uri]))
         // Look up statements by uri
         .map(getResourceStatements)
         .flatMap((h) => _(h))
+        // Now that we've the fetched bibs in a single array, feed them one by one into the stream:
+        .sequence()
         // Strip missing (null) records
         .compact()
         // Cast to wrapper class

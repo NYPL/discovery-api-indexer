@@ -174,7 +174,7 @@ if (argv.uri) {
       .then(() => {
         process.send({ log: 'SQL query sent for ' + msg.start + ', limit ' + msg.total })
       })
-      .then(() => db.resources.bibs({ query: msg.query, offset: msg.start, limit: msg.total, batchSize: 500 }))
+      .then(() => db.resources.bibsStream({ query: msg.query, offset: msg.start, limit: msg.total, batchSize: 500 }))
       .then(processStream)
       .then(db.disconnect)
       .then(() => {
