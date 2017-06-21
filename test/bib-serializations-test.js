@@ -33,13 +33,27 @@ describe('Bib Serializations', function () {
   before(init)
 
   describe('items', function () {
+    it.only('should have expected nypl owner', function () {
+      return Bib.byId('b19834195').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.items[0].owner[0].id, 'orgs:1002')
+          assert.equal(serialized.items[0].owner[0].label, 'New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center')
+        })
+      })
+    })
+
+    it.only('should have expected PUL owner', function () {
+      return Bib.byId('pb176961').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.items[0].owner[0].id, 'orgs:0003')
+          assert.equal(serialized.items[0].owner[0].label, 'Princeton University Library')
+        })
+      })
+    })
+
     it.only('should be ordered correctly', function () {
       return Bib.byId('b19834195').then((bib) => {
-        console.log('bib: ', JSON.stringify(bib._items, null, 2))
-
         return ResourceSerializer.serialize(bib).then((serialized) => {
-          console.log('serialized: ', serialized)
-
           // Ensure first item is Box 1
           assert.equal(serialized.items[0].shelfMark[0], '*T-Mss 1991-010 Box 1')
           assert.equal(serialized.items[1].shelfMark[0], '*T-Mss 1991-010 Box 2')

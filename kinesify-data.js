@@ -12,9 +12,9 @@ const fs = require('fs')
 const request = require('request')
 
 // config
-const infile = args[0]
-const outfile = args[1]
-const schemaUrl = args[2]
+const infile = args[0] || 'event.unencoded.json'
+const outfile = args[1] || 'event.json'
+const schemaUrl = args[2] || 'https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument'
 
 function onSchemaLoad (schema) {
   // initialize avro schema
