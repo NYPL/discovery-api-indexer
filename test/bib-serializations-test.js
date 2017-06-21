@@ -33,7 +33,7 @@ describe('Bib Serializations', function () {
   before(init)
 
   describe('items', function () {
-    it.only('should have expected nypl owner', function () {
+    it('should have expected nypl owner', function () {
       return Bib.byId('b19834195').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.items[0].owner[0].id, 'orgs:1002')
@@ -42,7 +42,7 @@ describe('Bib Serializations', function () {
       })
     })
 
-    it.only('should have expected PUL owner', function () {
+    it('should have expected PUL owner', function () {
       return Bib.byId('pb176961').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.items[0].owner[0].id, 'orgs:0003')
@@ -51,7 +51,7 @@ describe('Bib Serializations', function () {
       })
     })
 
-    it.only('should be ordered correctly', function () {
+    it('should be ordered correctly', function () {
       return Bib.byId('b19834195').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           // Ensure first item is Box 1
