@@ -1,7 +1,27 @@
 {
   "Records": [
     {
-      "uri": "pb176961",
+      "uri": "cb11094037",
+      "type": "bib"
+    },
+    {
+      "uri": "cb11144666",
+      "type": "bib"
+    },
+    {
+      "uri": "cb11228415",
+      "type": "bib"
+    },
+    {
+      "uri": "cb11233654",
+      "type": "bib"
+    },
+    {
+      "uri": "cb11291851",
+      "type": "bib"
+    },
+    {
+      "uri": "cb11295158",
       "type": "bib"
     }
   ]
