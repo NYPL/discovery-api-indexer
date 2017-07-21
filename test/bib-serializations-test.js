@@ -200,6 +200,22 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should have series statement', function () {
+      return Bib.byId('b10610175').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.seriesStatement[0], 'Lost American fiction')
+        })
+      })
+    })
+
+    it('should have uniform title', function () {
+      return Bib.byId('b11070917').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.uniformTitle[0], 'Works. Selections; arranged.')
+        })
+      })
+    })
   })
 
   describe('items', function () {
