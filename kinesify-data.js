@@ -5,23 +5,24 @@
 //
 //  e.g.
 //    node kinesify-data event.unencoded.json event.json https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument
+//
+//  Alternatively, give it an array of uris like this to build the encoded event.json directly:
+//
+//    node kinesify-data --uris "b1234,b4567"
 
-const args = process.argv.slice(2)
 const avro = require('avsc')
 const fs = require('fs')
 const request = require('request')
+const argv = require('minimist')(process.argv.slice(2))
 
 // config
-const infile = args[0] || 'event.unencoded.json'
-const outfile = args[1] || 'event.json'
-const schemaUrl = args[2] || 'https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument'
+const infile = argv._[0] || 'event.unencoded.json'
+const outfile = argv._[1] || 'event.json'
+const schemaUrl = argv._[2] || 'https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument'
 
 function onSchemaLoad (schema) {
   // initialize avro schema
   var avroType = avro.parse(schema)
-
-  // read unencoded data
-  var unencodedData = JSON.parse(fs.readFileSync(infile, 'utf8'))
 
   // encode data and put in kinesis format
   var kinesisEncodedData = unencodedData.Records
@@ -82,6 +83,18 @@ function kinesify (record, avroType) {
     'awsRegion': 'us-east-1',
     'eventSourceARN': 'arn:aws:kinesis:us-east-1:224280085904:stream/IndexDocument'
   }
+}
+
+// read unencoded data
+var unencodedData = null
+
+// Handle uris given as command line arg:
+if (argv.uris) {
+  let uris = argv.uris.split(',').map((uri) => uri.trim())
+
+  unencodedData = { Records: uris.map((uri) => ({ uri, type: 'bib' })) }
+} else {
+  unencodedData = JSON.parse(fs.readFileSync(infile, 'utf8'))
 }
 
 var options = {
