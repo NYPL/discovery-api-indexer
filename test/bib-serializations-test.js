@@ -216,6 +216,15 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should have Supplementary content', function () {
+      return Bib.byId('b18932917').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.supplementaryContent[0].id, 'http://archives.nypl.org/uploads/collection/pdf_finding_aid/PSF.pdf')
+          assert.equal(serialized.supplementaryContent[0].label, 'FindingAid')
+        })
+      })
+    })
   })
 
   describe('items', function () {
