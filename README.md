@@ -24,10 +24,13 @@ node-lambda setup
 Ensure `deploy.env` has the following:
 ```
 DISCOVERY_STORE_CONNECTION_URI=[encrypted rds connection string]
-ELASTICSEARCH_CONNECTION_URI=[encrypted es connection string]
-NYPL_API_SCHEMA_URI=[*not* encrypted nypl data api base url]
-LOGLEVEL=info
+ELASTICSEARCH_CONNECTION_URI=[encrypted es connection string, which in plaintext could be "localhost:9200"]
 ELASTIC_RESOURCES_INDEX_NAME=[name of resources index]
+NYPL_API_SCHEMA_URL=https://platform.nypl.org/api/v0.1/current-schemas/
+NYPL_API_BASE_URL=https://platform.nypl.org/api/v0.1/
+OUTGOING_STREAM_NAME=[name of kinesis stream to write to, e.g. "IndexDocumentProcessed"]
+OUTGOING_SCHEMA_NAME=[name of avro schema to encode outgoing messages against, e.g. "IndexDocumentProcessed-development"]
+LOGLEVEL=info
 ```
 
 Similarly, `.env` should minimally have:
