@@ -21,10 +21,11 @@
   "devDependencies": {
     "dotenv": "^4.0.0",
     "minimist": "^1.2.0",
+    "standard": "^6.0.3",
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "standard && mocha test"
+    "test": "./node_modules/.bin/standard && mocha test"
   },
   "description": "",
   "license": "MIT",
