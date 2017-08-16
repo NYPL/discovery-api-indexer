@@ -28,8 +28,8 @@ ELASTICSEARCH_CONNECTION_URI=[encrypted es connection string, which in plaintext
 ELASTIC_RESOURCES_INDEX_NAME=[name of resources index]
 NYPL_API_SCHEMA_URL=[plaintext schema base url ending in '/current-schemas/']
 NYPL_API_BASE_URL=[plaintext data api base url ending in, for example, '/v0.1/']
-OUTGOING_STREAM_NAME=[name of kinesis stream to write to, e.g. "IndexDocumentProcessed"]
-OUTGOING_SCHEMA_NAME=[name of avro schema to encode outgoing messages against, e.g. "IndexDocumentProcessed-development"]
+OUTGOING_STREAM_NAME=[name of kinesis stream to write to, e.g. "IndexDocumentProcessed-development"]
+OUTGOING_SCHEMA_NAME=[name of avro schema to encode outgoing messages against, e.g. "IndexDocumentProcessed"]
 LOGLEVEL=info
 ```
 
