@@ -115,10 +115,11 @@ describe('Bib Serializations', function () {
     it('should have lots of identifiers', function () {
       return Bib.byId('b11253008').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
-          ; [ 'urn:bnum:11253008',
-              'urn:lcc:CT1919.P38',
-              'urn:lccCoarse:CT210-3150',
-              'urn:oclc:71217073'
+          ; [
+            'urn:bnum:11253008',
+            'urn:lcc:CT1919.P38',
+            'urn:lccCoarse:CT210-3150',
+            'urn:oclc:71217073'
           ].forEach((identifier) => {
             assert(serialized.identifier.indexOf(identifier) >= 0)
           })
@@ -222,6 +223,14 @@ describe('Bib Serializations', function () {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.supplementaryContent[0].id, 'http://archives.nypl.org/uploads/collection/pdf_finding_aid/PSF.pdf')
           assert.equal(serialized.supplementaryContent[0].label, 'FindingAid')
+        })
+      })
+    })
+
+    it('should have Part of', function () {
+      return Bib.byId('b12155601').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.partOf[0], 'New York (City) Museum of Modern Art. Photographs: Ballet, ca. 1900-1950. v. 38, no. 3318')
         })
       })
     })
