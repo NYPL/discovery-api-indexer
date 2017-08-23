@@ -66,11 +66,6 @@ if (argv.uri) {
         .done(() => {
         })
     })
-    .then((result) => {
-      if (result.errors) log.error('Errors: ', JSON.stringify(result, null, 2))
-      else log.info('Done saving ' + argv.uri, result)
-      // log.debug('Save result: ', JSON.stringify(result, null, 2))
-    }, (err) => log.error('Error serializing: ', err))
 
 // Master script:
 } else if (cluster.isMaster) {
