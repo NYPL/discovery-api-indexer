@@ -1,0 +1,901 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:nc",
+      "object_literal": null,
+      "object_label": "volume"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "24 cm.",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:n",
+      "object_literal": null,
+      "object_label": "unmediated"
+    },
+    {
+      "predicate": "dbo:dateEnd",
+      "object_id": null,
+      "object_literal": "1828",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:dateStart",
+      "object_id": null,
+      "object_literal": "1827",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:endDate",
+      "object_id": null,
+      "object_literal": "1828",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "1827",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Hone, William, 1780-1842.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:creator",
+      "object_id": null,
+      "object_literal": "Hone, William, 1780-1842.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "1827",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "1827",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:10011374",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccn:35038534",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:oclc:10310322",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lcc:DA110",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccCoarse:DA90-125",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "The table book,",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:txt",
+      "object_literal": null,
+      "object_label": "Text"
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "2 v. illus.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:lccClassification",
+      "object_id": null,
+      "object_literal": "AC4 .H65",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:placeOfPublication",
+      "object_id": null,
+      "object_literal": "London,",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:role-publisher",
+      "object_id": null,
+      "object_literal": "Published for W. Hone, by Hunt and Clarke,",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "JFE 86-498",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "The table book, by William Hone.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:workId",
+      "object_id": "urn:owi:2260899506",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Vol. 1 has added t.p.: The Table book ... Every Saturday.",
+      "object_label": "General Note"
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Originally published weekly, from Jan. 1827 to Jan. 1828 (55 nos.-including indexes)",
+      "object_label": "General Note"
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Library's copy lacks added t.p.",
+      "object_label": "General Note"
+    }
+  ],
+  "uri": "b10011374",
+  "_items": [
+    {
+      "_statements": [
+        {
+          "subject_id": "i13785802",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available "
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433057532339",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:1",
+          "object_literal": null,
+          "object_label": "USE IN LIBRARY"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10011374",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:32",
+          "object_literal": null,
+          "object_label": "google project, book"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mag",
+          "object_literal": null,
+          "object_label": "SASB - Milstein Division Rm 121"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maf",
+          "object_literal": null,
+          "object_label": "SASB - Dorot Jewish Division Rm 111"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mal",
+          "object_literal": null,
+          "object_label": "SASB - Service Desk Rm 315"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malw",
+          "object_literal": null,
+          "object_label": "SASB - Wertheim Scholar Room"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malc",
+          "object_literal": null,
+          "object_label": "SASB - Cullman Center"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:map",
+          "object_literal": null,
+          "object_label": "SASB - Map Division - Rm 117"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maln",
+          "object_literal": null,
+          "object_label": "SASB - Noma Scholar Room"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mai",
+          "object_literal": null,
+          "object_label": "SASB - Periodicals and Microforms Rm 100"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mab",
+          "object_literal": null,
+          "object_label": "SASB - Art & Architecture Rm 300"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mala",
+          "object_literal": null,
+          "object_label": "SASB - Allen Scholar Room"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:mal92",
+          "object_literal": null,
+          "object_label": "SASB M2 - General Research Room 315"
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "JFE 86-498 v. 2",
+          "object_label": null
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i13785802",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i13785802",
+      "uri": "i13785802"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i10005488",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433067332548",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:2",
+          "object_literal": null,
+          "object_label": "ADV REQUEST"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10011374",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:32",
+          "object_literal": null,
+          "object_label": "google project, book"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mala",
+          "object_literal": null,
+          "object_label": "SASB - Allen Scholar Room"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:map",
+          "object_literal": null,
+          "object_label": "SASB - Map Division - Rm 117"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mal",
+          "object_literal": null,
+          "object_label": "SASB - Service Desk Rm 315"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malw",
+          "object_literal": null,
+          "object_label": "SASB - Wertheim Scholar Room"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maf",
+          "object_literal": null,
+          "object_label": "SASB - Dorot Jewish Division Rm 111"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mab",
+          "object_literal": null,
+          "object_label": "SASB - Art & Architecture Rm 300"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maln",
+          "object_literal": null,
+          "object_label": "SASB - Noma Scholar Room"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mai",
+          "object_literal": null,
+          "object_label": "SASB - Periodicals and Microforms Rm 100"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:sc",
+          "object_literal": null,
+          "object_label": "Schomburg Center"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:myr",
+          "object_literal": null,
+          "object_label": "Performing Arts Research Collections"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:slr",
+          "object_literal": null,
+          "object_label": "SIBL - Science Industry and Business"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malc",
+          "object_literal": null,
+          "object_label": "SASB - Cullman Center"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mag",
+          "object_literal": null,
+          "object_label": "SASB - Milstein Division Rm 121"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:rc2ma",
+          "object_literal": null,
+          "object_label": "OFFSITE - Request in Advance"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1000",
+          "object_literal": null,
+          "object_label": "Stephen A. Schwarzman Building"
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "*AY (Hone, W. Table book) v. 1",
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005488",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i10005488",
+      "uri": "i10005488"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i14747243",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433067332555",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:2",
+          "object_literal": null,
+          "object_label": "ADV REQUEST"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10011374",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:32",
+          "object_literal": null,
+          "object_label": "google project, book"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mala",
+          "object_literal": null,
+          "object_label": "SASB - Allen Scholar Room"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:map",
+          "object_literal": null,
+          "object_label": "SASB - Map Division - Rm 117"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mal",
+          "object_literal": null,
+          "object_label": "SASB - Service Desk Rm 315"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malw",
+          "object_literal": null,
+          "object_label": "SASB - Wertheim Scholar Room"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maf",
+          "object_literal": null,
+          "object_label": "SASB - Dorot Jewish Division Rm 111"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mab",
+          "object_literal": null,
+          "object_label": "SASB - Art & Architecture Rm 300"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maln",
+          "object_literal": null,
+          "object_label": "SASB - Noma Scholar Room"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mai",
+          "object_literal": null,
+          "object_label": "SASB - Periodicals and Microforms Rm 100"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:sc",
+          "object_literal": null,
+          "object_label": "Schomburg Center"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:myr",
+          "object_literal": null,
+          "object_label": "Performing Arts Research Collections"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:slr",
+          "object_literal": null,
+          "object_label": "SIBL - Science Industry and Business"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malc",
+          "object_literal": null,
+          "object_label": "SASB - Cullman Center"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mag",
+          "object_literal": null,
+          "object_label": "SASB - Milstein Division Rm 121"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:rc2ma",
+          "object_literal": null,
+          "object_label": "OFFSITE - Request in Advance"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1000",
+          "object_literal": null,
+          "object_label": "Stephen A. Schwarzman Building"
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "*AY (Hone, W. Table book) v. 2",
+          "object_label": null
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i14747243",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i14747243",
+      "uri": "i14747243"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i10005487",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433057532081",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:1",
+          "object_literal": null,
+          "object_label": "USE IN LIBRARY"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10011374",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:32",
+          "object_literal": null,
+          "object_label": "google project, book"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mag",
+          "object_literal": null,
+          "object_label": "SASB - Milstein Division Rm 121"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maf",
+          "object_literal": null,
+          "object_label": "SASB - Dorot Jewish Division Rm 111"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mal",
+          "object_literal": null,
+          "object_label": "SASB - Service Desk Rm 315"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malw",
+          "object_literal": null,
+          "object_label": "SASB - Wertheim Scholar Room"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malc",
+          "object_literal": null,
+          "object_label": "SASB - Cullman Center"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:map",
+          "object_literal": null,
+          "object_label": "SASB - Map Division - Rm 117"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maln",
+          "object_literal": null,
+          "object_label": "SASB - Noma Scholar Room"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mai",
+          "object_literal": null,
+          "object_label": "SASB - Periodicals and Microforms Rm 100"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mab",
+          "object_literal": null,
+          "object_label": "SASB - Art & Architecture Rm 300"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mala",
+          "object_literal": null,
+          "object_label": "SASB - Allen Scholar Room"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:mal92",
+          "object_literal": null,
+          "object_label": "SASB M2 - General Research Room 315"
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "JFE 86-498 v. 1",
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i10005487",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i10005487",
+      "uri": "i10005487"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10011374",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "nypl:electronicLocator",
+          "object_id": null,
+          "object_literal": "http://hdl.handle.net/2027/nyp.33433057532081",
+          "object_label": "Full text available via HathiTrust--v. 1"
+        },
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "nypl:electronicLocator",
+          "object_id": null,
+          "object_literal": "http://hdl.handle.net/2027/nyp.33433057532339",
+          "object_label": "Full text available via HathiTrust--v. 2"
+        },
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "nypl:electronicLocator",
+          "object_id": null,
+          "object_literal": "http://hdl.handle.net/2027/nyp.33433067332548",
+          "object_label": "Full text available via HathiTrust--v. 1"
+        },
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "nypl:electronicLocator",
+          "object_id": null,
+          "object_literal": "http://hdl.handle.net/2027/nyp.33433067332555",
+          "object_label": "Full text available via HathiTrust--v. 2"
+        },
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "nypl:itemType",
+          "object_id": "urn:itemtype:research",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i10011374-e",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i10011374-e",
+      "uri": "i10011374-e"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:vf",
+      "object_literal": null,
+      "object_label": "videocassette"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "3/4 in.",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:v",
+      "object_literal": null,
+      "object_label": "video"
+    },
+    {
+      "predicate": "dbo:dateStart",
+      "object_id": null,
+      "object_literal": "1978",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "1978",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Holder, Geoffrey, 1930-2014,",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Coombs, Orde.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Hunter, Jim (Jim D.)",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Pontillo, Peter.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "WPIX (Television station : New York, N.Y.)",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "World Institute of Black Communications.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "CEBA Collection.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "1978",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Timbuktu.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Talk shows. -- mim",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Theater -- New York (State) -- New York.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Costume designers -- United States -- Interviews.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "African American fashion designers -- Interviews.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "1978",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:description",
+      "object_id": null,
+      "object_literal": "Geoffrey Holder discusses his work in the Broadway production of Timbuktu where he is the director, choreographer, and costume designer.  He also discusses the influence his family and his birthplace, Trinidad, has on his work.  Holder stresses the need for fantasy and splendor in his work and in the world.",
+      "object_label": "Summary, Etc."
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:11253008",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:oclc:71217073",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lcc:CT1919.P38",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccCoarse:CT210-3150",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "Black conversations. [An Interview with Geoffrey Holder] [videorecording] / ",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:img",
+      "object_literal": null,
+      "object_label": "Still image"
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "1 videocassette of 1 (U-matic) (27 min.) : sd., col. ;",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:placeOfPublication",
+      "object_id": null,
+      "object_literal": "New York",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:role-publisher",
+      "object_id": null,
+      "object_literal": "WPIX,",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "Sc Visual VRB-87",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "Black conversations. [An Interview with Geoffrey Holder] [videorecording] /  WPIX-TV, New York ; directed by Jim Hunter and Peter Pontillo.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:workId",
+      "object_id": "urn:owi:58188348",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "role:ive",
+      "object_id": null,
+      "object_literal": "Holder, Geoffrey, 1930-2014,",
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "This program forms part of the Communications Excellence to Black Audiences (CEBA) Award Collection, a competition sponsored by the World Institute of Black Communications, Inc.",
+      "object_label": "General Note"
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Host, Orde Coombs.",
+      "object_label": "Creation/Production Credits Note"
+    }
+  ],
+  "uri": "b11253008",
+  "_items": [
+    {
+      "_statements": [
+        {
+          "subject_id": "i15881398",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:1",
+          "object_literal": null,
+          "object_label": "USE IN LIBRARY"
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b11253008",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:2",
+          "object_literal": null,
+          "object_label": "book non-circ"
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:sc",
+          "object_literal": null,
+          "object_label": "Schomburg Center"
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:scbb2",
+          "object_literal": null,
+          "object_label": "Schomburg Center - Moving Image & Recorded Sound"
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1117",
+          "object_literal": null,
+          "object_label": "Schomburg Center for Research in Black Culture, Moving Image and Recorded Sound Division"
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "Sc Visual VRB-87",
+          "object_label": null
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i15881398",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i15881398",
+      "uri": "i15881398"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i31058504",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433076281793",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:1",
+          "object_literal": null,
+          "object_label": "USE IN LIBRARY"
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b11253008",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:11",
+          "object_literal": null,
+          "object_label": "videorecording, non-circ"
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:scbb2",
+          "object_literal": null,
+          "object_label": "Schomburg Center - Moving Image & Recorded Sound"
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1117",
+          "object_literal": null,
+          "object_label": "Schomburg Center for Research in Black Culture, Moving Image and Recorded Sound Division"
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "Sc Visual DVD-792",
+          "object_label": null
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i31058504",
+          "predicate": "rdf:type",
+          "object_id": "nypl:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i31058504",
+      "uri": "i31058504"
+    }
+  ]
+}

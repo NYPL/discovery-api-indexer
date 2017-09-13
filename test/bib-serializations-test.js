@@ -1,36 +1,46 @@
-/* global describe it before */
+/* global describe it before after */
 
 const assert = require('assert')
-const dotenv = require('dotenv')
-const log = require('loglevel')
+const sinon = require('sinon')
+const path = require('path')
+const fs = require('fs')
 
-const db = require('../lib/db')
 const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
 const Bib = require('../lib/models/bib')
-const kmsHelper = require('../lib/kms-helper')
+const Item = require('../lib/models/item')
 
-function dbConnect () {
-  if (db.connected()) return Promise.resolve()
-  else {
-    return kmsHelper.decryptDbCreds()
-      .then((uri) => db.setConnection(uri))
-  }
+function bibFixturePath (id) {
+  return path.join(__dirname, `./data/${id}.json`)
+}
+
+let getBibByFixture = function (id) {
+  if (fs.existsSync(bibFixturePath(id))) {
+    let data = JSON.parse(fs.readFileSync(bibFixturePath(id)))
+    let bib = new Bib(data._statements)
+    bib.uri = data.uri
+    bib._items = data._items.map((itemData) => {
+      let item = new Item(itemData._statements)
+      item.uri = itemData.uri
+      return item
+    })
+    return Promise.resolve(bib)
+  } else console.log(id + ' not found on disk')
 }
 
 function init () {
-  // Ensure necessary env variables loaded
-  dotenv.config({ path: './deploy.env' })
-  dotenv.config({ path: './.env' })
+  sinon.stub(Bib, 'byId').callsFake(getBibByFixture)
+}
 
-  log.setLevel(process.env.LOGLEVEL || 'info')
-
-  return Promise.all([ dbConnect() ])
+function destroy () {
+  Bib.byId.restore()
 }
 
 describe('Bib Serializations', function () {
   this.timeout(5000)
 
   before(init)
+
+  after(destroy)
 
   describe('bibs', function () {
     it('should have title', function () {
