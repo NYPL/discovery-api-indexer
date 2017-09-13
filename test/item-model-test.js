@@ -17,10 +17,18 @@ function dbConnect () {
 }
 
 function init () {
-  // TODO this will look very different after new config/deploy PR merged.
-  // Ensure necessary env variables loaded
-  dotenv.config({ path: './deploy.env' })
-  dotenv.config({ path: './.env' })
+  dotenv.config({ path: 'config/qa.env' })
+
+  const aws = require('aws-sdk')
+
+  // Set aws creds:
+  aws.config.credentials = new aws.SharedIniFileCredentials({
+    profile: 'nypl-sandbox'
+  })
+
+  // Set aws region:
+  let awsSecurity = { region: 'us-east-1' }
+  aws.config.update(awsSecurity)
 
   log.setLevel(process.env.LOGLEVEL || 'info')
 
