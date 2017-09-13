@@ -39,8 +39,8 @@ node_modules
 .node_repl_history
 
 # node-lambda ignores
-.env
-deploy.env
+config/production.env
+config/qa.env
 event.json
 context.json
 
