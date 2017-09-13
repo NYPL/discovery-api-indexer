@@ -339,5 +339,18 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should include itypes 132', function () {
+      // Note: Other itypes > 100 that should be indexed include 133, 134, 135, & 142
+      return Bib.byId('b17655587').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          // This bib has 6 items at writing. Four are suppressed by icode2 rules.
+          // Two have itype 132 and should not be suppressed
+          // Confirm the bib has them:
+          let itemsWithHighItype = serialized.items.filter((item) => item.catalogItemType[0].id === 'catalogItemType:132')
+          assert(itemsWithHighItype.length > 0)
+        })
+      })
+    })
   })
 })
