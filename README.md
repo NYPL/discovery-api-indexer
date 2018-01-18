@@ -12,48 +12,7 @@ npm i
 
 This app is deployed as lambda `discoveryIndexerPoster`. It can also be invoked in "bulk" mode.
 
-### Lambda Development & Deploy
-
-To develop or run the lambda locally, first set up your node-lambda env:
-
-```
-npm install -g node-lambda
-node-lambda setup
-```
-
-Ensure `deploy.env` has the following:
-```
-DISCOVERY_STORE_CONNECTION_URI=[encrypted rds connection string]
-ELASTICSEARCH_CONNECTION_URI=[encrypted es connection string, which in plaintext could be "localhost:9200"]
-ELASTIC_RESOURCES_INDEX_NAME=[name of resources index]
-NYPL_API_SCHEMA_URL=[plaintext schema base url ending in '/current-schemas/']
-NYPL_API_BASE_URL=[plaintext data api base url ending in, for example, '/v0.1/']
-OUTGOING_STREAM_NAME=[name of kinesis stream to write to, e.g. "IndexDocumentProcessed-development"]
-OUTGOING_SCHEMA_NAME=[name of avro schema to encode outgoing messages against, e.g. "IndexDocumentProcessed"]
-LOGLEVEL=info
-```
-
-Similarly, `.env` should minimally have:
-```
-AWS_ACCESS_KEY_ID=...
-AWS_SECRET_ACCESS_KEY=...
-AWS_PROFILE=
-AWS_SESSION_TOKEN=
-AWS_ROLE_ARN=arn:aws:iam::224280085904:role/lambda_basic_execution
-AWS_REGION=us-east-1
-AWS_FUNCTION_NAME=discoveryIndexPoster
-AWS_HANDLER=document-stream-listener.handler
-AWS_MEMORY_SIZE=512
-AWS_TIMEOUT=30
-AWS_DESCRIPTION=
-AWS_RUNTIME=nodejs6.10
-AWS_VPC_SUBNETS=subnet-f4fe56af
-AWS_VPC_SECURITY_GROUPS=sg-1d544067
-EXCLUDE_GLOBS="event.json"
-PACKAGE_DIRECTORY=build
-AWS_ROLE_ARN=...
-AWS_REGION=...
-```
+### Test Events
 
 Edit `event.unencoded.json` with your desired test ids. Then commit your changes to `event.json` using the `kinesify-data` utility as follows:
 
@@ -64,20 +23,21 @@ node kinesify-data event.unencoded.json event.json https://api.nypltech.org/api/
 To run the app locally against `event.json`
 
 ```
-node-lambda run -f deploy.env
+node-lambda run -f config/qa.env
 ```
 
-To *deploy* to an existing Lambda like:
+### Deploying
 
-```
-node-lambda deploy -f deploy.env
-```
-
-This will deploy to a Lambda called "discoveryIndexPoster". Add a Kinesis stream trigger to execute function if not already added.
+1. Copy sample environment-specific by running:  `cp ./config/sample.env ./config/production.env && cp ./config/sample.env ./config/qa.env`
+1. Fill in missing secrets in both environment files (talk to a coworker)
+1. `npm run deploy-[qa|production]`
 
 ### Bulk Building Resources Index
 
-The non-lambda invocation method is provided for bulk processing. It's generally faster to use the bulk method to load millions of documents.
+**CAVEAT: The scripts in `./jobs` will need some local editing until we resolve
+[issue 17](https://github.com/NYPL-discovery/discovery-api-indexer/issues/17).**
+
+The non-lambda invocation method is provided for bulk processing. It's generally faster to use the bulk method to load millions of documents.S
 
 To populate the index identified in `deploy.env` (described above):
 
