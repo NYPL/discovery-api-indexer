@@ -1,24 +1,31 @@
+/*
+ *  Tool for updating fixtures on disk with whatever's presently in db.
+ *
+ *  Useage:
+ *
+ *  This will update all fixtures against configured db:
+ *    node jobs/update-test-fixtures
+ *
+ *  This will update a single fixture by [bib] id:
+ *
+ *    node jobs/update-test-fixtures --id [ID] --profile [aws profile] --envfile [path to ENV file with db creds]
+ *
+ *  For example, this updates fixture for 'b10781594' using qa creds
+ *    node jobs/update-test-fixtures --id b10781594 --profile nypl-sandbox --envfile config/qa.env
+ */
+
 const path = require('path')
 const fs = require('fs')
-const dotenv = require('dotenv')
 
 const Bib = require('../lib/models/bib')
-const kmsHelper = require('../lib/kms-helper')
 const db = require('../lib/db')
+const envConfigHelper = require('../lib/env-config-helper')
 
 var argv = require('optimist')
   .argv
 
 function bibFixturePath (id) {
   return path.join(__dirname, `../test/data/${id}.json`)
-}
-
-function dbConnect () {
-  if (db.connected()) return Promise.resolve()
-  else {
-    return kmsHelper.decryptDbCreds()
-      .then((uri) => db.setConnection(uri))
-  }
 }
 
 /*
@@ -48,27 +55,8 @@ function updateAllBibs () {
   })
 }
 
-// TODO Config is in flux; These need to point to whatever env files hold AWS creds and db connection string
-// Load a .env file with db creds:
-dotenv.config({ path: './bak/.env' })
-dotenv.config({ path: argv.envfile })
-
-/*
- *  Tool for updating fixtures on disk with whatever's presently in db.
- *
- *  Useage:
- *
- *  This will update all fixtures against configured db:
- *    node jobs/update-test-fixtures
- *
- *  This will update a single fixture by [bib] id:
- *
- *    node jobs/update-test-fixtures --id [ID]
- *
- *  For example, this updates bib 'b10781594'
- *    node jobs/update-test-fixtures --id b10781594
- */
-dbConnect().then(() => {
+// Initialize db connection based on --envfile and --profile:
+envConfigHelper.init({ db }).then((opts) => {
   if (argv.id) {
     updateBib(argv.id).then(() => {
       console.log('Finished updating ' + argv.id)
