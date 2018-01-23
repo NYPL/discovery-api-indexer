@@ -96,3 +96,5 @@ The code assumes from the timestamped index name that the desired alias is "reso
 ```
 npm test
 ```
+
+All tests rely on local fixtures. When adding new tests, a script is included for generating fixtures based on existing QA/Production data. See [jobs/update-test-fixtures.js](jobs/update-test-fixtures.js) for details.

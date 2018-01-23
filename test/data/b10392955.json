@@ -1,0 +1,441 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:nc",
+      "object_literal": null,
+      "object_label": "volume"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "20 cm.",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:n",
+      "object_literal": null,
+      "object_label": "unmediated"
+    },
+    {
+      "predicate": "dbo:dateStart",
+      "object_id": null,
+      "object_literal": "1975",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "1975",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Fry, Christopher, 1907-2005,",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:creator",
+      "object_id": null,
+      "object_literal": "Rostand, Edmond, 1868-1918.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "1975",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "French drama -- Translations into English.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "1975",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:10392955",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:isbn:0192113860 :",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccn:76352314",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:oclc:10352362",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lcc:PQ2635.O7",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccCoarse:PQ2600-2651",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:hathi:000694162",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "Cyrano de Bergerac : a heroic comedy in five acts / by Edmond Rostand ; translated by Christopher Fry.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:txt",
+      "object_literal": null,
+      "object_label": "Text"
+    },
+    {
+      "predicate": "hathi:vols",
+      "object_id": null,
+      "object_literal": "{\"volumeId\":\"mdp.39015001802860\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000694162\",\"enumeration\":\"\",\"oclc\":[2503124],\"isbn\":[],\"issn\":[],\"lccn\":[\"76352314\"],\"pubDate\":\"1975\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "146 p. ;",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:lccClassification",
+      "object_id": null,
+      "object_literal": "PQ2635.O7 C92 1975",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:placeOfPublication",
+      "object_id": null,
+      "object_literal": "London :",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:role-publisher",
+      "object_id": null,
+      "object_literal": "New York : Oxford University Press,",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "JFC 77-539",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "Cyrano de Bergerac : a heroic comedy in five acts / by Edmond Rostand ; translated by Christopher Fry.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:workId",
+      "object_id": "urn:owi:84090",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "role:trl",
+      "object_id": null,
+      "object_literal": "Fry, Christopher, 1907-2005,",
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Translation of Cyrano de Bergerac.",
+      "object_label": "General Note"
+    }
+  ],
+  "uri": "b10392955",
+  "_items": [
+    {
+      "_statements": [
+        {
+          "subject_id": "i12968797",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433043060981",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:2",
+          "object_literal": null,
+          "object_label": "ADV REQUEST"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10392955",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:55",
+          "object_literal": null,
+          "object_label": "book, limited circ, MaRLI"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malw",
+          "object_literal": null,
+          "object_label": "SASB - Wertheim Scholar Room"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mab",
+          "object_literal": null,
+          "object_label": "SASB - Art & Architecture Rm 300"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:map",
+          "object_literal": null,
+          "object_label": "SASB - Map Division - Rm 117"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:malc",
+          "object_literal": null,
+          "object_label": "SASB - Cullman Center"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maln",
+          "object_literal": null,
+          "object_label": "SASB - Noma Scholar Room"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:myr",
+          "object_literal": null,
+          "object_label": "Performing Arts Research Collections"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:maf",
+          "object_literal": null,
+          "object_label": "SASB - Dorot Jewish Division Rm 111"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mag",
+          "object_literal": null,
+          "object_label": "SASB - Milstein Division Rm 121"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mala",
+          "object_literal": null,
+          "object_label": "SASB - Allen Scholar Room"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:sc",
+          "object_literal": null,
+          "object_label": "Schomburg Center"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mal",
+          "object_literal": null,
+          "object_label": "SASB - Service Desk Rm 315"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:mai",
+          "object_literal": null,
+          "object_label": "SASB - Periodicals and Microforms Rm 100"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:slr",
+          "object_literal": null,
+          "object_label": "SIBL - Science Industry and Business"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:qc2ma",
+          "object_literal": null,
+          "object_label": "OFFSITE - TSD - Request in Advance"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1000",
+          "object_literal": null,
+          "object_label": "Stephen A. Schwarzman Building"
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "JFC 77-539",
+          "object_label": null
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i12968797",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i12968797",
+      "uri": "i12968797"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i8304613",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i8304613",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:CU18590489",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i8304613",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:2",
+          "object_literal": null,
+          "object_label": "ADV REQUEST"
+        },
+        {
+          "subject_id": "i8304613",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10392955",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i8304613",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:55",
+          "object_literal": null,
+          "object_label": "book, limited circ, MaRLI"
+        },
+        {
+          "subject_id": "i8304613",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i8304613",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "EA13JUL 92955",
+          "object_label": null
+        },
+        {
+          "subject_id": "i8304613",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i8304613",
+      "uri": "i8304613"
+    }
+  ]
+}

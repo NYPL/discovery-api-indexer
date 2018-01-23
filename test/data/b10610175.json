@@ -1,0 +1,253 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:nc",
+      "object_literal": null,
+      "object_label": "volume"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "23 cm.",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:n",
+      "object_literal": null,
+      "object_label": "unmediated"
+    },
+    {
+      "predicate": "bf:seriesStatement",
+      "object_id": null,
+      "object_literal": "Lost American fiction",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "1978",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Hopkins, Pauline E. (Pauline Elizabeth)",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:creator",
+      "object_id": null,
+      "object_literal": "Hopkins, Pauline E. (Pauline Elizabeth)",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "1978",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "African Americans -- Fiction.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "1978",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:10610175",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:isbn:0809308746",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccn:77018724",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "Contending forces : a romance illustrative of Negro life North and South",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:txt",
+      "object_literal": null,
+      "object_label": "Text"
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "411 p., [8] leaves of plates : ill. ;",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:lccClassification",
+      "object_id": null,
+      "object_literal": "PZ3.H777 Co 1978 PS1999.H4226",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:placeOfPublication",
+      "object_id": null,
+      "object_literal": "Carbondale, IL :",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:role-publisher",
+      "object_id": null,
+      "object_literal": "Southern Illinois University Press,",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "Sc D 80-24",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "Contending forces : a romance illustrative of Negro life North and South / by Pauline E. Hopkins ; afterword by Gwendolyn Brooks ; with ill. by R. Emmet Owen.",
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Reprint of the ed. published by the Colored Co-operative Publishing Co., Boston.",
+      "object_label": "General Note"
+    }
+  ],
+  "uri": "b10610175",
+  "_items": [
+    {
+      "_statements": [
+        {
+          "subject_id": "i11981214",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433036670986",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:1",
+          "object_literal": null,
+          "object_label": "USE IN LIBRARY"
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b10610175",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:55",
+          "object_literal": null,
+          "object_label": "book, limited circ, MaRLI"
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:sc",
+          "object_literal": null,
+          "object_label": "Schomburg Center"
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:scff2",
+          "object_literal": null,
+          "object_label": "Schomburg Center - Research & Reference"
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1114",
+          "object_literal": null,
+          "object_label": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division"
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "Sc D 80-24 ---",
+          "object_label": null
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i11981214",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i11981214",
+      "uri": "i11981214"
+    }
+  ]
+}
