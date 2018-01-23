@@ -1,0 +1,144 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:nb",
+      "object_literal": null,
+      "object_label": "sheet"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "8 x 10 in.",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:a",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:n",
+      "object_literal": null,
+      "object_label": "unmediated"
+    },
+    {
+      "predicate": "dbo:dateEnd",
+      "object_id": null,
+      "object_literal": "1950",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:dateStart",
+      "object_id": null,
+      "object_literal": "1943",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:endDate",
+      "object_id": null,
+      "object_literal": "1950",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "1943",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Seymour, Maurice, 1904-",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "1943",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Svetlova, Marina, -- 1922-",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Dolinoff, Alexis.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "1943",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:12155601",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "Svetlova, Marina, 1922-",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:img",
+      "object_literal": null,
+      "object_label": "Still image"
+    },
+    {
+      "predicate": "nypl:partOf",
+      "object_id": null,
+      "object_literal": "New York (City) Museum of Modern Art. Photographs: Ballet, ca. 1900-1950. v. 38, no. 3318",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "*MGZEB",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "Svetlova, Marina, 1922- / Photograph by Maurice Seymour.",
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Posed with Alexis Dolinoff in a pas de poisson.",
+      "object_label": "General Note"
+    }
+  ],
+  "uri": "b12155601",
+  "_items": []
+}

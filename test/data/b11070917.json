@@ -1,0 +1,307 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:sd",
+      "object_literal": null,
+      "object_label": "audio disc"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "12 in.",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:s",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:dateStart",
+      "object_id": null,
+      "object_literal": "1959",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "1959",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Fitzgerald, Ella.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Gershwin, Ira, 1896-1983.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Stewart, Lawrence D.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:creator",
+      "object_id": null,
+      "object_literal": "Gershwin, George, 1898-1937.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "1959",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Musicals -- Excerpts, Arranged.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Motion picture music -- Excerpts, Arranged.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:alternative",
+      "object_id": null,
+      "object_literal": "Works.",
+      "object_label": "Varying Form of Title"
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "1959",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:11070917",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccn:r  59001818",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:oclc:10059140",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lcc:M1366.F54",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccCoarse:M1350-1366",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "Ella Fitzgerald sings the George and Ira Gershwin songbook [sound recording]",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:aud",
+      "object_literal": null,
+      "object_label": "Audio"
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "5 discs. : 33 1/3 rpm. mono.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:genre",
+      "object_id": "genre:i",
+      "object_literal": null,
+      "object_label": "Indexes"
+    },
+    {
+      "predicate": "nypl:role-publisher",
+      "object_id": null,
+      "object_literal": "Verve Records",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "*LRX 6407 (F)",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "Ella Fitzgerald sings the George and Ira Gershwin songbook [sound recording] / arrangements by Nelson Riddle.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:uniformTitle",
+      "object_id": null,
+      "object_literal": "Works. Selections; arranged.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:workId",
+      "object_id": "urn:owi:133103558",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Acc. by book published in conjunction with recording: The Gershwins, words upon music / [compiled by] Lawrence D. Stewart. c1959 (47 p. : ill.).",
+      "object_label": "General Note"
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "With orchestra; Nelson Riddle, conductor.",
+      "object_label": "Participant or Performer Note"
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "In container; manual sequence.",
+      "object_label": "Language Note"
+    }
+  ],
+  "uri": "b11070917",
+  "_items": [
+    {
+      "_statements": [
+        {
+          "subject_id": "i17482110",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available"
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433077372138",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:1",
+          "object_literal": null,
+          "object_label": "USE IN LIBRARY"
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b11070917",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:12",
+          "object_literal": null,
+          "object_label": "musical sound recording"
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:deliveryLocation",
+          "object_id": "loc:myr",
+          "object_literal": null,
+          "object_label": "Performing Arts Research Collections"
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:myh22",
+          "object_literal": null,
+          "object_label": "Performing Arts Research Collections - Recorded Sound"
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1002",
+          "object_literal": null,
+          "object_label": "New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center"
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "*LRX 6407",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17482110",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i17482110",
+      "uri": "i17482110"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "16mm.",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "dbo:dateStart",
+      "object_id": null,
+      "object_literal": "1964",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "1964",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "Gurian, Andy.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "1964",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Films by teenagers.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Comedy films.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "1964",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:description",
+      "object_id": null,
+      "object_literal": "A comic short on patriotism and protest, with sober undertones. Made by Andy Gurian of the Mosholu - Montefiore Community Center.",
+      "object_label": "Summary, Etc."
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:17655587",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "That rotten tea bag [motion picture]",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:img",
+      "object_literal": null,
+      "object_label": "Still image"
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "1 film reel (3 min.) : sd. b&w. ;",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:placeOfPublication",
+      "object_id": null,
+      "object_literal": "New York :",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:role-publisher",
+      "object_id": null,
+      "object_literal": "Children's Cultural Foundation,",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "That rotten tea bag [motion picture] / Andy Gurian.",
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Director, Andy Gurian.",
+      "object_label": "Creation/Production Credits Note"
+    }
+  ],
+  "uri": "b17655587",
+  "_items": [
+    {
+      "_statements": [
+        {
+          "subject_id": "i17906175",
+          "predicate": "bf:carrier",
+          "object_id": "carriertypes:mr",
+          "object_literal": null,
+          "object_label": "film reel"
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "bf:media",
+          "object_id": "mediatypes:m",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available "
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33333205133792",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:a",
+          "object_literal": null,
+          "object_label": "By appointment only"
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b17655587",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:132",
+          "object_literal": null,
+          "object_label": "RFVC - FILM"
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:myarv",
+          "object_literal": null,
+          "object_label": "Reserve Film and Video Adult Fiction"
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "M16 238 T",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906175",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i17906175",
+      "uri": "i17906175"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i17906176",
+          "predicate": "bf:carrier",
+          "object_id": "carriertypes:mr",
+          "object_literal": null,
+          "object_label": "film reel"
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "bf:media",
+          "object_id": "mediatypes:m",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available "
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33333021680935",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:a",
+          "object_literal": null,
+          "object_label": "By appointment only"
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b17655587",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:132",
+          "object_literal": null,
+          "object_label": "RFVC - FILM"
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:myjrv",
+          "object_literal": null,
+          "object_label": "Reserve Film and Video Children's Fiction"
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1102",
+          "object_literal": null,
+          "object_label": "Carl H. Pforzheimer Collection of Shelley and His Circle"
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "|pY|fM16|a238|cT",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906176",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i17906176",
+      "uri": "i17906176"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i17906172",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b17655587",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906172",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:133",
+          "object_literal": null,
+          "object_label": "RFVC - FILM PRESERVATION"
+        },
+        {
+          "subject_id": "i17906172",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906172",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i17906172",
+      "uri": "i17906172"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i17906174",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b17655587",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906174",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:133",
+          "object_literal": null,
+          "object_label": "RFVC - FILM PRESERVATION"
+        },
+        {
+          "subject_id": "i17906174",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906174",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i17906174",
+      "uri": "i17906174"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i17906173",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b17655587",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906173",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:133",
+          "object_literal": null,
+          "object_label": "RFVC - FILM PRESERVATION"
+        },
+        {
+          "subject_id": "i17906173",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906173",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i17906173",
+      "uri": "i17906173"
+    },
+    {
+      "_statements": [
+        {
+          "subject_id": "i17906171",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b17655587",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906171",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:133",
+          "object_literal": null,
+          "object_label": "RFVC - FILM PRESERVATION"
+        },
+        {
+          "subject_id": "i17906171",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i17906171",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i17906171",
+      "uri": "i17906171"
+    }
+  ]
+}

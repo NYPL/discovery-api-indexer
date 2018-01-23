@@ -1,0 +1,228 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:he",
+      "object_literal": null,
+      "object_label": "microfiche"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "11 x 15 cm",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:h",
+      "object_literal": null,
+      "object_label": "microform"
+    },
+    {
+      "predicate": "bf:originalVersion",
+      "object_id": null,
+      "object_literal": "S. hrg. ; 113-30",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:seriesStatement",
+      "object_id": null,
+      "object_literal": "S. hrg. ; 113-30",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:dateStart",
+      "object_id": null,
+      "object_literal": "2013",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "2013",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "United States. Congress. Joint Economic Committee, author.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:creator",
+      "object_id": null,
+      "object_literal": "United States. Congress. Joint Economic Committee, author.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "2013",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "United States -- Economic policy.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Monetary policy -- United States.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:alternative",
+      "object_id": null,
+      "object_literal": "Fed at one hundred",
+      "object_label": "Varying Form of Title"
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "2013",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:geographic",
+      "object_id": null,
+      "object_literal": "United States Economic policy.",
+      "object_label": "Subject Added Entry-Geographic Name"
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:19995767",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:oclc:5148651003",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lcc:KF25",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccCoarse:KF12-49",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:hathi:100755565",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:eng",
+      "object_literal": null,
+      "object_label": "English"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "The Fed at 100 : can monetary policy close the growth gap and promote a sound dollar? : hearing before the Joint Economic Committee, Congress of the United States, One Hundred Thirteenth Congress, first session, April 18, 2013.",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:txt",
+      "object_literal": null,
+      "object_label": "Text"
+    },
+    {
+      "predicate": "hathi:access",
+      "object_id": null,
+      "object_literal": "true",
+      "object_label": null
+    },
+    {
+      "predicate": "hathi:vols",
+      "object_id": null,
+      "object_literal": "{\"volumeId\":\"umn.31951d03673439x\",\"access\":\"allow\",\"rights\":\"pd\",\"hathiId\":\"100755565\",\"enumeration\":\"\",\"oclc\":[853454436],\"isbn\":[],\"issn\":[],\"lccn\":[],\"pubDate\":\"2013\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "1 microfiche (iii, 46 pages) : negative, illustrations ;",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:genre",
+      "object_id": "genre:b",
+      "object_literal": null,
+      "object_label": "Bibliographies"
+    },
+    {
+      "predicate": "nypl:lccClassification",
+      "object_id": null,
+      "object_literal": "KF25 .E2 2013b",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "GPO Microfiche Y 4.EC 7:S.HRG.113-30",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "The Fed at 100 : can monetary policy close the growth gap and promote a sound dollar? : hearing before the Joint Economic Committee, Congress of the United States, One Hundred Thirteenth Congress, first session, April 18, 2013.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:workId",
+      "object_id": "urn:owi:1369017651",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "rdf:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Paper version available for sale by the Superintendent of Documents, United States Government Printing Office.",
+      "object_label": "General Note"
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Shipping list no.: 2013-0376-M.",
+      "object_label": "General Note"
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": null,
+      "object_literal": "Includes bibliographical references.",
+      "object_label": "Bibliography, Etc. Note"
+    }
+  ],
+  "uri": "b19995767",
+  "_items": []
+}
