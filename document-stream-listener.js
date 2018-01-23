@@ -8,7 +8,8 @@ var log = null
 
 const _ = require('highland')
 
-const db = require('./lib/db')
+// const db = require('./lib/db')
+const DiscoveryStoreModels = require('discovery-store-models')
 const index = require('./lib/index')
 const Bib = require('./lib/models/bib')
 const kmsHelper = require('./lib/kms-helper')
@@ -43,7 +44,7 @@ exports.kinesisHandler = function (records, context, callback) {
     }, {}))
     log.info('Fetching statements for ' + uris.join(', '))
     // Get bibs:
-    return db.resources.bibs(uris)
+    return DiscoveryStoreModels.resources.bibs(uris)
       .catch((e) => {
         // If it's just a bad bib id, quiet failure:
         if (e.name === 'QueryResultError') {
@@ -104,11 +105,11 @@ exports.kinesisHandler = function (records, context, callback) {
 
 function dbConnect () {
   // If db is connected, return immediately:
-  if (db.connected()) return Promise.resolve()
+  if (DiscoveryStoreModels.connected()) return Promise.resolve()
   // Otherwise, decrypt creds, and init db:
   else {
     return kmsHelper.decryptDbCreds()
-      .then((uri) => db.setConnection(uri))
+      .then((uri) => DiscoveryStoreModels.connect(uri))
       .then(() => {
         log.debug('Decrypted and set DB connection uri')
       })
