@@ -98,3 +98,10 @@ npm test
 ```
 
 All tests rely on local fixtures. When adding new tests, a script is included for generating fixtures based on existing QA/Production data. See [jobs/update-test-fixtures.js](jobs/update-test-fixtures.js) for details.
+
+### Updating fixtures
+
+To update a fixture:
+```
+node jobs/update-test-fixtures --id b17678033 --profile [aws profile] --envfile config/[envfile name]
+```
