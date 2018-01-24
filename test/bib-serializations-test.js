@@ -244,6 +244,14 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should have genreForm', function () {
+      return Bib.byId('b17678033').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.genreForm[0], 'Graphic novels.')
+        })
+      })
+    })
   })
 
   describe('items', function () {
