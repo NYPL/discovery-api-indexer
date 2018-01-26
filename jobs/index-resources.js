@@ -6,9 +6,10 @@ const _ = require('highland')
 const resourcesIndexer = require('../lib/resource-indexer')
 const IndexerRunner = require('../lib/indexer-runner')
 const Bib = require('../lib/models/bib')
-const db = require('../lib/db')
+// const db = require('../lib/db')
 const index = require('../lib/index')
 const envConfigHelper = require('../lib/env-config-helper')
+const discoveryStoreOrm = require('discovery-store-models')
 
 var cluster = require('cluster')
 
@@ -51,13 +52,13 @@ if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
 // Index single item by uri:
 if (argv.uri) {
   console.log('Indexing uri: ', argv.uri)
-  envConfigHelper.init({ db, index, log })
-    .then(() => db.resources.bib(argv.uri))
+  envConfigHelper.init({ discoveryStoreOrm, index, log })
+    .then(() => discoveryStoreOrm.Bib.byId(argv.uri))
     .then((s) => {
       log.debug('Got statements: ', s)
       return s
     })
-    .then((statements) => Bib.fromStatements(statements))
+    // .then((statements) => Bib.fromStatements(statements))
     .then((bib) => {
       return resourcesIndexer.processStreamOfBibs(_([bib]))
         .map((counts) => {
@@ -107,7 +108,7 @@ if (argv.uri) {
     }
   }
 
-  envConfigHelper.init({ db, index, log }).then((opts) => {
+  envConfigHelper.init({ discoveryStoreOrm, index, log }).then((opts) => {
     if (rebuild) {
       // If rebuilding, make sure the currently configured index doesn't have a live alias
       index.admin.indexIsActive(opts.indexName).then((active) => {
@@ -165,13 +166,13 @@ if (argv.uri) {
       })
     }
 
-    envConfigHelper.init({ db, index, log })
+    envConfigHelper.init({ discoveryStoreOrm, index, log })
       .then(() => {
         process.send({ log: 'SQL query sent for ' + msg.start + ', limit ' + msg.total })
       })
-      .then(() => db.resources.bibsStream({ query: msg.query, offset: msg.start, limit: msg.total, batchSize: 500 }))
+      .then(() => discoveryStoreOrm.resources.bibsStream({ query: msg.query, offset: msg.start, limit: msg.total, batchSize: 500 }))
       .then(processStream)
-      .then(db.disconnect)
+      .then(discoveryStoreOrm.disconnect)
       .then(() => {
         process.send({log: 'released DB'})
         process.exit()
