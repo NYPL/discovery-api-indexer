@@ -1,321 +1,379 @@
 {
-  "_statements": [
+  "subject_id": "pb176961",
+  "bib_statements": [
     {
-      "predicate": "bf:carrier",
-      "object_id": "carriertypes:nc",
-      "object_literal": null,
-      "object_label": "volume"
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier"
     },
     {
-      "predicate": "bf:dimensions",
-      "object_id": null,
-      "object_literal": "22 cm.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "22 cm.",
+      "pr": "bf:dimensions"
     },
     {
-      "predicate": "bf:issuance",
-      "object_id": "urn:biblevel:m",
-      "object_literal": null,
-      "object_label": "monograph/item"
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance"
     },
     {
-      "predicate": "bf:media",
-      "object_id": "mediatypes:n",
-      "object_literal": null,
-      "object_label": "unmediated"
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media"
     },
     {
-      "predicate": "dbo:dateEnd",
-      "object_id": null,
-      "object_literal": "1985",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1985",
+      "pr": "dbo:dateEnd"
     },
     {
-      "predicate": "dbo:dateStart",
-      "object_id": null,
-      "object_literal": "1983",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1983",
+      "pr": "dbo:dateStart"
     },
     {
-      "predicate": "dbo:endDate",
-      "object_id": null,
-      "object_literal": "1985",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1985",
+      "pr": "dbo:endDate"
     },
     {
-      "predicate": "dbo:startDate",
-      "object_id": null,
-      "object_literal": "1983",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1983",
+      "pr": "dbo:startDate"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Sabuni, Abdulghafur.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sabuni, Abdulghafur.",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:date",
-      "object_id": null,
-      "object_literal": "1983",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1983",
+      "pr": "dc:date"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Arabic literature. -- (uri)http://id.loc.gov/authorities/subjects/sh85006314",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Arabic literature.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dcterms:created",
-      "object_id": null,
-      "object_literal": "1983",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1983",
+      "pr": "dcterms:created"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:bnum:176961",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:bnum:176961",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:isbn:3871185949",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:isbn:3871185949",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:title",
-      "object_id": null,
-      "object_literal": "Handbuch der arabischen Literatur / Abdulghafur Sabuni.",
-      "object_label": null
+      "bn": null,
+      "id": "lang:ger",
+      "la": "German",
+      "li": null,
+      "pr": "dcterms:language"
     },
     {
-      "predicate": "dcterms:type",
-      "object_id": "resourcetypes:txt",
-      "object_literal": null,
-      "object_label": "Text"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Handbuch der arabischen Literatur /",
+      "pr": "dcterms:title"
     },
     {
-      "predicate": "nypl:extent",
-      "object_id": null,
-      "object_literal": "2 v. ;",
-      "object_label": null
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type"
     },
     {
-      "predicate": "nypl:placeOfPublication",
-      "object_id": null,
-      "object_literal": "Hamburg :",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2 v. ;",
+      "pr": "nypl:extent"
     },
     {
-      "predicate": "nypl:role-publisher",
-      "object_id": null,
-      "object_literal": "Buske,",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Hamburg :",
+      "pr": "nypl:placeOfPublication"
     },
     {
-      "predicate": "nypl:suppressed",
-      "object_id": null,
-      "object_literal": "false",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Buske,",
+      "pr": "nypl:role-publisher"
     },
     {
-      "predicate": "nypl:titleDisplay",
-      "object_id": null,
-      "object_literal": "Handbuch der arabischen Literatur / Abdulghafur Sabuni.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
     },
     {
-      "predicate": "rdf:type",
-      "object_id": "nypl:Item",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Handbuch der arabischen Literatur / Abdulghafur Sabuni.",
+      "pr": "nypl:titleDisplay"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Discontinued after v. 2.",
-      "object_label": "General Note"
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Added title in arabic: Marjaʻ al-adab al-ʻarabī.",
-      "object_label": "General Note"
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Text in arabic; introductory matters and commentaries in German.",
-      "object_label": "General Note"
+      "bn": null,
+      "id": null,
+      "la": "General Note",
+      "li": "Discontinued after v. 2.",
+      "pr": "skos:note"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Includes bibliographical references.",
-      "object_label": "Bibliography, Etc. Note"
+      "bn": null,
+      "id": null,
+      "la": "General Note",
+      "li": "Added title in arabic: Marjaʻ al-adab al-ʻarabī.",
+      "pr": "skos:note"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "1-2. Anthologie der traditionellen Prosa.",
-      "object_label": "Formatted Contents Note"
+      "bn": null,
+      "id": null,
+      "la": "General Note",
+      "li": "Text in arabic; introductory matters and commentaries in German.",
+      "pr": "skos:note"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Bibliography, Etc. Note",
+      "li": "Includes bibliographical references.",
+      "pr": "skos:note"
     }
   ],
-  "uri": "pb176961",
-  "_items": [
+  "item_statements": [
     {
-      "_statements": [
-        {
-          "subject_id": "pi189242",
-          "predicate": "bf:status",
-          "object_id": "status:a",
-          "object_literal": null,
-          "object_label": "Available"
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "dcterms:identifier",
-          "object_id": "urn:barcode:32101062243546",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "nypl:accessMessage",
-          "object_id": "accessMessage:1",
-          "object_literal": null,
-          "object_label": "USE IN LIBRARY"
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "nypl:bnum",
-          "object_id": "urn:bnum:pb176961",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "nypl:catalogItemType",
-          "object_id": "catalogItemType:1",
-          "object_literal": null,
-          "object_label": "non-circ"
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "nypl:owner",
-          "object_id": "orgs:0003",
-          "object_literal": null,
-          "object_label": "Princeton University Library"
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "nypl:requestable",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "nypl:shelfMark",
-          "object_id": null,
-          "object_literal": "PJ7601.H35 bd. 1",
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "nypl:suppressed",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189242",
-          "predicate": "rdf:type",
-          "object_id": "bf:Item",
-          "object_literal": null,
-          "object_label": null
-        }
-      ],
-      "id": "pi189242",
-      "uri": "pi189242"
+      "s": "pi189242",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
     },
     {
-      "_statements": [
-        {
-          "subject_id": "pi189241",
-          "predicate": "bf:status",
-          "object_id": "status:a",
-          "object_literal": null,
-          "object_label": "Available"
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "dcterms:identifier",
-          "object_id": "urn:barcode:32101062243553",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "nypl:accessMessage",
-          "object_id": "accessMessage:1",
-          "object_literal": null,
-          "object_label": "USE IN LIBRARY"
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "nypl:bnum",
-          "object_id": "urn:bnum:pb176961",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "nypl:catalogItemType",
-          "object_id": "catalogItemType:1",
-          "object_literal": null,
-          "object_label": "non-circ"
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "nypl:owner",
-          "object_id": "orgs:0003",
-          "object_literal": null,
-          "object_label": "Princeton University Library"
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "nypl:requestable",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "nypl:shelfMark",
-          "object_id": null,
-          "object_literal": "PJ7601.H35 bd. 2",
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "nypl:suppressed",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "pi189241",
-          "predicate": "rdf:type",
-          "object_id": "bf:Item",
-          "object_literal": null,
-          "object_label": null
-        }
-      ],
-      "id": "pi189241",
-      "uri": "pi189241"
+      "s": "pi189242",
+      "bn": null,
+      "id": "urn:barcode:32101062243546",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "urn:bnum:pb176961",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "catalogItemType:1",
+      "la": "non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "orgs:0003",
+      "la": "Princeton University Library",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "PJ7601.H35 bd. 1",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "urn:barcode:32101062243553",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "urn:bnum:pb176961",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "catalogItemType:1",
+      "la": "non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "orgs:0003",
+      "la": "Princeton University Library",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "PJ7601.H35 bd. 2",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "pi189241",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
     }
   ]
 }

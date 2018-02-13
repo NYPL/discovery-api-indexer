@@ -1,414 +1,471 @@
 {
-  "_statements": [
+  "subject_id": "b10781594",
+  "bib_statements": [
     {
-      "predicate": "bf:carrier",
-      "object_id": "carriertypes:nc",
-      "object_literal": null,
-      "object_label": "volume"
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier"
     },
     {
-      "predicate": "bf:dimensions",
-      "object_id": null,
-      "object_literal": "24 cm.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "24 cm.",
+      "pr": "bf:dimensions"
     },
     {
-      "predicate": "bf:issuance",
-      "object_id": "urn:biblevel:m",
-      "object_literal": null,
-      "object_label": "monograph/item"
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance"
     },
     {
-      "predicate": "bf:media",
-      "object_id": "mediatypes:n",
-      "object_literal": null,
-      "object_label": "unmediated"
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media"
     },
     {
-      "predicate": "bf:originalVersion",
-      "object_id": null,
-      "object_literal": "Studies in the regulation of economic activity",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Studies in the regulation of economic activity",
+      "pr": "bf:seriesStatement"
     },
     {
-      "predicate": "bf:seriesStatement",
-      "object_id": null,
-      "object_literal": "Studies in the regulation of economic activity",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1981",
+      "pr": "dbo:dateStart"
     },
     {
-      "predicate": "dbo:dateStart",
-      "object_id": null,
-      "object_literal": "1981",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1981",
+      "pr": "dbo:startDate"
     },
     {
-      "predicate": "dbo:startDate",
-      "object_id": null,
-      "object_literal": "1981",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lave, Lester B.",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Lave, Lester B.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lave, Lester B.",
+      "pr": "dc:creator"
     },
     {
-      "predicate": "dc:creator",
-      "object_id": null,
-      "object_literal": "Lave, Lester B.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1981",
+      "pr": "dc:date"
     },
     {
-      "predicate": "dc:date",
-      "object_id": null,
-      "object_literal": "1981",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Industrial policy -- United States.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Industrial policy -- United States.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Trade regulation -- United States.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Trade regulation -- United States.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Consumer protection -- United States.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Consumer protection -- United States.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Environmental policy -- United States.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Environmental policy -- United States.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1981",
+      "pr": "dcterms:created"
     },
     {
-      "predicate": "dcterms:created",
-      "object_id": null,
-      "object_literal": "1981",
-      "object_label": null
+      "bn": null,
+      "id": "urn:bnum:10781594",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:bnum:10781594",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:isbn:0815751621",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:isbn:0815751621",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:lccn:81007685",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lccn:81007685",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:oclc:300553178",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:oclc:300553178",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:lcc:HD3616.U47",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lcc:HD3616.U47",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:lccCoarse:HD3611-4730.9",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lccCoarse:HD3611-4730.9",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:hathi:006230462",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:hathi:006230462",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language"
     },
     {
-      "predicate": "dcterms:language",
-      "object_id": "lang:eng",
-      "object_literal": null,
-      "object_label": "English"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The strategy of social regulation : decision frameworks for policy",
+      "pr": "dcterms:title"
     },
     {
-      "predicate": "dcterms:title",
-      "object_id": null,
-      "object_literal": "The strategy of social regulation : decision frameworks for policy",
-      "object_label": null
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type"
     },
     {
-      "predicate": "dcterms:type",
-      "object_id": "resourcetypes:txt",
-      "object_literal": null,
-      "object_label": "Text"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.49015001115964\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"004494396\",\"enumeration\":\"\",\"oclc\":[7551718],\"isbn\":[\"0815751613\",\"0815751621\"],\"issn\":[],\"lccn\":[\"81007685\"],\"pubDate\":\"1981\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols"
     },
     {
-      "predicate": "hathi:vols",
-      "object_id": null,
-      "object_literal": "{\"volumeId\":\"mdp.49015001115964\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"004494396\",\"enumeration\":\"\",\"oclc\":[7551718],\"isbn\":[\"0815751613\",\"0815751621\"],\"issn\":[],\"lccn\":[\"81007685\"],\"pubDate\":\"1981\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"uc1.b4384485\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"006230462\",\"enumeration\":\"\",\"oclc\":[7551718],\"isbn\":[\"0815751613\",\"0815751621\"],\"issn\":[],\"lccn\":[\"81007685\"],\"pubDate\":\"1981\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols"
     },
     {
-      "predicate": "hathi:vols",
-      "object_id": null,
-      "object_literal": "{\"volumeId\":\"uc1.b4384485\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"006230462\",\"enumeration\":\"\",\"oclc\":[7551718],\"isbn\":[\"0815751613\",\"0815751621\"],\"issn\":[],\"lccn\":[\"81007685\"],\"pubDate\":\"1981\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "x, 166 p. ;",
+      "pr": "nypl:extent"
     },
     {
-      "predicate": "nypl:extent",
-      "object_id": null,
-      "object_literal": "x, 166 p. ;",
-      "object_label": null
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre"
     },
     {
-      "predicate": "nypl:genre",
-      "object_id": "genre:b",
-      "object_literal": null,
-      "object_label": "Bibliographies"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "HD3616.U47 L37",
+      "pr": "nypl:lccClassification"
     },
     {
-      "predicate": "nypl:lccClassification",
-      "object_id": null,
-      "object_literal": "HD3616.U47 L37",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Washington, D.C. :",
+      "pr": "nypl:placeOfPublication"
     },
     {
-      "predicate": "nypl:placeOfPublication",
-      "object_id": null,
-      "object_literal": "Washington, D.C. :",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Brookings Institution,",
+      "pr": "nypl:role-publisher"
     },
     {
-      "predicate": "nypl:role-publisher",
-      "object_id": null,
-      "object_literal": "Brookings Institution,",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JLE 83-702",
+      "pr": "nypl:shelfMark"
     },
     {
-      "predicate": "nypl:shelfMark",
-      "object_id": null,
-      "object_literal": "JLE 83-702",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
     },
     {
-      "predicate": "nypl:suppressed",
-      "object_id": null,
-      "object_literal": "false",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The strategy of social regulation : decision frameworks for policy / Lester B. Lave.",
+      "pr": "nypl:titleDisplay"
     },
     {
-      "predicate": "nypl:titleDisplay",
-      "object_id": null,
-      "object_literal": "The strategy of social regulation : decision frameworks for policy / Lester B. Lave.",
-      "object_label": null
+      "bn": null,
+      "id": "urn:owi:28543156",
+      "la": null,
+      "li": null,
+      "pr": "nypl:workId"
     },
     {
-      "predicate": "nypl:workId",
-      "object_id": "urn:owi:28543156",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     },
     {
-      "predicate": "rdf:type",
-      "object_id": "nypl:Item",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Includes index.",
-      "object_label": "General Note"
+      "bn": null,
+      "id": null,
+      "la": "General Note",
+      "li": "Includes index.",
+      "pr": "skos:note"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Bibliography: p. 139-161.",
-      "object_label": "Bibliography, Etc. Note"
+      "bn": null,
+      "id": null,
+      "la": "Bibliography, Etc. Note",
+      "li": "Bibliography: p. 139-161.",
+      "pr": "skos:note"
     }
   ],
-  "uri": "b10781594",
-  "_items": [
+  "item_statements": [
     {
-      "_statements": [
-        {
-          "subject_id": "i12603637",
-          "predicate": "bf:status",
-          "object_id": "status:a",
-          "object_literal": null,
-          "object_label": "Available"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "dcterms:identifier",
-          "object_id": "urn:barcode:33433057085312",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:accessMessage",
-          "object_id": "accessMessage:2",
-          "object_literal": null,
-          "object_label": "ADV REQUEST"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:bnum",
-          "object_id": "urn:bnum:b10781594",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:catalogItemType",
-          "object_id": "catalogItemType:55",
-          "object_literal": null,
-          "object_label": "book, limited circ, MaRLI"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mala",
-          "object_literal": null,
-          "object_label": "SASB - Allen Scholar Room"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:map",
-          "object_literal": null,
-          "object_label": "SASB - Map Division - Rm 117"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mal",
-          "object_literal": null,
-          "object_label": "SASB - Service Desk Rm 315"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:malw",
-          "object_literal": null,
-          "object_label": "SASB - Wertheim Scholar Room"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:maf",
-          "object_literal": null,
-          "object_label": "SASB - Dorot Jewish Division Rm 111"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mab",
-          "object_literal": null,
-          "object_label": "SASB - Art & Architecture Rm 300"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:maln",
-          "object_literal": null,
-          "object_label": "SASB - Noma Scholar Room"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mai",
-          "object_literal": null,
-          "object_label": "SASB - Periodicals and Microforms Rm 100"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:sc",
-          "object_literal": null,
-          "object_label": "Schomburg Center"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:myr",
-          "object_literal": null,
-          "object_label": "Performing Arts Research Collections"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:slr",
-          "object_literal": null,
-          "object_label": "SIBL - Science Industry and Business"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:malc",
-          "object_literal": null,
-          "object_label": "SASB - Cullman Center"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mag",
-          "object_literal": null,
-          "object_label": "SASB - Milstein Division Rm 121"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:holdingLocation",
-          "object_id": "loc:rc2ma",
-          "object_literal": null,
-          "object_label": "OFFSITE - Request in Advance"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:owner",
-          "object_id": "orgs:1000",
-          "object_literal": null,
-          "object_label": "Stephen A. Schwarzman Building"
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:requestable",
-          "object_id": null,
-          "object_literal": "true",
-          "object_label": null
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "nypl:suppressed",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "i12603637",
-          "predicate": "rdf:type",
-          "object_id": "bf:Item",
-          "object_literal": null,
-          "object_label": null
-        }
-      ],
-      "id": "i12603637",
-      "uri": "i12603637"
+      "s": "i12603637",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "urn:barcode:33433057085312",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "ADV REQUEST",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "urn:bnum:b10781594",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:sc",
+      "la": "Schomburg Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:myr",
+      "la": "Performing Arts Research Collections",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:slr",
+      "la": "SIBL - Science Industry and Business",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "OFFSITE - Request in Advance",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i12603637",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
     }
   ]
 }

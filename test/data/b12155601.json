@@ -1,144 +1,174 @@
 {
-  "_statements": [
+  "subject_id": "b12155601",
+  "bib_statements": [
     {
-      "predicate": "bf:carrier",
-      "object_id": "carriertypes:nb",
-      "object_literal": null,
-      "object_label": "sheet"
+      "bn": null,
+      "id": "carriertypes:nb",
+      "la": "sheet",
+      "li": null,
+      "pr": "bf:carrier"
     },
     {
-      "predicate": "bf:dimensions",
-      "object_id": null,
-      "object_literal": "8 x 10 in.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "8 x 10 in.",
+      "pr": "bf:dimensions"
     },
     {
-      "predicate": "bf:issuance",
-      "object_id": "urn:biblevel:a",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:biblevel:a",
+      "la": null,
+      "li": null,
+      "pr": "bf:issuance"
     },
     {
-      "predicate": "bf:media",
-      "object_id": "mediatypes:n",
-      "object_literal": null,
-      "object_label": "unmediated"
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media"
     },
     {
-      "predicate": "dbo:dateEnd",
-      "object_id": null,
-      "object_literal": "1950",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1950",
+      "pr": "dbo:dateEnd"
     },
     {
-      "predicate": "dbo:dateStart",
-      "object_id": null,
-      "object_literal": "1943",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1943",
+      "pr": "dbo:dateStart"
     },
     {
-      "predicate": "dbo:endDate",
-      "object_id": null,
-      "object_literal": "1950",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1950",
+      "pr": "dbo:endDate"
     },
     {
-      "predicate": "dbo:startDate",
-      "object_id": null,
-      "object_literal": "1943",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1943",
+      "pr": "dbo:startDate"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Seymour, Maurice, 1904-",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Seymour, Maurice, 1904-",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:date",
-      "object_id": null,
-      "object_literal": "1943",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1943",
+      "pr": "dc:date"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Svetlova, Marina, -- 1922-",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Svetlova, Marina, -- 1922-",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Dolinoff, Alexis.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Dolinoff, Alexis.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dcterms:created",
-      "object_id": null,
-      "object_literal": "1943",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1943",
+      "pr": "dcterms:created"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:bnum:12155601",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:bnum:12155601",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:language",
-      "object_id": "lang:eng",
-      "object_literal": null,
-      "object_label": "English"
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language"
     },
     {
-      "predicate": "dcterms:title",
-      "object_id": null,
-      "object_literal": "Svetlova, Marina, 1922-",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Svetlova, Marina, 1922-",
+      "pr": "dcterms:title"
     },
     {
-      "predicate": "dcterms:type",
-      "object_id": "resourcetypes:img",
-      "object_literal": null,
-      "object_label": "Still image"
+      "bn": null,
+      "id": "resourcetypes:img",
+      "la": "Still image",
+      "li": null,
+      "pr": "dcterms:type"
     },
     {
-      "predicate": "nypl:partOf",
-      "object_id": null,
-      "object_literal": "New York (City) Museum of Modern Art. Photographs: Ballet, ca. 1900-1950. v. 38, no. 3318",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York (City) Museum of Modern Art. Photographs: Ballet, ca. 1900-1950. v. 38, no. 3318",
+      "pr": "nypl:partOf"
     },
     {
-      "predicate": "nypl:shelfMark",
-      "object_id": null,
-      "object_literal": "*MGZEB",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*MGZEB",
+      "pr": "nypl:shelfMark"
     },
     {
-      "predicate": "nypl:suppressed",
-      "object_id": null,
-      "object_literal": "false",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
     },
     {
-      "predicate": "nypl:titleDisplay",
-      "object_id": null,
-      "object_literal": "Svetlova, Marina, 1922- / Photograph by Maurice Seymour.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Svetlova, Marina, 1922- / Photograph by Maurice Seymour.",
+      "pr": "nypl:titleDisplay"
     },
     {
-      "predicate": "rdf:type",
-      "object_id": "nypl:Item",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Posed with Alexis Dolinoff in a pas de poisson.",
-      "object_label": "General Note"
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "General Note",
+      "li": "Posed with Alexis Dolinoff in a pas de poisson.",
+      "pr": "skos:note"
     }
   ],
-  "uri": "b12155601",
-  "_items": []
+  "item_statements": null
 }
