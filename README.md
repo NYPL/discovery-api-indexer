@@ -52,44 +52,7 @@ Note that database & elasticsearch creds, loglevel, and nypl data api base url c
 
 ### Managing Indexes
 
-A few "admin" hooks are provided for index management:
-
-To **list** all indexes in the configured Elasticsearch instance:
-
-`node jobs/index-admin list`
-
-To **prepare** an index (post mapping but no data):
-
-`node jobs/index-admin prepare --index INDEX`
-
-To **delete** an index:
-
-`node jobs/index-admin delete --index INDEX`
-
-Note that this will prompt you to supply an additional parameter to that command *for security*.
-
-A note on the `list` function output:
-
-```
-node jobs/index-admin list
-Indexes:
-  ...
-  resources-2017-01-09.2 (20684 records)
-  resources-2017-01-09 > "resources" (474603 records)
-  resources-2017-02-02 (2043378 records)
-```
-
-As a convenience, a single "resources" alias points to the index that is "active". In the above, `resources-2017-01-09` is the active index. In practice, one should only "activate" an index after it has finished building and only after it has been tested to work with the presently deployed [discovery-api](https://github.com/nypl-discovery/discovery-api) Note that nothing presently relies on this alias; We've experimented with using index aliases to enable zero downtime index rebuilds, but have retired that practice because it's safer to point the discovery-api at the specific best index at any given time. (Relying on an index alias means apps using that alias may not be prepared for the new target schema.)
-
-To **activate** an index:
-
-`node jobs/index-admin activate --index [datestamped-index-name]`
-
-So, for example, to create an alias called 'resources' pointing to index 'resources-2017-01-09', run:
-
-`node jobs/index-admin activate --index resources-2017-01-09`
-
-The code assumes from the timestamped index name that the desired alias is "resources" and will unassign the "resources" alias if it already exists.
+See the [Index Administration documentation](docs/index-admin.md) for notes on Elasticsearch index creation, preparation, modification, and deletion.
 
 ## Testing
 
