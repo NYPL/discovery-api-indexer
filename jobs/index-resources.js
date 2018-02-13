@@ -8,6 +8,7 @@ const IndexerRunner = require('../lib/indexer-runner')
 const index = require('../lib/index')
 const envConfigHelper = require('../lib/env-config-helper')
 const DiscoveryModels = require('discovery-store-models')
+
 const { Bib } = DiscoveryModels
 
 var cluster = require('cluster')
@@ -24,8 +25,8 @@ var argv = require('optimist')
   .usage('Index resources index with various types\nUsage: $0 -type TYPE')
   // .demand('type')
   .describe('type', 'Specify type to index (' + VALID_TYPES.join(', ') + ')')
-  .default('uri', null)
-  .describe('uri', 'Specify single uri to inex')
+  .default('bnum', null)
+  .describe('bnum', 'Specify single bnum to inex')
   .boolean(['disablescreen', 'rebuild'])
   .default('threads', 1)
   .default('limit', 100)
@@ -48,11 +49,11 @@ if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
   process.exit()
 }
 
-// Index single item by uri:
-if (argv.uri) {
-  console.log('Indexing uri: ', argv.uri)
+// Index single item by bnum:
+if (argv.bnum) {
+  console.log('Indexing bnum: ', argv.bnum)
   envConfigHelper.init({ discoveryStoreModels: DiscoveryModels, index, log })
-    .then(() => DiscoveryModels.Bib.byId(argv.uri))
+    .then(() => DiscoveryModels.Bib.byId(argv.bnum))
     .then((s) => {
       log.debug('Got statements: ', s)
       return s

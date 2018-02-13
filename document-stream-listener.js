@@ -8,7 +8,6 @@ var log = null
 
 const _ = require('highland')
 
-// const db = require('./lib/db')
 const DiscoveryStoreModels = require('discovery-store-models')
 const index = require('./lib/index')
 const Bib = require('./lib/models/bib')

@@ -32,16 +32,29 @@ node-lambda run -f config/qa.env
 1. Fill in missing secrets in both environment files (talk to a coworker)
 1. `npm run deploy-[qa|production]`
 
+### Manually indexing a single record
+
+A script is provided to manually run the indexer against a given bnum:
+
+```
+node jobs/index-resources.js --bnum [bnum] --envfile [local env file] --profile [aws profile]
+```
+
+For example, the following will re-index bib "b18932917" from the QA db into the QA ES index using NYPL-Core version 1.7a:
+
+```
+NYPL_CORE_VERSION=v1.7a node jobs/index-resources.js --uri b18932917 --envfile config/qa.env --profile nypl-sandbox
+```
+
 ### Bulk Building Resources Index
 
-**CAVEAT: The scripts in `./jobs` will need some local editing until we resolve
-[issue 17](https://github.com/NYPL-discovery/discovery-api-indexer/issues/17).**
+
 
 The non-lambda invocation method is provided for bulk processing. It's generally faster to use the bulk method to load millions of documents.S
 
 To populate the index identified in `deploy.env` (described above):
 
-`node jobs/index-resources [--threads THREADS] [--rebuild] [--disablescreen]`
+`node jobs/index-resources [--threads THREADS] [--rebuild] [--disablescreen] --envfile [local env file] --profile [aws profile]`
 
 This builds the given index. Optional arguments:
 * `threads`: Specifies the number of concurrent threads to use. 3 is fine since any more than this risks crippling the db. (Also, the app will prevent any more than this from running concurrently as a precaution.)
