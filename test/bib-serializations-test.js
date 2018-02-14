@@ -220,6 +220,14 @@ describe.only('Bib Serializations', function () {
       })
     })
 
+    it('should have LCCN', function () {
+      return Bib.byId('b10681848').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.identifier.indexOf('urn:lccn:   79906697') !== -1)
+        })
+      })
+    })
+
     it('should have series statement', function () {
       return Bib.byId('b10610175').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
