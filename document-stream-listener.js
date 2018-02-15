@@ -9,8 +9,8 @@ var log = null
 const _ = require('highland')
 
 const DiscoveryStoreModels = require('discovery-store-models')
+const { Bib } = DiscoveryStoreModels
 const index = require('./lib/index')
-const Bib = require('./lib/models/bib')
 const kmsHelper = require('./lib/kms-helper')
 const avroHelper = require('./lib/avro-helper')
 const resourcesIndexer = require('./lib/resource-indexer')
@@ -43,7 +43,7 @@ exports.kinesisHandler = function (records, context, callback) {
     }, {}))
     log.info('Fetching statements for ' + uris.join(', '))
     // Get bibs:
-    return DiscoveryStoreModels.resources.bibs(uris)
+    return Bib.byIds(uris)
       .catch((e) => {
         // If it's just a bad bib id, quiet failure:
         if (e.name === 'QueryResultError') {
@@ -79,8 +79,6 @@ exports.kinesisHandler = function (records, context, callback) {
         .sequence()
         // Strip missing (null) records
         .compact()
-        // Cast to wrapper class
-        .map((statements) => Bib.fromStatements(statements))
 
       // This call does all the work of suppressing/updating index using given stream of Bib instances
       // It returns a stream with one item giving stats
