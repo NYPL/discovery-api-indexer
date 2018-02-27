@@ -1,228 +1,266 @@
 {
-  "_statements": [
+  "subject_id": "b19995767",
+  "bib_statements": [
     {
-      "predicate": "bf:carrier",
-      "object_id": "carriertypes:he",
-      "object_literal": null,
-      "object_label": "microfiche"
+      "bn": null,
+      "id": "carriertypes:he",
+      "la": "microfiche",
+      "li": null,
+      "pr": "bf:carrier"
     },
     {
-      "predicate": "bf:dimensions",
-      "object_id": null,
-      "object_literal": "11 x 15 cm",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "11 x 15 cm",
+      "pr": "bf:dimensions"
     },
     {
-      "predicate": "bf:issuance",
-      "object_id": "urn:biblevel:m",
-      "object_literal": null,
-      "object_label": "monograph/item"
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance"
     },
     {
-      "predicate": "bf:media",
-      "object_id": "mediatypes:h",
-      "object_literal": null,
-      "object_label": "microform"
+      "bn": null,
+      "id": "mediatypes:h",
+      "la": "microform",
+      "li": null,
+      "pr": "bf:media"
     },
     {
-      "predicate": "bf:originalVersion",
-      "object_id": null,
-      "object_literal": "S. hrg. ; 113-30",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "General Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Paper version available for sale by the Superintendent of Documents, United States Government Printing Office.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b19995767#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "bf:seriesStatement",
-      "object_id": null,
-      "object_literal": "S. hrg. ; 113-30",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "General Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Shipping list no.: 2013-0376-M.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b19995767#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "dbo:dateStart",
-      "object_id": null,
-      "object_literal": "2013",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Bibliography, etc. Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes bibliographical references.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b19995767#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "dbo:startDate",
-      "object_id": null,
-      "object_literal": "2013",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "S. hrg. ; 113-30",
+      "pr": "bf:seriesStatement"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "United States. Congress. Joint Economic Committee, author.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2013",
+      "pr": "dbo:startDate"
     },
     {
-      "predicate": "dc:creator",
-      "object_id": null,
-      "object_literal": "United States. Congress. Joint Economic Committee, author.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "United States. Congress. Joint Economic Committee, author.",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:date",
-      "object_id": null,
-      "object_literal": "2013",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "United States. Congress. Joint Economic Committee, author.",
+      "pr": "dc:creator"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "United States -- Economic policy.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2013",
+      "pr": "dc:date"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Monetary policy -- United States.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "United States -- Economic policy.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dcterms:alternative",
-      "object_id": null,
-      "object_literal": "Fed at one hundred",
-      "object_label": "Varying Form of Title"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Monetary policy -- United States.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dcterms:created",
-      "object_id": null,
-      "object_literal": "2013",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": "Varying Form of Title",
+      "li": "Fed at one hundred",
+      "pr": "dcterms:alternative"
     },
     {
-      "predicate": "dcterms:geographic",
-      "object_id": null,
-      "object_literal": "United States Economic policy.",
-      "object_label": "Subject Added Entry-Geographic Name"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2013",
+      "pr": "dcterms:created"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:bnum:19995767",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:bnum:19995767",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:oclc:5148651003",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lcc:KF25",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The Fed at 100 : can monetary policy close the growth gap and promote a sound dollar? : hearing before the Joint Economic Committee, Congress of the United States, One Hundred Thirteenth Congress, first session, April 18, 2013.",
+      "pr": "dcterms:title"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lccCoarse:KF12-49",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:hathi:100755565",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1 microfiche (iii, 46 pages) : negative, illustrations ;",
+      "pr": "nypl:extent"
     },
     {
-      "predicate": "dcterms:language",
-      "object_id": "lang:eng",
-      "object_literal": null,
-      "object_label": "English"
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre"
     },
     {
-      "predicate": "dcterms:title",
-      "object_id": null,
-      "object_literal": "The Fed at 100 : can monetary policy close the growth gap and promote a sound dollar? : hearing before the Joint Economic Committee, Congress of the United States, One Hundred Thirteenth Congress, first session, April 18, 2013.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "KF25 .E2 2013b",
+      "pr": "nypl:lccClassification"
     },
     {
-      "predicate": "dcterms:type",
-      "object_id": "resourcetypes:txt",
-      "object_literal": null,
-      "object_label": "Text"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[Washington, D.C.] :",
+      "pr": "nypl:placeOfPublication"
     },
     {
-      "predicate": "hathi:access",
-      "object_id": null,
-      "object_literal": "true",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "U.S. Government Printing Office,",
+      "pr": "nypl:role-publisher"
     },
     {
-      "predicate": "hathi:vols",
-      "object_id": null,
-      "object_literal": "{\"volumeId\":\"umn.31951d03673439x\",\"access\":\"allow\",\"rights\":\"pd\",\"hathiId\":\"100755565\",\"enumeration\":\"\",\"oclc\":[853454436],\"isbn\":[],\"issn\":[],\"lccn\":[],\"pubDate\":\"2013\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "GPO Microfiche Y 4.EC 7:S.HRG.113-30",
+      "pr": "nypl:shelfMark"
     },
     {
-      "predicate": "nypl:extent",
-      "object_id": null,
-      "object_literal": "1 microfiche (iii, 46 pages) : negative, illustrations ;",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
     },
     {
-      "predicate": "nypl:genre",
-      "object_id": "genre:b",
-      "object_literal": null,
-      "object_label": "Bibliographies"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The Fed at 100 : can monetary policy close the growth gap and promote a sound dollar? : hearing before the Joint Economic Committee, Congress of the United States, One Hundred Thirteenth Congress, first session, April 18, 2013.",
+      "pr": "nypl:titleDisplay"
     },
     {
-      "predicate": "nypl:lccClassification",
-      "object_id": null,
-      "object_literal": "KF25 .E2 2013b",
-      "object_label": null
-    },
-    {
-      "predicate": "nypl:shelfMark",
-      "object_id": null,
-      "object_literal": "GPO Microfiche Y 4.EC 7:S.HRG.113-30",
-      "object_label": null
-    },
-    {
-      "predicate": "nypl:suppressed",
-      "object_id": null,
-      "object_literal": "false",
-      "object_label": null
-    },
-    {
-      "predicate": "nypl:titleDisplay",
-      "object_id": null,
-      "object_literal": "The Fed at 100 : can monetary policy close the growth gap and promote a sound dollar? : hearing before the Joint Economic Committee, Congress of the United States, One Hundred Thirteenth Congress, first session, April 18, 2013.",
-      "object_label": null
-    },
-    {
-      "predicate": "nypl:workId",
-      "object_id": "urn:owi:1369017651",
-      "object_literal": null,
-      "object_label": null
-    },
-    {
-      "predicate": "rdf:type",
-      "object_id": "nypl:Item",
-      "object_literal": null,
-      "object_label": null
-    },
-    {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Paper version available for sale by the Superintendent of Documents, United States Government Printing Office.",
-      "object_label": "General Note"
-    },
-    {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Shipping list no.: 2013-0376-M.",
-      "object_label": "General Note"
-    },
-    {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Includes bibliographical references.",
-      "object_label": "Bibliography, Etc. Note"
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     }
   ],
-  "uri": "b19995767",
-  "_items": []
+  "item_statements": null
 }

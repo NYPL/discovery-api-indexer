@@ -1,397 +1,435 @@
 {
-  "_statements": [
+  "subject_id": "b10001936",
+  "bib_statements": [
     {
-      "predicate": "bf:carrier",
-      "object_id": "carriertypes:nc",
-      "object_literal": null,
-      "object_label": "volume"
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier"
     },
     {
-      "predicate": "bf:dimensions",
-      "object_id": null,
-      "object_literal": "21 cm.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "21 cm.",
+      "pr": "bf:dimensions"
     },
     {
-      "predicate": "bf:issuance",
-      "object_id": "urn:biblevel:m",
-      "object_literal": null,
-      "object_label": "monograph/item"
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance"
     },
     {
-      "predicate": "bf:media",
-      "object_id": "mediatypes:n",
-      "object_literal": null,
-      "object_label": "unmediated"
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media"
     },
     {
-      "predicate": "dbo:dateStart",
-      "object_id": null,
-      "object_literal": "1891",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "General Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Publication date from cover.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10001936#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "dbo:startDate",
-      "object_id": null,
-      "object_literal": "1891",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Bibliography, etc. Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes bibliographical references.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10001936#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Shermazanian, Galust.",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Study Program Information Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Also available on microform;",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10001936#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "dc:creator",
-      "object_id": null,
-      "object_literal": "Shermazanian, Galust.",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Language Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "In Armenian.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10001936#1.0003",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "dc:date",
-      "object_id": null,
-      "object_literal": "1891",
-      "object_label": null
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Action Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Microfilmed;",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10001936#1.0004",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Armenians -- Iran -- History.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1891",
+      "pr": "dbo:startDate"
     },
     {
-      "predicate": "dcterms:created",
-      "object_id": null,
-      "object_literal": "1891",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Shermazanian, Galust.",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:bnum:10001936",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Shermazanian, Galust.",
+      "pr": "dc:creator"
     },
     {
-      "predicate": "dcterms:language",
-      "object_id": "lang:arm",
-      "object_literal": null,
-      "object_label": "Armenian"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1891",
+      "pr": "dc:date"
     },
     {
-      "predicate": "dcterms:title",
-      "object_id": null,
-      "object_literal": "Niwtʻer azgayin patmutʻian hamar Ereveli hay kazunkʻ ; Parskastan",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Armenians -- Iran -- History.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dcterms:type",
-      "object_id": "resourcetypes:txt",
-      "object_literal": null,
-      "object_label": "Text"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1891",
+      "pr": "dcterms:created"
     },
     {
-      "predicate": "nypl:extent",
-      "object_id": null,
-      "object_literal": "400 p. ;",
-      "object_label": null
+      "bn": null,
+      "id": "urn:bnum:10001936",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "nypl:genre",
-      "object_id": "genre:b",
-      "object_literal": null,
-      "object_label": "Bibliographies"
+      "bn": null,
+      "id": "lang:arm",
+      "la": "Armenian",
+      "li": null,
+      "pr": "dcterms:language"
     },
     {
-      "predicate": "nypl:placeOfPublication",
-      "object_id": null,
-      "object_literal": "Ṛostov (Doni Vra) :",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Niwtʻer azgayin patmutʻian hamar Ereveli hay kazunkʻ ; Parskastan",
+      "pr": "dcterms:title"
     },
     {
-      "predicate": "nypl:role-publisher",
-      "object_id": null,
-      "object_literal": "Tparan Hovhannu Tēr-Abrahamian,",
-      "object_label": null
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type"
     },
     {
-      "predicate": "nypl:shelfMark",
-      "object_id": null,
-      "object_literal": "*ONR 84-743",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "400 p. ;",
+      "pr": "nypl:extent"
     },
     {
-      "predicate": "nypl:suppressed",
-      "object_id": null,
-      "object_literal": "false",
-      "object_label": null
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre"
     },
     {
-      "predicate": "nypl:titleDisplay",
-      "object_id": null,
-      "object_literal": "Niwtʻer azgayin patmutʻian hamar Ereveli hay kazunkʻ ; Parskastan / Ashkhatasirutʻiamb Galust Shermazaniani.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ṛostov (Doni Vra) :",
+      "pr": "nypl:placeOfPublication"
     },
     {
-      "predicate": "rdf:type",
-      "object_id": "nypl:Item",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tparan Hovhannu Tēr-Abrahamian,",
+      "pr": "nypl:role-publisher"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Publication date from cover.",
-      "object_label": "General Note"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*ONR 84-743",
+      "pr": "nypl:shelfMark"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Includes bibliographical references.",
-      "object_label": "Bibliography, Etc. Note"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Also available on microform;",
-      "object_label": "Additional Physical Form Available Note"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Niwtʻer azgayin patmutʻian hamar Ereveli hay kazunkʻ ; Parskastan / Ashkhatasirutʻiamb Galust Shermazaniani.",
+      "pr": "nypl:titleDisplay"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "In Armenian.",
-      "object_label": "Language Note"
-    },
-    {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Microfilmed;",
-      "object_label": "Action Note"
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     }
   ],
-  "uri": "b10001936",
-  "_items": [
+  "item_statements": [
     {
-      "_statements": [
-        {
-          "subject_id": "i10001320",
-          "predicate": "bf:status",
-          "object_id": "status:a",
-          "object_literal": null,
-          "object_label": "Available"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "dcterms:identifier",
-          "object_id": "urn:barcode:33433001892276",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:accessMessage",
-          "object_id": "accessMessage:2",
-          "object_literal": null,
-          "object_label": "ADV REQUEST"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:bnum",
-          "object_id": "urn:bnum:b10001936",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:catalogItemType",
-          "object_id": "catalogItemType:32",
-          "object_literal": null,
-          "object_label": "google project, book"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mala",
-          "object_literal": null,
-          "object_label": "SASB - Allen Scholar Room"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:map",
-          "object_literal": null,
-          "object_label": "SASB - Map Division - Rm 117"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mal",
-          "object_literal": null,
-          "object_label": "SASB - Service Desk Rm 315"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:malw",
-          "object_literal": null,
-          "object_label": "SASB - Wertheim Scholar Room"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:maf",
-          "object_literal": null,
-          "object_label": "SASB - Dorot Jewish Division Rm 111"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mab",
-          "object_literal": null,
-          "object_label": "SASB - Art & Architecture Rm 300"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:maln",
-          "object_literal": null,
-          "object_label": "SASB - Noma Scholar Room"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mai",
-          "object_literal": null,
-          "object_label": "SASB - Periodicals and Microforms Rm 100"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:sc",
-          "object_literal": null,
-          "object_label": "Schomburg Center"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:myr",
-          "object_literal": null,
-          "object_label": "Performing Arts Research Collections"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:slr",
-          "object_literal": null,
-          "object_label": "SIBL - Science Industry and Business"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:malc",
-          "object_literal": null,
-          "object_label": "SASB - Cullman Center"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mag",
-          "object_literal": null,
-          "object_label": "SASB - Milstein Division Rm 121"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:holdingLocation",
-          "object_id": "loc:rc2ma",
-          "object_literal": null,
-          "object_label": "OFFSITE - Request in Advance"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:owner",
-          "object_id": "orgs:1000",
-          "object_literal": null,
-          "object_label": "Stephen A. Schwarzman Building"
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:requestable",
-          "object_id": null,
-          "object_literal": "true",
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:shelfMark",
-          "object_id": null,
-          "object_literal": "*ONR 84-743",
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "nypl:suppressed",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001320",
-          "predicate": "rdf:type",
-          "object_id": "bf:Item",
-          "object_literal": null,
-          "object_label": null
-        }
-      ],
-      "id": "i10001320",
-      "uri": "i10001320"
+      "s": "i10001320",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
     },
     {
-      "_statements": [
-        {
-          "subject_id": "i10001936-e",
-          "predicate": "dcterms:identifier",
-          "object_id": "urn:barcode:undefined",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001936-e",
-          "predicate": "nypl:bnum",
-          "object_id": "urn:bnum:b10001936",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001936-e",
-          "predicate": "nypl:electronicLocator",
-          "object_id": null,
-          "object_literal": "http://hdl.handle.net/2027/nyp.33433001892276",
-          "object_label": "Full text available via HathiTrust"
-        },
-        {
-          "subject_id": "i10001936-e",
-          "predicate": "nypl:itemType",
-          "object_id": "urn:itemtype:research",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001936-e",
-          "predicate": "nypl:suppressed",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "i10001936-e",
-          "predicate": "rdf:type",
-          "object_id": "bf:Item",
-          "object_literal": null,
-          "object_label": null
-        }
-      ],
-      "id": "i10001936-e",
-      "uri": "i10001936-e"
+      "s": "i10001320",
+      "bn": null,
+      "id": "urn:barcode:33433001892276",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": "urn:bnum:b10001936",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": "catalogItemType:32",
+      "la": "google project, book",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*ONR 84-743",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i10001320",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i10001936-e",
+      "bn": null,
+      "id": null,
+      "la": "Full text available via HathiTrust",
+      "li": "http://hdl.handle.net/2027/nyp.33433001892276",
+      "pr": "bf:electronicLocator"
+    },
+    {
+      "s": "i10001936-e",
+      "bn": null,
+      "id": "urn:bnum:b10001936",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10001936-e",
+      "bn": null,
+      "id": null,
+      "la": "Full text available via HathiTrust",
+      "li": "http://hdl.handle.net/2027/nyp.33433001892276",
+      "pr": "nypl:electronicLocator"
+    },
+    {
+      "s": "i10001936-e",
+      "bn": null,
+      "id": "urn:itemtype:research",
+      "la": null,
+      "li": null,
+      "pr": "nypl:itemType"
+    },
+    {
+      "s": "i10001936-e",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10001936-e",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     }
   ]
 }

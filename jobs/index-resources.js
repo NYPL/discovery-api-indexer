@@ -5,10 +5,11 @@ const _ = require('highland')
 
 const resourcesIndexer = require('../lib/resource-indexer')
 const IndexerRunner = require('../lib/indexer-runner')
-const Bib = require('../lib/models/bib')
-const db = require('../lib/db')
 const index = require('../lib/index')
 const envConfigHelper = require('../lib/env-config-helper')
+const DiscoveryModels = require('discovery-store-models')
+
+const { Bib } = DiscoveryModels
 
 var cluster = require('cluster')
 
@@ -24,8 +25,8 @@ var argv = require('optimist')
   .usage('Index resources index with various types\nUsage: $0 -type TYPE')
   // .demand('type')
   .describe('type', 'Specify type to index (' + VALID_TYPES.join(', ') + ')')
-  .default('uri', null)
-  .describe('uri', 'Specify single uri to inex')
+  .default('bnum', null)
+  .describe('bnum', 'Specify single bnum to inex')
   .boolean(['disablescreen', 'rebuild'])
   .default('threads', 1)
   .default('limit', 100)
@@ -48,16 +49,16 @@ if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
   process.exit()
 }
 
-// Index single item by uri:
-if (argv.uri) {
-  console.log('Indexing uri: ', argv.uri)
-  envConfigHelper.init({ db, index, log })
-    .then(() => db.resources.bib(argv.uri))
+// Index single item by bnum:
+if (argv.bnum) {
+  console.log('Indexing bnum: ', argv.bnum)
+  envConfigHelper.init({ discoveryStoreModels: DiscoveryModels, index, log })
+    .then(() => DiscoveryModels.Bib.byId(argv.bnum))
     .then((s) => {
       log.debug('Got statements: ', s)
       return s
     })
-    .then((statements) => Bib.fromStatements(statements))
+    // .then((statements) => Bib.fromStatements(statements))
     .then((bib) => {
       return resourcesIndexer.processStreamOfBibs(_([bib]))
         .map((counts) => {
@@ -107,7 +108,7 @@ if (argv.uri) {
     }
   }
 
-  envConfigHelper.init({ db, index, log }).then((opts) => {
+  envConfigHelper.init({ discoveryStoreModels: DiscoveryModels, index, log }).then((opts) => {
     if (rebuild) {
       // If rebuilding, make sure the currently configured index doesn't have a live alias
       index.admin.indexIsActive(opts.indexName).then((active) => {
@@ -165,13 +166,13 @@ if (argv.uri) {
       })
     }
 
-    envConfigHelper.init({ db, index, log })
+    envConfigHelper.init({ discoveryStoreModels: DiscoveryModels, index, log })
       .then(() => {
         process.send({ log: 'SQL query sent for ' + msg.start + ', limit ' + msg.total })
       })
-      .then(() => db.resources.bibsStream({ query: msg.query, offset: msg.start, limit: msg.total, batchSize: 500 }))
+      .then(() => DiscoveryModels.resources.bibsStream({ query: msg.query, offset: msg.start, limit: msg.total, batchSize: 500 }))
       .then(processStream)
-      .then(db.disconnect)
+      .then(DiscoveryModels.disconnect)
       .then(() => {
         process.send({log: 'released DB'})
         process.exit()

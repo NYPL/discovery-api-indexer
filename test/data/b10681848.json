@@ -1,361 +1,432 @@
 {
-  "_statements": [
+  "subject_id": "b10681848",
+  "bib_statements": [
     {
-      "predicate": "bf:carrier",
-      "object_id": "carriertypes:nc",
-      "object_literal": null,
-      "object_label": "volume"
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier"
     },
     {
-      "predicate": "bf:dimensions",
-      "object_id": null,
-      "object_literal": "33 cm",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "33 cm",
+      "pr": "bf:dimensions"
     },
     {
-      "predicate": "bf:issuance",
-      "object_id": "urn:biblevel:m",
-      "object_literal": null,
-      "object_label": "monograph/item"
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance"
     },
     {
-      "predicate": "bf:media",
-      "object_id": "mediatypes:n",
-      "object_literal": null,
-      "object_label": "unmediated"
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media"
     },
     {
-      "predicate": "dbo:dateStart",
-      "object_id": null,
-      "object_literal": "1980",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1980",
+      "pr": "dbo:dateStart"
     },
     {
-      "predicate": "dbo:startDate",
-      "object_id": null,
-      "object_literal": "1980",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1980",
+      "pr": "dbo:startDate"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Pasmore, Victor, 1908-1998.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Pasmore, Victor, 1908-1998.",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Pasmore, Victor, 1908-1998.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Pasmore, Victor, 1908-1998.",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Bowness, Alan,",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bowness, Alan,",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:contributor",
-      "object_id": null,
-      "object_literal": "Lambertini, Luigi,",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lambertini, Luigi,",
+      "pr": "dc:contributor"
     },
     {
-      "predicate": "dc:date",
-      "object_id": null,
-      "object_literal": "1980",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1980",
+      "pr": "dc:date"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Catalogs. -- fast -- (OCoLC)fst01423692",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Art, Modern -- 20th century.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "Art and architecture.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Art and architecture.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "City planning -- England -- Peterlee.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "City planning -- England -- Peterlee.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dc:subject",
-      "object_id": null,
-      "object_literal": "New towns -- England -- Peterlee.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New towns -- England -- Peterlee.",
+      "pr": "dc:subject"
     },
     {
-      "predicate": "dcterms:created",
-      "object_id": null,
-      "object_literal": "1980",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1980",
+      "pr": "dcterms:created"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:bnum:10681848",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:bnum:10681848",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:isbn:0847802779",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:isbn:0847802779",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:isbn:9780847802777",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:isbn:9780847802777",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:isbn:0847802922",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:isbn:0847802922",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:isbn:9780847802920",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:isbn:9780847802920",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lccn:   79906697",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:lccn:   79906697",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:oclc:186000912",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:oclc:186000912",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lcc:N6797.P3",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:lcc:N6797.P3",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:lccCoarse:N5300-7418",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:lccCoarse:N5300-7418",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:identifier",
-      "object_id": "urn:hathi:009493703",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": "urn:hathi:009493703",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "predicate": "dcterms:language",
-      "object_id": "lang:eng",
-      "object_literal": null,
-      "object_label": "English"
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language"
     },
     {
-      "predicate": "dcterms:title",
-      "object_id": null,
-      "object_literal": "Victor Pasmore : a catalogue raisonné of the paintings, constructions, and graphics, 1926-1979",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Victor Pasmore : a catalogue raisonné of the paintings, constructions, and graphics, 1926-1979",
+      "pr": "dcterms:title"
     },
     {
-      "predicate": "dcterms:type",
-      "object_id": "resourcetypes:txt",
-      "object_literal": null,
-      "object_label": "Text"
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type"
     },
     {
-      "predicate": "hathi:vols",
-      "object_id": null,
-      "object_literal": "{\"volumeId\":\"mdp.39076006340363\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"009493703\",\"enumeration\":\"\",\"oclc\":[6481046],\"isbn\":[\"0847802922\",\"0847802779\"],\"issn\":[],\"lccn\":[\"79906697\"],\"pubDate\":\"1980\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39076006340363\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"009493703\",\"enumeration\":\"\",\"oclc\":[6481046],\"isbn\":[\"0847802922\",\"0847802779\"],\"issn\":[],\"lccn\":[\"79906697\"],\"pubDate\":\"1980\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols"
     },
     {
-      "predicate": "nypl:extent",
-      "object_id": null,
-      "object_literal": "333 pages, 9 unnumbered pages : illustrations (some color) ;",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "333 pages, 9 unnumbered pages : illustrations (some color) ;",
+      "pr": "nypl:extent"
     },
     {
-      "predicate": "nypl:genre",
-      "object_id": "genre:b",
-      "object_literal": null,
-      "object_label": "Bibliographies"
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre"
     },
     {
-      "predicate": "nypl:genre",
-      "object_id": "genre:c",
-      "object_literal": null,
-      "object_label": "Catalogs"
+      "bn": null,
+      "id": "genre:c",
+      "la": "Catalogs",
+      "li": null,
+      "pr": "nypl:genre"
     },
     {
-      "predicate": "nypl:lccClassification",
-      "object_id": null,
-      "object_literal": "N6797.P3 A4 1980",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Catalogs.",
+      "pr": "nypl:genreForm"
     },
     {
-      "predicate": "nypl:shelfMark",
-      "object_id": null,
-      "object_literal": "(C.R.) 3-MCV+ P28 80-2804",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "N6797.P3 A4 1980",
+      "pr": "nypl:lccClassification"
     },
     {
-      "predicate": "nypl:suppressed",
-      "object_id": null,
-      "object_literal": "false",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York :",
+      "pr": "nypl:placeOfPublication"
     },
     {
-      "predicate": "nypl:titleDisplay",
-      "object_id": null,
-      "object_literal": "Victor Pasmore : a catalogue raisonné of the paintings, constructions, and graphics, 1926-1979 / introductions by Alan Bowness and Luigi Lambertini.",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Rizzoli,",
+      "pr": "nypl:role-publisher"
     },
     {
-      "predicate": "nypl:workId",
-      "object_id": "urn:owi:836643643",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "(C.R.) 3-MCV+ P28 80-2804",
+      "pr": "nypl:shelfMark"
     },
     {
-      "predicate": "rdf:type",
-      "object_id": "nypl:Item",
-      "object_literal": null,
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
     },
     {
-      "predicate": "role:win",
-      "object_id": null,
-      "object_literal": "Bowness, Alan,",
-      "object_label": null
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Victor Pasmore : a catalogue raisonné of the paintings, constructions, and graphics, 1926-1979 / introductions by Alan Bowness and Luigi Lambertini.",
+      "pr": "nypl:titleDisplay"
     },
     {
-      "predicate": "role:win",
-      "object_id": null,
-      "object_literal": "Lambertini, Luigi,",
-      "object_label": null
+      "bn": null,
+      "id": "urn:owi:836643643",
+      "la": null,
+      "li": null,
+      "pr": "nypl:workId"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "\"249 plates, 51 in colour, and 606 catalogue illustrations.\"",
-      "object_label": "General Note"
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Includes bibliographical references (pages 283-285) and index.",
-      "object_label": "Bibliography, Etc. Note"
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
     },
     {
-      "predicate": "skos:note",
-      "object_id": null,
-      "object_literal": "Preface / Stephen Pasmore -- Introduction / Alan Bowness -- Introduction: beyond metaphor / Luigi Lambertini -- The transformation of naturalist art and the independence of painting / Victor Pasmore -- A developing process in art teaching / Victor Pasmore -- The Pavilion, Peterlee: introduction -- Connections between painting, sculpture and architecture / Victor Pasmore -- Simple questions to an artist / Leif Sjöberg -- Peterlee: introduction -- Peterlee: a symposium / Sir J.M. Richards, A.V. Williams, A.T.W. Marsden, Victor Pasmore -- Notes on the artist's printmaking / Margaret Failoni and Giovanna Zamboni -- Biographical chronology -- Notes -- Index of contemporary names -- Selected bibliography (pages 283-285) -- Catalogue raisonné: paintings and constructions (pages 287-328)-- Words and images / Victor Pasmore -- Catalogue raisonné: graphics (pages 333-342).",
-      "object_label": "Formatted Contents Note"
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bowness, Alan,",
+      "pr": "role:win"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lambertini, Luigi,",
+      "pr": "role:win"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "General Note",
+      "li": "\"249 plates, 51 in colour, and 606 catalogue illustrations.\"",
+      "pr": "skos:note"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Bibliography, Etc. Note",
+      "li": "Includes bibliographical references (pages 283-285) and index.",
+      "pr": "skos:note"
     }
   ],
-  "uri": "b10681848",
-  "_items": [
+  "item_statements": [
     {
-      "_statements": [
-        {
-          "subject_id": "i11991537",
-          "predicate": "bf:status",
-          "object_id": "status:a",
-          "object_literal": null,
-          "object_label": "Available"
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "dcterms:identifier",
-          "object_id": "urn:barcode:33433084276249",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:accessMessage",
-          "object_id": "accessMessage:1",
-          "object_literal": null,
-          "object_label": "USE IN LIBRARY"
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:bnum",
-          "object_id": "urn:bnum:b10681848",
-          "object_literal": null,
-          "object_label": null
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:catalogItemType",
-          "object_id": "catalogItemType:2",
-          "object_literal": null,
-          "object_label": "book non-circ"
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:deliveryLocation",
-          "object_id": "loc:mab",
-          "object_literal": null,
-          "object_label": "SASB - Art & Architecture Rm 300"
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:holdingLocation",
-          "object_id": "loc:mabb2",
-          "object_literal": null,
-          "object_label": "SASB - Art & Architecture Rm 300"
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:owner",
-          "object_id": "orgs:1110",
-          "object_literal": null,
-          "object_label": "The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Art & Architecture Collection"
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:requestable",
-          "object_id": null,
-          "object_literal": "true",
-          "object_label": null
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:shelfMark",
-          "object_id": null,
-          "object_literal": "(C.R.) 3-MCV+ P28 80-2804   ",
-          "object_label": null
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "nypl:suppressed",
-          "object_id": null,
-          "object_literal": "false",
-          "object_label": null
-        },
-        {
-          "subject_id": "i11991537",
-          "predicate": "rdf:type",
-          "object_id": "bf:Item",
-          "object_literal": null,
-          "object_label": null
-        }
-      ],
-      "id": "i11991537",
-      "uri": "i11991537"
+      "s": "i11991537",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "urn:barcode:33433084276249",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "urn:bnum:b10681848",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "catalogItemType:2",
+      "la": "book non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "loc:mabb2",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "orgs:1110",
+      "la": "The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Art & Architecture Collection",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "(C.R.) 3-MCV+ P28 80-2804   ",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i11991537",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
     }
   ]
 }
