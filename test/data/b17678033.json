@@ -1,5 +1,5 @@
 {
-  "subject_id": "b10610175",
+  "subject_id": "b17678033",
   "bib_statements": [
     {
       "bn": null,
@@ -12,7 +12,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "23 cm.",
+      "li": "19 cm.",
       "pr": "bf:dimensions"
     },
     {
@@ -33,68 +33,89 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Lost American fiction",
-      "pr": "bf:seriesStatement"
+      "li": "2003",
+      "pr": "dbo:endDate"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "1978",
+      "li": "2007",
       "pr": "dbo:startDate"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Hopkins, Pauline E. (Pauline Elizabeth)",
+      "li": "Schilling, Christine.",
       "pr": "dc:contributor"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Hopkins, Pauline E. (Pauline Elizabeth)",
+      "li": "Taylor, Audry.",
+      "pr": "dc:contributor"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Higuri, Yū.",
       "pr": "dc:creator"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "1978",
+      "li": "2007",
       "pr": "dc:date"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "African Americans -- Fiction.",
+      "li": "Borgia, Cesare, -- 1476?-1507 -- Comic books, strips, etc.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
+      "la": "Varying Form of Title",
+      "li": "Kantarera.",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Varying Form of Title",
+      "li": "Kantarera",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
       "la": null,
-      "li": "1978",
+      "li": "2007",
       "pr": "dcterms:created"
     },
     {
       "bn": null,
-      "id": "urn:bnum:10610175",
+      "id": "urn:bnum:17678033",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "urn:isbn:0809308746",
+      "id": "urn:isbn:9781933617091 (pbk.)",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "urn:lccn:77018724",
+      "id": "urn:isbn:1933617098 (pbk.)",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
@@ -110,7 +131,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Contending forces : a romance illustrative of Negro life North and South",
+      "li": "Cantarella. Vol. 6",
       "pr": "dcterms:title"
     },
     {
@@ -124,36 +145,29 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "411 p., [8] leaves of plates : ill. ;",
+      "li": "1 v. (unpaged) : chiefly ill., maps ;",
       "pr": "nypl:extent"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "PZ3.H777 Co 1978 PS1999.H4226",
-      "pr": "nypl:lccClassification"
+      "li": "Graphic novels.",
+      "pr": "nypl:genreForm"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Carbondale, IL :",
+      "li": "[Agoura Hills, CA] :",
       "pr": "nypl:placeOfPublication"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Southern Illinois University Press,",
+      "li": "Go! Media Entertainment,",
       "pr": "nypl:role-publisher"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "Sc D 80-24",
-      "pr": "nypl:shelfMark"
     },
     {
       "bn": null,
@@ -166,8 +180,15 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Contending forces : a romance illustrative of Negro life North and South / by Pauline E. Hopkins ; afterword by Gwendolyn Brooks ; with ill. by R. Emmet Owen.",
+      "li": "Cantarella. Vol. 6 / story and art by You Higuri ; [translation, Christine Schilling ; adaptation, Audry Taylor].",
       "pr": "nypl:titleDisplay"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Kantarera. English",
+      "pr": "nypl:uniformTitle"
     },
     {
       "bn": null,
@@ -178,110 +199,53 @@
     },
     {
       "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
+      "id": null,
+      "la": "General Note",
+      "li": "\"A Go! Comi manga.\"",
+      "pr": "skos:note"
     },
     {
       "bn": null,
       "id": null,
       "la": "General Note",
-      "li": "Reprint of the ed. published by the Colored Co-operative Publishing Co., Boston.",
+      "li": "\"Originally published in Japan in 2003 by Akita Publishing Co., Ltd., Tokyo.\"",
+      "pr": "skos:note"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Language Note",
+      "li": "Translated from the Japanese.",
       "pr": "skos:note"
     }
   ],
   "item_statements": [
     {
-      "s": "i11981214",
+      "s": "i21021243",
       "bn": null,
-      "id": "status:a",
-      "la": "Available",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": "urn:barcode:33433036670986",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": "urn:bnum:b10610175",
+      "id": "urn:bnum:b17678033",
       "la": null,
       "li": null,
       "pr": "nypl:bnum"
     },
     {
-      "s": "i11981214",
-      "bn": null,
-      "id": "catalogItemType:55",
-      "la": "book, limited circ, MaRLI",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": "loc:sc",
-      "la": "Schomburg Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": "loc:scff2",
-      "la": "Schomburg Center - Research & Reference",
-      "li": null,
-      "pr": "nypl:holdingLocation"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": "orgs:1114",
-      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
-      "li": null,
-      "pr": "nypl:owner"
-    },
-    {
-      "s": "i11981214",
+      "s": "i21021243",
       "bn": null,
       "id": null,
       "la": null,
       "li": "true",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "Sc D 80-24 ---",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
       "pr": "nypl:suppressed"
     },
     {
-      "s": "i11981214",
+      "s": "i21021243",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i21021243",
       "bn": null,
       "id": "bf:Item",
       "la": null,

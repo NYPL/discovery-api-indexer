@@ -17,8 +17,7 @@
 const path = require('path')
 const fs = require('fs')
 
-const Bib = require('../lib/models/bib')
-const db = require('../lib/db')
+const DiscoveryModels = require('discovery-store-models')
 const envConfigHelper = require('../lib/env-config-helper')
 
 var argv = require('optimist')
@@ -32,7 +31,7 @@ function bibFixturePath (id) {
  * Fetch a single bib from db and write to fixtures dir
  */
 function updateBib (id) {
-  return Bib.byId(id).then((bib) => {
+  return DiscoveryModels._db.resources.bib(id).then((bib) => {
     fs.writeFileSync(bibFixturePath(id), JSON.stringify(bib, null, 2))
     return Promise.resolve(path)
   })
@@ -56,7 +55,7 @@ function updateAllBibs () {
 }
 
 // Initialize db connection based on --envfile and --profile:
-envConfigHelper.init({ db }).then((opts) => {
+envConfigHelper.init({ discoveryStoreModels: DiscoveryModels }).then((opts) => {
   if (argv.id) {
     updateBib(argv.id).then(() => {
       console.log('Finished updating ' + argv.id)
