@@ -1,0 +1,330 @@
+{
+  "_statements": [
+    {
+      "predicate": "bf:carrier",
+      "object_id": "carriertypes:nc",
+      "object_literal": null,
+      "object_label": "volume"
+    },
+    {
+      "predicate": "bf:dimensions",
+      "object_id": null,
+      "object_literal": "22 cm",
+      "object_label": null
+    },
+    {
+      "predicate": "bf:issuance",
+      "object_id": "urn:biblevel:m",
+      "object_literal": null,
+      "object_label": "monograph/item"
+    },
+    {
+      "predicate": "bf:media",
+      "object_id": "mediatypes:n",
+      "object_literal": null,
+      "object_label": "unmediated"
+    },
+    {
+      "predicate": "bf:seriesStatement",
+      "object_id": null,
+      "object_literal": "Colección Juan García Jiménez",
+      "object_label": null
+    },
+    {
+      "predicate": "dbo:startDate",
+      "object_id": null,
+      "object_literal": "2015",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:contributor",
+      "object_id": null,
+      "object_literal": "González Villalobos, Santano,",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:date",
+      "object_id": null,
+      "object_literal": "2015",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Cooking -- Guerrero (State)",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Indian cooking.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Cooking, Mexican.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Indians of Mexico -- Food -- Guerrero (State)",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Cooking.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Cooking, Mexican. -- fast -- (OCoLC)fst01753395",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Indian cooking. -- fast -- (OCoLC)fst01753866",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Indians of Mexico -- Food.",
+      "object_label": null
+    },
+    {
+      "predicate": "dc:subject",
+      "object_id": null,
+      "object_literal": "Mexico -- Guerrero (State)",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:created",
+      "object_id": null,
+      "object_literal": "2015",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:bnum:20972964",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:isbn:9786074201727",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:isbn:6074201722",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:identifier",
+      "object_id": "urn:lccn:  2016426637",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:language",
+      "object_id": "lang:spa",
+      "object_literal": null,
+      "object_label": "Spanish"
+    },
+    {
+      "predicate": "dcterms:title",
+      "object_id": null,
+      "object_literal": "Recetario gastronómico indígena : comida tradicional indígena",
+      "object_label": null
+    },
+    {
+      "predicate": "dcterms:type",
+      "object_id": "resourcetypes:txt",
+      "object_literal": null,
+      "object_label": "Text"
+    },
+    {
+      "predicate": "nypl:extent",
+      "object_id": null,
+      "object_literal": "167 pages : 1 map ;",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:genre",
+      "object_id": "genre:b",
+      "object_literal": null,
+      "object_label": "Bibliographies"
+    },
+    {
+      "predicate": "nypl:genreForm",
+      "object_id": null,
+      "object_literal": "Cookbooks.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:genreForm",
+      "object_id": null,
+      "object_literal": "Cookbooks.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:lccClassification",
+      "object_id": null,
+      "object_literal": "TX716.M4 R376 2015",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:placeOfPublication",
+      "object_id": null,
+      "object_literal": "[Chilpancingo de los Bravo, México] : México, D.F. :",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:publicationStatement",
+      "object_id": null,
+      "object_literal": "[Chilpancingo de los Bravo, México] : Guerrero, Gobierno del Estado Libre y Soberano, Secretaría de Cultura ; México, D.F. : CONACULTA : Editorial Praxis, 2015.",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:role-publisher",
+      "object_id": null,
+      "object_literal": "Guerrero, Gobierno del Estado Libre y Soberano, Secretaría de Cultura ; CONACULTA : Editorial Praxis,",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:shelfMark",
+      "object_id": null,
+      "object_literal": "ReCAP 16-31387",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:suppressed",
+      "object_id": null,
+      "object_literal": "false",
+      "object_label": null
+    },
+    {
+      "predicate": "nypl:titleDisplay",
+      "object_id": null,
+      "object_literal": "Recetario gastronómico indígena : comida tradicional indígena / Santano González Villalobos, coordinador.",
+      "object_label": null
+    },
+    {
+      "predicate": "rdfs:type",
+      "object_id": "nypl:Item",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "role:edt",
+      "object_id": null,
+      "object_literal": "González Villalobos, Santano,",
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": "b20972964#1.0000",
+      "object_literal": null,
+      "object_label": null
+    },
+    {
+      "predicate": "skos:note",
+      "object_id": "b20972964#1.0001",
+      "object_literal": null,
+      "object_label": null
+    }
+  ],
+  "uri": "b20972964",
+  "_items": [
+    {
+      "_statements": [
+        {
+          "subject_id": "i34534172",
+          "predicate": "bf:status",
+          "object_id": "status:a",
+          "object_literal": null,
+          "object_label": "Available "
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "dcterms:identifier",
+          "object_id": "urn:barcode:33433120103340",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:accessMessage",
+          "object_id": "accessMessage:2",
+          "object_literal": null,
+          "object_label": "ADV REQUEST"
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:bnum",
+          "object_id": "urn:bnum:b20972964",
+          "object_literal": null,
+          "object_label": null
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:catalogItemType",
+          "object_id": "catalogItemType:55",
+          "object_literal": null,
+          "object_label": "book, limited circ, MaRLI"
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:holdingLocation",
+          "object_id": "loc:rc2ma",
+          "object_literal": null,
+          "object_label": "OFFSITE - Request in Advance"
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:owner",
+          "object_id": "orgs:1000",
+          "object_literal": null,
+          "object_label": "Stephen A. Schwarzman Building"
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:requestable",
+          "object_id": null,
+          "object_literal": "true",
+          "object_label": null
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:shelfMark",
+          "object_id": null,
+          "object_literal": "ReCAP 16-31387",
+          "object_label": null
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "nypl:suppressed",
+          "object_id": null,
+          "object_literal": "false",
+          "object_label": null
+        },
+        {
+          "subject_id": "i34534172",
+          "predicate": "rdf:type",
+          "object_id": "bf:Item",
+          "object_literal": null,
+          "object_label": null
+        }
+      ],
+      "id": "i34534172",
+      "uri": "i34534172"
+    }
+  ]
+}

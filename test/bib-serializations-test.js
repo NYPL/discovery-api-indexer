@@ -260,6 +260,14 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should have publicationStatement', function () {
+      return Bib.byId('b20972964').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.publicationStatement[0], '[Chilpancingo de los Bravo, México] : Guerrero, Gobierno del Estado Libre y Soberano, Secretaría de Cultura ; México, D.F. : CONACULTA : Editorial Praxis, 2015.')
+        })
+      })
+    })
   })
 
   describe('items', function () {
