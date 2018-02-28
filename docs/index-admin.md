@@ -23,6 +23,28 @@ If the modification strictly *adds* mappings, one can *normally do that by `PUT`
 }
 ```
 
+As another example, to create a un-indexed, 'keyword' typed mapping for `serialPublicationDates`, issue a `PUT` to "https://[fqdn index]/[current index name]/_mapping/resource" with the following raw body:
+```
+{
+  "properties": {
+    "serialPublicationDates": {
+      "index": false,
+      "type": "keyword"
+    }
+  }
+}
+```
+
+ES will respond with the following to indicate success:
+
+```
+{
+  "acknowledged": true
+}
+```
+
+Thereafter you can confirm the mapping was created by doing a `GET` on "https://[fqdn index]/[current index name]/_mapping/resource" to view the whole mapping.
+
 [Elastic documentation of put mapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-put-mapping.html)
 
  \* One case where *adding* a mapping may fail is if you've already written documents into the index containing the property that you want to add. Elastic may have made a guess about the mapping type, preventing you from overwriting it.
