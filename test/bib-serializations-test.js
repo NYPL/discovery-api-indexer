@@ -294,6 +294,16 @@ describe.only('Bib Serializations', function () {
         })
       })
     })
+
+    it('should parse "Dates of serial publication" (serialPublicationDates)', function () {
+      return Bib.byId('b10018031').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.serialPublicationDates)
+          assert.equal(serialized.serialPublicationDates.length, 1)
+          assert.equal(serialized.serialPublicationDates[0], 'no   -313;   -mai 29/juin 5, 1978.')
+        })
+      })
+    })
   })
 
   describe('items', function () {
