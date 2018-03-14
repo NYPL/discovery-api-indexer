@@ -1,0 +1,43 @@
+{
+  "from": 0,
+  "size": 50,
+  "query": {
+    "function_score": {
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "query_string": {
+                "fields": [
+                  "title^10",
+                  "title.folded^5",
+                  "description^5",
+                  "description.folded",
+                  "subjectLiteral^5",
+                  "subjectLiteral.folded",
+                  "creatorLiteral^5",
+                  "creatorLiteral.folded",
+                  "contributorLiteral",
+                  "contributorLiteral.folded",
+                  "note.label",
+                  "note.label.folded",
+                  "publisherLiteral",
+                  "publisherLiteral.folded",
+                  "shelfMark",
+                  "seriesStatement",
+                  "seriesStatement.folded"
+                ],
+                "query": "%%TERM%%",
+                "default_operator": "AND"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "min_score": 0.65,
+  "sort": [
+    "_score"
+  ]
+}

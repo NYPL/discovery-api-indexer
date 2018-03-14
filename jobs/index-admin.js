@@ -11,7 +11,7 @@ var argv = require('optimist')
 
 var command = argv._[0]
 
-const validCommands = ['list', 'activate', 'delete', 'prepare', 'reindex', 'check']
+const validCommands = ['list', 'activate', 'delete', 'prepare', 'reindex', 'reindex-status', 'check', 'mapping-check']
 if (validCommands.indexOf(command) < 0) console.error('Specify command: ' + validCommands.join(', '))
 
 // Initialize connections
@@ -57,6 +57,44 @@ envConfigHelper.init({ index }).then((opts) => {
         console.error('Error: ', e)
       })
 
+  // Check mappings of index against what's configured
+  } else if (command === 'mapping-check') {
+    // Helper method for printing out a sub-report on mappings differnces:
+    const reportOn = function (heading, instances) {
+      console.log('######################################################')
+      console.log(`${heading}: `)
+      if (instances.length === 0) console.log('None')
+      else {
+        instances.forEach((prop) => {
+          console.log('......................................................')
+          console.log(`Property: ${prop.property}`)
+          if (prop.local) console.log('  Local config:\n    ' + JSON.stringify(prop.local, null, 2).replace(/\n/g, '\n    '))
+          if (prop.remote) console.log('  Remote (active) mapping:\n    ' + JSON.stringify(prop.remote, null, 2).replace(/\n/g, '\n    '))
+        })
+      }
+    }
+
+    index.resources.mappingCheck(argv.index)
+      .then((mapping) => {
+        // List differences:
+        reportOn('Mis-mapped Properties', mapping.unequalMappings)
+        reportOn('Remote-only Properties', mapping.remoteOnlyMappings)
+        reportOn('Missing (local-only) Properties', mapping.localOnlyMappings)
+
+        // Generate a sample PUT body to push local-only mappings to remote:
+        if (mapping.localOnlyMappings.length > 0) {
+          console.log('#############################')
+          const putBody = {
+            properties: mapping.localOnlyMappings.reduce((h, prop) => {
+              h[prop.property] = prop.local
+              return h
+            }, {})
+          }
+          console.log('......................................................')
+          console.log('To add missing mappings: PUT the following to the index:', JSON.stringify(putBody, null, 2))
+        }
+      })
+
   // Check config (print main vars to stdout for verification)
   } else if (command === 'check') {
     envConfigHelper.getConfig().then((c) => {
@@ -73,6 +111,24 @@ envConfigHelper.init({ index }).then((opts) => {
       .then((res) => {
         console.log('Reindexing ' + argv.source + ' to ' + argv.dest)
         console.log('Resp: ', JSON.stringify(res, null, 2))
+      })
+      .catch((e) => {
+        console.error('Error: ', e)
+      })
+
+  // Reindex status
+  // Prints various derived stats about the current reindex task
+  } else if (command === 'reindex-status') {
+    index.resources.reindexStatus()
+      .then((res) => {
+        console.log([
+          `Showing progress of reindex task: \n  ${res.uri}`,
+          `Completed: ${res.completed}`,
+          `Remaining: ${res.remaining}`,
+          `Records/s: ${res.recordsPerSecond}`,
+          `Estimated completion: ${res.estimatedCompletionString}`,
+          `Progress: ${res.progressString}`
+        ].join('\n'))
       })
       .catch((e) => {
         console.error('Error: ', e)

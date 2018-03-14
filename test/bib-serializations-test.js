@@ -33,7 +33,7 @@ function destroy () {
   Bib.byId.restore()
 }
 
-describe.only('Bib Serializations', function () {
+describe('Bib Serializations', function () {
   this.timeout(5000)
 
   before(init)
