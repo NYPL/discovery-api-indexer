@@ -304,6 +304,17 @@ describe.only('Bib Serializations', function () {
         })
       })
     })
+
+    it('should parse "Former title"', function () {
+      return Bib.byId('b11076048').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.formerTitle)
+          assert.equal(serialized.formerTitle.length, 7)
+          assert.equal(serialized.formerTitle[0], 'Arctic advance 1943')
+          assert.equal(serialized.formerTitle[6], 'What price rats? 1945')
+        })
+      })
+    })
   })
 
   describe('items', function () {
