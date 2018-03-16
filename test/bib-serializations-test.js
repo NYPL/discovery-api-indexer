@@ -434,4 +434,40 @@ describe.only('Bib Serializations', function () {
       })
     })
   })
+
+  describe('item order', function () {
+    it('ResourceSerializer.zeroPadString should zero pad a string', function () {
+      assert.equal(ResourceSerializer.zeroPadString('78'), '000078')
+    })
+
+    it('ResourceSerializer.sortableShelfMark zero-pads numbers at end of string', function () {
+      let sortable = ResourceSerializer.sortableShelfMark
+
+      // Test numbers that *terminate* a call number:
+      assert.equal(sortable('T-Mss 1991-010 27'), 'T-Mss 1991-010 000027')
+      assert.equal(sortable('T-Mss 1991-010 70'), 'T-Mss 1991-010 000070')
+    })
+
+    it('ResourceSerializer.sortableShelfMark makes sortable vol/reel/box/tube numbers wherever they appear', function () {
+      let sortable = ResourceSerializer.sortableShelfMark
+
+      // Test numbers that appear anywhere within a call number:
+      // Test box/Box/BOX:
+      assert.equal(sortable('Map Div. 98­914    Box 9, Fj­Ga'), 'Map Div. 98­914 box 000009, Fj­Ga')
+      assert.equal(sortable('Map Div. 98­914    box 9, Fj­Ga'), 'Map Div. 98­914 box 000009, Fj­Ga')
+      assert.equal(sortable('Map Div. 98­914    BOX 9, Fj­Ga'), 'Map Div. 98­914 box 000009, Fj­Ga')
+
+      assert.equal(sortable('Map Div. 98­914    Box 8, E­Fi'), 'Map Div. 98­914 box 000008, E­Fi')
+      assert.equal(sortable('Map Div. 98­914  Box 17, Mp­O'), 'Map Div. 98­914 box 000017, Mp­O')
+      // Box 8 should precede Box 25:
+      assert(sortable('Map Div. 98­914    Box 8, E­Fi') < sortable('Map Div. 98­914    Box 25, Wi­Z'))
+      // Confirm the whitespace collapse causes Box 25 to follow box 17 regardless of whitespace:
+      assert(sortable('Map Div. 98­914    Box 25, Wi­Z') > sortable('Map Div. 98­914  Box 17, Mp­O'))
+
+      assert.equal(sortable('Map Div. 98­914    v. 8, E­Fi'), 'Map Div. 98­914 v. 000008, E­Fi')
+      assert.equal(sortable('Map Div. 98­914    TUBE 8, E­Fi'), 'Map Div. 98­914 tube 000008, E­Fi')
+      assert.equal(sortable('Map Div. 98­914    No. 8, E­Fi'), 'Map Div. 98­914 no. 000008, E­Fi')
+      assert.equal(sortable('Map Div. 98­914    r. 8, E­Fi'), 'Map Div. 98­914 r. 000008, E­Fi')
+    })
+  })
 })
