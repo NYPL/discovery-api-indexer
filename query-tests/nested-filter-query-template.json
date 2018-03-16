@@ -1,0 +1,33 @@
+{
+ "size" : 50,
+ "sort" : [
+    "uri"
+ ],
+ "query" : {
+    "nested" : {
+       "path" : "items",
+       "query" : {
+          "constant_score" : {
+             "filter" : {
+                "bool" : {
+                   "should" : [
+                      {
+                         "term" : {
+                            "items.owner.id" : "orgs:0002"
+                         }
+                      },
+                      {
+                         "term" : {
+                            "items.owner.label" : "orgs:0002"
+                         }
+                      }
+                   ]
+                }
+             }
+          }
+       }
+    }
+ },
+ "from" : 0
+}
+

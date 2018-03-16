@@ -1,7 +1,7 @@
 const fs = require('fs')
 
-const index = require('../lib/index')
-const envConfigHelper = require('../lib/env-config-helper')
+const index = require('../../lib/index')
+const envConfigHelper = require('../../lib/env-config-helper')
 const expect = require('chai').expect
 
 const keywordQuery = (term) => {
@@ -187,6 +187,19 @@ describe('Keyword querying', function () {
         expect(result.hits.total).to.equal(1)
         expect(result.hits.hits[0]).to.be.a('object')
         expect(result.hits.hits[0]._id).to.equal('b20972964')
+      })
+    })
+  })
+
+  describe('Description', function () {
+    it('should match cb6240214 by description', function () {
+      // Content of description is "这次孙子兵法国际研讨会首次将孙子思想与大国关系和中国和平发展主题相结合,在三天时间里,30多个国家和海峡两岸,香港地区的近300名专家学者,将围绕\"大国关系与国家安全\",\"大国的国防政策\",\"军事互信和军事合作\",\"台海形势及其走向\",\"孙子兵法与世界军事文化遗产\"等…"
+      return search(keywordQuery('这次孙子兵法国际研讨会首次将孙子思想与大国关系和中国和平发展主题相结合')).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        expect(result.hits.total).to.equal(1)
+        expect(result.hits.hits[0]).to.be.a('object')
+        expect(result.hits.hits[0]._id).to.equal('cb6240214')
       })
     })
   })

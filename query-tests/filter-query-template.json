@@ -1,0 +1,14 @@
+{
+  "from": 0,
+  "size": 50,
+  "query": {
+    "bool": {
+      "filter": [
+      
+      ]
+    }
+  },
+  "sort": [
+    "uri"
+  ]
+}
