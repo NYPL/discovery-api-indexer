@@ -30,6 +30,84 @@
       "pr": "bf:media"
     },
     {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "\"A Go! Comi manga.\"",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b17678033#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "\"Originally published in Japan in 2003 by Akita Publishing Co., Ltd., Tokyo.\"",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b17678033#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Language",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Translated from the Japanese.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b17678033#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
       "bn": null,
       "id": null,
       "la": null,
@@ -75,20 +153,20 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Borgia, Cesare, -- 1476?-1507 -- Comic books, strips, etc.",
+      "li": "Borgia, Cesare, 1476?-1507 -- Comic books, strips, etc.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
-      "la": "Varying Form of Title",
+      "la": null,
       "li": "Kantarera.",
       "pr": "dcterms:alternative"
     },
     {
       "bn": null,
       "id": null,
-      "la": "Varying Form of Title",
+      "la": null,
       "li": "Kantarera",
       "pr": "dcterms:alternative"
     },
@@ -166,6 +244,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "[Agoura Hills, CA] : Go! Media Entertainment, c2007.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Go! Media Entertainment,",
       "pr": "nypl:role-publisher"
     },
@@ -196,27 +281,6 @@
       "la": null,
       "li": null,
       "pr": "rdfs:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "\"A Go! Comi manga.\"",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "\"Originally published in Japan in 2003 by Akita Publishing Co., Ltd., Tokyo.\"",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "Language Note",
-      "li": "Translated from the Japanese.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
@@ -235,14 +299,6 @@
       "la": null,
       "li": "true",
       "pr": "nypl:suppressed"
-    },
-    {
-      "s": "i21021243",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdfs:type"
     },
     {
       "s": "i21021243",

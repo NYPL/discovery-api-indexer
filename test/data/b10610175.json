@@ -30,6 +30,32 @@
       "pr": "bf:media"
     },
     {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Reprint of the ed. published by the Colored Co-operative Publishing Co., Boston.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10610175#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
       "bn": null,
       "id": null,
       "la": null,
@@ -42,13 +68,6 @@
       "la": null,
       "li": "1978",
       "pr": "dbo:startDate"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "Hopkins, Pauline E. (Pauline Elizabeth)",
-      "pr": "dc:contributor"
     },
     {
       "bn": null,
@@ -145,6 +164,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Carbondale, IL : Southern Illinois University Press, [1978] c1899.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Southern Illinois University Press,",
       "pr": "nypl:role-publisher"
     },
@@ -175,20 +201,6 @@
       "la": null,
       "li": null,
       "pr": "rdfs:type"
-    },
-    {
-      "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Reprint of the ed. published by the Colored Co-operative Publishing Co., Boston.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
@@ -196,7 +208,7 @@
       "s": "i11981214",
       "bn": null,
       "id": "status:a",
-      "la": "Available",
+      "la": "Available ",
       "li": null,
       "pr": "bf:status"
     },
@@ -212,7 +224,7 @@
       "s": "i11981214",
       "bn": null,
       "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
+      "la": "Use in library",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -235,14 +247,6 @@
     {
       "s": "i11981214",
       "bn": null,
-      "id": "loc:sc",
-      "la": "Schomburg Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
       "id": "loc:scff2",
       "la": "Schomburg Center - Research & Reference",
       "li": null,
@@ -261,7 +265,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "true",
+      "li": "false",
       "pr": "nypl:requestable"
     },
     {
@@ -269,7 +273,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Sc D 80-24 ---",
+      "li": "Sc D 80-24",
       "pr": "nypl:shelfMark"
     },
     {
@@ -279,6 +283,14 @@
       "la": null,
       "li": "false",
       "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i11981214",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     },
     {
       "s": "i11981214",

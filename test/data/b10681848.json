@@ -30,11 +30,56 @@
       "pr": "bf:media"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "\"249 plates, 51 in colour, and 606 catalogue illustrations.\"",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10681848#1.0000",
       "la": null,
-      "li": "1980",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Bibliography",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes bibliographical references (pages 283-285) and index.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10681848#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -82,6 +127,27 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Pasmore, Victor, 1908-1998 -- Catalogues raisonnés.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Pasmore, Victor, 1908-1998 -- Criticism and interpretation.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Pasmore, Victor, 1908-1998.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Art, Modern -- 20th century.",
       "pr": "dc:subject"
     },
@@ -96,14 +162,14 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "City planning -- England -- Peterlee.",
+      "li": "City planning -- Peterlee.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "New towns -- England -- Peterlee.",
+      "li": "New towns -- Peterlee.",
       "pr": "dc:subject"
     },
     {
@@ -157,38 +223,17 @@
     },
     {
       "bn": null,
-      "id": "urn:oclc:186000912",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lcc:N6797.P3",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lccCoarse:N5300-7418",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:hathi:009493703",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
       "id": "lang:eng",
       "la": "English",
       "li": null,
       "pr": "dcterms:language"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Preface / Stephen Pasmore -- Introduction / Alan Bowness -- Introduction: beyond metaphor / Luigi Lambertini -- The transformation of naturalist art and the independence of painting / Victor Pasmore -- A developing process in art teaching / Victor Pasmore -- The Pavilion, Peterlee: introduction -- Connections between painting, sculpture and architecture / Victor Pasmore -- Simple questions to an artist / Leif Sjöberg -- Peterlee: introduction -- Peterlee: a symposium / Sir J.M. Richards, A.V. Williams, A.T.W. Marsden, Victor Pasmore -- Notes on the artist's printmaking / Margaret Failoni and Giovanna Zamboni -- Biographical chronology -- Notes -- Index of contemporary names -- Selected bibliography (pages 283-285) -- Catalogue raisonné: paintings and constructions (pages 287-328)-- Words and images / Victor Pasmore -- Catalogue raisonné: graphics (pages 333-342).",
+      "pr": "dcterms:tableOfContents"
     },
     {
       "bn": null,
@@ -203,13 +248,6 @@
       "la": "Text",
       "li": null,
       "pr": "dcterms:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "{\"volumeId\":\"mdp.39076006340363\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"009493703\",\"enumeration\":\"\",\"oclc\":[6481046],\"isbn\":[\"0847802922\",\"0847802779\"],\"issn\":[],\"lccn\":[\"79906697\"],\"pubDate\":\"1980\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
-      "pr": "hathi:vols"
     },
     {
       "bn": null,
@@ -257,6 +295,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "New York : Rizzoli, 1980.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Rizzoli,",
       "pr": "nypl:role-publisher"
     },
@@ -283,24 +328,10 @@
     },
     {
       "bn": null,
-      "id": "urn:owi:836643643",
-      "la": null,
-      "li": null,
-      "pr": "nypl:workId"
-    },
-    {
-      "bn": null,
       "id": "nypl:Item",
       "la": null,
       "li": null,
       "pr": "rdfs:type"
-    },
-    {
-      "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
     },
     {
       "bn": null,
@@ -315,20 +346,6 @@
       "la": null,
       "li": "Lambertini, Luigi,",
       "pr": "role:win"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "\"249 plates, 51 in colour, and 606 catalogue illustrations.\"",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "Bibliography, Etc. Note",
-      "li": "Includes bibliographical references (pages 283-285) and index.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
@@ -336,7 +353,7 @@
       "s": "i11991537",
       "bn": null,
       "id": "status:a",
-      "la": "Available",
+      "la": "Available ",
       "li": null,
       "pr": "bf:status"
     },
@@ -352,7 +369,7 @@
       "s": "i11991537",
       "bn": null,
       "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
+      "la": "Use in library",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -375,16 +392,8 @@
     {
       "s": "i11991537",
       "bn": null,
-      "id": "loc:mab",
-      "la": "SASB - Art & Architecture Rm 300",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i11991537",
-      "bn": null,
       "id": "loc:mabb2",
-      "la": "SASB - Art & Architecture Rm 300",
+      "la": "Schwarzman Building - Art & Architecture Room 300",
       "li": null,
       "pr": "nypl:holdingLocation"
     },
@@ -401,7 +410,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "true",
+      "li": "false",
       "pr": "nypl:requestable"
     },
     {

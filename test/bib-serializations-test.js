@@ -204,9 +204,9 @@ describe('Bib Serializations', function () {
           assert(serialized[prop])
           assert.equal(serialized[prop].length, 5)
 
-          assert.equal(serialized[prop][0].noteType, 'General Note')
+          assert.equal(serialized[prop][0].noteType, 'Note')
           assert.equal(serialized[prop][0].label, 'Publication date from cover.')
-          assert.equal(serialized[prop][1].noteType, 'Bibliography, etc. Note')
+          assert.equal(serialized[prop][1].noteType, 'Bibliography')
           assert.equal(serialized[prop][1].label, 'Includes bibliographical references.')
         })
       })
@@ -287,9 +287,9 @@ describe('Bib Serializations', function () {
           assert(serialized[prop])
           assert.equal(serialized[prop].length, 9)
 
-          assert.equal(serialized[prop][0].noteType, 'General Note')
+          assert.equal(serialized[prop][0].noteType, 'Note')
           assert.equal(serialized[prop][0].label, 'Dolby 2.0; anamorphic widescreen format.')
-          assert.equal(serialized[prop][8].noteType, 'Immediate Source of Acquisition Note')
+          assert.equal(serialized[prop][8].noteType, 'Source')
           assert.equal(serialized[prop][8].label, 'American Masters, Thirteen/WNET.')
         })
       })
@@ -304,6 +304,14 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should extract identifier entities', function () {
+      return Bib.byId('b10681848').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.identifier.filter((ident) => ident.type === 'bf:Lccn' && ident.value === '   79906697').length === 0)
+        })
+      })
+    })
   })
 
   describe('items', function () {
@@ -311,7 +319,7 @@ describe('Bib Serializations', function () {
       return Bib.byId('b10781594').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.items[0].holdingLocation[0].id, 'loc:rc2ma')
-          assert.equal(serialized.items[0].holdingLocation[0].label, 'OFFSITE - Request in Advance')
+          assert.equal(serialized.items[0].holdingLocation[0].label, 'Offsite')
         })
       })
     })
@@ -358,7 +366,7 @@ describe('Bib Serializations', function () {
       return Bib.byId('b10781594').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.items[0].accessMessage[0].id, 'accessMessage:2')
-          assert.equal(serialized.items[0].accessMessage[0].label, 'ADV REQUEST')
+          assert.equal(serialized.items[0].accessMessage[0].label, 'Request in advance')
         })
       })
     })

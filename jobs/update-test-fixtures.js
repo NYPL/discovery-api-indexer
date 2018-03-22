@@ -4,7 +4,6 @@
  *  Useage:
  *
  *  This will update all fixtures against configured db:
- *    node jobs/update-test-fixtures
  *
  *  This will update a single fixture by [bib] id:
  *

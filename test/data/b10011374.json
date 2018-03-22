@@ -30,18 +30,82 @@
       "pr": "bf:media"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Vol. 1 has added t.p.: The Table book ... Every Saturday.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10011374#1.0000",
       "la": null,
-      "li": "1828",
-      "pr": "dbo:dateEnd"
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Originally published weekly, from Jan. 1827 to Jan. 1828 (55 nos.-including indexes)",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10011374#1.0001",
       "la": null,
-      "li": "1827",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Library's copy lacks added t.p.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10011374#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -56,13 +120,6 @@
       "la": null,
       "li": "1827",
       "pr": "dbo:startDate"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "Hone, William, 1780-1842.",
-      "pr": "dc:contributor"
     },
     {
       "bn": null,
@@ -95,27 +152,6 @@
     {
       "bn": null,
       "id": "urn:lccn:35038534",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:oclc:10310322",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lcc:DA110",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lccCoarse:DA90-125",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
@@ -166,6 +202,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "London, Published for W. Hone, by Hunt and Clarke, 1827-1828.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Published for W. Hone, by Hunt and Clarke,",
       "pr": "nypl:role-publisher"
     },
@@ -192,405 +235,74 @@
     },
     {
       "bn": null,
-      "id": "urn:owi:2260899506",
+      "id": "nypl:Item",
       "la": null,
       "li": null,
-      "pr": "nypl:workId"
+      "pr": "rdfs:type"
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i10011374-e",
+      "bn": null,
+      "id": null,
+      "la": "Full text available via HathiTrust--v. 1",
+      "li": "http://hdl.handle.net/2027/nyp.33433057532081",
+      "pr": "bf:electronicLocator"
     },
     {
+      "s": "i10011374-e",
       "bn": null,
-      "id": "nypl:Item",
+      "id": null,
+      "la": "Full text available via HathiTrust--v. 2",
+      "li": "http://hdl.handle.net/2027/nyp.33433057532339",
+      "pr": "bf:electronicLocator"
+    },
+    {
+      "s": "i10011374-e",
+      "bn": null,
+      "id": null,
+      "la": "Full text available via HathiTrust--v. 1",
+      "li": "http://hdl.handle.net/2027/nyp.33433067332548",
+      "pr": "bf:electronicLocator"
+    },
+    {
+      "s": "i10011374-e",
+      "bn": null,
+      "id": null,
+      "la": "Full text available via HathiTrust--v. 2",
+      "li": "http://hdl.handle.net/2027/nyp.33433067332555",
+      "pr": "bf:electronicLocator"
+    },
+    {
+      "s": "i10011374-e",
+      "bn": null,
+      "id": "urn:bnum:b10011374",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10011374-e",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10011374-e",
+      "bn": null,
+      "id": "bf:Item",
       "la": null,
       "li": null,
       "pr": "rdfs:type"
     },
     {
-      "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Vol. 1 has added t.p.: The Table book ... Every Saturday.",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Originally published weekly, from Jan. 1827 to Jan. 1828 (55 nos.-including indexes)",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Library's copy lacks added t.p.",
-      "pr": "skos:note"
-    }
-  ],
-  "item_statements": [
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "status:a",
-      "la": "Available ",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "urn:barcode:33433057532339",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "urn:bnum:b10011374",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "catalogItemType:32",
-      "la": "google project, book",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:mag",
-      "la": "SASB - Milstein Division Rm 121",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:maf",
-      "la": "SASB - Dorot Jewish Division Rm 111",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:mal",
-      "la": "SASB - Service Desk Rm 315",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:malw",
-      "la": "SASB - Wertheim Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:malc",
-      "la": "SASB - Cullman Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:map",
-      "la": "SASB - Map Division - Rm 117",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:maln",
-      "la": "SASB - Noma Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:mai",
-      "la": "SASB - Periodicals and Microforms Rm 100",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:mab",
-      "la": "SASB - Art & Architecture Rm 300",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:mala",
-      "la": "SASB - Allen Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "loc:mal92",
-      "la": "SASB M2 - General Research Room 315",
-      "li": null,
-      "pr": "nypl:holdingLocation"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "JFE 86-498 v. 2",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
-      "pr": "nypl:suppressed"
-    },
-    {
-      "s": "i13785802",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "status:a",
-      "la": "Available",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "urn:barcode:33433067332548",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "accessMessage:2",
-      "la": "ADV REQUEST",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "urn:bnum:b10011374",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "catalogItemType:32",
-      "la": "google project, book",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:mala",
-      "la": "SASB - Allen Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:map",
-      "la": "SASB - Map Division - Rm 117",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:mal",
-      "la": "SASB - Service Desk Rm 315",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:malw",
-      "la": "SASB - Wertheim Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:maf",
-      "la": "SASB - Dorot Jewish Division Rm 111",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:mab",
-      "la": "SASB - Art & Architecture Rm 300",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:maln",
-      "la": "SASB - Noma Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:mai",
-      "la": "SASB - Periodicals and Microforms Rm 100",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:sc",
-      "la": "Schomburg Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:myr",
-      "la": "Performing Arts Research Collections",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:slr",
-      "la": "SIBL - Science Industry and Business",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:malc",
-      "la": "SASB - Cullman Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:mag",
-      "la": "SASB - Milstein Division Rm 121",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "loc:rc2ma",
-      "la": "OFFSITE - Request in Advance",
-      "li": null,
-      "pr": "nypl:holdingLocation"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "orgs:1000",
-      "la": "Stephen A. Schwarzman Building",
-      "li": null,
-      "pr": "nypl:owner"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "true",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "*AY (Hone, W. Table book) v. 1",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
-      "pr": "nypl:suppressed"
-    },
-    {
-      "s": "i10005488",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
       "s": "i14747243",
       "bn": null,
       "id": "status:a",
-      "la": "Available",
+      "la": "Available ",
       "li": null,
       "pr": "bf:status"
     },
@@ -606,7 +318,7 @@
       "s": "i14747243",
       "bn": null,
       "id": "accessMessage:2",
-      "la": "ADV REQUEST",
+      "la": "Request in advance",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -629,112 +341,8 @@
     {
       "s": "i14747243",
       "bn": null,
-      "id": "loc:mala",
-      "la": "SASB - Allen Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:map",
-      "la": "SASB - Map Division - Rm 117",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:mal",
-      "la": "SASB - Service Desk Rm 315",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:malw",
-      "la": "SASB - Wertheim Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:maf",
-      "la": "SASB - Dorot Jewish Division Rm 111",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:mab",
-      "la": "SASB - Art & Architecture Rm 300",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:maln",
-      "la": "SASB - Noma Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:mai",
-      "la": "SASB - Periodicals and Microforms Rm 100",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:sc",
-      "la": "Schomburg Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:myr",
-      "la": "Performing Arts Research Collections",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:slr",
-      "la": "SIBL - Science Industry and Business",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:malc",
-      "la": "SASB - Cullman Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
-      "id": "loc:mag",
-      "la": "SASB - Milstein Division Rm 121",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i14747243",
-      "bn": null,
       "id": "loc:rc2ma",
-      "la": "OFFSITE - Request in Advance",
+      "la": "Offsite",
       "li": null,
       "pr": "nypl:holdingLocation"
     },
@@ -779,10 +387,90 @@
       "pr": "rdf:type"
     },
     {
+      "s": "i13785802",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": "urn:barcode:33433057532339",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": "urn:bnum:b10011374",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": "catalogItemType:32",
+      "la": "google project, book",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "Schwarzman Building M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFE 86-498 v. 2",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i13785802",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
       "s": "i10005487",
       "bn": null,
       "id": "status:a",
-      "la": "Available",
+      "la": "Available ",
       "li": null,
       "pr": "bf:status"
     },
@@ -798,7 +486,7 @@
       "s": "i10005487",
       "bn": null,
       "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
+      "la": "Use in library",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -821,88 +509,8 @@
     {
       "s": "i10005487",
       "bn": null,
-      "id": "loc:mag",
-      "la": "SASB - Milstein Division Rm 121",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:maf",
-      "la": "SASB - Dorot Jewish Division Rm 111",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:mal",
-      "la": "SASB - Service Desk Rm 315",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:malw",
-      "la": "SASB - Wertheim Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:malc",
-      "la": "SASB - Cullman Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:map",
-      "la": "SASB - Map Division - Rm 117",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:maln",
-      "la": "SASB - Noma Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:mai",
-      "la": "SASB - Periodicals and Microforms Rm 100",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:mab",
-      "la": "SASB - Art & Architecture Rm 300",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
-      "id": "loc:mala",
-      "la": "SASB - Allen Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i10005487",
-      "bn": null,
       "id": "loc:mal92",
-      "la": "SASB M2 - General Research Room 315",
+      "la": "Schwarzman Building M2 - General Research Room 315",
       "li": null,
       "pr": "nypl:holdingLocation"
     },
@@ -911,7 +519,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "true",
+      "li": "false",
       "pr": "nypl:requestable"
     },
     {
@@ -936,42 +544,42 @@
       "id": "bf:Item",
       "la": null,
       "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i10005487",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
       "pr": "rdf:type"
     },
     {
-      "s": "i10011374-e",
+      "s": "i10005488",
       "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 1",
-      "li": "http://hdl.handle.net/2027/nyp.33433057532081",
-      "pr": "bf:electronicLocator"
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
     },
     {
-      "s": "i10011374-e",
+      "s": "i10005488",
       "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 2",
-      "li": "http://hdl.handle.net/2027/nyp.33433057532339",
-      "pr": "bf:electronicLocator"
+      "id": "urn:barcode:33433067332548",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
     },
     {
-      "s": "i10011374-e",
+      "s": "i10005488",
       "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 1",
-      "li": "http://hdl.handle.net/2027/nyp.33433067332548",
-      "pr": "bf:electronicLocator"
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
     },
     {
-      "s": "i10011374-e",
-      "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 2",
-      "li": "http://hdl.handle.net/2027/nyp.33433067332555",
-      "pr": "bf:electronicLocator"
-    },
-    {
-      "s": "i10011374-e",
+      "s": "i10005488",
       "bn": null,
       "id": "urn:bnum:b10011374",
       "la": null,
@@ -979,47 +587,47 @@
       "pr": "nypl:bnum"
     },
     {
-      "s": "i10011374-e",
+      "s": "i10005488",
       "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 1",
-      "li": "http://hdl.handle.net/2027/nyp.33433057532081",
-      "pr": "nypl:electronicLocator"
-    },
-    {
-      "s": "i10011374-e",
-      "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 2",
-      "li": "http://hdl.handle.net/2027/nyp.33433057532339",
-      "pr": "nypl:electronicLocator"
-    },
-    {
-      "s": "i10011374-e",
-      "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 1",
-      "li": "http://hdl.handle.net/2027/nyp.33433067332548",
-      "pr": "nypl:electronicLocator"
-    },
-    {
-      "s": "i10011374-e",
-      "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust--v. 2",
-      "li": "http://hdl.handle.net/2027/nyp.33433067332555",
-      "pr": "nypl:electronicLocator"
-    },
-    {
-      "s": "i10011374-e",
-      "bn": null,
-      "id": "urn:itemtype:research",
-      "la": null,
+      "id": "catalogItemType:32",
+      "la": "google project, book",
       "li": null,
-      "pr": "nypl:itemType"
+      "pr": "nypl:catalogItemType"
     },
     {
-      "s": "i10011374-e",
+      "s": "i10005488",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i10005488",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i10005488",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i10005488",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*AY (Hone, W. Table book) v. 1",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i10005488",
       "bn": null,
       "id": null,
       "la": null,
@@ -1027,7 +635,7 @@
       "pr": "nypl:suppressed"
     },
     {
-      "s": "i10011374-e",
+      "s": "i10005488",
       "bn": null,
       "id": "bf:Item",
       "la": null,
@@ -1035,7 +643,7 @@
       "pr": "rdfs:type"
     },
     {
-      "s": "i10011374-e",
+      "s": "i10005488",
       "bn": null,
       "id": "bf:Item",
       "la": null,

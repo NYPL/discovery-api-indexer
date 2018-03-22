@@ -30,18 +30,108 @@
       "pr": "bf:media"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Discontinued after v. 2.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "pb176961#1.0000",
       "la": null,
-      "li": "1985",
-      "pr": "dbo:dateEnd"
+      "li": null,
+      "pr": "bf:note"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Added title in arabic: Marjaʻ al-adab al-ʻarabī.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "pb176961#1.0001",
       "la": null,
-      "li": "1983",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Text in arabic; introductory matters and commentaries in German.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "pb176961#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Bibliography",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes bibliographical references.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "pb176961#1.0003",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -82,6 +172,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Marjaʻ al-adab al-ʻarabī.",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "1983",
       "pr": "dcterms:created"
     },
@@ -105,6 +202,13 @@
       "la": "German",
       "li": null,
       "pr": "dcterms:language"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1-2. Anthologie der traditionellen Prosa.",
+      "pr": "dcterms:tableOfContents"
     },
     {
       "bn": null,
@@ -138,6 +242,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Hamburg : Buske, 1983-1985.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Buske,",
       "pr": "nypl:role-publisher"
     },
@@ -161,132 +272,9 @@
       "la": null,
       "li": null,
       "pr": "rdfs:type"
-    },
-    {
-      "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Discontinued after v. 2.",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Added title in arabic: Marjaʻ al-adab al-ʻarabī.",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Text in arabic; introductory matters and commentaries in German.",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "Bibliography, Etc. Note",
-      "li": "Includes bibliographical references.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "status:a",
-      "la": "Available ",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "urn:barcode:32101062243546",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "accessMessage:1",
-      "la": "Use in library",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "urn:bnum:pb176961",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "catalogItemType:1",
-      "la": "non-circ",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "orgs:0003",
-      "la": "Princeton University Library",
-      "li": null,
-      "pr": "nypl:owner"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "true",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "PJ7601.H35 bd. 1",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
-      "pr": "nypl:suppressed"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdfs:type"
-    },
-    {
-      "s": "pi189242",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
     {
       "s": "pi189241",
       "bn": null,
@@ -348,7 +336,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "PJ7601.H35 bd. 2",
+      "li": "PJ7601 .H35 bd. 2",
       "pr": "nypl:shelfMark"
     },
     {
@@ -369,6 +357,94 @@
     },
     {
       "s": "pi189241",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "urn:barcode:32101062243546",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "urn:bnum:pb176961",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "catalogItemType:1",
+      "la": "non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "orgs:0003",
+      "la": "Princeton University Library",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "PJ7601 .H35 bd. 1",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "pi189242",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "pi189242",
       "bn": null,
       "id": "bf:Item",
       "la": null,

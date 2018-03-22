@@ -30,11 +30,30 @@
       "pr": "bf:media"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Translation of Cyrano de Bergerac.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10392955#1.0000",
       "la": null,
-      "li": "1975",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -63,6 +82,13 @@
       "la": null,
       "li": "1975",
       "pr": "dc:date"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cyrano de Bergerac, 1619-1655 -- In literature.",
+      "pr": "dc:subject"
     },
     {
       "bn": null,
@@ -101,34 +127,6 @@
     },
     {
       "bn": null,
-      "id": "urn:oclc:10352362",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lcc:PQ2635.O7",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lccCoarse:PQ2600-2651",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:hathi:000694162",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
       "id": "lang:eng",
       "la": "English",
       "li": null,
@@ -152,13 +150,6 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "{\"volumeId\":\"mdp.39015001802860\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000694162\",\"enumeration\":\"\",\"oclc\":[2503124],\"isbn\":[],\"issn\":[],\"lccn\":[\"76352314\"],\"pubDate\":\"1975\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
-      "pr": "hathi:vols"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
       "li": "146 p. ;",
       "pr": "nypl:extent"
     },
@@ -175,6 +166,13 @@
       "la": null,
       "li": "London :",
       "pr": "nypl:placeOfPublication"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "London : New York : Oxford University Press, 1975.",
+      "pr": "nypl:publicationStatement"
     },
     {
       "bn": null,
@@ -206,13 +204,6 @@
     },
     {
       "bn": null,
-      "id": "urn:owi:84090",
-      "la": null,
-      "li": null,
-      "pr": "nypl:workId"
-    },
-    {
-      "bn": null,
       "id": "nypl:Item",
       "la": null,
       "li": null,
@@ -220,24 +211,10 @@
     },
     {
       "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
       "id": null,
       "la": null,
       "li": "Fry, Christopher, 1907-2005,",
       "pr": "role:trl"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Translation of Cyrano de Bergerac.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
@@ -245,7 +222,7 @@
       "s": "i12968797",
       "bn": null,
       "id": "status:a",
-      "la": "Available",
+      "la": "Available ",
       "li": null,
       "pr": "bf:status"
     },
@@ -260,8 +237,8 @@
     {
       "s": "i12968797",
       "bn": null,
-      "id": "accessMessage:2",
-      "la": "ADV REQUEST",
+      "id": "accessMessage:1",
+      "la": "Use in library",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -284,112 +261,8 @@
     {
       "s": "i12968797",
       "bn": null,
-      "id": "loc:malw",
-      "la": "SASB - Wertheim Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:mab",
-      "la": "SASB - Art & Architecture Rm 300",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:map",
-      "la": "SASB - Map Division - Rm 117",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:malc",
-      "la": "SASB - Cullman Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:maln",
-      "la": "SASB - Noma Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:myr",
-      "la": "Performing Arts Research Collections",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:maf",
-      "la": "SASB - Dorot Jewish Division Rm 111",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:mag",
-      "la": "SASB - Milstein Division Rm 121",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:mala",
-      "la": "SASB - Allen Scholar Room",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:sc",
-      "la": "Schomburg Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:mal",
-      "la": "SASB - Service Desk Rm 315",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:mai",
-      "la": "SASB - Periodicals and Microforms Rm 100",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:slr",
-      "la": "SIBL - Science Industry and Business",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i12968797",
-      "bn": null,
-      "id": "loc:qc2ma",
-      "la": "OFFSITE - TSD - Request in Advance",
+      "id": "loc:mal92",
+      "la": "Schwarzman Building M2 - General Research Room 315",
       "li": null,
       "pr": "nypl:holdingLocation"
     },
@@ -406,7 +279,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "true",
+      "li": "false",
       "pr": "nypl:requestable"
     },
     {
@@ -427,70 +300,6 @@
     },
     {
       "s": "i12968797",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "s": "i8304613",
-      "bn": null,
-      "id": "status:a",
-      "la": "Available",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "i8304613",
-      "bn": null,
-      "id": "urn:barcode:CU18590489",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "i8304613",
-      "bn": null,
-      "id": "accessMessage:2",
-      "la": "ADV REQUEST",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "i8304613",
-      "bn": null,
-      "id": "urn:bnum:b10392955",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "i8304613",
-      "bn": null,
-      "id": "catalogItemType:55",
-      "la": "book, limited circ, MaRLI",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i8304613",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "i8304613",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "EA13JUL 92955",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "i8304613",
       "bn": null,
       "id": "bf:Item",
       "la": null,

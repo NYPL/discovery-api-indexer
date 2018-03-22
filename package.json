@@ -8,7 +8,7 @@
     "aws-sdk": "^2.53.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^3.5.5",
-    "discovery-store-models": "git@github.com:NYPL-discovery/discovery-store-models.git#v1.0.2",
+    "discovery-store-models": "git@github.com:NYPL-discovery/discovery-store-models.git#v1.1.0",
     "dotenv": "^4.0.0",
     "elasticsearch": "^13.0.1",
     "fast-csv": "^2.3.0",
@@ -31,12 +31,12 @@
     "standard": "^6.0.3"
   },
   "scripts": {
-    "test": "./node_modules/.bin/standard && mocha test",
+    "test": "./node_modules/.bin/standard && ./node_modules/.bin/mocha test",
     "deploy-qa": "./node_modules/.bin/node-lambda deploy -e qa -f ./config/qa.env -b subnet-f4fe56af -g sg-1d544067 --role arn:aws:iam::224280085904:role/lambda_basic_execution --profile nypl-sandbox -S ./config/event-sources-qa.json",
     "deploy-production": "./node_modules/.bin/node-lambda deploy -e production -f ./config/production.env -b subnet-59bcdd03,subnet-5deecd15 -g sg-116eeb60 --role arn:aws:iam::946183545209:role/lambda-full-access --profile nypl-digital-dev -S ./config/event-sources-production.json",
     "run-qa": "AWS_PROFILE=nypl-sandbox ./node_modules/.bin/node-lambda run -f ./config/qa.env",
-    "prepare-query-test-index": "node ./query-tests/create-test-index --profile nypl-sandbox --envfile config/qa.env",
-    "run-query-tests": "./node_modules/.bin/mocha ./query-tests/test --profile nypl-sandbox --envfile config/qa.env"
+    "prepare-query-test-index": "NYPL_CORE_VERSION=4da5696b5ad135eeb237a219af19c35a6e633658 node ./jobs/prepare-query-test-index --profile nypl-sandbox --envfile config/qa.env",
+    "run-query-tests": "./node_modules/.bin/mocha ./test/query-tests --profile nypl-sandbox --envfile config/qa.env"
   },
   "description": "Listens to IndexDocument[-env], pulls data from discovery-store, writes it to ES, notifies IndexDocumentProcessed[-env]",
   "license": "MIT",

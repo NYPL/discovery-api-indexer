@@ -30,18 +30,30 @@
       "pr": "bf:media"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Posed with Alexis Dolinoff in a pas de poisson.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b12155601#1.0000",
       "la": null,
-      "li": "1950",
-      "pr": "dbo:dateEnd"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "1943",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -75,7 +87,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Svetlova, Marina, -- 1922-",
+      "li": "Svetlova, Marina, 1922-",
       "pr": "dc:subject"
     },
     {
@@ -131,6 +143,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "ca. 1943-1950.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "*MGZEB",
       "pr": "nypl:shelfMark"
     },
@@ -154,20 +173,6 @@
       "la": null,
       "li": null,
       "pr": "rdfs:type"
-    },
-    {
-      "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Posed with Alexis Dolinoff in a pas de poisson.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": null

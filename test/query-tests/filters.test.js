@@ -6,7 +6,7 @@ const expect = require('chai').expect
 
 const nestedFilterQuery = (path, filters, sort) => {
   const query = {
-    body: JSON.parse(fs.readFileSync('./query-tests/nested-filter-query-template.json', 'utf8'))
+    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/nested-filter-query-template.json', 'utf8'))
   }
   query.body.query.nested.path = path
   query.body.query.nested.query.constant_score.filter.bool.should = filters
@@ -44,7 +44,7 @@ const nestedFilterByEntityQuery = (path, entityName, value) => {
 
 const filterQuery = (filters, sort) => {
   const query = {
-    body: JSON.parse(fs.readFileSync('./query-tests/filter-query-template.json', 'utf8'))
+    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/filter-query-template.json', 'utf8'))
   }
   query.body.query.bool.filter = filters
   if (sort) query.body.sort = [ sort ]
@@ -147,6 +147,47 @@ describe('Filter querying', function () {
         expect(result.hits.total).to.be.greaterThan(0)
         expect(result.hits.hits[0]).to.be.a('object')
         expect(result.hits.hits[0]._id).to.equal('b10018031')
+      })
+    })
+  })
+
+  describe('updatedAt', function () {
+    it('can be matched using an ISO date string (to exclude)', function () {
+      const filters = [
+        {
+          range: {
+            updatedAt: {
+              gt: (new Date()).toISOString()
+            }
+          }
+        }
+      ]
+      const sort = { updatedAt: 'asc' }
+
+      return search(filterQuery(filters, sort)).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        expect(result.hits.total).to.equal(0)
+      })
+    })
+
+    it('can be matched using an ISO date string (to include)', function () {
+      const filters = [
+        {
+          range: {
+            updatedAt: {
+              lte: (new Date()).toISOString()
+            }
+          }
+        }
+      ]
+      const sort = { updatedAt: 'asc' }
+
+      return search(filterQuery(filters, sort)).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        // At writing we're indexing 20 docs, so we can assume 20+ matches:
+        expect(result.hits.total).to.be.greaterThan(19)
       })
     })
   })

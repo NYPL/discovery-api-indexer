@@ -1,10 +1,10 @@
 {
-  "subject_id": "cb6240214",
+  "subject_id": "b11076048",
   "bib_statements": [
     {
       "bn": null,
-      "id": "carriertypes:nc",
-      "la": "volume",
+      "id": "carriertypes:he",
+      "la": "microfiche",
       "li": null,
       "pr": "bf:carrier"
     },
@@ -12,20 +12,20 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "24 cm.",
+      "li": "25 cm.",
       "pr": "bf:dimensions"
     },
     {
       "bn": null,
-      "id": "urn:biblevel:m",
-      "la": "monograph/item",
+      "id": "urn:biblevel:s",
+      "la": "serial",
       "li": null,
       "pr": "bf:issuance"
     },
     {
       "bn": null,
-      "id": "mediatypes:n",
-      "la": "unmediated",
+      "id": "mediatypes:h",
+      "la": "microform",
       "li": null,
       "pr": "bf:media"
     },
@@ -34,13 +34,13 @@
         {
           "id": null,
           "la": null,
-          "li": "Bibliography",
+          "li": "Reproduction",
           "pr": "bf:noteType"
         },
         {
           "id": null,
           "la": null,
-          "li": "Includes bibliographical references.",
+          "li": "Microfiche.",
           "pr": "rdfs:label"
         },
         {
@@ -50,7 +50,7 @@
           "pr": "rdf:type"
         }
       ],
-      "id": "cb6240214#1.0000",
+      "id": "b11076048#1.0000",
       "la": null,
       "li": null,
       "pr": "bf:note"
@@ -59,111 +59,90 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "2007",
+      "li": "9999",
+      "pr": "dbo:endDate"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "999",
       "pr": "dbo:startDate"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "880-07 Zhongguo ren min jie fang jun jun shi ke xue yuan. Zhan zheng li lun he zhan lüe yan jiu bu.",
+      "li": "Anglican Church of Canada. Diocese of the Arctic.",
       "pr": "dc:contributor"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "880-08 Zhongguo Sunzi bing fa yan jiu hui.",
-      "pr": "dc:contributor"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "880-01 International Symposium on Sun Tzu's Art of War (7th : 2006 : Hangzhou, China)",
-      "pr": "dc:creator"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "2007",
+      "li": "999",
       "pr": "dc:date"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Sunzi, active 6th century B.C. -- Congresses.",
+      "li": "Anglican Church of Canada -- Missions -- Periodicals.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Military art and science -- Congresses.",
+      "li": "Indians of North America -- Missions -- Northwest Territories -- Periodicals.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Sun tzu's art of war and modern strategy",
+      "li": "Inuit -- Missions -- Northwest Territories -- Periodicals.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Arctic news",
       "pr": "dcterms:alternative"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Di qi jie Sunzi bing fa guo ji yan tao hui lun wen ji",
-      "pr": "dcterms:alternative"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "2007",
+      "li": "999",
       "pr": "dcterms:created"
     },
     {
       "bn": null,
-      "id": null,
-      "la": "Summary, Etc.",
-      "li": "这次孙子兵法国际研讨会首次将孙子思想与大国关系和中国和平发展主题相结合,在三天时间里,30多个国家和海峡两岸,香港地区的近300名专家学者,将围绕\"大国关系与国家安全\",\"大国的国防政策\",\"军事互信和军事合作\",\"台海形势及其走向\",\"孙子兵法与世界军事文化遗产\"等…",
-      "pr": "dcterms:description"
-    },
-    {
-      "bn": null,
-      "id": "urn:bnum:6240214",
+      "id": "urn:bnum:11076048",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "urn:isbn:9787802370715",
+      "id": "urn:issn:0518-3839",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "urn:isbn:780237071X",
+      "id": "urn:lccn:cn 76300363",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "urn:lccn:  2008402889",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "lang:chi",
-      "la": "Chinese",
+      "id": "lang:eng",
+      "la": "English",
       "li": null,
       "pr": "dcterms:language"
     },
@@ -171,7 +150,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "880-02 Sunzi bing fa yu xian dai zhan lüe : di qi jie Sunzi bing fa guo ji yan tao hui lun wen ji = Sun tzu's art of war and modern strategy : theses colletion of the 7th international symposium on Sun tzu's art of war / jun shi ke xue yuan zhan zheng li lun he zhan lüe yan jiu bu, Zhongguo Sunzi bing fa yan jiu hui bian.",
+      "li": "The Arctic news [microform].",
       "pr": "dcterms:title"
     },
     {
@@ -185,43 +164,85 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "7, 739 p. : col. ill. ;",
+      "li": "v. ill.",
       "pr": "nypl:extent"
     },
     {
       "bn": null,
-      "id": "genre:b",
-      "la": "Bibliographies",
-      "li": null,
-      "pr": "nypl:genre"
+      "id": null,
+      "la": null,
+      "li": "Twilight 1941",
+      "pr": "nypl:formerTitle"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "U101.S96 S7922 2006",
-      "pr": "nypl:lccClassification"
+      "li": "Nine-nineteen 1942",
+      "pr": "nypl:formerTitle"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Beijing Shi :",
+      "li": "Arctic advance 1943",
+      "pr": "nypl:formerTitle"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fort George 1944",
+      "pr": "nypl:formerTitle"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "What price rats? 1945",
+      "pr": "nypl:formerTitle"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fog, ice and sunshine 1946",
+      "pr": "nypl:formerTitle"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Maiden voyage Oct. 1950",
+      "pr": "nypl:formerTitle"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Toronto,",
       "pr": "nypl:placeOfPublication"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Beijing Shi : Jun shi ke xue chu ban she, 2007.",
+      "li": "Toronto, Diocese of the Arctic, [Anglican Church of Canada]",
       "pr": "nypl:publicationStatement"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Jun shi ke xue chu ban she,",
+      "li": "Diocese of the Arctic, [Anglican Church of Canada]",
       "pr": "nypl:role-publisher"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*XLB-77",
+      "pr": "nypl:shelfMark"
     },
     {
       "bn": null,
@@ -234,12 +255,12 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Sunzi bing fa yu xian dai zhan lüe : di qi jie Sunzi bing fa guo ji yan tao hui lun wen ji = Sun tzu's art of war and modern strategy : theses colletion of the 7th international symposium on Sun tzu's art of war / jun shi ke xue yuan zhan zheng li lun he zhan lüe yan jiu bu, Zhongguo Sunzi bing fa yan jiu hui bian.",
+      "li": "The Arctic news [microform].",
       "pr": "nypl:titleDisplay"
     },
     {
       "bn": null,
-      "id": "nypl:Item",
+      "id": "nypl:Collection",
       "la": null,
       "li": null,
       "pr": "rdfs:type"
@@ -247,7 +268,23 @@
   ],
   "item_statements": [
     {
-      "s": "ci7423916",
+      "s": "i17483814",
+      "bn": null,
+      "id": "carriertypes:he",
+      "la": "microfiche",
+      "li": null,
+      "pr": "bf:carrier"
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "mediatypes:h",
+      "la": "microform",
+      "li": null,
+      "pr": "bf:media"
+    },
+    {
+      "s": "i17483814",
       "bn": null,
       "id": "status:a",
       "la": "Available ",
@@ -255,15 +292,7 @@
       "pr": "bf:status"
     },
     {
-      "s": "ci7423916",
-      "bn": null,
-      "id": "urn:barcode:CU13833405",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
       "id": "accessMessage:1",
       "la": "Use in library",
@@ -271,47 +300,55 @@
       "pr": "nypl:accessMessage"
     },
     {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
-      "id": "urn:bnum:cb6240214",
+      "id": "urn:bnum:b11076048",
       "la": null,
       "li": null,
       "pr": "nypl:bnum"
     },
     {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
-      "id": "catalogItemType:1",
-      "la": "non-circ",
+      "id": "catalogItemType:26",
+      "la": "microfiche",
       "li": null,
       "pr": "nypl:catalogItemType"
     },
     {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
-      "id": "orgs:0002",
-      "la": "Columbia University Libraries",
+      "id": "loc:mal82",
+      "la": "Schwarzman Building - Main Reading Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "orgs:1101",
+      "la": "General Research Division",
       "li": null,
       "pr": "nypl:owner"
     },
     {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
       "id": null,
       "la": null,
-      "li": "true",
+      "li": "false",
       "pr": "nypl:requestable"
     },
     {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
       "id": null,
       "la": null,
-      "li": "U101.S96 S7922 2006",
+      "li": "*XLB-77 [1941]-fall 1976 (inc)",
       "pr": "nypl:shelfMark"
     },
     {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
       "id": null,
       "la": null,
@@ -319,7 +356,7 @@
       "pr": "nypl:suppressed"
     },
     {
-      "s": "ci7423916",
+      "s": "i17483814",
       "bn": null,
       "id": "bf:Item",
       "la": null,

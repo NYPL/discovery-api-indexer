@@ -30,11 +30,56 @@
       "pr": "bf:media"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Acc. by book published in conjunction with recording: The Gershwins, words upon music / [compiled by] Lawrence D. Stewart. c1959 (47 p. : ill.).",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b11070917#1.0000",
       "la": null,
-      "li": "1959",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Language",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "In container; manual sequence.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b11070917#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -95,7 +140,7 @@
     {
       "bn": null,
       "id": null,
-      "la": "Varying Form of Title",
+      "la": null,
       "li": "Works.",
       "pr": "dcterms:alternative"
     },
@@ -116,27 +161,6 @@
     {
       "bn": null,
       "id": "urn:lccn:r  59001818",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:oclc:10059140",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lcc:M1366.F54",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lccCoarse:M1350-1366",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
@@ -180,6 +204,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Verve Records [1959]",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Verve Records",
       "pr": "nypl:role-publisher"
     },
@@ -213,38 +244,10 @@
     },
     {
       "bn": null,
-      "id": "urn:owi:133103558",
-      "la": null,
-      "li": null,
-      "pr": "nypl:workId"
-    },
-    {
-      "bn": null,
       "id": "nypl:Item",
       "la": null,
       "li": null,
       "pr": "rdfs:type"
-    },
-    {
-      "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "Acc. by book published in conjunction with recording: The Gershwins, words upon music / [compiled by] Lawrence D. Stewart. c1959 (47 p. : ill.).",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "Language Note",
-      "li": "In container; manual sequence.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
@@ -252,7 +255,7 @@
       "s": "i17482110",
       "bn": null,
       "id": "status:a",
-      "la": "Available",
+      "la": "Available ",
       "li": null,
       "pr": "bf:status"
     },
@@ -268,7 +271,7 @@
       "s": "i17482110",
       "bn": null,
       "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
+      "la": "Use in library",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -291,14 +294,6 @@
     {
       "s": "i17482110",
       "bn": null,
-      "id": "loc:myr",
-      "la": "Performing Arts Research Collections",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i17482110",
-      "bn": null,
       "id": "loc:myh22",
       "la": "Performing Arts Research Collections - Recorded Sound",
       "li": null,
@@ -317,7 +312,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "true",
+      "li": "false",
       "pr": "nypl:requestable"
     },
     {
@@ -335,6 +330,14 @@
       "la": null,
       "li": "false",
       "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i17482110",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     },
     {
       "s": "i17482110",

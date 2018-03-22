@@ -34,7 +34,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -60,7 +60,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Bibliography, etc. Note",
+          "li": "Bibliography",
           "pr": "bf:noteType"
         },
         {

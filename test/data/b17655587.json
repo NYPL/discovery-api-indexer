@@ -16,11 +16,30 @@
       "pr": "bf:issuance"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Credits",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Director, Andy Gurian.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b17655587#1.0000",
       "la": null,
-      "li": "1964",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -117,6 +136,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "New York : Children's Cultural Foundation, 1964.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Children's Cultural Foundation,",
       "pr": "nypl:role-publisher"
     },
@@ -140,20 +166,6 @@
       "la": null,
       "li": null,
       "pr": "rdfs:type"
-    },
-    {
-      "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "Creation/Production Credits Note",
-      "li": "Director, Andy Gurian.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
@@ -254,6 +266,30 @@
       "pr": "rdf:type"
     },
     {
+      "s": "i17906173",
+      "bn": null,
+      "id": "urn:bnum:b17655587",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i17906173",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i17906173",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
       "s": "i17906176",
       "bn": null,
       "id": "carriertypes:mr",
@@ -338,7 +374,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "|pY|fM16|a238|cT",
+      "li": "Y M16 238 T",
       "pr": "nypl:shelfMark"
     },
     {
@@ -358,52 +394,12 @@
       "pr": "rdf:type"
     },
     {
-      "s": "i17906172",
-      "bn": null,
-      "id": "urn:bnum:b17655587",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "i17906172",
-      "bn": null,
-      "id": "catalogItemType:133",
-      "la": "RFVC - FILM PRESERVATION",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i17906172",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "true",
-      "pr": "nypl:suppressed"
-    },
-    {
-      "s": "i17906172",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
       "s": "i17906174",
       "bn": null,
       "id": "urn:bnum:b17655587",
       "la": null,
       "li": null,
       "pr": "nypl:bnum"
-    },
-    {
-      "s": "i17906174",
-      "bn": null,
-      "id": "catalogItemType:133",
-      "la": "RFVC - FILM PRESERVATION",
-      "li": null,
-      "pr": "nypl:catalogItemType"
     },
     {
       "s": "i17906174",
@@ -422,7 +418,7 @@
       "pr": "rdf:type"
     },
     {
-      "s": "i17906173",
+      "s": "i17906172",
       "bn": null,
       "id": "urn:bnum:b17655587",
       "la": null,
@@ -430,15 +426,7 @@
       "pr": "nypl:bnum"
     },
     {
-      "s": "i17906173",
-      "bn": null,
-      "id": "catalogItemType:133",
-      "la": "RFVC - FILM PRESERVATION",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i17906173",
+      "s": "i17906172",
       "bn": null,
       "id": null,
       "la": null,
@@ -446,7 +434,7 @@
       "pr": "nypl:suppressed"
     },
     {
-      "s": "i17906173",
+      "s": "i17906172",
       "bn": null,
       "id": "bf:Item",
       "la": null,
@@ -460,14 +448,6 @@
       "la": null,
       "li": null,
       "pr": "nypl:bnum"
-    },
-    {
-      "s": "i17906171",
-      "bn": null,
-      "id": "catalogItemType:133",
-      "la": "RFVC - FILM PRESERVATION",
-      "li": null,
-      "pr": "nypl:catalogItemType"
     },
     {
       "s": "i17906171",
