@@ -1,12 +1,11 @@
 const fs = require('fs')
 
 const index = require('../../lib/index')
-const envConfigHelper = require('../../lib/env-config-helper')
 const expect = require('chai').expect
 
 const keywordQuery = (term, searchScope = 'all') => {
   const query = {
-    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/keyword-query-template.json', 'utf8'))
+    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/keyword-query.json', 'utf8'))
   }
 
   let customFields = null
@@ -14,35 +13,26 @@ const keywordQuery = (term, searchScope = 'all') => {
   switch (searchScope) {
     case 'title':
       customFields = [
-        'title^10',
         'title.folded^5',
-        'seriesStatement',
         'seriesStatement.folded',
-        'titleAlt',
         'titleAlt.folded',
-        'uniformTitle',
         'uniformTitle.folded',
-        'titleDisplay',
         'titleDisplay.folded'
       ]
       break
     case 'contributor':
       customFields = [
-        'creatorLiteral^3',
         'creatorLiteral.folded^2',
-        'contributorLiteral',
         'contributorLiteral.folded'
       ]
       break
     case 'subject':
       customFields = [
-        'subjectLiteral',
         'subjectLiteral.folded'
       ]
       break
     case 'series':
       customFields = [
-        'seriesStatement',
         'seriesStatement.folded'
       ]
       break
@@ -60,26 +50,15 @@ const keywordQuery = (term, searchScope = 'all') => {
       break
     default:
       customFields = [
-        'title^10',
         'title.folded^5',
-        'description^5',
         'description.folded',
-        'subjectLiteral^5',
         'subjectLiteral.folded',
-        'creatorLiteral^5',
         'creatorLiteral.folded',
-        'contributorLiteral',
         'contributorLiteral.folded',
-        'note.label',
         'note.label.folded',
-        'publisherLiteral',
         'publisherLiteral.folded',
-        'shelfMark',
-        'seriesStatement',
         'seriesStatement.folded',
         'titleAlt.folded',
-        'titleAlt',
-        'titleDisplay',
         'titleDisplay.folded'
       ]
   }
@@ -129,13 +108,6 @@ const search = (params) => {
 }
 
 describe('Keyword querying', function () {
-  before(function () {
-    process.env.ELASTIC_RESOURCES_INDEX_NAME = 'resources-test-index'
-
-    // Initialize connections
-    return envConfigHelper.init({ index })
-  })
-
   describe('with search_scope "title"', function () {
     it('should match b10011745 based on titleAlt', function () {
       return search(keywordQuery('IJBD', 'title')).then((result) => {
@@ -524,6 +496,9 @@ describe('Keyword querying', function () {
         })
       })
 
+      // Retiring this because a quoted shelfmark won't match and doesn't need
+      // to now that we're including a `wildcard` match against shelfMark
+      /*
       it('should match b10011374 by shelfMark with quotes', function () {
         return search(keywordQuery('"JFE 86-498"')).then((result) => {
           expect(result).to.be.a('object')
@@ -533,6 +508,7 @@ describe('Keyword querying', function () {
           expect(result.hits.hits[0]._id).to.equal('b10011374')
         })
       })
+      */
     })
 
     describe('Publisher', function () {
