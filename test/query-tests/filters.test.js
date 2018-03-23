@@ -1,12 +1,11 @@
 const fs = require('fs')
 
 const index = require('../../lib/index')
-const envConfigHelper = require('../../lib/env-config-helper')
 const expect = require('chai').expect
 
 const nestedFilterQuery = (path, filters, sort) => {
   const query = {
-    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/nested-filter-query-template.json', 'utf8'))
+    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/nested-filter-query.json', 'utf8'))
   }
   query.body.query.nested.path = path
   query.body.query.nested.query.constant_score.filter.bool.should = filters
@@ -44,7 +43,7 @@ const nestedFilterByEntityQuery = (path, entityName, value) => {
 
 const filterQuery = (filters, sort) => {
   const query = {
-    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/filter-query-template.json', 'utf8'))
+    body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/filter-query.json', 'utf8'))
   }
   query.body.query.bool.filter = filters
   if (sort) query.body.sort = [ sort ]
@@ -85,13 +84,6 @@ const search = (params) => {
 }
 
 describe('Filter querying', function () {
-  before(function () {
-    process.env.ELASTIC_RESOURCES_INDEX_NAME = 'resources-test-index'
-
-    // Initialize connections
-    return envConfigHelper.init({ index })
-  })
-
   describe('materialType', function () {
     it('should match b11070917 by materialType Audio (resourcetypes:aud)', function () {
       return search(filterByEntityQuery('materialType', 'resourcetypes:aud')).then((result) => {
