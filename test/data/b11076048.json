@@ -6,274 +6,465 @@
       "id": "carriertypes:he",
       "la": "microfiche",
       "li": null,
-      "pr": "bf:carrier"
+      "pr": "bf:carrier",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "25 cm.",
-      "pr": "bf:dimensions"
+      "pr": "bf:dimensions",
+      "ty": null
     },
     {
       "bn": null,
       "id": "urn:biblevel:s",
       "la": "serial",
       "li": null,
-      "pr": "bf:issuance"
+      "pr": "bf:issuance",
+      "ty": null
     },
     {
       "bn": null,
       "id": "mediatypes:h",
       "la": "microform",
       "li": null,
-      "pr": "bf:media"
+      "pr": "bf:media",
+      "ty": null
     },
     {
       "bn": [
         {
           "id": null,
           "la": null,
-          "li": "Reproduction",
-          "pr": "bf:noteType"
+          "li": "Additional Physical Form available Note",
+          "pr": "bf:noteType",
+          "ty": null
         },
         {
           "id": null,
           "la": null,
           "li": "Microfiche.",
-          "pr": "rdfs:label"
+          "pr": "rdfs:label",
+          "ty": null
         },
         {
           "id": "bf:Note",
           "la": null,
           "li": null,
-          "pr": "rdf:type"
+          "pr": "rdf:type",
+          "ty": null
         }
       ],
       "id": "b11076048#1.0000",
       "la": null,
       "li": null,
-      "pr": "bf:note"
+      "pr": "bf:note",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "9999",
-      "pr": "dbo:endDate"
+      "pr": "dbo:dateEnd",
+      "ty": "xsd:integer"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "999",
-      "pr": "dbo:startDate"
+      "pr": "dbo:dateStart",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "9999",
+      "pr": "dbo:endDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "999",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Anglican Church of Canada. Diocese of the Arctic.",
-      "pr": "dc:contributor"
+      "pr": "dc:contributor",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "999",
-      "pr": "dc:date"
+      "pr": "dc:date",
+      "ty": "xsd:integer"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Anglican Church of Canada -- Missions -- Periodicals.",
-      "pr": "dc:subject"
+      "pr": "dc:subject",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Indians of North America -- Missions -- Northwest Territories -- Periodicals.",
-      "pr": "dc:subject"
+      "pr": "dc:subject",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Inuit -- Missions -- Northwest Territories -- Periodicals.",
-      "pr": "dc:subject"
+      "pr": "dc:subject",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Arctic news",
-      "pr": "dcterms:alternative"
+      "pr": "dcterms:alternative",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "999",
-      "pr": "dcterms:created"
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
     },
     {
       "bn": null,
       "id": "urn:bnum:11076048",
       "la": null,
       "li": null,
-      "pr": "dcterms:identifier"
+      "pr": "dcterms:identifier",
+      "ty": null
     },
     {
       "bn": null,
       "id": "urn:issn:0518-3839",
       "la": null,
       "li": null,
-      "pr": "dcterms:identifier"
+      "pr": "dcterms:identifier",
+      "ty": null
     },
     {
       "bn": null,
       "id": "urn:lccn:cn 76300363",
       "la": null,
       "li": null,
-      "pr": "dcterms:identifier"
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:oclc:1639135",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:lcc:E78.C2",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:lccCoarse:E75-99",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:hathi:007465542",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
     },
     {
       "bn": null,
       "id": "lang:eng",
       "la": "English",
       "li": null,
-      "pr": "dcterms:language"
+      "pr": "dcterms:language",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "The Arctic news [microform].",
-      "pr": "dcterms:title"
+      "pr": "dcterms:title",
+      "ty": null
     },
     {
       "bn": null,
       "id": "resourcetypes:txt",
       "la": "Text",
       "li": null,
-      "pr": "dcterms:type"
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"wu.89096079116\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"007465542\",\"enumeration\":\"1974-1986 2 miscellaneous items in pocket\",\"oclc\":[1639135],\"isbn\":[],\"issn\":[\"0518-3839\"],\"lccn\":[\"cn 76300363\"],\"pubDate\":\"1986\",\"language\":\"eng\",\"bibFormat\":\"SE\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"wu.89096079132\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"007465542\",\"enumeration\":\"1987-2000 13 prayer lists (sheets) in pocket\",\"oclc\":[1639135],\"isbn\":[],\"issn\":[\"0518-3839\"],\"lccn\":[\"cn 76300363\"],\"pubDate\":\"2000\",\"language\":\"eng\",\"bibFormat\":\"SE\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"wu.89096079108\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"007465542\",\"enumeration\":\"2001-2007 1 sheet in pocket (prayer list)\",\"oclc\":[1639135],\"isbn\":[],\"issn\":[\"0518-3839\"],\"lccn\":[\"cn 76300363\"],\"pubDate\":\"2007\",\"language\":\"eng\",\"bibFormat\":\"SE\"}",
+      "pr": "hathi:vols",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "v. ill.",
-      "pr": "nypl:extent"
+      "pr": "nypl:extent",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Twilight 1941",
-      "pr": "nypl:formerTitle"
+      "pr": "nypl:formerTitle",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Nine-nineteen 1942",
-      "pr": "nypl:formerTitle"
+      "pr": "nypl:formerTitle",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Arctic advance 1943",
-      "pr": "nypl:formerTitle"
+      "pr": "nypl:formerTitle",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Fort George 1944",
-      "pr": "nypl:formerTitle"
+      "pr": "nypl:formerTitle",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "What price rats? 1945",
-      "pr": "nypl:formerTitle"
+      "pr": "nypl:formerTitle",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Fog, ice and sunshine 1946",
-      "pr": "nypl:formerTitle"
+      "pr": "nypl:formerTitle",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Maiden voyage Oct. 1950",
-      "pr": "nypl:formerTitle"
+      "pr": "nypl:formerTitle",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Toronto,",
-      "pr": "nypl:placeOfPublication"
+      "pr": "nypl:placeOfPublication",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Toronto, Diocese of the Arctic, [Anglican Church of Canada]",
-      "pr": "nypl:publicationStatement"
+      "pr": "nypl:publicationStatement",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "Diocese of the Arctic, [Anglican Church of Canada]",
-      "pr": "nypl:role-publisher"
+      "pr": "nypl:role-publisher",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "*XLB-77",
-      "pr": "nypl:shelfMark"
+      "pr": "nypl:shelfMark",
+      "ty": null
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "false",
-      "pr": "nypl:suppressed"
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
       "li": "The Arctic news [microform].",
-      "pr": "nypl:titleDisplay"
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:owi:54062009",
+      "la": null,
+      "li": null,
+      "pr": "nypl:workId",
+      "ty": null
     },
     {
       "bn": null,
       "id": "nypl:Collection",
       "la": null,
       "li": null,
-      "pr": "rdfs:type"
+      "pr": "rdfs:type",
+      "ty": null
     }
   ],
   "item_statements": [
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": "urn:barcode:AR01946404",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "ADV REQUEST",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": "urn:bnum:b11076048",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": "catalogItemType:2",
+      "la": "book non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "SB470.V64 V6413 2015g",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i8650511",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
     {
       "s": "i17483814",
       "bn": null,
       "id": "carriertypes:he",
       "la": "microfiche",
       "li": null,
-      "pr": "bf:carrier"
+      "pr": "bf:carrier",
+      "ty": null
     },
     {
       "s": "i17483814",
@@ -281,23 +472,26 @@
       "id": "mediatypes:h",
       "la": "microform",
       "li": null,
-      "pr": "bf:media"
+      "pr": "bf:media",
+      "ty": null
     },
     {
       "s": "i17483814",
       "bn": null,
       "id": "status:a",
-      "la": "Available ",
+      "la": "Available",
       "li": null,
-      "pr": "bf:status"
+      "pr": "bf:status",
+      "ty": null
     },
     {
       "s": "i17483814",
       "bn": null,
       "id": "accessMessage:1",
-      "la": "Use in library",
+      "la": "USE IN LIBRARY",
       "li": null,
-      "pr": "nypl:accessMessage"
+      "pr": "nypl:accessMessage",
+      "ty": null
     },
     {
       "s": "i17483814",
@@ -305,7 +499,8 @@
       "id": "urn:bnum:b11076048",
       "la": null,
       "li": null,
-      "pr": "nypl:bnum"
+      "pr": "nypl:bnum",
+      "ty": null
     },
     {
       "s": "i17483814",
@@ -313,15 +508,107 @@
       "id": "catalogItemType:26",
       "la": "microfiche",
       "li": null,
-      "pr": "nypl:catalogItemType"
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17483814",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
     },
     {
       "s": "i17483814",
       "bn": null,
       "id": "loc:mal82",
-      "la": "Schwarzman Building - Main Reading Room 315",
+      "la": "SASB M1 - General Research - Room 315",
       "li": null,
-      "pr": "nypl:holdingLocation"
+      "pr": "nypl:holdingLocation",
+      "ty": null
     },
     {
       "s": "i17483814",
@@ -329,15 +616,17 @@
       "id": "orgs:1101",
       "la": "General Research Division",
       "li": null,
-      "pr": "nypl:owner"
+      "pr": "nypl:owner",
+      "ty": null
     },
     {
       "s": "i17483814",
       "bn": null,
       "id": null,
       "la": null,
-      "li": "false",
-      "pr": "nypl:requestable"
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
     },
     {
       "s": "i17483814",
@@ -345,7 +634,8 @@
       "id": null,
       "la": null,
       "li": "*XLB-77 [1941]-fall 1976 (inc)",
-      "pr": "nypl:shelfMark"
+      "pr": "nypl:shelfMark",
+      "ty": null
     },
     {
       "s": "i17483814",
@@ -353,7 +643,8 @@
       "id": null,
       "la": null,
       "li": "false",
-      "pr": "nypl:suppressed"
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
     },
     {
       "s": "i17483814",
@@ -361,7 +652,8 @@
       "id": "bf:Item",
       "la": null,
       "li": null,
-      "pr": "rdf:type"
+      "pr": "rdf:type",
+      "ty": null
     }
   ]
 }
