@@ -123,15 +123,8 @@ describe('Bib Serializations', function () {
     it('should have lots of identifiers', function () {
       return Bib.byId('b11253008').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
-          ; [
-            'urn:bnum:11253008'
-            // TODO These used to be set for this bib, buit no longer found (i.e. 050, 010)
-            // 'urn:lcc:CT1919.P38',
-            // 'urn:lccCoarse:CT210-3150',
-            // 'urn:oclc:71217073'
-          ].forEach((identifier) => {
-            assert(serialized.identifier.indexOf(identifier) >= 0)
-          })
+          // Deprecated URN style:
+          assert(serialized.identifier.indexOf('urn:bnum:11253008') >= 0)
         })
       })
     })
@@ -141,14 +134,6 @@ describe('Bib Serializations', function () {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.language[0].id, 'lang:eng')
           assert.equal(serialized.language[0].label, 'English')
-        })
-      })
-    })
-
-    it('should have lcc classification', function () {
-      return Bib.byId('b10681848').then((bib) => {
-        return ResourceSerializer.serialize(bib).then((serialized) => {
-          assert.equal(serialized.lccClassification[0], 'N6797.P3 A4 1980')
         })
       })
     })
@@ -223,7 +208,39 @@ describe('Bib Serializations', function () {
     it('should have LCCN', function () {
       return Bib.byId('b10681848').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
+          // Deprecated URN style:
           assert(serialized.identifier.indexOf('urn:lccn:   79906697') !== -1)
+          assert(serialized.idLccn.indexOf('   79906697') !== -1)
+        })
+      })
+    })
+
+    it('should have ISBN', function () {
+      return Bib.byId('b10681848').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          // Deprecated URN style:
+          assert(serialized.identifier.indexOf('urn:isbn:0847802779') !== -1)
+          assert(serialized.idIsbn.indexOf('0847802779') !== -1)
+        })
+      })
+    })
+
+    it('should have ISSN', function () {
+      return Bib.byId('b10011745').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          // Deprecated URN style:
+          assert(serialized.identifier.indexOf('urn:issn:0165-0254') !== -1)
+          assert(serialized.idIssn.indexOf('0165-0254') !== -1)
+        })
+      })
+    })
+
+    it('should have OCLC', function () {
+      return Bib.byId('b10781594').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          // Deprecated URN style:
+          assert(serialized.identifier.indexOf('urn:oclc:300553178') !== -1)
+          assert(serialized.idOclc.indexOf('300553178') !== -1)
         })
       })
     })
@@ -347,11 +364,10 @@ describe('Bib Serializations', function () {
     it('should have lots of identifiers', function () {
       return Bib.byId('b10001936').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
-          ; [
-            'urn:barcode:33433001892276'
-          ].forEach((identifier) => {
-            assert(serialized.items[0].identifier.indexOf(identifier) >= 0)
-          })
+          // Deprecated URN style:
+          assert(serialized.items[0].identifier.indexOf('urn:barcode:33433001892276') >= 0)
+          // Confirm copied to special idBarcode field:
+          assert(serialized.items[0].idBarcode.indexOf('33433001892276') >= 0)
         })
       })
     })
