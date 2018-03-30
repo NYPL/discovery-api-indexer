@@ -1,0 +1,321 @@
+{
+  "subject_id": "cb8231282",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "22 cm.",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2010",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Laʼu, Binyamin.",
+      "pr": "dc:contributor",
+      "ty": "xsd:string"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Laʼu, Binyamin.",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2010",
+      "pr": "dc:date",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bible. -- Commentaries.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Varying Form of Title",
+      "li": "Jeremiah",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2010",
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": "urn:bnum:8231282",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:isbn:9789655451269",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:isbn:9655451267",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "lang:heb",
+      "la": "Hebrew",
+      "li": null,
+      "pr": "dcterms:language",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "880-02 Yirmeyahu : goralo shel ḥozeh / Binyamin Laʼu.",
+      "pr": "dcterms:title",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "278 p. ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "BS1525.53 .L38 2010",
+      "pr": "nypl:lccClassification",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tel-Aviv :",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Yediʻot aḥaronot : Sifre ḥemed,",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Yirmeyahu : goralo shel ḥozeh / Binyamin Laʼu.",
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "General Note",
+      "li": "\"Yediʻot sefarim\"--Spine.",
+      "pr": "skos:note",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Bibliography, Etc. Note",
+      "li": "Includes bibliographical references.",
+      "pr": "skos:note",
+      "ty": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": "urn:barcode:CU16626036",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": "urn:bnum:cb8231282",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": "catalogItemType:1",
+      "la": "non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": "orgs:0002",
+      "la": "Columbia University Libraries",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "BS1525.53 .L38 2010g",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "ci7592456",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    }
+  ]
+}

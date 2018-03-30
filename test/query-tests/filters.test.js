@@ -190,7 +190,7 @@ describe('Filter querying', function () {
         return search(nestedFilterByEntityQuery('items', 'items.owner', 'orgs:0002')).then((result) => {
           expect(result).to.be.a('object')
           expect(result.hits).to.be.a('object')
-          expect(result.hits.total).to.equal(1)
+          expect(result.hits.total).to.equal(2)
           expect(result.hits.hits[0]).to.be.a('object')
           expect(result.hits.hits[0]._id).to.equal('cb6240214')
         })
@@ -200,7 +200,7 @@ describe('Filter querying', function () {
         return search(nestedFilterByEntityQuery('items', 'items.owner', 'Columbia University Libraries')).then((result) => {
           expect(result).to.be.a('object')
           expect(result.hits).to.be.a('object')
-          expect(result.hits.total).to.equal(1)
+          expect(result.hits.total).to.equal(2)
           expect(result.hits.hits[0]).to.be.a('object')
           expect(result.hits.hits[0]._id).to.equal('cb6240214')
         })

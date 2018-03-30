@@ -64,39 +64,14 @@ const keywordQuery = (term, searchScope = 'all') => {
   }
 
   if (['all', 'identifier'].indexOf(searchScope) >= 0) {
-    extraShouldClauses = [
-      {
-        nested: {
-          path: 'items',
-          query: {
-            bool: {
-              should: [
-                {
-                  wildcard: {
-                    'items.identifierV2.value': term
-                  }
-                },
-                {
-                  term: {
-                    'items.uri': term
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        wildcard: {
-          'identifierV2.value': term
-        }
-      }
-    ]
+    const extraShouldClausesRaw = fs.readFileSync('./test/query-tests/query-templates/_identifier-matches.json', 'utf8')
+        .replace(/%%TERM%%/g, term.replace(/"/g, '\\$1'))
+    extraShouldClauses = JSON.parse(extraShouldClausesRaw)
   }
   if (customFields) query.body.query.function_score.query.bool.should[0].query_string.fields = customFields
   if (extraShouldClauses) query.body.query.function_score.query.bool.should = query.body.query.function_score.query.bool.should.concat(extraShouldClauses)
 
-  query.body.query.function_score.query.bool.should[0].query_string.query = term.replace(/:/g, '\\:')
+  query.body.query.function_score.query.bool.should[0].query_string.query = term.replace(/(:|\/)/g, '\\$1')
 
   return query
 }
@@ -160,6 +135,36 @@ describe('Keyword querying', function () {
         expect(result.hits.hits[0]._id).to.equal('b10681848')
       })
     })
+
+    it('should match b21415296 based on title.folded (Ligatures in romanized Russian)', function () {
+      return search(keywordQuery('Arkheologii︠a︡ Omska illi︠u︡strirovannai︠a︡ ėnt︠s︡iklopedii︠a︡', 'title')).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        expect(result.hits.total).to.equal(1)
+        expect(result.hits.hits[0]).to.be.a('object')
+        expect(result.hits.hits[0]._id).to.equal('b21415296')
+      })
+    })
+
+    it('should match b21415296 based on title.folded (w/o Ligatures in romanized Russian)', function () {
+      return search(keywordQuery('Arkheologiia omska illiustrirovannaia entsiklopediia', 'title')).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        expect(result.hits.total).to.equal(1)
+        expect(result.hits.hits[0]).to.be.a('object')
+        expect(result.hits.hits[0]._id).to.equal('b21415296')
+      })
+    })
+
+    it('should match b21415296 based on titleDisplay.folded (Ligatures in romanized Russian)', function () {
+      return search(keywordQuery('Arkheologii︠a︡ Omska : illi︠u︡strirovannai︠a︡ ėnt︠s︡iklopedii︠a︡ / Avtor-sostavitelʹ: B.A. Konikov.', 'title')).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        expect(result.hits.total).to.equal(1)
+        expect(result.hits.hits[0]).to.be.a('object')
+        expect(result.hits.hits[0]._id).to.equal('b21415296')
+      })
+    })
   })
 
   describe('with search_scope "contributor"', function () {
@@ -180,6 +185,26 @@ describe('Keyword querying', function () {
         expect(result.hits.total).to.equal(1)
         expect(result.hits.hits[0]).to.be.a('object')
         expect(result.hits.hits[0]._id).to.equal('b11253008')
+      })
+    })
+
+    it('should match cb8231282 based on contributorLiteral with \u02BC (Modifier Letter Apostrophe)', function () {
+      return search(keywordQuery('Laʼu, Binyamin', 'contributor')).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        expect(result.hits.total).to.equal(1)
+        expect(result.hits.hits[0]).to.be.a('object')
+        expect(result.hits.hits[0]._id).to.equal('cb8231282')
+      })
+    })
+
+    it('should match cb8231282 based on contributorLiteral with plain apostrophe', function () {
+      return search(keywordQuery('La\'u, Binyamin', 'contributor')).then((result) => {
+        expect(result).to.be.a('object')
+        expect(result.hits).to.be.a('object')
+        expect(result.hits.total).to.equal(1)
+        expect(result.hits.hits[0]).to.be.a('object')
+        expect(result.hits.hits[0]._id).to.equal('cb8231282')
       })
     })
   })
@@ -345,7 +370,7 @@ describe('Keyword querying', function () {
   })
 
   describe('with search_scope "all"', function () {
-    describe('titles', function () {
+    describe('Title', function () {
       it('should match b10001936 by title', function () {
         return search(keywordQuery('azgayin patmutʻian')).then((result) => {
           expect(result).to.be.a('object')
@@ -395,27 +420,37 @@ describe('Keyword querying', function () {
           expect(result.hits.hits[0]._id).to.equal('b20972964')
         })
       })
-    })
 
-    it('should match b10681848 by words in title', function () {
-      // Actual title is "Victor Pasmore : a catalogue raisonné of the
-      // paintings, constructions, and graphics, 1926-1979"
-      return search(keywordQuery('pasmore catalogue')).then((result) => {
-        expect(result).to.be.a('object')
-        expect(result.hits).to.be.a('object')
-        expect(result.hits.total).to.equal(1)
-        expect(result.hits.hits[0]).to.be.a('object')
-        expect(result.hits.hits[0]._id).to.equal('b10681848')
+      it('should match b21415296 based on titleDisplay.folded (Ligatures in romanized Russian)', function () {
+        return search(keywordQuery('Arkheologii︠a︡ Omska : illi︠u︡strirovannai︠a︡ ėnt︠s︡iklopedii︠a︡ / Avtor-sostavitelʹ: B.A. Konikov.')).then((result) => {
+          expect(result).to.be.a('object')
+          expect(result.hits).to.be.a('object')
+          expect(result.hits.total).to.equal(1)
+          expect(result.hits.hits[0]).to.be.a('object')
+          expect(result.hits.hits[0]._id).to.equal('b21415296')
+        })
       })
-    })
 
-    it('should match b10001936 by contrib', function () {
-      return search(keywordQuery('Shermazanian, Galust')).then((result) => {
-        expect(result).to.be.a('object')
-        expect(result.hits).to.be.a('object')
-        expect(result.hits.total).to.equal(1)
-        expect(result.hits.hits[0]).to.be.a('object')
-        expect(result.hits.hits[0]._id).to.equal('b10001936')
+      it('should match b10681848 by words in title', function () {
+        // Actual title is "Victor Pasmore : a catalogue raisonné of the
+        // paintings, constructions, and graphics, 1926-1979"
+        return search(keywordQuery('pasmore catalogue')).then((result) => {
+          expect(result).to.be.a('object')
+          expect(result.hits).to.be.a('object')
+          expect(result.hits.total).to.equal(1)
+          expect(result.hits.hits[0]).to.be.a('object')
+          expect(result.hits.hits[0]._id).to.equal('b10681848')
+        })
+      })
+
+      it('should match b20972964 by titleDisplay (without accents)', function () {
+        return search(keywordQuery('Santano Gonzalez Villalobos')).then((result) => {
+          expect(result).to.be.a('object')
+          expect(result.hits).to.be.a('object')
+          expect(result.hits.total).to.equal(1)
+          expect(result.hits.hits[0]).to.be.a('object')
+          expect(result.hits.hits[0]._id).to.equal('b20972964')
+        })
       })
     })
 
@@ -556,6 +591,18 @@ describe('Keyword querying', function () {
           expect(result.hits.total).to.equal(1)
           expect(result.hits.hits[0]).to.be.a('object')
           expect(result.hits.hits[0]._id).to.equal('b10018031')
+        })
+      })
+    })
+
+    describe('Contributors', function () {
+      it('should match b10001936 by contrib', function () {
+        return search(keywordQuery('Shermazanian, Galust')).then((result) => {
+          expect(result).to.be.a('object')
+          expect(result.hits).to.be.a('object')
+          expect(result.hits.total).to.equal(1)
+          expect(result.hits.hits[0]).to.be.a('object')
+          expect(result.hits.hits[0]._id).to.equal('b10001936')
         })
       })
     })
