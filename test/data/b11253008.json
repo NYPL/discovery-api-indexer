@@ -30,11 +30,56 @@
       "pr": "bf:media"
     },
     {
-      "bn": null,
-      "id": null,
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "This program forms part of the Communications Excellence to Black Audiences (CEBA) Award Collection, a competition sponsored by the World Institute of Black Communications, Inc.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b11253008#1.0000",
       "la": null,
-      "li": "1978",
-      "pr": "dbo:dateStart"
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Credits",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Host, Orde Coombs.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b11253008#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
     },
     {
       "bn": null,
@@ -103,6 +148,20 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Holder, Geoffrey, 1930-2014",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Timbuktu.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "African American theater.",
       "pr": "dc:subject"
     },
@@ -110,14 +169,14 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Costume design -- New York (State) -- New York.",
+      "li": "Costume design -- New York.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Theater -- New York (State) -- New York.",
+      "li": "Theater -- New York.",
       "pr": "dc:subject"
     },
     {
@@ -138,6 +197,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Interview with Geoffrey Holder.",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "1978",
       "pr": "dcterms:created"
     },
@@ -151,27 +217,6 @@
     {
       "bn": null,
       "id": "urn:bnum:11253008",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:oclc:71217073",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lcc:CT1919.P38",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "bn": null,
-      "id": "urn:lccCoarse:CT210-3150",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
@@ -215,8 +260,22 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Talk shows.",
+      "pr": "nypl:genreForm"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "New York",
       "pr": "nypl:placeOfPublication"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York WPIX, 1979-04-02.",
+      "pr": "nypl:publicationStatement"
     },
     {
       "bn": null,
@@ -248,13 +307,6 @@
     },
     {
       "bn": null,
-      "id": "urn:owi:58188348",
-      "la": null,
-      "li": null,
-      "pr": "nypl:workId"
-    },
-    {
-      "bn": null,
       "id": "nypl:Item",
       "la": null,
       "li": null,
@@ -262,127 +314,18 @@
     },
     {
       "bn": null,
-      "id": "nypl:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "bn": null,
       "id": null,
       "la": null,
       "li": "Holder, Geoffrey, 1930-2014,",
       "pr": "role:ive"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "General Note",
-      "li": "This program forms part of the Communications Excellence to Black Audiences (CEBA) Award Collection, a competition sponsored by the World Institute of Black Communications, Inc.",
-      "pr": "skos:note"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": "Creation/Production Credits Note",
-      "li": "Host, Orde Coombs.",
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
     {
-      "s": "i15881398",
-      "bn": null,
-      "id": "status:a",
-      "la": "Available",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": "urn:bnum:b11253008",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": "catalogItemType:2",
-      "la": "book non-circ",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": "loc:sc",
-      "la": "Schomburg Center",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": "loc:scbb2",
-      "la": "Schomburg Center - Moving Image & Recorded Sound",
-      "li": null,
-      "pr": "nypl:holdingLocation"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": "orgs:1117",
-      "la": "Schomburg Center for Research in Black Culture, Moving Image and Recorded Sound Division",
-      "li": null,
-      "pr": "nypl:owner"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "true",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "Sc Visual VRB-87",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "true",
-      "pr": "nypl:suppressed"
-    },
-    {
-      "s": "i15881398",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
       "s": "i31058504",
       "bn": null,
       "id": "status:a",
-      "la": "Available",
+      "la": "Available ",
       "li": null,
       "pr": "bf:status"
     },
@@ -398,7 +341,7 @@
       "s": "i31058504",
       "bn": null,
       "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
+      "la": "Use in library",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -439,7 +382,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": null,
+      "li": "false",
       "pr": "nypl:requestable"
     },
     {
@@ -461,7 +404,31 @@
     {
       "s": "i31058504",
       "bn": null,
-      "id": "nypl:Item",
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i15881398",
+      "bn": null,
+      "id": "urn:bnum:b11253008",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i15881398",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i15881398",
+      "bn": null,
+      "id": "bf:Item",
       "la": null,
       "li": null,
       "pr": "rdf:type"

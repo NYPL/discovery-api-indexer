@@ -1,0 +1,21 @@
+{
+  "aggregations": {
+    "contributorLiteral": {
+      "terms": {"field": "contributorLiteral.raw", "size": 50}
+    },
+    "creatorLiteral": {"terms": {"field": "creatorLiteral.raw", "size": 50}},
+    "issuance": {"terms": {"field": "issuance_packed", "size": 50}},
+    "language": {"terms": {"field": "language_packed", "size": 50}},
+    "materialType": {"terms": {"field": "materialType_packed", "size": 50}},
+    "mediaType": {"terms": {"field": "mediaType_packed", "size": 50}},
+    "owner": {
+      "aggs": {"_nested": {"terms": {"field": "items.owner_packed"}}},
+      "nested": {"path": "items"}
+    },
+    "publisher": {"terms": {"field": "publisherLiteral.raw", "size": 50}},
+    "subjectLiteral": {"terms": {"field": "subjectLiteral.raw", "size": 50}}
+  },
+  "from": 0,
+  "size": 0,
+  "sort": ["uri"]
+}

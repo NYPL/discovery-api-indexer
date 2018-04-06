@@ -30,6 +30,58 @@
       "pr": "bf:media"
     },
     {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "\"Estudios Antropológicos o Escenográficos.\"",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b20972964#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Bibliography",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes bibliographical references (page 161).",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b20972964#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
       "bn": null,
       "id": null,
       "la": null,
@@ -96,14 +148,14 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Cooking, Mexican. -- fast -- (OCoLC)fst01753395",
+      "li": "Cooking, Mexican.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Indian cooking. -- fast -- (OCoLC)fst01753866",
+      "li": "Indian cooking.",
       "pr": "dc:subject"
     },
     {
@@ -255,6 +307,13 @@
     },
     {
       "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Colección Juan García Jiménez.",
+      "pr": "nypl:uniformTitle"
+    },
+    {
+      "bn": null,
       "id": "nypl:Item",
       "la": null,
       "li": null,
@@ -266,58 +325,6 @@
       "la": null,
       "li": "González Villalobos, Santano,",
       "pr": "role:edt"
-    },
-    {
-      "bn": [
-        {
-          "id": null,
-          "la": null,
-          "li": "General Note",
-          "pr": "bf:noteType"
-        },
-        {
-          "id": null,
-          "la": null,
-          "li": "\"Estudios Antropológicos o Escenográficos.\"",
-          "pr": "rdfs:label"
-        },
-        {
-          "id": "bf:Note",
-          "la": null,
-          "li": null,
-          "pr": "rdf:type"
-        }
-      ],
-      "id": "b20972964#1.0000",
-      "la": null,
-      "li": null,
-      "pr": "skos:note"
-    },
-    {
-      "bn": [
-        {
-          "id": null,
-          "la": null,
-          "li": "Bibliography, etc. Note",
-          "pr": "bf:noteType"
-        },
-        {
-          "id": null,
-          "la": null,
-          "li": "Includes bibliographical references (page 161).",
-          "pr": "rdfs:label"
-        },
-        {
-          "id": "bf:Note",
-          "la": null,
-          "li": null,
-          "pr": "rdf:type"
-        }
-      ],
-      "id": "b20972964#1.0001",
-      "la": null,
-      "li": null,
-      "pr": "skos:note"
     }
   ],
   "item_statements": [
@@ -341,7 +348,7 @@
       "s": "i34534172",
       "bn": null,
       "id": "accessMessage:2",
-      "la": "ADV REQUEST",
+      "la": "Request in advance",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -365,7 +372,7 @@
       "s": "i34534172",
       "bn": null,
       "id": "loc:rc2ma",
-      "la": "OFFSITE - Request in Advance",
+      "la": "Offsite",
       "li": null,
       "pr": "nypl:holdingLocation"
     },
@@ -400,6 +407,14 @@
       "la": null,
       "li": "false",
       "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i34534172",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
     },
     {
       "s": "i34534172",

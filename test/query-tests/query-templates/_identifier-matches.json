@@ -1,0 +1,28 @@
+[
+  {
+    "nested": {
+      "path": "items",
+      "query": {
+        "bool": {
+          "should": [
+            {
+              "wildcard": {
+                "items.identifierV2.value": "%%TERM%%"
+              }
+            },
+            {
+              "term": {
+                "items.uri": "%%TERM%%"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "wildcard": {
+      "identifierV2.value": "%%TERM%%"
+    }
+  }
+]

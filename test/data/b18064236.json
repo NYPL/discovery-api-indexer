@@ -34,7 +34,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -60,7 +60,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -86,7 +86,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -112,7 +112,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -138,7 +138,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Scale Note for Graphic Material",
+          "li": "Credits",
           "pr": "bf:noteType"
         },
         {
@@ -164,7 +164,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Date/Time and Place of an Event Note",
+          "li": "Event",
           "pr": "bf:noteType"
         },
         {
@@ -190,7 +190,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Funding Information Note",
+          "li": "System Details",
           "pr": "bf:noteType"
         },
         {
@@ -216,7 +216,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Immediate Source of Acquisition Note",
+          "li": "Source",
           "pr": "bf:noteType"
         },
         {
@@ -242,7 +242,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Immediate Source of Acquisition Note",
+          "li": "Source",
           "pr": "bf:noteType"
         },
         {
@@ -344,6 +344,13 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Robbins, Jerome.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Choreographers -- United States -- Biography.",
       "pr": "dc:subject"
     },
@@ -371,7 +378,7 @@
     {
       "bn": null,
       "id": null,
-      "la": "Varying Form of Title",
+      "la": null,
       "li": "Something to dance about",
       "pr": "dcterms:alternative"
     },
@@ -435,8 +442,29 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "Dance.",
+      "pr": "nypl:genreForm"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Video.",
       "pr": "nypl:genreForm"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Documentaries and factual works.",
+      "pr": "nypl:genreForm"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "c2008.",
+      "pr": "nypl:publicationStatement"
     },
     {
       "bn": null,
@@ -461,6 +489,13 @@
     },
     {
       "bn": null,
+      "id": null,
+      "la": null,
+      "li": "American masters (Television program)",
+      "pr": "nypl:uniformTitle"
+    },
+    {
+      "bn": null,
       "id": "nypl:Item",
       "la": null,
       "li": null,
@@ -468,182 +503,6 @@
     }
   ],
   "item_statements": [
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "status:a",
-      "la": "Available",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "urn:barcode:33433077412629",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "accessMessage:4",
-      "la": "RESTRICTED USE",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "urn:bnum:b18064236",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "catalogItemType:24",
-      "la": "archival video recording",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "loc:myr",
-      "la": "Performing Arts Research Collections",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "loc:rcpd9",
-      "la": "OFFSITE - Performing Arts--Offsite--Restricted Use",
-      "li": null,
-      "pr": "nypl:holdingLocation"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "*MGZIDVD 5-3013 P.M.",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "true",
-      "pr": "nypl:suppressed"
-    },
-    {
-      "s": "i24119356",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "status:a",
-      "la": "Available",
-      "li": null,
-      "pr": "bf:status"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "urn:barcode:33433077412637",
-      "la": null,
-      "li": null,
-      "pr": "dcterms:identifier"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "accessMessage:4",
-      "la": "RESTRICTED USE",
-      "li": null,
-      "pr": "nypl:accessMessage"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "urn:bnum:b18064236",
-      "la": null,
-      "li": null,
-      "pr": "nypl:bnum"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "catalogItemType:24",
-      "la": "archival video recording",
-      "li": null,
-      "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "loc:myr",
-      "la": "Performing Arts Research Collections",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "loc:rcpd9",
-      "la": "OFFSITE - Performing Arts--Offsite--Restricted Use",
-      "li": null,
-      "pr": "nypl:holdingLocation"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "false",
-      "pr": "nypl:requestable"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "*MGZIDVD 5-3013 A.O.",
-      "pr": "nypl:shelfMark"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "true",
-      "pr": "nypl:suppressed"
-    },
-    {
-      "s": "i24119355",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdf:type"
-    },
     {
       "s": "i24119354",
       "bn": null,
@@ -664,7 +523,7 @@
       "s": "i24119354",
       "bn": null,
       "id": "accessMessage:1",
-      "la": "USE IN LIBRARY",
+      "la": "Use in library",
       "li": null,
       "pr": "nypl:accessMessage"
     },
@@ -683,14 +542,6 @@
       "la": "archival video recording",
       "li": null,
       "pr": "nypl:catalogItemType"
-    },
-    {
-      "s": "i24119354",
-      "bn": null,
-      "id": "loc:myr",
-      "la": "Performing Arts Research Collections",
-      "li": null,
-      "pr": "nypl:deliveryLocation"
     },
     {
       "s": "i24119354",
@@ -734,6 +585,54 @@
     },
     {
       "s": "i24119354",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i24119356",
+      "bn": null,
+      "id": "urn:bnum:b18064236",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i24119356",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i24119356",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i24119355",
+      "bn": null,
+      "id": "urn:bnum:b18064236",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i24119355",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i24119355",
       "bn": null,
       "id": "bf:Item",
       "la": null,
