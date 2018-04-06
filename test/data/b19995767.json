@@ -34,7 +34,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -60,7 +60,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -86,7 +86,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Bibliography, etc. Note",
+          "li": "Bibliography",
           "pr": "bf:noteType"
         },
         {
@@ -118,15 +118,15 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "2013",
-      "pr": "dbo:startDate"
+      "li": "United States. Congress. Senate. S. hrg. ; 113-30.",
+      "pr": "bf:seriesStatement"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "United States. Congress. Joint Economic Committee, author.",
-      "pr": "dc:contributor"
+      "li": "2013",
+      "pr": "dbo:startDate"
     },
     {
       "bn": null,
@@ -146,7 +146,14 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "United States -- Economic policy.",
+      "li": "Board of Governors of the Federal Reserve System (U.S.)",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Dollar, American.",
       "pr": "dc:subject"
     },
     {
@@ -159,7 +166,14 @@
     {
       "bn": null,
       "id": null,
-      "la": "Varying Form of Title",
+      "la": null,
+      "li": "United States -- Economic policy.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "Fed at one hundred",
       "pr": "dcterms:alternative"
     },
@@ -225,6 +239,13 @@
       "la": null,
       "li": "[Washington, D.C.] :",
       "pr": "nypl:placeOfPublication"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[Washington, D.C.] : U.S. Government Printing Office, [2013]",
+      "pr": "nypl:publicationStatement"
     },
     {
       "bn": null,

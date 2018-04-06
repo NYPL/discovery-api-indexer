@@ -1,5 +1,5 @@
 {
-  "subject_id": "b10610175",
+  "subject_id": "cb6240214",
   "bib_statements": [
     {
       "bn": null,
@@ -12,7 +12,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "23 cm.",
+      "li": "24 cm.",
       "pr": "bf:dimensions"
     },
     {
@@ -34,13 +34,13 @@
         {
           "id": null,
           "la": null,
-          "li": "Note",
+          "li": "Bibliography",
           "pr": "bf:noteType"
         },
         {
           "id": null,
           "la": null,
-          "li": "Reprint of the ed. published by the Colored Co-operative Publishing Co., Boston.",
+          "li": "Includes bibliographical references.",
           "pr": "rdfs:label"
         },
         {
@@ -50,7 +50,7 @@
           "pr": "rdf:type"
         }
       ],
-      "id": "b10610175#1.0000",
+      "id": "cb6240214#1.0000",
       "la": null,
       "li": null,
       "pr": "bf:note"
@@ -59,69 +59,111 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Lost American fiction",
-      "pr": "bf:seriesStatement"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "1978",
+      "li": "2007",
       "pr": "dbo:startDate"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Hopkins, Pauline E. (Pauline Elizabeth)",
+      "li": "880-07 Zhongguo ren min jie fang jun jun shi ke xue yuan. Zhan zheng li lun he zhan lüe yan jiu bu.",
+      "pr": "dc:contributor"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "880-08 Zhongguo Sunzi bing fa yan jiu hui.",
+      "pr": "dc:contributor"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "880-01 International Symposium on Sun Tzu's Art of War (7th : 2006 : Hangzhou, China)",
       "pr": "dc:creator"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "1978",
+      "li": "2007",
       "pr": "dc:date"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "African Americans -- Fiction.",
+      "li": "Sunzi, active 6th century B.C. -- Congresses.",
       "pr": "dc:subject"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "1978",
+      "li": "Military art and science -- Congresses.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sun tzu's art of war and modern strategy",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Di qi jie Sunzi bing fa guo ji yan tao hui lun wen ji",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2007",
       "pr": "dcterms:created"
     },
     {
       "bn": null,
-      "id": "urn:bnum:10610175",
+      "id": null,
+      "la": "Summary, Etc.",
+      "li": "这次孙子兵法国际研讨会首次将孙子思想与大国关系和中国和平发展主题相结合,在三天时间里,30多个国家和海峡两岸,香港地区的近300名专家学者,将围绕\"大国关系与国家安全\",\"大国的国防政策\",\"军事互信和军事合作\",\"台海形势及其走向\",\"孙子兵法与世界军事文化遗产\"等…",
+      "pr": "dcterms:description"
+    },
+    {
+      "bn": null,
+      "id": "urn:bnum:6240214",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "urn:isbn:0809308746",
+      "id": "urn:isbn:9787802370715",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "urn:lccn:77018724",
+      "id": "urn:isbn:780237071X",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
       "bn": null,
-      "id": "lang:eng",
-      "la": "English",
+      "id": "urn:lccn:  2008402889",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "bn": null,
+      "id": "lang:chi",
+      "la": "Chinese",
       "li": null,
       "pr": "dcterms:language"
     },
@@ -129,7 +171,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Contending forces : a romance illustrative of Negro life North and South",
+      "li": "880-02 Sunzi bing fa yu xian dai zhan lüe : di qi jie Sunzi bing fa guo ji yan tao hui lun wen ji = Sun tzu's art of war and modern strategy : theses colletion of the 7th international symposium on Sun tzu's art of war / jun shi ke xue yuan zhan zheng li lun he zhan lüe yan jiu bu, Zhongguo Sunzi bing fa yan jiu hui bian.",
       "pr": "dcterms:title"
     },
     {
@@ -143,43 +185,43 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "411 p., [8] leaves of plates : ill. ;",
+      "li": "7, 739 p. : col. ill. ;",
       "pr": "nypl:extent"
+    },
+    {
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "PZ3.H777 Co 1978 PS1999.H4226",
+      "li": "U101.S96 S7922 2006",
       "pr": "nypl:lccClassification"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Carbondale, IL :",
+      "li": "Beijing Shi :",
       "pr": "nypl:placeOfPublication"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Carbondale, IL : Southern Illinois University Press, [1978] c1899.",
+      "li": "Beijing Shi : Jun shi ke xue chu ban she, 2007.",
       "pr": "nypl:publicationStatement"
     },
     {
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Southern Illinois University Press,",
+      "li": "Jun shi ke xue chu ban she,",
       "pr": "nypl:role-publisher"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "Sc D 80-24",
-      "pr": "nypl:shelfMark"
     },
     {
       "bn": null,
@@ -192,7 +234,7 @@
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Contending forces : a romance illustrative of Negro life North and South / by Pauline E. Hopkins ; afterword by Gwendolyn Brooks ; with ill. by R. Emmet Owen.",
+      "li": "Sunzi bing fa yu xian dai zhan lüe : di qi jie Sunzi bing fa guo ji yan tao hui lun wen ji = Sun tzu's art of war and modern strategy : theses colletion of the 7th international symposium on Sun tzu's art of war / jun shi ke xue yuan zhan zheng li lun he zhan lüe yan jiu bu, Zhongguo Sunzi bing fa yan jiu hui bian.",
       "pr": "nypl:titleDisplay"
     },
     {
@@ -205,7 +247,7 @@
   ],
   "item_statements": [
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
       "id": "status:a",
       "la": "Available ",
@@ -213,15 +255,15 @@
       "pr": "bf:status"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
-      "id": "urn:barcode:33433036670986",
+      "id": "urn:barcode:CU13833405",
       "la": null,
       "li": null,
       "pr": "dcterms:identifier"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
       "id": "accessMessage:1",
       "la": "Use in library",
@@ -229,55 +271,47 @@
       "pr": "nypl:accessMessage"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
-      "id": "urn:bnum:b10610175",
+      "id": "urn:bnum:cb6240214",
       "la": null,
       "li": null,
       "pr": "nypl:bnum"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
-      "id": "catalogItemType:55",
-      "la": "book, limited circ, MaRLI",
+      "id": "catalogItemType:1",
+      "la": "non-circ",
       "li": null,
       "pr": "nypl:catalogItemType"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
-      "id": "loc:scff2",
-      "la": "Schomburg Center - Research & Reference",
-      "li": null,
-      "pr": "nypl:holdingLocation"
-    },
-    {
-      "s": "i11981214",
-      "bn": null,
-      "id": "orgs:1114",
-      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "id": "orgs:0002",
+      "la": "Columbia University Libraries",
       "li": null,
       "pr": "nypl:owner"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
       "id": null,
       "la": null,
-      "li": "false",
+      "li": "true",
       "pr": "nypl:requestable"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
       "id": null,
       "la": null,
-      "li": "Sc D 80-24",
+      "li": "U101.S96 S7922 2006",
       "pr": "nypl:shelfMark"
     },
     {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
       "id": null,
       "la": null,
@@ -285,15 +319,7 @@
       "pr": "nypl:suppressed"
     },
     {
-      "s": "i11981214",
-      "bn": null,
-      "id": "bf:Item",
-      "la": null,
-      "li": null,
-      "pr": "rdfs:type"
-    },
-    {
-      "s": "i11981214",
+      "s": "ci7423916",
       "bn": null,
       "id": "bf:Item",
       "la": null,

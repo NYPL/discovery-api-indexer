@@ -34,7 +34,7 @@
         {
           "id": null,
           "la": null,
-          "li": "General Note",
+          "li": "Note",
           "pr": "bf:noteType"
         },
         {
@@ -60,7 +60,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Bibliography, etc. Note",
+          "li": "Bibliography",
           "pr": "bf:noteType"
         },
         {
@@ -86,7 +86,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Study Program Information Note",
+          "li": "Additional Formats",
           "pr": "bf:noteType"
         },
         {
@@ -112,7 +112,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Language Note",
+          "li": "Language",
           "pr": "bf:noteType"
         },
         {
@@ -138,7 +138,7 @@
         {
           "id": null,
           "la": null,
-          "li": "Action Note",
+          "li": "Processing Action",
           "pr": "bf:noteType"
         },
         {
@@ -165,13 +165,6 @@
       "la": null,
       "li": "1891",
       "pr": "dbo:startDate"
-    },
-    {
-      "bn": null,
-      "id": null,
-      "la": null,
-      "li": "Shermazanian, Galust.",
-      "pr": "dc:contributor"
     },
     {
       "bn": null,
@@ -249,6 +242,13 @@
       "la": null,
       "li": "Ṛostov (Doni Vra) :",
       "pr": "nypl:placeOfPublication"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ṛostov (Doni Vra) : Tparan Hovhannu Tēr-Abrahamian, 1890 [i.e. 1891]",
+      "pr": "nypl:publicationStatement"
     },
     {
       "bn": null,
@@ -398,22 +398,6 @@
       "la": null,
       "li": null,
       "pr": "nypl:bnum"
-    },
-    {
-      "s": "i10001936-e",
-      "bn": null,
-      "id": null,
-      "la": "Full text available via HathiTrust",
-      "li": "http://hdl.handle.net/2027/nyp.33433001892276",
-      "pr": "nypl:electronicLocator"
-    },
-    {
-      "s": "i10001936-e",
-      "bn": null,
-      "id": "urn:itemtype:research",
-      "la": null,
-      "li": null,
-      "pr": "nypl:itemType"
     },
     {
       "s": "i10001936-e",
