@@ -340,6 +340,28 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should parse "Contents" & "Contents title"', function () {
+      return Bib.byId('b11055155').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          // Should store TOC entries in 'tableOfContents' property in same
+          // order extracted:
+          assert(serialized.tableOfContents)
+          assert.equal(serialized.tableOfContents.length, 8)
+          assert.equal(serialized.tableOfContents[0], '[v. ] 1 The Theban necropolis.')
+          assert.equal(serialized.tableOfContents[1], '[v. ] 2. Theban temples.')
+          assert.equal(serialized.tableOfContents[7], '[v. ] 8. Objects of provenance not known. pt. 1. Royal Statues. private Statues (Predynastic to Dynasty XVII) -- pt. 2. Private Statues (Dynasty XVIII to the Roman Periiod). Statues of Deities -- [pt. 3] Indices to parts 1 and 2, Statues -- pt. 4. Stelae (Dynasty XVIII to the Roman Period) 803-044-050 to 803-099-990 / by Jaromir Malek, assisted by Diana Magee and Elizabeth Miles.')
+
+          // We should also find related 'contentsTitle' properties (for title
+          // matching)
+          assert(serialized.contentsTitle)
+          assert.equal(serialized.contentsTitle.length, 8)
+          assert.equal(serialized.contentsTitle[0], 'The Theban necropolis.')
+          assert.equal(serialized.contentsTitle[1], 'Theban temples.')
+          assert.equal(serialized.contentsTitle[7], 'Objects of provenance not known. Royal Statues. private Statues (Predynastic to Dynasty XVII) -- Private Statues (Dynasty XVIII to the Roman Periiod). Statues of Deities -- Indices to parts 1 and 2, Statues -- Stelae (Dynasty XVIII to the Roman Period) 803-044-050 to 803-099-990 /')
+        })
+      })
+    })
   })
 
   describe('items', function () {
