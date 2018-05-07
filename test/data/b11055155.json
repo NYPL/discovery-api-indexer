@@ -1,0 +1,2787 @@
+{
+  "subject_id": "b11055155",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "29 cm",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "\"List of abbreviations\" and \"List of collections of manuscripts\" in each volume.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11055155#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes indexes.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11055155#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "9999",
+      "pr": "dbo:dateEnd",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1927",
+      "pr": "dbo:dateStart",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "9999",
+      "pr": "dbo:endDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1927",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Moss, Rosalind L. B. (Rosalind Louisa Beaufort)",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Burney, Ethel W.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Málek, Jaromír.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Magee, Diana.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Miles, Elizabeth, 1965-",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Porter, Bertha, 1852-1941.",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1927",
+      "pr": "dc:date",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Egyptian language -- Writing, Hieroglyphic -- Bibliography.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tombs -- Thebes (Extinct city) -- Bibliography.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Antiquities.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Egyptian language -- Writing, Hieroglyphic.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tombs.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Egypt -- Antiquities -- Bibliography.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Thebes (Egypt : Extinct city) -- Bibliography.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Egypt.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Egypt -- Thebes (Extinct city)",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Topographical bibliography of ancient Egyptian hieroglyphic texts, statues, reliefs, and paintings",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The Theban necropolis.",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Theban temples.",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Memphis (Abû Rawâsh to Dahshûr).",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lower and middle Egypt (Delta and Cairo to Asyût).",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Upper Egypt: sites (Deir Rîfa to Aswân, excluding Thebes and the temples of Abydos, Dendera, Esna, Edfu, Kôm Ombo and Philae).",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Upper Egypt : chief temples (excluding Thebes) : Abydos, Dendera, Esna, Edfu, Kôm Ombo, and Philae.",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Nubia, the deserts, and outside Egypt /",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Objects of provenance not known. Royal Statues. private Statues (Predynastic to Dynasty XVII) -- Private Statues (Dynasty XVIII to the Roman Periiod). Statues of Deities -- Indices to parts 1 and 2, Statues -- Stelae (Dynasty XVIII to the Roman Period) 803-044-050 to 803-099-990 /",
+      "pr": "dcterms:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1927",
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Subject Added Entry-Geographic Name",
+      "li": "Egypt Antiquities Bibliography.",
+      "pr": "dcterms:geographic",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Subject Added Entry-Geographic Name",
+      "li": "Thebes (Egypt : Extinct city) Bibliography.",
+      "pr": "dcterms:geographic",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Subject Added Entry-Geographic Name",
+      "li": "Egypt. fast (OCoLC)fst01208755",
+      "pr": "dcterms:geographic",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Subject Added Entry-Geographic Name",
+      "li": "Egypt Thebes (Extinct city) fast (OCoLC)fst01897333",
+      "pr": "dcterms:geographic",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "11055155",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "nypl:Bnumber"
+    },
+    {
+      "bn": null,
+      "id": "   28025172",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "urn:oclc:10950608",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:lcc:Z7064",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:lccCoarse:Z5051-7999",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:hathi:000307474",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 1 The Theban necropolis.",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 2. Theban temples.",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 3. Memphis (Abû Rawâsh to Dahshûr).",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 4. Lower and middle Egypt (Delta and Cairo to Asyût).",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 5. Upper Egypt: sites (Deir Rîfa to Aswân, excluding Thebes and the temples of Abydos, Dendera, Esna, Edfu, Kôm Ombo and Philae).",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 6. Upper Egypt : chief temples (excluding Thebes) : Abydos, Dendera, Esna, Edfu, Kôm Ombo, and Philae.",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 7. Nubia, the deserts, and outside Egypt / by Bertha Porter and Rosalind L.B. Moss; assisted by Ethel W. Burney.",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[v. ] 8. Objects of provenance not known. pt. 1. Royal Statues. private Statues (Predynastic to Dynasty XVII) -- pt. 2. Private Statues (Dynasty XVIII to the Roman Periiod). Statues of Deities -- [pt. 3] Indices to parts 1 and 2, Statues -- pt. 4. Stelae (Dynasty XVIII to the Roman Period) 803-044-050 to 803-099-990 / by Jaromir Malek, assisted by Diana Magee and Elizabeth Miles.",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Topographical bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings",
+      "pr": "dcterms:title",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015013278794\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000307474\",\"enumeration\":\"v.4\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015019187205\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000307474\",\"enumeration\":\"v.5\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015009201115\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000307474\",\"enumeration\":\"v.7\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015034719529\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000307474\",\"enumeration\":\"v.3\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015034101033\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000307474\",\"enumeration\":\"v.6\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015050188781\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000307474\",\"enumeration\":\"v.8 pt.1\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015050188773\",\"access\":\"deny\",\"rights\":\"ic\",\"hathiId\":\"000307474\",\"enumeration\":\"v.8 pt.2\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "{\"volumeId\":\"mdp.39015050188765\",\"access\":\"deny\",\"rights\":\"icus\",\"hathiId\":\"000307474\",\"enumeration\":\"Index v.8 pt.1-2\",\"oclc\":[2362202],\"isbn\":[],\"issn\":[],\"lccn\":[\"28025172\"],\"pubDate\":\"9999\",\"language\":\"eng\",\"bibFormat\":\"BK\"}",
+      "pr": "hathi:vols",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:mal",
+      "la": "Schwarzman Building - Main Reading Room 315",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The Theban necropolis.",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Theban temples.",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Memphis (Abû Rawâsh to Dahshûr).",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lower and middle Egypt (Delta and Cairo to Asyût).",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Upper Egypt: sites (Deir Rîfa to Aswân, excluding Thebes and the temples of Abydos, Dendera, Esna, Edfu, Kôm Ombo and Philae).",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Upper Egypt : chief temples (excluding Thebes) : Abydos, Dendera, Esna, Edfu, Kôm Ombo, and Philae.",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Nubia, the deserts, and outside Egypt /",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Objects of provenance not known. Royal Statues. private Statues (Predynastic to Dynasty XVII) -- Private Statues (Dynasty XVIII to the Roman Periiod). Statues of Deities -- Indices to parts 1 and 2, Statues -- Stelae (Dynasty XVIII to the Roman Period) 803-044-050 to 803-099-990 /",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "volumes : maps, plans ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bibliography.",
+      "pr": "nypl:genreForm",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Z7064 .P84",
+      "pr": "nypl:lccClassification",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "PJ1097 .P67 1927",
+      "pr": "nypl:lccClassification",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Oxford :",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Oxford :",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Oxford : Clarendon Press, 1927-",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Oxford : Griffith Institute.",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Clarendon Press,",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Griffith Institute.",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Topographical bibliography of ancient Egyptian hieroglyphic texts, reliefs, and paintings / by Bertha Porter and Rosalind L.B. Moss.",
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:owi:555402",
+      "la": null,
+      "li": null,
+      "pr": "nypl:workId",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "urn:barcode:33433114008463",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "ADV REQUEST",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:sc",
+      "la": "Schomburg Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:myr",
+      "la": "Performing Arts Research Collections",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:slr",
+      "la": "SIBL - Science Industry and Business",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "OFFSITE - Request in Advance",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 8, pt. 4",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i32794502",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "urn:barcode:33433079858704",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 6",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482047",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "urn:barcode:33433078666983",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 3",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482042",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "urn:barcode:33433079858738",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 7",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482048",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "urn:barcode:33433079858720",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 5",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482046",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "urn:barcode:33433079858696",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 4",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482045",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "urn:barcode:33433079858688",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 2",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482044",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "urn:barcode:33433079858670",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 1",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i17482043",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "urn:barcode:33433016168126",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 8, pt. 3 (indices to pts. 1 & 2)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i11092655",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "urn:barcode:33433016168134",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 8, pt. 2",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i11092654",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "urn:barcode:33433016168142",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "USE IN LIBRARY",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "urn:bnum:b11055155",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "SASB M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OBI 86-874 v. 8, pt. 1",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i11092653",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    }
+  ]
+}
