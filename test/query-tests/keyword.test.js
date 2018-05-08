@@ -13,11 +13,13 @@ const keywordQuery = (term, searchScope = 'all') => {
   switch (searchScope) {
     case 'title':
       customFields = [
-        'title.folded^5',
-        'seriesStatement.folded',
+        'title^5',
+        'title.folded^2',
         'titleAlt.folded',
         'uniformTitle.folded',
-        'titleDisplay.folded'
+        'titleDisplay.folded',
+        'seriesStatement.folded',
+        'contentsTitle'
       ]
       break
     case 'contributor':
@@ -50,16 +52,20 @@ const keywordQuery = (term, searchScope = 'all') => {
       break
     default:
       customFields = [
-        'title.folded^5',
+        'title^5',
+        'title.folded^2',
         'description.folded',
+        'subjectLiteral^2',
         'subjectLiteral.folded',
+        'creatorLiteral^2',
         'creatorLiteral.folded',
         'contributorLiteral.folded',
         'note.label.folded',
         'publisherLiteral.folded',
         'seriesStatement.folded',
         'titleAlt.folded',
-        'titleDisplay.folded'
+        'titleDisplay.folded',
+        'contentsTitle.folded'
       ]
   }
 
@@ -603,6 +609,18 @@ describe('Keyword querying', function () {
           expect(result.hits.total).to.equal(1)
           expect(result.hits.hits[0]).to.be.a('object')
           expect(result.hits.hits[0]._id).to.equal('b10001936')
+        })
+      })
+    })
+
+    describe('Contents title', function () {
+      it('should match b11055155 by contrib', function () {
+        return search(keywordQuery('Theban temples')).then((result) => {
+          expect(result).to.be.a('object')
+          expect(result.hits).to.be.a('object')
+          expect(result.hits.total).to.equal(1)
+          expect(result.hits.hits[0]).to.be.a('object')
+          expect(result.hits.hits[0]._id).to.equal('b11055155')
         })
       })
     })
