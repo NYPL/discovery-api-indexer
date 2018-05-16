@@ -362,6 +362,30 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it.only('should extract parallel title', function () {
+      return Bib.byId('b19683865').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(typeof serialized, 'object')
+          assert.equal(typeof bib, 'object')
+          assert.equal(bib.constructor.name, 'Bib')
+
+          assert(serialized.parallelTitle)
+          assert.equal(serialized.parallelTitle.length, 1)
+          assert.equal(serialized.parallelTitle[0], '\u200F\u0643\u062A\u0627\u0628 \u0627\u0644\u0627\u0635\u0646\u0627\u0645 /')
+        })
+      })
+    })
+
+    it.only('should extract parallel title display', function () {
+      return Bib.byId('b19683865').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.parallelTitleDisplay)
+          assert.equal(serialized.parallelTitleDisplay.length, 1)
+          assert.equal(serialized.parallelTitleDisplay[0], '\u200F\u0643\u062A\u0627\u0628 \u0627\u0644\u0627\u0635\u0646\u0627\u0645 / \u0639\u0646 \u0627\u0628\u064A \u0627\u0644\u0645\u0646\u0630\u0631 \u0647\u0634\u0627\u0645 \u0628\u0646 \u0645\u062D\u0645\u062F \u0628\u0646 \u0627\u0644\u0633\u0627\u064A\u0628 \u0627\u0644\u0643\u0644\u0628\u064A, \u0637\u0628\u0642\u0627 \u0644\u0644\u0646\u0633\u062E\u0629 \u0627\u0644\u0648\u062D\u064A\u062F\u0629 \u0627\u0644\u0645\u062D\u0641\u0648\u0638\u0629 \u0628\u0627\u0644\u062E\u0632\u0627\u0646\u0629 \u0627\u0644\u0632\u0643\u064A\u0629 \u061B \u0628\u062A\u062D\u0642\u064A\u0642 \u0627\u062D\u0645\u062F \u0632\u0643\u064A.')
+        })
+      })
+    })
   })
 
   describe('items', function () {
