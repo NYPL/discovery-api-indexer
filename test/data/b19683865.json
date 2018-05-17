@@ -1,0 +1,378 @@
+{
+  "subject_id": "b19683865",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "27 cm.",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Maktabah al-ʻArabīyah ; 21. Taḥqīq al-turāth al-ʻArabī, 7. Adab ; 12",
+      "pr": "bf:seriesStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1965",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Aḥmad Zakī, 1866 (ca.)-1934.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ibn al-Kalbī, d. 819?",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1965",
+      "pr": "dc:date",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Idols and images -- Worship.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Arab cults.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Arabian Peninsula -- Religion.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Aṣnām",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Aṣnām",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1965",
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": "19683865",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "nypl:Bnumber"
+    },
+    {
+      "bn": null,
+      "id": "ne 65002370",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "lang:ara",
+      "la": "Arabic",
+      "li": null,
+      "pr": "dcterms:language",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Kitāb al-aṣnām",
+      "pr": "dcterms:title",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:mal",
+      "la": "Schwarzman Building - Main Reading Room 315",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "111, iv p. : facsims. ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "BL1685 .I2 1965",
+      "pr": "nypl:lccClassification",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "‏مكتبة العربية ؛ 21. تحقيق التراث العربي ؛ 7. ادب ؛ 12",
+      "pr": "nypl:parallelSeriesStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "‏كتاب الاصنام /",
+      "pr": "nypl:parallelTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "‏كتاب الاصنام / عن ابي المنذر هشام بن محمد بن السايب الكلبي, طبقا للنسخة الوحيدة المحفوظة بالخزانة الزكية ؛ بتحقيق احمد زكي.",
+      "pr": "nypl:parallelTitleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "al-Qāhirah :",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "al-Qāhirah : al-Dār al-Qawmīyah lil-Ṭibāʻah wa-al-Nashr, 1965.",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "al-Dār al-Qawmīyah lil-Ṭibāʻah wa-al-Nashr,",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OGN (Kalbī. Kitāb al-aṣnām)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Kitāb al-aṣnām / ʻan Abī al-Mundhir Hishām ibn Muḥammad al-Sāʼib al-Kalbī, ubqan lil-naskhah al-waḥīdah al-maḥfūẓah bi-al-khāznah al-zakīyah ; bi-taḥqīq Aḥmad Zakī.",
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Aṣnām",
+      "pr": "nypl:uniformTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "urn:barcode:33433101157307",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "urn:bnum:b19683865",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "Schwarzman Building M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "*OGN (Kalbī. Kitāb al-aṣnām)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i29276578",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    }
+  ]
+}
