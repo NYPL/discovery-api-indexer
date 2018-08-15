@@ -48,6 +48,7 @@ exports.kinesisHandler = function (records, context, callback) {
         // If it's just a bad bib id, quiet failure:
         if (e.name === 'QueryResultError') {
           log.info('Invalid bib ids: ' + uris + '. Moving on.')
+
           return []
         // Otherwise: throw error to stop all execution because it's probably not record specific:
         } else throw e
@@ -83,10 +84,23 @@ exports.kinesisHandler = function (records, context, callback) {
       // This call does all the work of suppressing/updating index using given stream of Bib instances
       // It returns a stream with one item giving stats
       return resourcesIndexer.processStreamOfBibs(stream)
-        .map((counts) => {
-          totalProcessed = counts.savedCount
-          totalSuppressed = counts.suppressedCount
+        .map((processingResult) => {
+          totalProcessed = processingResult.savedCount
+          totalSuppressed = processingResult.suppressedCount
+
+          // Now that we've updated all of the records retrievable from the
+          // store, identify records that were not retrieved from store
+          // (either because they were deleted or never existed) and make sure
+          // they do not exist in index:
+          const deleteUris = data.map((record) => record.uri)
+            .filter((uri) => processingResult.updatedUris.indexOf(uri) < 0)
+
+          if (deleteUris.length > 0) {
+            log.info(`Issuing DELETE on invalid bibids: ${deleteUris}`)
+            return Promise.all(deleteUris.map((uri) => resourcesIndexer.deleteResourceByUri(uri, { suppressErrors: true })))
+          }
         })
+        .flatMap((h) => _(h))
         .stopOnError((e) => {
           callback(e)
         })
