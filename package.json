@@ -22,6 +22,7 @@
     "sync-request": "^4.1.0"
   },
   "devDependencies": {
+    "aws-sdk-mock": "^4.1.0",
     "chai": "^4.1.2",
     "dotenv": "^4.0.0",
     "minimist": "^1.2.0",
