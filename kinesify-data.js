@@ -18,7 +18,7 @@ const argv = require('minimist')(process.argv.slice(2))
 // config
 const infile = argv._[0] || 'event.unencoded.json'
 const outfile = argv._[1] || 'event.json'
-const schemaUrl = argv._[2] || 'https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument'
+const schemaUrl = argv._[2] || 'https://platform.nypl.org/api/v0.1/current-schemas/IndexDocument'
 
 function onSchemaLoad (schema) {
   // initialize avro schema
