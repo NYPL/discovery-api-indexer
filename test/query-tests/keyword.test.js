@@ -45,7 +45,8 @@ const keywordQuery = (term, searchScope = 'all') => {
       customFields = [
         'shelfMark',
         'uri',
-        'identifier'
+        'identifier',
+        'identifierV2.value'
       ]
       // In addition to root bib fields, we want to add a should clause to match nested item identifiers:
       break
@@ -372,14 +373,22 @@ describe('Keyword querying', function () {
     // Test various "Standard Numbers"
     ; [
       'b12082323',
+      'Q-TAG (852 8b q tag.  Staff call in bib.)', // Should match `identifierV2[@type=bf:ShelfMark].value`
+      '12082323', // Should match `identifierV2[@type=nypl:Bnumber].value`
+      'Danacode', // Should match `identifierV2[@type=bf:Lccn].value`
+      '0123456789', // Should match `identifierV2[@type=bf:Isbn].value`
+      'ISSN -- 022', // Should match `identifierV2[@type=bf:Issn].value`
+      'LCCN -- 010', // Should match `identifierV2[@type=bf:Lccn].value`
       'ISBN -- 020 $z',
+      // Following should match untyped identifiers in `identifier`
       'GPO Item number. -- 074',
       'Sudoc no.  -- 086',
       'Standard number (old RLIN, etc.) -- 035',
       'Publisher no. -- 028 02  ',
-      'Report number. -- 027'
+      'Report number. -- 027',
+      'ISBN -- 020'
     ].forEach((num) => {
-      it.only(`should match b12082323 by "Standard Numbers": "${num}"`, function () {
+      it(`should match b12082323 by "Standard Numbers": "${num}"`, function () {
         return search(keywordQuery('"' + `${num}` + '"', 'identifier')).then((result) => {
           expect(result).to.be.a('object')
           expect(result.hits).to.be.a('object')
