@@ -44,7 +44,8 @@ const keywordQuery = (term, searchScope = 'all') => {
     case 'identifier':
       customFields = [
         'shelfMark',
-        'uri'
+        'uri',
+        'identifier'
       ]
       // In addition to root bib fields, we want to add a should clause to match nested item identifiers:
       break
@@ -65,7 +66,7 @@ const keywordQuery = (term, searchScope = 'all') => {
 
   if (['all', 'identifier'].indexOf(searchScope) >= 0) {
     const extraShouldClausesRaw = fs.readFileSync('./test/query-tests/query-templates/_identifier-matches.json', 'utf8')
-        .replace(/%%TERM%%/g, term.replace(/"/g, '\\$1'))
+        .replace(/%%TERM%%/g, term.replace(/"/g, '\\"'))
     extraShouldClauses = JSON.parse(extraShouldClausesRaw)
   }
   if (customFields) query.body.query.function_score.query.bool.should[0].query_string.fields = customFields
@@ -365,6 +366,27 @@ describe('Keyword querying', function () {
         expect(result.hits.total).to.equal(1)
         expect(result.hits.hits[0]).to.be.a('object')
         expect(result.hits.hits[0]._id).to.equal('pb176961')
+      })
+    })
+
+    // Test various "Standard Numbers"
+    ; [
+      'b12082323',
+      'ISBN -- 020 $z',
+      'GPO Item number. -- 074',
+      'Sudoc no.  -- 086',
+      'Standard number (old RLIN, etc.) -- 035',
+      'Publisher no. -- 028 02  ',
+      'Report number. -- 027'
+    ].forEach((num) => {
+      it.only(`should match b12082323 by "Standard Numbers": "${num}"`, function () {
+        return search(keywordQuery('"' + `${num}` + '"', 'identifier')).then((result) => {
+          expect(result).to.be.a('object')
+          expect(result.hits).to.be.a('object')
+          expect(result.hits.total).to.equal(1)
+          expect(result.hits.hits[0]).to.be.a('object')
+          expect(result.hits.hits[0]._id).to.equal('b12082323')
+        })
       })
     })
   })
