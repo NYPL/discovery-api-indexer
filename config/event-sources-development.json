@@ -1,7 +1,7 @@
 {
   "EventSourceMappings": [
     {
-      "EventSourceArn": "arn:aws:kinesis:us-east-1:224280085904:stream/IndexDocument",
+      "EventSourceArn": "arn:aws:kinesis:us-east-1:224280085904:stream/IndexDocument-development",
       "StartingPosition": "LATEST",
       "BatchSize": 100,
       "Enabled": true

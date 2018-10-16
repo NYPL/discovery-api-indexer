@@ -74,7 +74,16 @@ envConfigHelper.init({ index }).then((opts) => {
       }
     }
 
-    index.resources.mappingCheck(argv.index)
+    const buildPutMapping = function (mappings) {
+      return {
+        properties: mappings.reduce((h, prop) => {
+          h[prop.property] = prop.local
+          return h
+        }, {})
+      }
+    }
+
+    index.resources.mappingCheck(argv.index || process.env.ELASTIC_RESOURCES_INDEX_NAME)
       .then((mapping) => {
         // List differences:
         reportOn('Mis-mapped Properties', mapping.unequalMappings)
@@ -83,15 +92,24 @@ envConfigHelper.init({ index }).then((opts) => {
 
         // Generate a sample PUT body to push local-only mappings to remote:
         if (mapping.localOnlyMappings.length > 0) {
-          console.log('#############################')
-          const putBody = {
-            properties: mapping.localOnlyMappings.reduce((h, prop) => {
-              h[prop.property] = prop.local
-              return h
-            }, {})
-          }
+          const putBody = buildPutMapping(mapping.localOnlyMappings)
           console.log('......................................................')
           console.log('To add missing mappings: PUT the following to the index:', JSON.stringify(putBody, null, 2))
+        }
+
+        // Object type differences:
+        // Generate a sample PUT body to push object-type mappings differences to remote:
+        const patchableObjectTypeMappings = mapping.unequalMappings
+          .filter((diff) => {
+            const localIsObject = diff.local.type === 'object' || (diff.local.type !== 'object' && diff.local.properties)
+            const remoteIsObject = diff.remote.type === 'object' || (diff.remote.type !== 'object' && diff.remote.properties)
+            return localIsObject && remoteIsObject
+          })
+        if (patchableObjectTypeMappings.length > 0) {
+          const putBody = buildPutMapping(patchableObjectTypeMappings)
+          console.log('......................................................')
+          console.log('Object type mappings are fixable via PUT *if* diff.s are addititive.')
+          console.log('To add new object properties you may be able to PUT the following to the index:', JSON.stringify(putBody, null, 2))
         }
       })
 
