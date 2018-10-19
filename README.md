@@ -67,6 +67,8 @@ Note that database & elasticsearch creds, loglevel, and nypl data api base url c
 
 See the [Index Administration documentation](docs/index-admin.md) for notes on Elasticsearch index creation, preparation, modification, and deletion.
 
+See also `./postman-collection` for a Postman "collection" and set of "environment" files helpful for debugging queries and managing indexes.
+
 ## Testing
 
 ```
