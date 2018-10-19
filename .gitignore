@@ -45,3 +45,6 @@ context.json
 
 #.envswitcher
 .envswitcher
+
+# Keep decrypted Postman environment files out of source control:
+postman-collection/environments

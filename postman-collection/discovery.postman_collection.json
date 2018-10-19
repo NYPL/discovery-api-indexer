@@ -1,0 +1,1013 @@
+{
+	"info": {
+		"_postman_id": "1e7b4aab-ef1c-3939-ce1f-073a8d77b437",
+		"name": "discovery",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "deliverylocationsbybarcode",
+			"item": [
+				{
+					"name": "delivery locations by barcode qa",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "accessToken",
+									"type": "any"
+								},
+								{
+									"key": "addTokenTo",
+									"type": "any"
+								},
+								{
+									"key": "callBackUrl",
+									"type": "any"
+								},
+								{
+									"key": "authUrl",
+									"type": "any"
+								},
+								{
+									"key": "accessTokenUrl",
+									"type": "any"
+								},
+								{
+									"key": "clientId",
+									"type": "any"
+								},
+								{
+									"key": "clientSecret",
+									"type": "any"
+								},
+								{
+									"key": "clientAuth",
+									"type": "any"
+								},
+								{
+									"key": "grantType",
+									"type": "any"
+								},
+								{
+									"key": "scope",
+									"type": "any"
+								},
+								{
+									"key": "username",
+									"type": "any"
+								},
+								{
+									"key": "password",
+									"type": "any"
+								},
+								{
+									"key": "tokenType",
+									"type": "any"
+								},
+								{
+									"key": "redirectUri",
+									"type": "any"
+								},
+								{
+									"key": "refreshToken",
+									"type": "any"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://qa-platform.nypl.org/api/v0.1/request/deliveryLocationsByBarcode?barcodes[]=33433032709028",
+							"protocol": "https",
+							"host": [
+								"qa-platform",
+								"nypl",
+								"org"
+							],
+							"path": [
+								"api",
+								"v0.1",
+								"request",
+								"deliveryLocationsByBarcode"
+							],
+							"query": [
+								{
+									"key": "barcodes[]",
+									"value": "33433032709028"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "mappings",
+			"item": [
+				{
+					"name": "get mapping test",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/resources-test-index/_mapping/resource",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"resources-test-index",
+								"_mapping",
+								"resource"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add [object] mapping",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"properties\": {\n    \"identifierV2\": {\n      \"properties\": {\n        \"value\": {\n          \"index\": true,\n          \"type\": \"keyword\"\n        },\n        \"type\": {\n          \"index\": true,\n          \"type\": \"keyword\"\n        },\n        \"identifierStatus\": {\n          \"index\": true,\n          \"type\": \"keyword\"\n        }\n      }\n    }\n  }\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/_mapping/resource",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"_mapping",
+								"resource"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get mapping",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/_mapping/resource",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"_mapping",
+								"resource"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "search",
+			"item": [
+				{
+					"name": "explain query test",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"query\": {\n    \"function_score\": {\n      \"query\": {\n        \"bool\": {\n          \"should\": [\n            {\n              \"query_string\": {\n                \"fields\": [\n                  \"note.label.folded\"\n                ],\n                \"query\": \"Escenográficos\",\n                \"default_operator\": \"AND\"\n              }\n            }\n          ]\n        }\n      }\n    }\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/resources-test-index/resource/b20972964/_explain",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"resources-test-index",
+								"resource",
+								"b20972964",
+								"_explain"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by filter",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"from\" : 0,\n   \"_source\" : {\n      \"excludes\" : [\n         \"uris\",\n         \"*_packed\",\n         \"*_sort\",\n         \"items.*_packed\"\n      ]\n   },\n   \"sort\" : [\n      \"uri\"\n   ],\n   \"query\" : {\n      \"bool\" : {\n         \"filter\" : [\n            {\n               \"range\" : {\n                  \"dateEndYear\" : {\n                     \"gte\" : 1984\n                  }\n               }\n            }\n         ]\n      }\n   },\n   \"size\" : 50\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by field exists",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"query\": {\n    \"bool\": {\n      \"must\": [\n        {   \n          \"exists\": {\n            \"field\": \"supplementaryContent.id\"\n          }   \n        }   \n      ]   \n    }\n  }\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by keyword",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"min_score\" : 0.65,\n   \"size\" : 50,\n   \"query\" : {\n      \"function_score\" : {\n         \"query\" : {\n            \"bool\" : {\n               \"should\" : [\n                  {\n                     \"query_string\" : {\n                        \"query\" : \"Arkheologii︠a︡ Omska \\\\: illi︠u︡strirovannai︠a︡ ėnt︠s︡iklopedii︠a︡ \\\\/ Avtor-sostavitelʹ\\\\: B.A. Konikov.\",\n\n                        \"fields\" : [\n                           \"title.folded^5\",\n                           \"description.folded\",\n                           \"subjectLiteral.folded\",\n                           \"creatorLiteral.folded\",\n                           \"contributorLiteral.folded\",\n                           \"note.label.folded\",\n                           \"publisherLiteral.folded\",\n                           \"seriesStatement.folded\",\n                           \"titleAlt.folded\",\n                           \"titleDisplay.folded\"\n                        ],\n                        \"default_operator\" : \"AND\"\n                     }\n                  }\n               ]\n            }\n         }\n      }\n   },\n   \"_source\" : {\n      \"excludes\" : [\n         \"uris\",\n         \"*_packed\",\n         \"*_sort\",\n         \"items.*_packed\"\n      ]\n   },\n   \"sort\" : [\n      \"_score\"\n   ],\n   \"from\" : 0\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by [nested] field exists",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"query\": {\n    \"nested\": {\n      \"path\": \"items\",\n      \"query\": {\n      \n    \"bool\": {\n      \"must\": [\n        {   \n          \"exists\": {\n            \"field\": \"items.electronicLocator.id\"\n          }   \n        }   \n      ]   \n    } \n    \n      }\n    }\n  }\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "explain query",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"query\" : {\n      \"function_score\" : {\n         \"query\" : {\n            \"bool\" : {\n               \"should\" : [\n                  {\n                     \"nested\" : {\n                        \"path\" : \"items\",\n                        \"query\" : {\n                           \"query_string\" : {\n                              \"query\" : \"4455533322211\",\n                              \"default_operator\" : \"AND\",\n                              \"fields\" : [\n                                 \"items.identifierV2.value\"\n                              ]\n                           }\n                        }\n                     }\n                  }\n               ]\n            }\n         }\n      }\n   }\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/b12082323/_explain",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"b12082323",
+								"_explain"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by field doesn't exist",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"query\": {\n    \"bool\": {\n      \"must_not\": [\n        {   \n          \"exists\": {\n            \"field\": \"updatedAt\"\n          }   \n        }   \n      ]   \n    }\n  },\n  \"size\": 100,\n  \"sort\": [\n    { \"uri\": \"asc\" }\n  ]\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by field exists",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"query\": {\n    \"bool\": {\n      \"must\": [\n        {   \n          \"exists\": {\n            \"field\": \"supplementaryContent.id\"\n          }   \n        }   \n      ]   \n    }\n  }\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get max uri",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"size\": 1,\n  \"sort\" : [\n    { \"uri\": \"desc\" }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get most recently updated bib",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"size\": 1,\n  \"sort\" : [\n    { \"updatedAt\": \"desc\" }\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by nested field match regexp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"query\": {\n    \"nested\": {\n      \"path\": \"items\",\n      \"query\": {\n        \"regexp\": {\n          \"items.identifier\": {\n            \"value\": \"[0-9]+\"\n          }\n        }\n      }\n    }\n  },\n  \"size\": 10,\n  \"_source\": \"items.identifier\"\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by uri",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"query\": {\n        \"query_string\" : {\n            \"query\" : \"uri:>=pb9999978\"\n        }\n    },\n    \"sort\": [ \"uri\" ]\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search by standard_number",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"from\" : 0,\n   \"min_score\" : 0.65,\n   \"size\" : 50,\n   \"query\" : {\n      \"function_score\" : {\n         \"query\" : {\n            \"bool\" : {\n               \"should\" : [\n                  {\n                     \"query_string\" : {\n                        \"default_operator\" : \"AND\",\n                        \"query\" : \"4455533322211\",\n                        \"fields\" : [\n                           \"shelfMark\",\n                           \"identifierV2.value\",\n                           \"uri\",\n                           \"identifier\"\n                        ]\n                     }\n                  },\n                  {\n                     \"nested\" : {\n                        \"path\" : \"items\",\n                        \"query\" : {\n                           \"query_string\" : {\n                              \"query\" : \"4455533322211\",\n                              \"default_operator\" : \"AND\",\n                              \"fields\" : [\n                                 \"items.identifierV2.value\"\n                              ]\n                           }\n                        }\n                     }\n                  }\n               ]\n            }\n         }\n      }\n   },\n   \"_source\" : {\n      \"excludes\" : [\n         \"uris\",\n         \"*_packed\",\n         \"*_sort\",\n         \"items.*_packed\",\n         \"contentsTitle\"\n      ]\n   },\n   \"sort\" : [\n      \"_score\"\n   ]\n}\n"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "bib",
+			"item": [
+				{
+					"name": "git bib",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"query\": {\n    \"function_score\": {\n      \"query\": {\n        \"bool\": {\n          \"should\": [\n            {\n              \"query_string\": {\n                \"fields\": [\n                  \"title^10\",\n                  \"title.folded^5\",\n                  \"description^5\",\n                  \"subjectLiteral^5\",\n                  \"creatorLiteral^5\",\n                  \"contributorLiteral\",\n                  \"note.label\",\n                  \"publisherLiteral\",\n                  \"shelfMark\"\n                ],\n                \"query\": \"Guerrero, Gobierno del Estado Libre y Soberano, Secretaría de Cultura ; CONACULTA \\\\: Editorial Praxis,\",\n                \"default_operator\": \"AND\"\n              }\n            }\n          ]\n        }\n      }\n    }\n  }\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/b12082323",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"b12082323"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reindex",
+			"item": [
+				{
+					"name": "create pipeline dev",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"description\" : \"Reindex resource mapping 2018-03-12\",\n  \"processors\" : [ \n    {\n      \"remove\": {\n        \"field\": \"note\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"rename\": {\n        \"field\": \"noteV2\",\n        \"target_field\": \"note\",\n        \"ignore_missing\": true\n      }\n    }, \n    {\n      \"remove\": {\n        \"field\": \"noteV3\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"contributor\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"dateString\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"hathiVols\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"publisher\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"query\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"size\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"supplementaryContent_packed\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"script\": {\n        \"lang\": \"painless\",      \n        \"inline\": \"/* Remove items.suppressed */ for (int i = 0; i < (ctx.items ?: []).length; i++) { ctx.items[i].remove('suppressed') }\"\n      }\n    },\n    {\n      \"script\": {\n        \"lang\": \"painless\",      \n        \"inline\": \"/* Remove items.prefLabel */ for (int i = 0; i < (ctx.items ?: []).length; i++) { ctx.items[i].remove('prefLabel') }\"\n      }\n    },\n    {\n      \"script\": {\n        \"lang\": \"painless\",      \n        \"inline\": \"/* Ensure supplementaryContent.id is renamed to supplementaryContent.url */ for (int i = 0; i < (ctx.supplementaryContent ?: []).length; i++) { ctx.supplementaryContent[i] = [ 'url': ctx.supplementaryContent[i]['url'] ?: ctx.supplementaryContent[i]['id'], 'label': ctx.supplementaryContent[i]['label'] ] }\"\n      }\n    },\n    {\n      \"script\": {\n        \"lang\": \"painless\",      \n        \"inline\": \"/* Ensure items.electronicLocator.id is renamed to items.electronicLocator.url */ for (int i = 0; i < (ctx.items ?: []).length; i++) { for (int j = 0; j < (ctx.items[i].electronicLocator ?: []).length; j++) { ctx.items[i].electronicLocator[j] = [ 'url': ctx.items[i].electronicLocator[j]['url'] ?: ctx.items[i].electronicLocator[j]['id'], 'label': ctx.items[i].electronicLocator[j]['label'] ] } }\"\n      }\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/_ingest/pipeline/reindex-resources-2018-03-12-pipeline",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_ingest",
+								"pipeline",
+								"reindex-resources-2018-03-12-pipeline"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get task dev",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/_tasks/yzEvtFmfTUGgJWhUDqS46Q:10076403",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_tasks",
+								"yzEvtFmfTUGgJWhUDqS46Q:10076403"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create reindex prod",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"source\": {\n    \"index\": \"resources-2017-08-23\",\n    \"sort\": { \"uri\": \"asc\" }\n  },\n  \"dest\": {\n    \"index\": \"resources-2018-04-09\",\n    \"pipeline\": \"reindex-resources-2018-03-27-pipeline\"\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q.us-east-1.es.amazonaws.com/_reindex?wait_for_completion=false",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_reindex"
+							],
+							"query": [
+								{
+									"key": "wait_for_completion",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create pipeline prod",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"description\" : \"Reindex resource mapping 2018-03-27\",\n  \"processors\" : [\n    {\n      \"remove\": {\n        \"field\": \"note\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"rename\": {\n        \"field\": \"noteV2\",\n        \"target_field\": \"note\",\n        \"ignore_missing\": true\n      }\n    }, \n    {\n      \"remove\": {\n        \"field\": \"noteV3\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"contributor\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"hathiVols\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"publisher\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"query\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"size\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"supplementaryContent_packed\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"remove\": {\n        \"field\": \"subject_packed\",\n        \"ignore_failure\": true\n      }\n    },\n    {\n      \"script\": {\n        \"lang\": \"painless\",      \n        \"inline\": \"for (int i = 0; i < (ctx.supplementaryContent ?: []).length; i++) { ctx.supplementaryContent[i] = [ 'url': ctx.supplementaryContent[i]['url'] ?: ctx.supplementaryContent[i]['id'], 'label': ctx.supplementaryContent[i]['label'] ] }\"\n      }\n    },\n    {\n      \"script\": {\n        \"lang\": \"painless\",      \n        \"inline\": \"for (int i = 0; i < (ctx.items ?: []).length; i++) { for (int j = 0; j < (ctx.items[i].electronicLocator ?: []).length; j++) { ctx.items[i].electronicLocator[j] = [ 'url': ctx.items[i].electronicLocator[j]['url'] ?: ctx.items[i].electronicLocator[j]['id'], 'label': ctx.items[i].electronicLocator[j]['label'] ] } }\"\n      }\n    }\n  ]\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q.us-east-1.es.amazonaws.com/_ingest/pipeline/reindex-resources-2018-03-27-pipeline",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_ingest",
+								"pipeline",
+								"reindex-resources-2018-03-27-pipeline"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create reindex by query prod",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"source\": {\n    \"index\": \"resources-2017-08-23\",\n    \"query\": {\n      \"bool\" : {\n         \"filter\" : [\n            {\n               \"range\" : {\n                  \"dateEndYear\" : {\n                     \"gte\" : 1984\n                  }\n               }\n            }\n         ]\n      }\n    }\n  },\n  \"dest\": {\n    \"index\": \"resources-2018-03-28\",\n    \"pipeline\": \"reindex-resources-2018-03-27-pipeline\"\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q.us-east-1.es.amazonaws.com/_reindex",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_reindex"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create reindex dev",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"source\": {\n    \"index\": \"resources-2017-08-25\",\n    \"sort\": { \"uri\": \"asc\" }\n  },\n  \"dest\": {\n    \"index\": \"resources-2018-04-05\",\n    \"pipeline\": \"reindex-resources-2018-03-12-pipeline\"\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/_reindex",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_reindex"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create reindex by query dev",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"source\": {\n    \"index\": \"resources-2017-08-25\",\n    \"query\": {\n      \"bool\" : {\n         \"filter\" : [\n            {\n               \"range\" : {\n                  \"dateEndYear\" : {\n                     \"gte\" : 1984\n                  }\n               }\n            }\n         ]\n      }\n    }\n  },\n  \"dest\": {\n    \"index\": \"resources-test\",\n    \"pipeline\": \"reindex-resources-2018-03-12-pipeline\"\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/_reindex",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_reindex"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create reindex by uri dev",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"source\": {\n    \"index\": \"resources-2017-08-25\",\n    \"sort\": { \"uri\": \"asc\" },\n    \"query\" : {\n      \"bool\" : {\n         \"filter\" : [\n            {\n               \"range\" : {\n                  \"uri\" : {\n                     \"gte\" : \"b11802049\"\n                  }\n               }\n            }\n         ]\n      }\n    }\n  },\n  \"dest\": {\n    \"index\": \"resources-2018-04-05\",\n    \"pipeline\": \"reindex-resources-2018-03-12-pipeline\"\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/_reindex",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_reindex"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create reindex starting at uri dev",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"source\": {\n    \"index\": \"resources-2017-08-25\",\n    \"sort\": { \"uri\": \"asc\" },\n    \"query\" : {\n      \"bool\" : {\n         \"filter\" : [\n            {\n               \"range\" : {\n                  \"uri\" : {\n                     \"gte\" : \"b900000\"\n                  }\n               }\n            }\n         ]\n      }\n    }\n  },\n  \"dest\": {\n    \"index\": \"resources-2018-04-05\",\n    \"pipeline\": \"reindex-resources-2018-03-12-pipeline\"\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/_reindex?wait_for_completion=false",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_reindex"
+							],
+							"query": [
+								{
+									"key": "wait_for_completion",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create reindex by uri prod",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"source\": {\n    \"index\": \"resources-2017-08-23\",\n    \"query\": {\n      \"term\": {\n        \"uri\": \"b15331370\"\n      }\n    }\n  },\n  \"dest\": {\n    \"index\": \"resources-2018-04-02\",\n    \"pipeline\": \"reindex-resources-2018-03-27-pipeline\"\n  }\n}"
+						},
+						"url": {
+							"raw": "https://search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q.us-east-1.es.amazonaws.com/_reindex",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_reindex"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get reindex tasks production",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q.us-east-1.es.amazonaws.com/_tasks?actions=*reindex&detailed=true",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-production-wio7hqrai645zhzi2cvpitpu6q",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_tasks"
+							],
+							"query": [
+								{
+									"key": "actions",
+									"value": "*reindex"
+								},
+								{
+									"key": "detailed",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get reindex tasks dev",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/_tasks?actions=*reindex&detailed=true",
+							"protocol": "https",
+							"host": [
+								"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+								"us-east-1",
+								"es",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"_tasks"
+							],
+							"query": [
+								{
+									"key": "actions",
+									"value": "*reindex"
+								},
+								{
+									"key": "detailed",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "aggs",
+			"item": [
+				{
+					"name": "get max value aggregation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"aggs\" : {\n    \"max_price\" : { \"max\" : { \"field\" : \"uri\" } }\n  }\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get aggregations",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"from\": 0,\n    \"size\": 0,\n    \"query\": {\n      \"function_score\": {\n        \"query\": {\n          \"bool\": {\n            \"should\": [\n              {\n                \"query_string\": {\n                  \"fields\": [\n                    \"title^10\",\n                    \"title.folded^5\",\n                    \"description^5\",\n                    \"subjectLiteral^5\",\n                    \"creatorLiteral^5\",\n                    \"contributorLiteral\",\n                    \"note\",\n                    \"shelfMark\"\n                  ],\n                  \"query\": \"hamilton\",\n                  \"default_operator\": \"AND\"\n                }\n              }\n            ]\n          }\n        }\n      }\n    },\n    \"min_score\": 0.65,\n    \"sort\": [\n      \"_score\"\n    ],\n    \"aggregations\": {\n      \"owner\": {\n        \"nested\": {\n          \"path\": \"items\"\n        },\n        \"aggs\": {\n          \"_nested\": {\n            \"terms\": {\n              \"field\": \"items.owner_packed\"\n            }\n          }\n        }\n      },\n      \"subjectLiteral\": {\n        \"terms\": {\n          \"field\": \"subjectLiteral.raw\",\n          \"size\": 50\n        }\n      },\n      \"language\": {\n        \"terms\": {\n          \"field\": \"language_packed\",\n          \"size\": 50\n        }\n      },\n      \"materialType\": {\n        \"terms\": {\n          \"field\": \"materialType_packed\",\n          \"size\": 50\n        }\n      },\n      \"mediaType\": {\n        \"terms\": {\n          \"field\": \"mediaType_packed\",\n          \"size\": 50\n        }\n      },\n      \"publisher\": {\n        \"terms\": {\n          \"field\": \"publisher\",\n          \"size\": 50\n        }\n      },\n      \"contributorLiteral\": {\n        \"terms\": {\n          \"field\": \"contributorLiteral.raw\",\n          \"size\": 50\n        }\n      },\n      \"creatorLiteral\": {\n        \"terms\": {\n          \"field\": \"creatorLiteral.raw\",\n          \"size\": 50\n        }\n      },\n      \"issuance\": {\n        \"terms\": {\n          \"field\": \"issuance_packed\",\n          \"size\": 50\n        }\n      }\n    }\n  }"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get max value",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"aggs\" : {\n        \"my_max_value\" : { \"max\" : { \"field\" : \"updatedAt\" } }\n    },\n    \"size\" : 0\n}"
+						},
+						"url": {
+							"raw": "{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search",
+							"host": [
+								"{{ES_BASE_URI}}"
+							],
+							"path": [
+								"{{ES_INDEX_NAME}}",
+								"resource",
+								"_search"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "htc api by barcode",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "api_key",
+						"value": "recap"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "https://uat-recap.htcinc.com:9093/searchService/searchByParam?fieldValue=32101045386016&fieldName=Barcode",
+					"protocol": "https",
+					"host": [
+						"uat-recap",
+						"htcinc",
+						"com"
+					],
+					"port": "9093",
+					"path": [
+						"searchService",
+						"searchByParam"
+					],
+					"query": [
+						{
+							"key": "fieldValue",
+							"value": "32101045386016"
+						},
+						{
+							"key": "fieldName",
+							"value": "Barcode"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "analyze tokens test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"analyzer\": \"folding\",\n  \"text\": \"Laʼu\"\n}"
+				},
+				"url": {
+					"raw": "https://search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44.us-east-1.es.amazonaws.com/resources-test-index/_analyze",
+					"protocol": "https",
+					"host": [
+						"search-discovery-api-3-lv3xbw2vcd53cnzg7wre64mi44",
+						"us-east-1",
+						"es",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"resources-test-index",
+						"_analyze"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
