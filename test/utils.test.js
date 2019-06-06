@@ -54,4 +54,38 @@ describe('Utils', function () {
       assert(!h.c.deepObject.deeperObject)
     })
   })
+
+  describe('subtriples', function () {
+    it('should create a list of triples with all the higher-level subjects represented', function () {
+      const testTriple = {
+        subject_id: undefined,
+        predicate: 'dc:subject',
+        object_id: null,
+        object_type: null,
+        object_literal: 'Arabian Peninsula -- Religion -- Ancient History.',
+        object_label: null
+      }
+
+      const subtriples = utils.subtriples(testTriple)
+      assert.equal(subtriples.length, 3)
+      assert.equal(subtriples[0].object_literal, 'Arabian Peninsula')
+      assert.equal(subtriples[1].object_literal, 'Arabian Peninsula -- Religion')
+      assert.equal(subtriples[2].object_literal, 'Arabian Peninsula -- Religion -- Ancient History')
+    })
+
+    it('should not break when given a triple with no higher-level subjects', function () {
+      const testTriple = {
+        subject_id: undefined,
+        predicate: 'dc:subject',
+        object_id: null,
+        object_type: null,
+        object_literal: 'Arabian Peninsula.',
+        object_label: null
+      }
+
+      const subtriples = utils.subtriples(testTriple)
+      assert.equal(subtriples.length, 1)
+      assert.equal(subtriples[0].object_literal, 'Arabian Peninsula')
+    })
+  })
 })
