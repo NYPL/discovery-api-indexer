@@ -68,8 +68,8 @@ describe('Bib Serializations', function () {
     it('should have all subject literals', function () {
       return Bib.byId('b11253008').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
-          assert.equal(serialized.subjectLiteral[0], 'African American fashion designers')
-          assert.equal(serialized.subjectLiteral[1], 'African American fashion designers -- Interviews')
+          assert.equal(serialized.subjectLiteral_exploded[0], 'African American fashion designers')
+          assert.equal(serialized.subjectLiteral_exploded[1], 'African American fashion designers -- Interviews')
         })
       })
     })
