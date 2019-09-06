@@ -1,6 +1,6 @@
 # Discovery API Indexer
 
-This app pulls data from the Discovery store (aka PCDM Store) and pushes it into one of a number of Elasticsearch indexes powering the Discovery API.
+This app pulls data from the Discovery store (aka PCDM Store) and pushes it into the Elasticsearch index that powers the Discovery API.
 
 ## Installation
 
@@ -10,14 +10,16 @@ npm i
 
 ## Usage
 
-This app is deployed as lambda `discoveryIndexerPoster`. It can also be invoked in "bulk" mode.
+This app is deployed as lambda `DiscoveryIndexerPoster-[env]`. It can also be invoked in "bulk" mode.
+
+Note that when developing locally, you may need to [add your IP to the access control policy of the relevant ES domain](https://github.com/NYPL/aws/blob/b5c0af0ec8357af9a645d8b47a5dbb0090966071/common/elasticsearch.md#2-make-the-domain-public-restrict-by-ip).
 
 ### Test Events
 
 Edit `event.unencoded.json` with your desired test ids. Then commit your changes to `event.json` using the `kinesify-data` utility as follows:
 
 ```
-node kinesify-data event.unencoded.json event.json https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument
+node kinesify-data event.unencoded.json
 ```
 
 To run the app locally against `event.json`
