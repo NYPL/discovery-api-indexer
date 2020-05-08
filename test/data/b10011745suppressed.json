@@ -1,0 +1,3915 @@
+{
+  "subject_id": "b10011745suppressed",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "24 cm.",
+      "pr": "bf:dimensions"
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:s",
+      "la": "serial",
+      "li": null,
+      "pr": "bf:issuance"
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Issued By",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Official journal of the International Society for the Study of Behavioral Development.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10011745#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "9999",
+      "pr": "dbo:endDate"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1978",
+      "pr": "dbo:startDate"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "International Society for the Study of Behavioral Development.",
+      "pr": "dc:contributor"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1978",
+      "pr": "dc:date"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Etiquette -- Periodicals.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Developmental psychology -- Periodicals.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Behaviorism (psychology) -- Periodicals.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Int. j. behav. dev.",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "International journal of behavioral development",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "IJBD",
+      "pr": "dcterms:alternative"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1978",
+      "pr": "dcterms:created"
+    },
+    {
+      "bn": null,
+      "id": "urn:bnum:10011745",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "bn": null,
+      "id": "urn:issn:0165-0254",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "bn": null,
+      "id": "urn:lccn:sc 79005623 ",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "International journal of behavioral development.",
+      "pr": "dcterms:title"
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "v. ill.",
+      "pr": "nypl:extent"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Amsterdam,",
+      "pr": "nypl:placeOfPublication"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Amsterdam, North-Holland.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "North-Holland.",
+      "pr": "nypl:role-publisher"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "v. 1-   Jan. 1978-",
+      "pr": "nypl:serialPublicationDates"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "International journal of behavioral development.",
+      "pr": "nypl:titleDisplay"
+    },
+    {
+      "bn": null,
+      "id": "nypl:Collection",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "urn:barcode:33433101580961",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 30, no. 2 (Mar 2006)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877180",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "urn:barcode:33433101581043",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 31, no. 4 (Jul 2007)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877188",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "urn:barcode:33433101581175",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 33, no. 5 (Sept 2009)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877202",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "urn:barcode:33433101581183",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 33, no. 6 (Nov 2009)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877203",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "urn:barcode:33433101581035",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 31, no. 3 (May 2007)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877187",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "urn:barcode:33433101581001",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 30, no. 6 (Nov 2006)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877184",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "urn:barcode:33433101581118",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 32, no. 5 (Sept 2008)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877195",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "urn:barcode:33433101580938",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 29, no. 5 (Sept 2005)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877177",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "urn:barcode:33433101581167",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 33, no. 4 (Jul 2009)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877200",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "urn:barcode:33433101580979",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 30, no. 3 (May 2006)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877181",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "urn:barcode:33433101580946",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 29, no. 6 (Nov 2005)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877178",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "urn:barcode:33433101580912",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 29, no. 3 (May 2005)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877175",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "urn:barcode:33433101580987",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 30, no. 4 (Jul 2006)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877182",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "urn:barcode:33433101580995",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 30, no. 5 (Sept 2006)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877183",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "urn:barcode:33433101581027",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 31, no. 2 (Mar 2007)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877186",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "urn:barcode:33433101580920",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 29, no. 4 (Jul 2005)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877176",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "urn:barcode:33433101581019",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 31, no. 1 (Jan 2007)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877185",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "urn:barcode:33433101580904",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 29, no. 2 (Mar 2005)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877174",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "urn:barcode:33433101581050",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 31, no. 5 (Sept 2007)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877189",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "urn:barcode:33433101581076",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 32, no. 1 (Jan 2008)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877191",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "urn:barcode:33433101581068",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 31, no. 6 (Nov 2007)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877190",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "urn:barcode:33433101581126",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 32, no. 6 (Nov 2008)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877196",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "urn:barcode:33433101581100",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 32, no. 4 (Jul 2008)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877194",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "urn:barcode:33433101580953",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 30, no. 1 (Jan 2006)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877179",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "urn:barcode:33433101581092",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 32, no. 3 (May 2008)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877193",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "urn:barcode:33433101581084",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 32, no. 2 (Mar 2008)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877192",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "urn:barcode:33433101581134",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 33, no. 1 (Jan 2009)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877197",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "urn:barcode:33433101580896",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 29, no. 1 (Jan 2005)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877173",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "urn:barcode:33433101581191",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 34, no. 1 (Jan 2010)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877204",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "urn:barcode:33433101581142",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 33, no. 2 (Mar2009)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877198",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "urn:barcode:33433101581159",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "catalogItemType:4",
+      "la": "serial, loose",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124  v. 33, no. 3 (May 2009)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i28877199",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "urn:barcode:33433079115469",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 26 (2002)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i17447371",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "urn:barcode:33433079115477",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 27 (2003)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i17447372",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "urn:barcode:33433079115196",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 28 (2004)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i17447369",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "urn:barcode:33433079115451",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 25 (2001)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i17447370",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i16656945",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i16656945",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i16656945",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "urn:barcode:33433057526539",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 24 (2000)",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i13785893",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "urn:barcode:33433005304468",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 5-6 1982-83",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i10005763",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "urn:barcode:33433005304476",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 7 1984",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i10005764",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "urn:barcode:33433005304484",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 8 1985",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i10005765",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "urn:barcode:33433005304443",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 1-2 1978-79",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i10005761",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "urn:barcode:33433005304450",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "urn:bnum:b10011745",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFL 81-124 v. 3-4 1980-81",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "s": "i10005762",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    }
+  ]
+}
