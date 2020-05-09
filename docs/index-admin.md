@@ -172,29 +172,94 @@ Logstash is another method useful when the data must move from one Elastic domai
 ```
 input {
   elasticsearch {
-   hosts => ["https://[FQDN of source Elastic service]:443"]
-   index => "resources-2017-05-19"
-   docinfo => true
+    hosts => ["https://[FQDN of source Elastic service]:443"]
+    index => "resources-2017-05-19"
+    docinfo => true
   }
 }
 filter {
- mutate {
-  remove_field => [ "@version", "@timestamp" ]
-  rename => { "subject" => "subjectLiteral" }
-  rename => { "contributor" => "contributorLiteral" }
- }
- # add other transformations here
+  mutate {
+    remove_field => [ "@version", "@timestamp" ]
+    rename => { "subject" => "subjectLiteral" }
+    rename => { "contributor" => "contributorLiteral" }
+  }
+  # add other transformations here
 }
 output {
- elasticsearch {
-   hosts => ["https://[FQDN of destination Elastic service]"]
-   manage_template => false
-   index => "resources-2017-05-23"
-   document_type => "%{[@metadata][_type]}"
-   document_id => "%{[@metadata][_id]}"
- }
+  elasticsearch {
+    hosts => ["https://[FQDN of destination Elastic service]"]
+    manage_template => false
+    index => "resources-2017-05-23"
+    document_type => "%{[@metadata][_type]}"
+    document_id => "%{[@metadata][_id]}"
+  }
 }
 ```
+
+### Copying a index from Production to QA
+
+A specific use of the above technique, which may arise regularly, is copying production data down to QA. This may be appropriate immediately following when the ILS team copies production Sierra to Sierra Test (after which, the data in the QA ES index will be out of sync with Sierra Test - although, confusingly, *in sync* with the Bib and Item services' data, which will continue to reflect the previous state of Sierra Test).
+
+The following describes how to copy production down to QA using logstash with no downtime:
+
+1. Ensure you have access to both domains by [adding your IP to the Access Policy for each](https://github.com/NYPL/aws/blob/master/common/elasticsearch.md#2-make-the-domain-public-restrict-by-ip). (You'll revert this later.)
+
+2. Prepare the destination index (applies mapping, etc.):
+```
+node jobs/index-admin prepare --index resources-[YYYY-MM-DD] --profile nypl-digital-dev --envfile config/qa.env
+```
+
+3. Build an appropriate `logstash.conf`, such as:
+```
+input {
+  elasticsearch {
+    hosts => ["https://[fqdn of production domain]:443"]
+    index => "resources-2018-09-07"
+    docinfo => true
+    query => '{ "sort": [ "uri" ] }'
+  }
+}
+filter {
+  mutate {
+    remove_field => [ "@version", "@timestamp" ]
+  }
+}
+output {
+  elasticsearch {
+    hosts => ["https://[fqdn of qa domain:443"]
+    manage_template => false
+    index => "resources-[YYYY-MM-DD]"
+    document_type => "%{[@metadata][_type]}"
+    document_id => "%{[@metadata][_id]}"
+  }
+}
+```
+
+4. Execute the logstash job:
+
+Before starting the job, you may wish to disable the Kinesis trigger on the [`DiscoveryIndexPoster-qa`](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/DiscoveryIndexPoster-qa?tab=configuration) lambda to ensure no index updates occur during the copy. Doing this ensures that metadata updates picked up by the pollers during the copy will queue while you perform the copy; After the copy is complete, you can activate the new index and re-enable the trigger, allowing the IndexPoster to resume processing metadata updates from the queue.
+
+Execute the job:
+
+```
+logstash -f logstash.conf
+```
+
+Logstash can be installed via `brew install logstash`. The [complete set of options to logstash are here](https://www.elastic.co/guide/en/logstash/current/running-logstash-command-line.html)
+
+Follow progress by checking index doc count via `GET https://[fqdn of qa domain]]/_cat/indices?v`
+
+5. When logstash indicates the job has completed, activate the new index:
+
+Activate the new index for the index poster (to ensure metadata updates propagate to the new index):
+ - In the AWS console, find the [`DiscoveryIndexPoster-qa](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/DiscoveryIndexPoster-qa?tab=configuration)
+ - Update the `ELASTIC_RESOURCES_INDEX_NAME` environmental variable to the new index name
+ - If you disabled the `DiscoveryIndexPoster-qa` Kinesis trigger in step 4, re-enable it now.
+
+Activate the new index for the QA discovery-api (to ensure the discovery-api reads from the correct index)::
+ - In the AWS console, find the [`discovery-api-qa` Elasticbeanstalk app](https://console.aws.amazon.com/elasticbeanstalk/home?region=us-east-1#/environment/dashboard?applicationName=discovery-api&environmentId=e-yhuttrxfem)
+ - Update the `RESOURCES_INDEX` environmental variable to the name of the new index name
+ - "Environment Actions" > "Restart app server(s)".
 
 ## Admin CLI
 
