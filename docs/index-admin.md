@@ -200,7 +200,9 @@ output {
 
 A specific use of the above technique, which may arise regularly, is copying production data down to QA. This may be appropriate immediately following when the ILS team copies production Sierra to Sierra Test, after which the data in the QA ES index will be out of sync with Sierra Test. (Note that the Bib and Item services are another set of services to consider and will also be made out of sync with Sierra Test because they will continue to reflect the state of Sierra Test before the ILS team performed the copy.)
 
-The following describes how to copy production down to QA using logstash with no downtime:
+The following describes how to copy production down to QA using logstash with no downtime.
+
+> Note that, although this series of steps has been tested to work, it took roughly three days to complete on a low end consumer grade internet connnection. The pipeline failed several times, requiring manual restarts. See section 4 below for notes on resuming from a failure.
 
 **1. Enable access**
 
@@ -249,12 +251,33 @@ output {
 Execute the job:
 
 ```
-logstash -f logstash.conf
+LS_JAVA_OPTS="-Xms256m -Xmx2048m" logstash -f logstash.conf
 ```
+
+The `LS_JAVA_OPTS` bit above invites logstash to use a reasonable amount of memory for the work it needs to do rather than fall over with a `java.lang.OutOfMemoryError` around about 7M records. A proverbial "make yourself at home" to the JVM.
 
 Logstash can be installed via `brew install logstash`. The [complete set of options to logstash are here](https://www.elastic.co/guide/en/logstash/current/running-logstash-command-line.html)
 
 Follow progress by checking index doc count via `GET https://[fqdn of qa domain]]/_cat/indices?v`
+
+**If the pipeline fails**, you may need to kill the process via multiple `CTRL-c`s. Resume from the last indexed `uri`. Determine the last seen `uri` by POSTing the following to `{{ES_BASE_URI}}/{{ES_INDEX_NAME}}/resource/_search`
+
+```
+{
+  "size": 1,
+  "sort" : [
+    { "uri": "desc" }
+  ]
+}
+```
+
+The single record returned has the last indexed `uri` (which is also the `_id` value). Once obtained, cause `logstash` to begin where you left off by editing the `query` line in your logstash conf as follows:
+
+```
+  query => '{ "sort": [ "uri" ], "query": { "query_string": { "query": "uri:>cb13752240" } } }'
+```
+
+In the above, replace "cb13752240" with your last seen `uri`. Resume logstash the same way you started it.
 
 **5. Activate the new index**
 
