@@ -5,7 +5,7 @@ const sinon = require('sinon')
 const path = require('path')
 const fs = require('fs')
 
-const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
+const ResourceSerializer = require('../lib/serializers/resource-serializer')
 const DiscoveryStoreModels = require('discovery-store-models')
 const { Bib } = DiscoveryStoreModels
 
@@ -513,6 +513,53 @@ describe('Bib Serializations', function () {
           assert(itemsWithHighItype.length > 0)
         })
       })
+    })
+  })
+
+  describe('holdings', () => {
+    let testBib
+    before((done) => {
+      Bib.byId('b11254422').then((bib) => {
+        ResourceSerializer.serialize(bib).then((serialBib) => {
+          testBib = serialBib
+          done()
+        })
+      })
+    })
+
+    it('should have a shelfMark', () => {
+      assert.equal(testBib.holdings[0].shelfMark, 'MFWA+ 89-1277')
+    })
+
+    it('should include multiple HoldingStatements', () => {
+      assert.equal(testBib.holdings[0].holdingStatement[0], '27(1988)-40:156(2020)-')
+      assert.equal(testBib.holdings[0].holdingStatement[1], 'no. 3840 (2018/2020)')
+    })
+
+    it('should include location fields', () => {
+      assert.equal(testBib.holdings[0].location[0].code, 'loc:rc2ma')
+      assert.equal(testBib.holdings[0].location[0].label, 'Offsite')
+    })
+
+    it('should have a format', () => {
+      assert.equal(testBib.holdings[0].format[0], '{"PRINT"}')
+    })
+
+    it('should contain an array of ordered checkInBoxes', () => {
+      const firstBox = testBib.holdings[0].checkInBoxes[0]
+      const lastBox = testBib.holdings[0].checkInBoxes[testBib.holdings[0].checkInBoxes.length - 1]
+
+      assert.equal(firstBox.coverage, '37:143 (2017--)')
+      assert.equal(firstBox.status, 'Arrived')
+      assert.equal(firstBox.copies, null)
+      assert.equal(firstBox.position, '1')
+      assert.equal(firstBox.shelfMark, 'MFWA+ 89-1277')
+
+      assert.equal(lastBox.coverage, '40:157 (2020--)')
+      assert.equal(lastBox.status, 'Expected')
+      assert.equal(lastBox.copies, null)
+      assert.equal(lastBox.position, '15')
+      assert.equal(lastBox.shelfMark, 'MFWA+ 89-1277')
     })
   })
 
