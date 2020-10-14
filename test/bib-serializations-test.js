@@ -514,6 +514,15 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should set physicalLocation and enumerationChronology fields', () => {
+      return Bib.byId('b19834195').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.strictEqual(serialized.items[29].physicalLocation[0], '*T-Mss 1991-010')
+          assert.strictEqual(serialized.items[29].enumerationChronology[0], 'Box 30')
+        })
+      })
+    })
   })
 
   describe('holdings', () => {
