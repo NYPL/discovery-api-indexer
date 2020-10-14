@@ -1,10 +1,8 @@
 language: node_js
 node_js:
 - '10.16'
+cache: npm
 script: npm test
-cache:
-  directories:
-   - node_modules
 before_deploy:
  - echo "All unit tests passed; Preparing to deploy $TRAVIS_BRANCH"
 deploy:
