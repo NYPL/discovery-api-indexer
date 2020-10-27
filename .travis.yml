@@ -1,10 +1,8 @@
 language: node_js
 node_js:
-- '6.11'
+- '10.16'
+cache: npm
 script: npm test
-cache:
-  directories:
-   - node_modules
 before_deploy:
  - echo "All unit tests passed; Preparing to deploy $TRAVIS_BRANCH"
 deploy:
@@ -13,7 +11,7 @@ deploy:
    script: ./scripts/travis-deploy.sh $TRAVIS_BRANCH
    on:
      all_branches: true
-     condition: $TRAVIS_BRANCH =~ ^(development|qa|production)$
+     condition: $TRAVIS_BRANCH =~ ^(qa|production)$
 after_deploy: echo "Successfully executed deploy trigger for $TRAVIS_BRANCH"
 env:
   global:
