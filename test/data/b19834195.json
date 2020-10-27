@@ -494,6 +494,22 @@
       "bn": null,
       "id": null,
       "la": null,
+      "li": "*T-Mss 1991-010",
+      "pr": "bf:physicalLocation"
+    },
+    {
+      "s": "i30467062",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Box 30",
+      "pr": "bf:enumerationAndChronology"
+    },
+    {
+      "s": "i30467062",
+      "bn": null,
+      "id": null,
+      "la": null,
       "li": "false",
       "pr": "nypl:suppressed"
     },
