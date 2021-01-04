@@ -517,6 +517,14 @@ describe('Bib Serializations', function () {
   })
 
   describe('item order', function () {
+    let bib
+
+    before(() => {
+      Bib.byId('b11055155_with_missing_shelfMarks').then((res) => {
+        ResourceSerializer.serialize(res).then((serialized) => { bib = serialized })
+      })
+    })
+
     it('ResourceSerializer.zeroPadString should zero pad a string', function () {
       assert.equal(ResourceSerializer.zeroPadString('78'), '000078')
     })
@@ -549,6 +557,41 @@ describe('Bib Serializations', function () {
       assert.equal(sortable('Map Div. 98­914    TUBE 8, E­Fi'), 'Map Div. 98­914 tube 000008, E­Fi')
       assert.equal(sortable('Map Div. 98­914    No. 8, E­Fi'), 'Map Div. 98­914 no. 000008, E­Fi')
       assert.equal(sortable('Map Div. 98­914    r. 8, E­Fi'), 'Map Div. 98­914 r. 000008, E­Fi')
+    })
+
+    it('should applyDefaultShelfMark', () => {
+      assert(bib.items.every((item) => (item.shelfMark && item.shelfMark.length) || item.electronicLocator))
+      assert(bib.items.every((item) => !(item.shelfMark && item.electronicLocator)))
+    })
+
+    it('should applySortableShelfMark', () => {
+      assert(bib.items.every((item) => item.shelfMark_sort))
+    })
+
+    it('should sort by shelfMark_sort', () => {
+      assert(bib.items.every((item, idx) => { return !bib.items[idx + 1] || (item.shelfMark_sort < bib.items[idx + 1].shelfMark_sort) }))
+    })
+
+    describe('applySortableShelfMark', () => {
+      it('should put items with shelfMark first', () => {
+        assert(bib.items.slice(0, 8).every((item) => item.shelfMark && item.shelfMark.length))
+      })
+
+      it('should sort items with shelfMark by shelfMark', () => {
+        let itemsWithShelfMark = bib.items.slice(0, 8)
+        assert(itemsWithShelfMark.every((item, i) => {
+          if (i === 7) return true
+          return item.shelfMark[0] < itemsWithShelfMark[i + 1].shelfMark[0]
+        }))
+      })
+
+      it('should sort items with no shelf mark by id', () => {
+        let itemsWithOutShelfMark = bib.items.slice(8, 11)
+        assert(itemsWithOutShelfMark.every((item, i) => {
+          if (i === 2) return true
+          return item.uri < itemsWithOutShelfMark[i + 1].uri
+        }))
+      })
     })
   })
 })
