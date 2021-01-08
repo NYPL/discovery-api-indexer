@@ -4,7 +4,7 @@
 //    node kinesify-data [infile] [outfile] [schemaurl]
 //
 //  e.g.
-//    node kinesify-data event.unencoded.json event.json https://api.nypltech.org/api/v0.1/current-schemas/IndexDocument
+//    node kinesify-data event.unencoded.json
 //
 //  Alternatively, give it an array of uris like this to build the encoded event.json directly:
 //
