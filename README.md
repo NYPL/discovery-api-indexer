@@ -34,9 +34,36 @@ node-lambda run -f config/qa.env
 1. Fill in missing secrets in both environment files (talk to a coworker)
 1. `npm run deploy-[qa|production]`
 
-### Manually indexing a single record
+### Updating a single record
 
-A script is provided to manually run the indexer against a given bnum:
+To update a specific bib or item, you have options:
+
+#### 1. Re-play updates by queuing up index jobs directly in the `IndexDocument` stream
+
+Use the [nypl-streams-client CLI](https://github.com/NYPL-discovery/node-nypl-streams-client#cli) to write IndexDocument events:
+
+```
+cli/nypl-streams.js --envfile config/qa.env --profile nypl-digital-dev write IndexDocument-qa --schemaName IndexDocument '{ "uri": "b12082323", "type": "record" }'
+```
+
+The above queues a reindex job for bib b12082323 - exactly as happens when the bib or any of its items are processed by the [DiscoveryStorePoster](https://github.com/NYPL-discovery/discovery-store-poster) after writing statements to the store.
+
+This option is preferred because it uses the deployed infrastructure to do all the work and doesn't rely on local config. It is also the fastest because it triggers the update as far downstream as possible without bothering the Bib/Item Services.
+
+#### 2. Re-play updates from the BibService
+
+Use the [bib-post-request endpoint](https://platformdocs.nypl.org/#/bibs/createBibPostRequest)
+
+Optionally, use [bib-item-post-request-runner](https://github.com/NYPL/bib-item-post-request-runner), which provides easy CLI access to above.
+
+This option is best when:
+ * you're re-indexing *all* bibs and items, or
+ * you suspect the DiscoveryStore may not have all necessary data, or
+ * the set of documents you want to update are defined by specific update timestamps
+
+#### 3. Manually update the record from local code and config
+
+A script is provided to manually run the indexer locally against a given bnum:
 
 ```
 node jobs/index-resources.js --bnum [bnum] --envfile [local env file] --profile [aws profile]
@@ -48,9 +75,9 @@ For example, the following will re-index bib "b18932917" from the QA db into the
 NYPL_CORE_VERSION=v1.7a node jobs/index-resources.js --uri b18932917 --envfile config/qa.env --profile nypl-sandbox
 ```
 
+This option is best when you want to test writing specific documents to the dev/qa index using local field mapping changes (i.e. that are not yet deployed) to verify the resulting documents behave correctly in queries.
+
 ### Bulk Building Resources Index
-
-
 
 The non-lambda invocation method is provided for bulk processing. It's generally faster to use the bulk method to load millions of documents.S
 
@@ -83,3 +110,7 @@ To update a fixture:
 ```
 node jobs/update-test-fixtures --id b17678033 --profile [aws profile] --envfile config/[envfile name]
 ```
+
+## Contributing
+
+This repo follows a [git workflow](https://github.com/NYPL/engineering-general/blob/master/standards/git-workflow.md#prs-target-main-merge-to-deployment-branches) where PRs are cut from `main` and then `main` is merged into each deployment branch.

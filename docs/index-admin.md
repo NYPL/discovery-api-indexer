@@ -4,10 +4,18 @@ This document describes a few dangerous operations one can make on Elastic index
 
 ## Modifying an index mapping
 
-If the modification strictly *adds* mappings, one can *normally do that by `PUT`ing the mapping to the index:
+Edit the `resourceProperties` field-mapping definition in `lib/index.js` with your desired change. Note that ES mostly obligates *addititive* changes. After you've made your edit, run the following to see what differences exist between the field mapping in code and the live index:
 
 ```
-# PUT this to https://[FQDN]/[index name]/_mapping/[document type]
+node jobs/index-admin mapping-check --envfile config/qa.env --profile nypl-digital-dev
+```
+
+This will produce a report of the differences between your local code and the field mapping that actually exists in the QA ES index (which should be the first place you make field mapping changes). In addition to noting the discrepancies, the command should tell you what specifically you can `PUT` to the `_mapping` endpoint to update the field mapping. (Note that the best workflow for mapping changes is likely: 1) code review, 2) apply field mapping changes to the QA ES index, 3) deploy code changes to QA, 4) repeat steps 2 and 3 for production.)
+
+For example, if the modification strictly *adds* mappings, one can *normally do that by `PUT`ing the mapping to the index:
+
+```
+# PUT this to https://[FQDN]/[index name]/_mapping/resource
 {
   "properties": {
     "genreForm": {
@@ -45,9 +53,12 @@ ES will respond with the following to indicate success:
 
 Thereafter you can confirm the mapping was created by doing a `GET` on "https://[fqdn index]/[current index name]/_mapping/resource" to view the whole mapping.
 
+You may want to test your changes by writing some test documents to the index. See [Updating a single record](../README.md#updating-a-single-record).
+
 [Elastic documentation of put mapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-put-mapping.html)
 
  \* One case where *adding* a mapping may fail is if you've already written documents into the index containing the property that you want to add. Elastic may have made a guess about the mapping type, preventing you from overwriting it.
+
 
 ## Reindexing
 
@@ -184,6 +195,7 @@ filter {
     rename => { "contributor" => "contributorLiteral" }
   }
   # add other transformations here
+
 }
 output {
   elasticsearch {
@@ -270,6 +282,7 @@ Follow progress by checking index doc count via `GET https://[fqdn of qa domain]
   ]
 }
 ```
+
 
 The single record returned has the last indexed `uri` (which is also the `_id` value). Once obtained, cause `logstash` to begin where you left off by editing the `query` line in your logstash conf as follows:
 
