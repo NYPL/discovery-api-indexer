@@ -195,6 +195,7 @@ filter {
     rename => { "contributor" => "contributorLiteral" }
   }
   # add other transformations here
+
 }
 output {
   elasticsearch {
@@ -281,6 +282,7 @@ Follow progress by checking index doc count via `GET https://[fqdn of qa domain]
   ]
 }
 ```
+
 
 The single record returned has the last indexed `uri` (which is also the `_id` value). Once obtained, cause `logstash` to begin where you left off by editing the `query` line in your logstash conf as follows:
 
