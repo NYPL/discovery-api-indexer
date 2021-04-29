@@ -27,7 +27,6 @@ if (argv.bnum) {
     .then(() => DiscoveryModels.Bib.byId(argv.bnum))
     .then(ResourceSerializer.serialize)
     .then((doc) => {
-      console.log('Got doc: ', doc)
       process.stdout.write(JSON.stringify(doc, null, 2))
       process.exit()
     })
