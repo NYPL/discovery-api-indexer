@@ -545,7 +545,7 @@ describe('Bib Serializations', function () {
       it('should set aeonUrl on bib with one item', () => {
         return Bib.byId('b11793485').then((bib) => {
           return ResourceSerializer.serialize(bib).then((serialized) => {
-            assert.strictEqual(serialized.items[0].aeonUrl[0], 'https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=[Vocal+and+instrumental+music+/&Site=SCHMA&CallNumber=Sc+Scores+Waller&Author=Waller,+Fats,&Date=1924-1955.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b117934859&ReferenceNumber=b117934859&ItemInfo1=USE+IN+LIBRARY&ItemISxN=i332995847&Genre=Score&Location=Schomburg+Center&shelfmark=Sc Scores Waller&itemid=33299584')
+            assert.strictEqual(serialized.items[0].aeonUrl[0], 'https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=[Vocal+and+instrumental+music+/&Site=SCHMA&CallNumber=Sc+Scores+Waller&Author=Waller,+Fats,&Date=1924-1955.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b117934859&ReferenceNumber=b117934859&ItemInfo1=USE+IN+LIBRARY&ItemISxN=i332995847&Genre=Score&Location=Schomburg+Center')
           })
         })
       })
@@ -561,7 +561,7 @@ describe('Bib Serializations', function () {
       it('should set aeonUrl on bib with 3 items, one of which is special coll', () => {
         return Bib.byId('b11574666').then((bib) => {
           return ResourceSerializer.serialize(bib).then((serialized) => {
-            assert.strictEqual(serialized.items[0].aeonUrl[0], 'https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=The+problem+of+human+destiny++or,+The+end+of+Providence+in+the+world+and+man,&Site=SCHRB&CallNumber=Sc+Rare+124-D+(Dewey,+O.+Problem+of+human+destiny)&Author=Dewey,+Orville,&ItemPlace=New+York,&ItemPublisher=J.+Miller,&Date=1864.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b115746663&ReferenceNumber=b115746663&ItemInfo1=USE+IN+LIBRARY&ItemNumber=33433034100226&ItemISxN=i103641531&Genre=Book-text&Location=Schomburg+Center&barcode=33433034100226&shelfmark=Sc Rare 124-D (Dewey, O. Problem of human destiny)&itemid=10364153')
+            assert.strictEqual(serialized.items[0].aeonUrl[0], 'https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=The+problem+of+human+destiny++or,+The+end+of+Providence+in+the+world+and+man,&Site=SCHRB&CallNumber=Sc+Rare+124-D+(Dewey,+O.+Problem+of+human+destiny)&Author=Dewey,+Orville,&ItemPlace=New+York,&ItemPublisher=J.+Miller,&Date=1864.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b115746663&ReferenceNumber=b115746663&ItemInfo1=USE+IN+LIBRARY&ItemNumber=33433034100226&ItemISxN=i103641531&Genre=Book-text&Location=Schomburg+Center')
             assert.strictEqual(serialized.items[0].uri, 'i10364153')
             assert.equal(serialized.items[1].aeonUrl, null)
             assert.strictEqual(serialized.items[1].uri, 'i15002628')
