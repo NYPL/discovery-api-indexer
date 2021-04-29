@@ -9,7 +9,7 @@
 
 const DiscoveryModels = require('discovery-store-models')
 
-const ResourceSerializer = require('../lib/es-serializer').ResourceSerializer
+const ResourceSerializer = require('../lib/serializers/resource-serializer')
 const envConfigHelper = require('../lib/env-config-helper')
 
 // Parsc cmd line opts:
@@ -27,7 +27,7 @@ if (argv.bnum) {
     .then(() => DiscoveryModels.Bib.byId(argv.bnum))
     .then(ResourceSerializer.serialize)
     .then((doc) => {
-      // console.info(JSON.stringify(doc, null, 2))
+      console.log('Got doc: ', doc)
       process.stdout.write(JSON.stringify(doc, null, 2))
       process.exit()
     })
