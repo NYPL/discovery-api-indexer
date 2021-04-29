@@ -2,6 +2,7 @@
   "author": "NYPL Discovery",
   "dependencies": {
     "@nypl/nypl-core-objects": "^1.3.1",
+    "@nypl/nypl-data-api-client": "^1.0.4",
     "@nypl/nypl-streams-client": "^0.1.2",
     "JSONStream": "^1.2.1",
     "avsc": "^5.0.0",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "dotenv": "^4.0.0",
+    "md5": "^2.3.0",
     "minimist": "^1.2.0",
     "mocha": "^3.2.0",
     "node-lambda": "^0.11.3",
