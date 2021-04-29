@@ -1,0 +1,590 @@
+{
+  "subject_id": "b11574666",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "24 cm.",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lowell lectures",
+      "pr": "bf:seriesStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1864",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Dewey, Orville, 1794-1882.",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1864",
+      "pr": "dc:date",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Providence and government of God.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Slavery.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Colonization.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "End of Providence in the world and man.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1864",
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": "11574666",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "nypl:Bnumber"
+    },
+    {
+      "bn": null,
+      "id": "11023105",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The problem of human destiny; or, The end of Providence in the world and man,",
+      "pr": "dcterms:title",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:scd",
+      "la": "Schomburg Center - Manuscripts & Archives",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:mal",
+      "la": "Schwarzman Building - Main Reading Room 315",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "viii, 275 p.",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "BD541 .D5",
+      "pr": "nypl:lccClassification",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York,",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York, J. Miller, 1864.",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "J. Miller,",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sc Rare 124-D (Dewey, O. Problem of human destiny)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "The problem of human destiny; or, The end of Providence in the world and man, by Rev. Orville Dewey, D.D.",
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lowell Institute lectures.",
+      "pr": "nypl:uniformTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i11574666-e",
+      "bn": null,
+      "id": null,
+      "la": "Full text available via HathiTrust",
+      "li": "http://hdl.handle.net/2027/nyp.33433006055358",
+      "pr": "bf:electronicLocator",
+      "ty": null
+    },
+    {
+      "s": "i11574666-e",
+      "bn": null,
+      "id": "urn:bnum:b11574666",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i11574666-e",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i11574666-e",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "urn:barcode:33433096573401",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "urn:bnum:b11574666",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "catalogItemType:2",
+      "la": "book non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "YFH (Dewey, O. Problem of human destiny. 1864)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i28230569",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "urn:barcode:33433070237700",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "urn:bnum:b11574666",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "catalogItemType:2",
+      "la": "book non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "loc:rc2ma",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "YCO (Dewey, O. Problem of human destiny. 1864)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i15002628",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "urn:barcode:33433034100226",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "urn:bnum:b11574666",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "catalogItemType:2",
+      "la": "book non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "loc:scdd2",
+      "la": "Schomburg Center - Manuscripts & Archives",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "orgs:1116",
+      "la": "Schomburg Center for Research in Black Culture, Manuscripts, Archives and Rare Books Division",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sc Rare 124-D (Dewey, O. Problem of human destiny)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    }
+  ],
+  "holding_statements": []
+}
