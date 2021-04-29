@@ -10,6 +10,7 @@ const ResourceSerializer = require('../lib/serializers/resource-serializer')
 const DiscoveryStoreModels = require('discovery-store-models')
 const { Bib } = DiscoveryStoreModels
 const NyplClient = require('@nypl/nypl-data-api-client')
+const kmsHelper = require('../lib/kms-helper')
 
 process.env.LOGLEVEL = process.env.LOGLEVEL || 'error'
 
@@ -38,6 +39,7 @@ const getPlatformEndpointByFixture = function (path) {
 function init () {
   sinon.stub(Bib, 'byId').callsFake(getBibByFixture)
   sinon.stub(NyplClient.prototype, 'get').callsFake(getPlatformEndpointByFixture)
+  sinon.stub(kmsHelper, 'decrypt').callsFake(() => Promise.resolve('decrypted!'))
 
   process.env.NYPL_API_BASE_URL = 'https://example.com'
   process.env.NYPL_OAUTH_KEY = 'oauth-key'
@@ -48,6 +50,7 @@ function init () {
 function destroy () {
   Bib.byId.restore()
   NyplClient.prototype.get.restore()
+  kmsHelper.decrypt.restore()
 }
 
 describe('Bib Serializations', function () {
