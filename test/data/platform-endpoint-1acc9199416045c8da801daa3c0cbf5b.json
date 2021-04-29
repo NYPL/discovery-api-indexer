@@ -1,0 +1,588 @@
+{
+  "data": {
+    "id": "11574666",
+    "nyplSource": "sierra-nypl",
+    "nyplType": "bib",
+    "updatedDate": "2021-04-25T12:22:04-04:00",
+    "createdDate": "2008-12-15T02:54:00-05:00",
+    "deletedDate": null,
+    "deleted": false,
+    "locations": [
+      {
+        "code": "scd",
+        "name": "Schomburg Center - Manuscripts & Archives"
+      },
+      {
+        "code": "mal",
+        "name": "SASB - Service Desk Rm 315"
+      }
+    ],
+    "suppressed": false,
+    "lang": {
+      "code": "eng",
+      "name": "English"
+    },
+    "title": "The problem of human destiny; or, The end of Providence in the world and man,",
+    "author": "Dewey, Orville, 1794-1882.",
+    "materialType": {
+      "code": "a  ",
+      "value": "BOOK/TEXT"
+    },
+    "bibLevel": {
+      "code": "m",
+      "value": "MONOGRAPH"
+    },
+    "publishYear": 1864,
+    "catalogDate": "2000-12-13",
+    "country": {
+      "code": "nyu",
+      "name": "New York (State)"
+    },
+    "normTitle": "problem of human destiny or the end of providence in the world and man",
+    "normAuthor": "dewey orville 1794 1882",
+    "standardNumbers": [],
+    "controlNumber": "NYPGR2076493-B",
+    "fixedFields": {
+      "24": {
+        "label": "Language",
+        "value": "eng",
+        "display": "English"
+      },
+      "25": {
+        "label": "Skip",
+        "value": "4",
+        "display": null
+      },
+      "26": {
+        "label": "Location",
+        "value": "multi",
+        "display": null
+      },
+      "27": {
+        "label": "COPIES",
+        "value": "3",
+        "display": null
+      },
+      "28": {
+        "label": "Cat. Date",
+        "value": "2000-12-13",
+        "display": null
+      },
+      "29": {
+        "label": "Bib Level",
+        "value": "m",
+        "display": "MONOGRAPH"
+      },
+      "30": {
+        "label": "Material Type",
+        "value": "a  ",
+        "display": "BOOK/TEXT"
+      },
+      "31": {
+        "label": "Bib Code 3",
+        "value": "-",
+        "display": null
+      },
+      "80": {
+        "label": "Record Type",
+        "value": "b",
+        "display": null
+      },
+      "81": {
+        "label": "Record Number",
+        "value": "11574666",
+        "display": null
+      },
+      "83": {
+        "label": "Created Date",
+        "value": "2008-12-15T02:54:00Z",
+        "display": null
+      },
+      "84": {
+        "label": "Updated Date",
+        "value": "2021-04-25T12:22:04Z",
+        "display": null
+      },
+      "85": {
+        "label": "No. of Revisions",
+        "value": "13",
+        "display": null
+      },
+      "86": {
+        "label": "Agency",
+        "value": "1",
+        "display": null
+      },
+      "89": {
+        "label": "Country",
+        "value": "nyu",
+        "display": "New York (State)"
+      },
+      "98": {
+        "label": "PDATE",
+        "value": "2021-04-25T12:14:39Z",
+        "display": null
+      },
+      "107": {
+        "label": "MARC Type",
+        "value": " ",
+        "display": null
+      }
+    },
+    "varFields": [
+      {
+        "fieldTag": "a",
+        "marcTag": "100",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Dewey, Orville,"
+          },
+          {
+            "tag": "d",
+            "content": "1794-1882."
+          }
+        ]
+      },
+      {
+        "fieldTag": "c",
+        "marcTag": "852",
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "Sc Rare 124-D (Dewey, O. Problem of human destiny)"
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Providence and government of God."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Slavery."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Colonization."
+          }
+        ]
+      },
+      {
+        "fieldTag": "l",
+        "marcTag": "010",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "11023105"
+          }
+        ]
+      },
+      {
+        "fieldTag": "l",
+        "marcTag": "035",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(OCoLC)2076493B"
+          }
+        ]
+      },
+      {
+        "fieldTag": "l",
+        "marcTag": "035",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(WaOLN)nyp0013160"
+          }
+        ]
+      },
+      {
+        "fieldTag": "o",
+        "marcTag": "001",
+        "ind1": " ",
+        "ind2": " ",
+        "content": "NYPGR2076493-B",
+        "subfields": null
+      },
+      {
+        "fieldTag": "p",
+        "marcTag": "260",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "New York,"
+          },
+          {
+            "tag": "b",
+            "content": "J. Miller,"
+          },
+          {
+            "tag": "c",
+            "content": "1864."
+          }
+        ]
+      },
+      {
+        "fieldTag": "q",
+        "marcTag": "852",
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "Sc Rare 124-D (Dewey, O. Problem of human destiny)"
+          }
+        ]
+      },
+      {
+        "fieldTag": "q",
+        "marcTag": "852",
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "YCO (Dewey, O. Problem of human destiny. 1864)"
+          }
+        ]
+      },
+      {
+        "fieldTag": "q",
+        "marcTag": "852",
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "YFH (Dewey, O. Problem of human destiny. 1864)"
+          }
+        ]
+      },
+      {
+        "fieldTag": "r",
+        "marcTag": "300",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "viii, 275 p."
+          },
+          {
+            "tag": "c",
+            "content": "24 cm."
+          }
+        ]
+      },
+      {
+        "fieldTag": "s",
+        "marcTag": "490",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Lowell lectures"
+          }
+        ]
+      },
+      {
+        "fieldTag": "s",
+        "marcTag": "830",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Lowell Institute lectures."
+          }
+        ]
+      },
+      {
+        "fieldTag": "t",
+        "marcTag": "245",
+        "ind1": "1",
+        "ind2": "4",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "The problem of human destiny;"
+          },
+          {
+            "tag": "b",
+            "content": "or, The end of Providence in the world and man,"
+          },
+          {
+            "tag": "c",
+            "content": "by Rev. Orville Dewey, D.D."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "End of Providence in the world and man."
+          }
+        ]
+      },
+      {
+        "fieldTag": "v",
+        "marcTag": "959",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": ".b26070352"
+          },
+          {
+            "tag": "b",
+            "content": "10-14-06"
+          },
+          {
+            "tag": "c",
+            "content": "09-19-92"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "856",
+        "ind1": "4",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "u",
+            "content": "https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=The+problem+of+human+destiny++or,+The+end+of+Providence+in+the+world+and+man,&Site=SCHRB&CallNumber=Sc+Rare+124-D+(Dewey,+O.+Problem+of+human+destiny)&Author=Dewey,+Orville,&ItemPlace=New+York,&ItemPublisher=J.+Miller,&Date=1864.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b115746663&ReferenceNumber=b115746663&ItemInfo1=USE+IN+LIBRARY&ItemNumber=33433034100226&ItemISxN=i103641531&Genre=Book-text&Location=Schomburg+Center"
+          },
+          {
+            "tag": "z",
+            "content": "Request Access to Special Collections Material"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "008",
+        "ind1": " ",
+        "ind2": " ",
+        "content": "760329s1864    nyu           000 0 eng  namu  ",
+        "subfields": null
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "005",
+        "ind1": " ",
+        "ind2": " ",
+        "content": "20001116190237.6",
+        "subfields": null
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "040",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "DLC"
+          },
+          {
+            "tag": "c",
+            "content": "MeB"
+          },
+          {
+            "tag": "d",
+            "content": "NN"
+          },
+          {
+            "tag": "d",
+            "content": "CStRLIN"
+          },
+          {
+            "tag": "d",
+            "content": "WaOLN"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "050",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "BD541"
+          },
+          {
+            "tag": "b",
+            "content": ".D5"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "856",
+        "ind1": "4",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "u",
+            "content": "http://hdl.handle.net/2027/nyp.33433006055358"
+          },
+          {
+            "tag": "z",
+            "content": "Full text available via HathiTrust"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "908",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "BD541"
+          },
+          {
+            "tag": "b",
+            "content": ".D5"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "997",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "sm"
+          },
+          {
+            "tag": "a",
+            "content": "hg"
+          },
+          {
+            "tag": "b",
+            "content": "12-13-00"
+          },
+          {
+            "tag": "c",
+            "content": "m"
+          },
+          {
+            "tag": "d",
+            "content": "a"
+          },
+          {
+            "tag": "e",
+            "content": "-"
+          },
+          {
+            "tag": "f",
+            "content": "eng"
+          },
+          {
+            "tag": "g",
+            "content": "nyu"
+          },
+          {
+            "tag": "h",
+            "content": "4"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "991",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "y",
+            "content": "2076493"
+          }
+        ]
+      },
+      {
+        "fieldTag": "_",
+        "marcTag": null,
+        "ind1": null,
+        "ind2": null,
+        "content": "00000nam  2200289u  4500",
+        "subfields": null
+      }
+    ]
+  }
+}

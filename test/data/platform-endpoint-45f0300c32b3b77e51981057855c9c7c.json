@@ -1,0 +1,2509 @@
+{
+  "data": {
+    "id": "11793485",
+    "nyplSource": "sierra-nypl",
+    "nyplType": "bib",
+    "updatedDate": "2021-04-26T13:53:45-04:00",
+    "createdDate": "2008-12-15T07:26:00-05:00",
+    "deletedDate": null,
+    "deleted": false,
+    "locations": [
+      {
+        "code": "scd",
+        "name": "Schomburg Center - Manuscripts & Archives"
+      }
+    ],
+    "suppressed": false,
+    "lang": {
+      "code": "eng",
+      "name": "English"
+    },
+    "title": "[Vocal and instrumental music",
+    "author": "Waller, Fats, 1904-1943. cmp arr prf",
+    "materialType": {
+      "code": "c  ",
+      "value": "SCORE"
+    },
+    "bibLevel": {
+      "code": "c",
+      "value": "COLLECTION"
+    },
+    "publishYear": 1924,
+    "catalogDate": "2015-09-17",
+    "country": {
+      "code": "nyu",
+      "name": "New York (State)"
+    },
+    "normTitle": "vocal and instrumental music",
+    "normAuthor": "waller fats 1904 1943 cmp arr prf",
+    "standardNumbers": [],
+    "controlNumber": "NYPG091000037-C",
+    "fixedFields": {
+      "24": {
+        "label": "Language",
+        "value": "eng",
+        "display": "English"
+      },
+      "25": {
+        "label": "Skip",
+        "value": "0",
+        "display": null
+      },
+      "26": {
+        "label": "Location",
+        "value": "scd  ",
+        "display": "Schomburg Center - Manuscripts & Archives"
+      },
+      "27": {
+        "label": "COPIES",
+        "value": "1",
+        "display": null
+      },
+      "28": {
+        "label": "Cat. Date",
+        "value": "2015-09-17",
+        "display": null
+      },
+      "29": {
+        "label": "Bib Level",
+        "value": "c",
+        "display": "COLLECTION"
+      },
+      "30": {
+        "label": "Material Type",
+        "value": "c  ",
+        "display": "SCORE"
+      },
+      "31": {
+        "label": "Bib Code 3",
+        "value": "-",
+        "display": null
+      },
+      "80": {
+        "label": "Record Type",
+        "value": "b",
+        "display": null
+      },
+      "81": {
+        "label": "Record Number",
+        "value": "11793485",
+        "display": null
+      },
+      "83": {
+        "label": "Created Date",
+        "value": "2008-12-15T07:26:00Z",
+        "display": null
+      },
+      "84": {
+        "label": "Updated Date",
+        "value": "2021-04-26T13:53:45Z",
+        "display": null
+      },
+      "85": {
+        "label": "No. of Revisions",
+        "value": "12",
+        "display": null
+      },
+      "86": {
+        "label": "Agency",
+        "value": "1",
+        "display": null
+      },
+      "89": {
+        "label": "Country",
+        "value": "nyu",
+        "display": "New York (State)"
+      },
+      "98": {
+        "label": "PDATE",
+        "value": "2017-05-18T13:18:48Z",
+        "display": null
+      },
+      "107": {
+        "label": "MARC Type",
+        "value": " ",
+        "display": null
+      }
+    },
+    "varFields": [
+      {
+        "fieldTag": "a",
+        "marcTag": "100",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Waller, Fats,"
+          },
+          {
+            "tag": "d",
+            "content": "1904-1943."
+          },
+          {
+            "tag": "4",
+            "content": "cmp"
+          },
+          {
+            "tag": "4",
+            "content": "arr"
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Link, Harry,"
+          },
+          {
+            "tag": "d",
+            "content": "1896-1956."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Brooks, Harry,"
+          },
+          {
+            "tag": "d",
+            "content": "1895-1970."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Holmes, John."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Redman, Don."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Johnson, J. C.,"
+          },
+          {
+            "tag": "d",
+            "content": "1896-1981."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Hill, Alexander."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Carter, Benny."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Kirkeby, Ed."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Williams, Clarence,"
+          },
+          {
+            "tag": "d",
+            "content": "1893-1965."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Arlen, Harold,"
+          },
+          {
+            "tag": "d",
+            "content": "1905-1986."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Layton, Turner"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "McHugh, Jimmy,"
+          },
+          {
+            "tag": "d",
+            "content": "1894-1969."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Jones, Isham,"
+          },
+          {
+            "tag": "d",
+            "content": "1894-1956."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Flowtow, Friedrich von,"
+          },
+          {
+            "tag": "d",
+            "content": "1812-1883."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Balfe, M. W."
+          },
+          {
+            "tag": "q",
+            "content": "(Michael William),"
+          },
+          {
+            "tag": "d",
+            "content": "1808-1870."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Saint-Saëns, Camille,"
+          },
+          {
+            "tag": "d",
+            "content": "1835-1921."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Mascagni, Pietro,"
+          },
+          {
+            "tag": "d",
+            "content": "1863-1945."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Drigo, Riccardo,"
+          },
+          {
+            "tag": "d",
+            "content": "1846-1930."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Verdi, Giuseppe,"
+          },
+          {
+            "tag": "d",
+            "content": "1813-1901."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Leoncavallo, Ruggiero,"
+          },
+          {
+            "tag": "d",
+            "content": "1858-1919."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Gounod, Charles,"
+          },
+          {
+            "tag": "d",
+            "content": "1818-1893."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Razaf, Andy,"
+          },
+          {
+            "tag": "d",
+            "content": "1895-1973."
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Brown, George."
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Young, Joe,"
+          },
+          {
+            "tag": "d",
+            "content": "1889-1939."
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Klages, Roy."
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Rose, Billy,"
+          },
+          {
+            "tag": "d",
+            "content": "1899-1966."
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Marion, George,"
+          },
+          {
+            "tag": "c",
+            "content": "Jr.,"
+          },
+          {
+            "tag": "d",
+            "content": "1899-1968,"
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Adams, R. Stanley."
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Stafford, Jo."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Johnston, Merle."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Conrad, Lew."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Peabody, Eddie."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Austin, Gene."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Hill, Alexander."
+          },
+          {
+            "tag": "4",
+            "content": "lyr"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Gordon Gray."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Nelson, Ozzie,"
+          },
+          {
+            "tag": "d",
+            "content": "1906-1975."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Olsen, George."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Hall, George."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Reisman, Leo,"
+          },
+          {
+            "tag": "d",
+            "content": "1897-1961."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Woodworth, Julian."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "700",
+        "ind1": "1",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Tremaine, Paul."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "710",
+        "ind1": "2",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Clarence Williams Music Company."
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "710",
+        "ind1": "2",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Heller Sisters and Brother Lynch."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "710",
+        "ind1": "2",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Tic-Toc Rhythm Orchestra."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "710",
+        "ind1": "2",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Clintonians."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "710",
+        "ind1": "2",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Aristocrats of Modern Music."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "b",
+        "marcTag": "710",
+        "ind1": "2",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Victor Recording Orchestra."
+          },
+          {
+            "tag": "4",
+            "content": "prf"
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Waller, Fats,"
+          },
+          {
+            "tag": "d",
+            "content": "1904-1943."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Harne, Lena."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Robinson, Bill,"
+          },
+          {
+            "tag": "d",
+            "content": "1878-1949."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Calloway, Cab,"
+          },
+          {
+            "tag": "d",
+            "content": "1907-1994."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Stafford, Jo."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Johnston, Merle."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Conrad, Lew."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Peabody, Eddie."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Austin, Gene."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Olsen, George."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Hall, George."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Nelson, Ozzie,"
+          },
+          {
+            "tag": "d",
+            "content": "1906-1975."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Reisman, Leo,"
+          },
+          {
+            "tag": "d",
+            "content": "1897-1961."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Tremaine, Paul."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Gordon Gray."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "600",
+        "ind1": "1",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Woodworth, Julian."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "610",
+        "ind1": "2",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Heller Sisters and Brother Lynch."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "African Americans"
+          },
+          {
+            "tag": "x",
+            "content": "Music."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Songs with piano."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Piano music."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Operas"
+          },
+          {
+            "tag": "v",
+            "content": "Excerpts, Arranged."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Musicals"
+          },
+          {
+            "tag": "x",
+            "content": "Excerpts"
+          },
+          {
+            "tag": "v",
+            "content": "Vocal scores with piano."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Popular music"
+          },
+          {
+            "tag": "y",
+            "content": "1921-1930."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Popular music"
+          },
+          {
+            "tag": "y",
+            "content": "1931-1940."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Popular music"
+          },
+          {
+            "tag": "y",
+            "content": "1941-1950."
+          }
+        ]
+      },
+      {
+        "fieldTag": "d",
+        "marcTag": "650",
+        "ind1": " ",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Popular music"
+          },
+          {
+            "tag": "y",
+            "content": "1951-1960."
+          }
+        ]
+      },
+      {
+        "fieldTag": "l",
+        "marcTag": "035",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "NN-Sc 09100037"
+          }
+        ]
+      },
+      {
+        "fieldTag": "l",
+        "marcTag": "035",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(WaOLN)nyp1803493"
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Some items with piano acc."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "By Thomas Waller, Harry Brooks, John Holmes, Harry Link, Donald Redman, J.C. Johnson, Alexander Hill, Benny Carter, Ed Kirkeby, Clarence Williams, Harold Arlen, J. Turner Layton Jimmy McHugh, Isham Jones, Friedrich von Flotow, M.W. Balfe, Camille Saint-Saens, Pietro Mascagni, R. Drigo, Guiseppe Verdi, Ruggiero Leoncavallo and Charles Gounod."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Some items transcribed by Fats Waller."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Words by Andy Razaf, George Brown, Joe Young, Alexander Hill, Ray Klages, Billy Rose, George Marion, Jr., and R. Stanley Adams"
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Various publishers, chiefly New York: Mills Music, Inc."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Some songs from the musical revues \"Hot chocolates\" \"Load of coal,\" \"Early to bed,\" \"Spades are trump\" and from the musical motion picture \"Stormy Weather.\"."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Some items are arrangements of arias from the operas \"Martha\", \"The Bohemian Girl,\" \"Lucia di Lammermour,\" \"Cavalleria Rusticana,\" \"Les Millions D'Arlequin\", \"Il Trovatore\", \"I Pagliacci,\" \"Rigoletto\" and \"Faust.\""
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "As featured by Fats Waller, Jo Stafford, Merle Johnston, Lew Conrad, Eddie Peabody, Gene Austin, George Olsen, Gray Gordon's Tic-Toc Rhythm Orchestra, Julian Woodworth and his Clintonians, Paul Tremaine and his Aristocrats of Modern Music, George Hall and his orchestra, Heller Sisters and Brother Lynch, Ozzie Nelson and his Orchestra and Leo Reisman and his Victor Recording Orchestra."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Cover illustrations include several caricatured drawings of Fats Waller playing the piano; photographs of Fats Waller, Lena Horne, Bill Robinson, Cab Calloway, Jo Stafford, Merle Johnston, Lew Conrad, Eddie Peabody, Gene Austin, George Olsen, Gray Gordon, Julian Woodworth, Paul Tremaine, George Hall, Ozzie Nelson, Leo Reisman and Haller Sisters and Brother Lynch on covers."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "500",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Title and first line finding aids available."
+          }
+        ]
+      },
+      {
+        "fieldTag": "n",
+        "marcTag": "505",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Ain't cha glad? (4 copies) -- Ain't misbehavin' -- (What did I do to be) Alone and blue -- Angeline -- Anita -- The apple of my eye -- (What did I do to be so) Black and blue. -- Concentratin' (on you) -- The Fats Waller album of favorite songs and piano transcriptions -- Fats Waller's original piano conceptions -- Fats Waller's Scottish piano conceptions -- Fats Waller's swing sessions for the piano -- Foolin' myself -- Francis & Day's album of Fats Waller Musical Rhythms. -- Home alone blues -- Honeysuckle rose (4 copies) -- I'm crazy 'bout my baby (3 copies) -- I'm more than satisfied -- I've got a feeling I'm falling -- If it aint love (2 copies) -- The joint is jumpin' -- Keep a song in your soul -- Keepin' out of mischief now -- (3 copies) -- The ladies who sing with the band -- (2 copies) -- Moppin' and boppin' -- My fate is in your hands (3 copies) -- My heart's at ease -- On rainy days -- Rollin' down the river (3 copies) -- Sheltered by the stars (3 copies) -- Sittin' up waitin' for you -- Slightly less than wonderful (2 copies) -- Smashing thirds -- The spider and the fly (5 copies) -- Squeeze me -- Strange as it seems -- Swingin' the operas -- Take it from me (3 copies) -- Tall timber (2 copies) -- There's a man in my life (2 copies) -- This is so nice (4 copies) -- When Gabriel blows his horn -- When the nylons bloom again."
+          }
+        ]
+      },
+      {
+        "fieldTag": "o",
+        "marcTag": "001",
+        "ind1": " ",
+        "ind2": " ",
+        "content": "NYPG091000037-C",
+        "subfields": null
+      },
+      {
+        "fieldTag": "p",
+        "marcTag": "260",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "c",
+            "content": "1924-1955."
+          }
+        ]
+      },
+      {
+        "fieldTag": "q",
+        "marcTag": "852",
+        "ind1": "8",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "h",
+            "content": "Sc Scores Waller"
+          }
+        ]
+      },
+      {
+        "fieldTag": "r",
+        "marcTag": "300",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "73 scores :"
+          },
+          {
+            "tag": "b",
+            "content": "col. ill., ports. ;"
+          },
+          {
+            "tag": "c",
+            "content": "32 cm. or smaller."
+          }
+        ]
+      },
+      {
+        "fieldTag": "t",
+        "marcTag": "245",
+        "ind1": "0",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "[Vocal and instrumental music /"
+          },
+          {
+            "tag": "c",
+            "content": "composed, arranged, transcribed and performed by Fats Waller and others]."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Ain't cha glad?"
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Ain't misbehavin'."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(What did I do to be) Alone and blue."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Angeline."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Anita."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Apple of my eye."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "(What did I do to be so) Black and blue."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Bohemian girl."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Cavalleria Rusticana."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Concentratin'."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Early to bed."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Fats Waller album of favorite songs and piano transcriptions."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Fats Waller's original piano conceptions."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Fats Waller's Scottish piano conceptions."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Fats Waller's Swing sessions for the piano."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Faust."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Foolin' myself."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Francis & Day's album of Fats Waller's musical rhythms."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Home alone blues."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Honeysuckle rose."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Hot chocolates."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "I'm crazy 'bout my baby."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "I'm more than satisfied."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "I've got a feeling I'm falling."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "I pagliacci."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "If it ain't love."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Il trovatore."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Joint is jumpin.'"
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Keep a song in your soul."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Keepin' out of mischief now."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Ladies who sing with the band."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Load of coal."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Lucia di Lammermoor."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Martha."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Millions D'arlequin."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Moppin' and boppin'."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "My fate is in your hands."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "My heart's at ease."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "On rainy days."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Rigoletto."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Rollin' down the river."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Sheltered by the stars."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Sittin' up waitin' for you."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Slightly less than wonderful."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Smashing thirds."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Spades are trump."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Spider and fly."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Squeeze me."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Strange as it seems."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Stormy weather."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Swinging the operas."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Take it from me."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Tall timber."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "There's a man in my life."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "This is so nice."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "When Gabriel blows his horn."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "740",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "When the nylons bloom again."
+          }
+        ]
+      },
+      {
+        "fieldTag": "u",
+        "marcTag": "799",
+        "ind1": "0",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "Schomburg NEH Automated Access to Special Collections Project."
+          }
+        ]
+      },
+      {
+        "fieldTag": "v",
+        "marcTag": "959",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": ".b28479312"
+          },
+          {
+            "tag": "b",
+            "content": "09-26-08"
+          },
+          {
+            "tag": "c",
+            "content": "01-08-94"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "856",
+        "ind1": "4",
+        "ind2": "0",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "u",
+            "content": "https://othersite.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=[Vocal+and+instrumental+music+/&Site=SCHMA&CallNumber=Sc+Scores+Waller&Author=Waller,+Fats,&Date=1924-1955.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b117934859&ReferenceNumber=b117934859&ItemInfo1=USE+IN+LIBRARY&ItemISxN=i332995847&Genre=Score&Location=Schomburg+Center"
+          },
+          {
+            "tag": "z",
+            "content": "Request Access to Special Collections Material"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "003",
+        "ind1": " ",
+        "ind2": " ",
+        "content": "CStRLIN",
+        "subfields": null
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "008",
+        "ind1": " ",
+        "ind2": " ",
+        "content": "920618i19241955nyuzzz         n    eng dccc a ",
+        "subfields": null
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "005",
+        "ind1": " ",
+        "ind2": " ",
+        "content": "19990913094118.4",
+        "subfields": null
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "040",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": "NN"
+          },
+          {
+            "tag": "c",
+            "content": "NN"
+          },
+          {
+            "tag": "d",
+            "content": "WaOLN"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "945",
+        "ind1": " ",
+        "ind2": " ",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "a",
+            "content": ".b117934859"
+          },
+          {
+            "tag": "b",
+            "content": "11-22-10"
+          },
+          {
+            "tag": "c",
+            "content": "12-15-08"
+          }
+        ]
+      },
+      {
+        "fieldTag": "y",
+        "marcTag": "949",
+        "ind1": " ",
+        "ind2": "1",
+        "content": null,
+        "subfields": [
+          {
+            "tag": "z",
+            "content": "8528"
+          },
+          {
+            "tag": "i",
+            "content": "BARCODE-SC"
+          },
+          {
+            "tag": "h",
+            "content": "31"
+          },
+          {
+            "tag": "t",
+            "content": "7"
+          },
+          {
+            "tag": "l",
+            "content": "scdd2"
+          },
+          {
+            "tag": "s",
+            "content": "b"
+          },
+          {
+            "tag": "o",
+            "content": "1"
+          },
+          {
+            "tag": "m",
+            "content": "PLEASE REPLACE \"BARCODE-SC\" WHEN ITEM IS BARCODED, CAT/KTS, 2015-09-17"
+          },
+          {
+            "tag": "a",
+            "content": "Sc Scores Waller"
+          },
+          {
+            "tag": "v",
+            "content": "CAT/kts"
+          }
+        ]
+      },
+      {
+        "fieldTag": "_",
+        "marcTag": null,
+        "ind1": null,
+        "ind2": null,
+        "content": "00000ccc  2201921 a 4500",
+        "subfields": null
+      }
+    ]
+  }
+}
