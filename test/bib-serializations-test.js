@@ -4,10 +4,13 @@ const assert = require('assert')
 const sinon = require('sinon')
 const path = require('path')
 const fs = require('fs')
+const md5 = require('md5')
 
 const ResourceSerializer = require('../lib/serializers/resource-serializer')
 const DiscoveryStoreModels = require('discovery-store-models')
 const { Bib } = DiscoveryStoreModels
+const NyplClient = require('@nypl/nypl-data-api-client')
+const kmsHelper = require('../lib/kms-helper')
 
 process.env.LOGLEVEL = process.env.LOGLEVEL || 'error'
 
@@ -25,12 +28,29 @@ let getBibByFixture = function (id) {
   } else console.log(id + ' not found on disk')
 }
 
+const getPlatformEndpointByFixture = function (path) {
+  const fixturePath = `./test/data/platform-endpoint-${md5(path)}.json`
+  if (fs.existsSync(fixturePath)) {
+    let data = JSON.parse(fs.readFileSync(fixturePath))
+    return Promise.resolve(data)
+  } else console.log(`Fixture ${fixturePath} (for ${path}) not found on disk`)
+}
+
 function init () {
   sinon.stub(Bib, 'byId').callsFake(getBibByFixture)
+  sinon.stub(NyplClient.prototype, 'get').callsFake(getPlatformEndpointByFixture)
+  sinon.stub(kmsHelper, 'decrypt').callsFake(() => Promise.resolve('decrypted!'))
+
+  process.env.NYPL_API_BASE_URL = 'https://example.com'
+  process.env.NYPL_OAUTH_KEY = 'oauth-key'
+  process.env.NYPL_OAUTH_SECRET = 'oauth-secret'
+  process.env.NYPL_OAUTH_URL = 'https://example.com'
 }
 
 function destroy () {
   Bib.byId.restore()
+  NyplClient.prototype.get.restore()
+  kmsHelper.decrypt.restore()
 }
 
 describe('Bib Serializations', function () {
@@ -520,6 +540,38 @@ describe('Bib Serializations', function () {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.strictEqual(serialized.items[29].physicalLocation[0], '*T-Mss 1991-010')
           assert.strictEqual(serialized.items[29].enumerationChronology[0], 'Box 30')
+        })
+      })
+    })
+
+    describe('Aeon', function () {
+      it('should set aeonUrl on bib with one item', () => {
+        return Bib.byId('b11793485').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.strictEqual(serialized.items[0].aeonUrl[0], 'https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=[Vocal+and+instrumental+music+/&Site=SCHMA&CallNumber=Sc+Scores+Waller&Author=Waller,+Fats,&Date=1924-1955.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b117934859&ReferenceNumber=b117934859&ItemInfo1=USE+IN+LIBRARY&ItemISxN=i332995847&Genre=Score&Location=Schomburg+Center')
+          })
+        })
+      })
+
+      it('should not add aeonUrl to items with invalid 856', () => {
+        return Bib.byId('b11793485-invalid-856').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.equal(serialized.items[0].aeonUrl, null)
+          })
+        })
+      })
+
+      it('should set aeonUrl on bib with 3 items, one of which is special coll', () => {
+        return Bib.byId('b11574666').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.strictEqual(serialized.items[0].aeonUrl[0], 'https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=The+problem+of+human+destiny++or,+The+end+of+Providence+in+the+world+and+man,&Site=SCHRB&CallNumber=Sc+Rare+124-D+(Dewey,+O.+Problem+of+human+destiny)&Author=Dewey,+Orville,&ItemPlace=New+York,&ItemPublisher=J.+Miller,&Date=1864.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b115746663&ReferenceNumber=b115746663&ItemInfo1=USE+IN+LIBRARY&ItemNumber=33433034100226&ItemISxN=i103641531&Genre=Book-text&Location=Schomburg+Center')
+            assert.strictEqual(serialized.items[0].uri, 'i10364153')
+            assert.equal(serialized.items[1].aeonUrl, null)
+            assert.strictEqual(serialized.items[1].uri, 'i15002628')
+            assert.equal(serialized.items[2].aeonUrl, null)
+            assert.strictEqual(serialized.items[2].uri, 'i28230569')
+            assert.strictEqual(serialized.items.length, 4)
+          })
         })
       })
     })
