@@ -48,6 +48,8 @@
     "globals": [
       "after",
       "before",
+      "afterEach",
+      "beforeEach",
       "describe",
       "expect",
       "it"
