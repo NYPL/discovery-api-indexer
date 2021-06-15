@@ -1,0 +1,581 @@
+{
+  "subject_id": "hb990049360620203941",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "22 cm.",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "In Uzbek.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "hb990049360620203941#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Title on t.p. verso: Mysliteli o trudovym vospitanii.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "hb990049360620203941#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Ŭzbekiston Respublikasi Khalq taʺlimi vazirligi nashr ėtish uchun tavsii︠a︡ qilgan.\"",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "hb990049360620203941#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Bibliography",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes bibliographical references.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "hb990049360620203941#1.0003",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Processing Action",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "committed to retain",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "hb990049360620203941#1.0004",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1993",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Obidov, I. (Ibragim)",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ḣasanov, S.",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1993",
+      "pr": "dc:date",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Education -- Uzbekistan -- History.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Education -- Asia, Central -- History.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Education -- Islamic countries -- History.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Islamic education.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Mysliteli o trudovym vospitanii.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1993",
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": "990049360620203941",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "nypl:Bnumber"
+    },
+    {
+      "bn": null,
+      "id": "5645019423",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Isbn"
+    },
+    {
+      "bn": null,
+      "id": "(OCoLC)31447739",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Identifier"
+    },
+    {
+      "bn": null,
+      "id": "lang:uzb",
+      "la": "Uzbek",
+      "li": null,
+      "pr": "dcterms:language",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Mutafakkirlar meḣnat tarbii︠a︡si ḣaqida / S. Ḣasanov ; I.O. Obidov taḣriri ostida.",
+      "pr": "dcterms:title",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "142 p. ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "genre:b",
+      "la": "Bibliographies",
+      "li": null,
+      "pr": "nypl:genre",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Toshkent :",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Toshkent : \"Ŭqituvchi\", 1993.",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "\"Ŭqituvchi\",",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Mutafakkirlar meḣnat tarbii︠a︡si ḣaqida / S. Ḣasanov ; I.O. Obidov taḣriri ostida.",
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "LA853.U9 H38 1993x",
+      "pr": "bf:physicalLocation",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "HWJCKK",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Barcode"
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "urn:bnum:hb990049360620203941",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "catalogItemType:1",
+      "la": "non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "orgs:0004",
+      "la": "Harvard Library",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "LA853.U9 H38 1993x",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ],
+  "holding_statements": [
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "LA853.U9 H38 1993x",
+      "pr": "bf:physicalLocation",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "HWJCKK",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Barcode"
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "urn:bnum:hb990049360620203941",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "catalogItemType:1",
+      "la": "non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "orgs:0004",
+      "la": "Harvard Library",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "LA853.U9 H38 1993x",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "hi231934813030003941",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ]
+}
