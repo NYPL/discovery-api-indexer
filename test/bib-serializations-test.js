@@ -61,6 +61,40 @@ describe('Bib Serializations', function () {
   after(destroy)
 
   describe('bibs', function () {
+    describe('nyplSource', function () {
+      it('should identify NYPL items', function () {
+        return Bib.byId('b10681848').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.equal(serialized.nyplSource, 'sierra-nypl')
+          })
+        })
+      })
+
+      it('should identify PUL items', function () {
+        return Bib.byId('pb176961').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.equal(serialized.nyplSource, 'recap-pul')
+          })
+        })
+      })
+
+      it('should identify CUL items', function () {
+        return Bib.byId('cb8231282').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.equal(serialized.nyplSource, 'recap-cul')
+          })
+        })
+      })
+
+      it('should identify HL items', function () {
+        return Bib.byId('hb990049360620203941').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.equal(serialized.nyplSource, 'recap-hl')
+          })
+        })
+      })
+    })
+
     it('should have title', function () {
       return Bib.byId('b10681848').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
