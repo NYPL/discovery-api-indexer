@@ -1,0 +1,1631 @@
+{
+  "subject_id": "b11793485-dev-aeon-base-url",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "32 cm. or smaller.",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:c",
+      "la": "collection",
+      "li": null,
+      "pr": "bf:issuance",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Some items with piano acc.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "By Thomas Waller, Harry Brooks, John Holmes, Harry Link, Donald Redman, J.C. Johnson, Alexander Hill, Benny Carter, Ed Kirkeby, Clarence Williams, Harold Arlen, J. Turner Layton Jimmy McHugh, Isham Jones, Friedrich von Flotow, M.W. Balfe, Camille Saint-Saens, Pietro Mascagni, R. Drigo, Guiseppe Verdi, Ruggiero Leoncavallo and Charles Gounod.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Some items transcribed by Fats Waller.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Words by Andy Razaf, George Brown, Joe Young, Alexander Hill, Ray Klages, Billy Rose, George Marion, Jr., and R. Stanley Adams",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0003",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Various publishers, chiefly New York: Mills Music, Inc.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0004",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Some songs from the musical revues \"Hot chocolates\" \"Load of coal,\" \"Early to bed,\" \"Spades are trump\" and from the musical motion picture \"Stormy Weather.\".",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0005",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Some items are arrangements of arias from the operas \"Martha\", \"The Bohemian Girl,\" \"Lucia di Lammermour,\" \"Cavalleria Rusticana,\" \"Les Millions D'Arlequin\", \"Il Trovatore\", \"I Pagliacci,\" \"Rigoletto\" and \"Faust.\"",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0006",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "As featured by Fats Waller, Jo Stafford, Merle Johnston, Lew Conrad, Eddie Peabody, Gene Austin, George Olsen, Gray Gordon's Tic-Toc Rhythm Orchestra, Julian Woodworth and his Clintonians, Paul Tremaine and his Aristocrats of Modern Music, George Hall and his orchestra, Heller Sisters and Brother Lynch, Ozzie Nelson and his Orchestra and Leo Reisman and his Victor Recording Orchestra.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0007",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Cover illustrations include several caricatured drawings of Fats Waller playing the piano; photographs of Fats Waller, Lena Horne, Bill Robinson, Cab Calloway, Jo Stafford, Merle Johnston, Lew Conrad, Eddie Peabody, Gene Austin, George Olsen, Gray Gordon, Julian Woodworth, Paul Tremaine, George Hall, Ozzie Nelson, Leo Reisman and Haller Sisters and Brother Lynch on covers.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0008",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Title and first line finding aids available.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b11793485#1.0009",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1955",
+      "pr": "dbo:endDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1924",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Link, Harry, 1896-1956.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Brooks, Harry, 1895-1970.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Holmes, John.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Redman, Don.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Johnson, J. C., 1896-1981.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Hill, Alexander.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Carter, Benny.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Kirkeby, Ed.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Williams, Clarence, 1893-1965.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Arlen, Harold, 1905-1986.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Layton, Turner",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "McHugh, Jimmy, 1894-1969.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Jones, Isham, 1894-1956.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Flowtow, Friedrich von, 1812-1883.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Balfe, M. W. (Michael William), 1808-1870.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Saint-Saëns, Camille, 1835-1921.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Mascagni, Pietro, 1863-1945.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Drigo, Riccardo, 1846-1930.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Verdi, Giuseppe, 1813-1901.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Leoncavallo, Ruggiero, 1858-1919.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Gounod, Charles, 1818-1893.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Razaf, Andy, 1895-1973.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Brown, George.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Young, Joe, 1889-1939.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Klages, Roy.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Rose, Billy, 1899-1966.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Marion, George, Jr., 1899-1968,",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Adams, R. Stanley.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Stafford, Jo.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Johnston, Merle.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Conrad, Lew.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Peabody, Eddie.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Austin, Gene.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Hill, Alexander.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Gordon Gray.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Nelson, Ozzie, 1906-1975.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Olsen, George.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Hall, George.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Reisman, Leo, 1897-1961.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Woodworth, Julian.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tremaine, Paul.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Clarence Williams Music Company.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Heller Sisters and Brother Lynch. prf",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tic-Toc Rhythm Orchestra. prf",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Clintonians. prf",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Aristocrats of Modern Music. prf",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Victor Recording Orchestra. prf",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Waller, Fats, 1904-1943.",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1924",
+      "pr": "dc:date",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Waller, Fats, 1904-1943.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Harne, Lena.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Robinson, Bill, 1878-1949.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Calloway, Cab, 1907-1994.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Stafford, Jo.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Johnston, Merle.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Conrad, Lew.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Peabody, Eddie.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Austin, Gene.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Olsen, George.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Hall, George.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Nelson, Ozzie, 1906-1975.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Reisman, Leo, 1897-1961.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tremaine, Paul.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Gordon Gray.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Woodworth, Julian.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Heller Sisters and Brother Lynch.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "African Americans -- Music.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Songs with piano.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Piano music.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Operas -- Excerpts, Arranged.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Musicals -- Excerpts -- Vocal scores with piano.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Popular music -- 1921-1930.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Popular music -- 1931-1940.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Popular music -- 1941-1950.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Popular music -- 1951-1960.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Selections",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ain't cha glad?",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ain't misbehavin'.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "(What did I do to be) Alone and blue.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Angeline.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Anita.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Apple of my eye.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "(What did I do to be so) Black and blue.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bohemian girl.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cavalleria Rusticana.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Concentratin'.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Early to bed.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fats Waller album of favorite songs and piano transcriptions.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fats Waller's original piano conceptions.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fats Waller's Scottish piano conceptions.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fats Waller's Swing sessions for the piano.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Faust.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Foolin' myself.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Francis & Day's album of Fats Waller's musical rhythms.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Home alone blues.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Honeysuckle rose.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Hot chocolates.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "I'm crazy 'bout my baby.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "I'm more than satisfied.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "I've got a feeling I'm falling.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "I pagliacci.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "If it ain't love.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Il trovatore.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Joint is jumpin.'",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Keep a song in your soul.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Keepin' out of mischief now.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ladies who sing with the band.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Load of coal.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Lucia di Lammermoor.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Martha.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Millions D'arlequin.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Moppin' and boppin'.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "My fate is in your hands.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "My heart's at ease.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "On rainy days.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Rigoletto.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Rollin' down the river.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sheltered by the stars.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sittin' up waitin' for you.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Slightly less than wonderful.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Smashing thirds.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Spades are trump.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Spider and fly.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Squeeze me.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Strange as it seems.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Stormy weather.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Swinging the operas.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Take it from me.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Tall timber.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "There's a man in my life.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "This is so nice.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "When Gabriel blows his horn.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "When the nylons bloom again.",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1924",
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": "11793485",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "nypl:Bnumber"
+    },
+    {
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Ain't cha glad? (4 copies) -- Ain't misbehavin' -- (What did I do to be) Alone and blue -- Angeline -- Anita -- The apple of my eye -- (What did I do to be so) Black and blue. -- Concentratin' (on you) -- The Fats Waller album of favorite songs and piano transcriptions -- Fats Waller's original piano conceptions -- Fats Waller's Scottish piano conceptions -- Fats Waller's swing sessions for the piano -- Foolin' myself -- Francis & Day's album of Fats Waller Musical Rhythms. -- Home alone blues -- Honeysuckle rose (4 copies) -- I'm crazy 'bout my baby (3 copies) -- I'm more than satisfied -- I've got a feeling I'm falling -- If it aint love (2 copies) -- The joint is jumpin' -- Keep a song in your soul -- Keepin' out of mischief now -- (3 copies) -- The ladies who sing with the band -- (2 copies) -- Moppin' and boppin' -- My fate is in your hands (3 copies) -- My heart's at ease -- On rainy days -- Rollin' down the river (3 copies) -- Sheltered by the stars (3 copies) -- Sittin' up waitin' for you -- Slightly less than wonderful (2 copies) -- Smashing thirds -- The spider and the fly (5 copies) -- Squeeze me -- Strange as it seems -- Swingin' the operas -- Take it from me (3 copies) -- Tall timber (2 copies) -- There's a man in my life (2 copies) -- This is so nice (4 copies) -- When Gabriel blows his horn -- When the nylons bloom again.",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[Vocal and instrumental music",
+      "pr": "dcterms:title",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:not",
+      "la": "Notated music",
+      "li": null,
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:scd",
+      "la": "Schomburg Center - Manuscripts & Archives",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "73 scores : col. ill., ports. ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1924-1955.",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sc Scores Waller",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[Vocal and instrumental music / composed, arranged, transcribed and performed by Fats Waller and others].",
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Selections",
+      "pr": "nypl:uniformTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Collection",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sc Scores Waller",
+      "pr": "bf:physicalLocation",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": "urn:bnum:b11793485",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": "catalogItemType:7",
+      "la": "printed music, non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": "loc:scdd2",
+      "la": "Schomburg Center - Manuscripts & Archives",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": "orgs:1116",
+      "la": "Schomburg Center for Research in Black Culture, Manuscripts, Archives and Rare Books Division",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Sc Scores Waller",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i33299584",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    }
+  ],
+  "holding_statements": []
+}
