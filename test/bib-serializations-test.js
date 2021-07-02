@@ -5,14 +5,15 @@ const sinon = require('sinon')
 const path = require('path')
 const fs = require('fs')
 const md5 = require('md5')
+const dotenv = require('dotenv')
+
+dotenv.config({ path: './config/test.env' })
 
 const ResourceSerializer = require('../lib/serializers/resource-serializer')
 const DiscoveryStoreModels = require('discovery-store-models')
 const { Bib } = DiscoveryStoreModels
 const NyplClient = require('@nypl/nypl-data-api-client')
 const kmsHelper = require('../lib/kms-helper')
-
-process.env.LOGLEVEL = process.env.LOGLEVEL || 'error'
 
 const bibFieldMapper = require('../lib/field-mapper')('bib')
 
@@ -605,6 +606,14 @@ describe('Bib Serializations', function () {
             assert.equal(serialized.items[2].aeonUrl, null)
             assert.strictEqual(serialized.items[2].uri, 'i28230569')
             assert.strictEqual(serialized.items.length, 4)
+          })
+        })
+      })
+
+      it('should set aeonUrl on bib dev aeon base url', () => {
+        return Bib.byId('b11793485-dev-aeon-base-url').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.strictEqual(serialized.items[0].aeonUrl[0], 'https://aeon-test-domain.com/aeon/Aeon.dll?Action=10&Form=30&Title=[Vocal+and+instrumental+music+/&Site=SCHMA&CallNumber=Sc+Scores+Waller&Author=Waller,+Fats,&Date=1924-1955.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b117934859&ReferenceNumber=b117934859&ItemInfo1=USE+IN+LIBRARY&ItemISxN=i332995847&Genre=Score&Location=Schomburg+Center')
           })
         })
       })
