@@ -452,6 +452,16 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should parse donor', function () {
+      return Bib.byId('b1234567').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.donor)
+          assert.equal(serialized.donor.length, 1)
+          assert.equal(serialized.donor[0], 'Mock Donor')
+        })
+      })
+    })
   })
 
   describe('items', function () {

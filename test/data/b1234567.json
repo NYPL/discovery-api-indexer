@@ -1,0 +1,3339 @@
+{
+  "subject_id": "b12082323",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Mock Donor",
+      "pr": "nypl:donor"
+    },
+    {
+      "bn": null,
+      "id": "carriertypes:vd",
+      "la": "videodisc",
+      "li": null,
+      "pr": "bf:carrier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "26 cm +",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "26 cm. +",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "More 3rd instance -- 300 (3rd instance)",
+      "pr": "bf:dimensions",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:v",
+      "la": "video",
+      "li": null,
+      "pr": "bf:media",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Ordinary note. -- 500",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "²³¹",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0001",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "¯¯¯\\⠀⠀⠀⠀⠀⠀⠀⠀/¯¯¯",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0002",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "⠀⠀⠀\\___(  ツ   )___/",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0003",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "With",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Bound with note. -- 501",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0004",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Thesis",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Thesis -- (degree) note.  -- 502",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0005",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Bibliography",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Includes bibliographical references (p. [1235]). -- 504",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0006",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Access",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Access -- 506 blank,any",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0007",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Access",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Restricted Access -- 506 1,any",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0008",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Scale",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Scale (graphic) -- 507",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0009",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Credits",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Credits (Creation/production credits note) -- 508",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0010",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Performer",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Cast --511 1b",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0011",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Type of Report",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Type of Report. -- 513",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0012",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Data Quality",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Data quality -- 514",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0013",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Numbering",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Completely irregular. -- 515",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0014",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "File Type",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "File type. -- 516",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0015",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Event",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Event. -- 518",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0016",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Audience",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Audience: Rated for Catalogers and Metadata Junkies only -- 521",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0017",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Audience",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Audience (2): Test of 2nd 521 field.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0018",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Coverage",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Coverage -- 522",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0019",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Cite As",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Cite as: The Mega-MARC test record. -- 524",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0020",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Supplement",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Supplement -- 525",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0021",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Study Program",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Study program -- 526 8b ",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0022",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Additional Formats",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Other test records available. -- 530",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0023",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Reproduction",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Microfilm.",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0024",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Original Location",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Original location in SASB -- 535",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0025",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Funding",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Funding -- 536",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0026",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "System Details",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "System Details  -- 538",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0027",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Terms of Use",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Use as test record  -- 540",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0028",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Source",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Source display-- 5411b",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0029",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Source",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Source \\\\DO NOT DISPLAY\\\\ -- 541 bb $a",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0030",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Location of Other Archival Materials",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Location of Other Archival Materials -- 544",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0031",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Biography",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Biography -- 545",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0032",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Biography",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Biography -- 5451 Administrative history",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0033",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Language",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "In English and non-roman scripts. -- 546",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0034",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Former Title",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Former title (complexity note) -- 547",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0035",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Issued By",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Issued by CCO -- 550",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0036",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Indexes/Finding Aids",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Indexes -- 555 bb",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0037",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Documentation",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Documentation (information about, note) -- 556",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0038",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Provenance",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Provenance display --5611b",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0039",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Provenance",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Provenance \\\\DO NOT DISPLAY\\\\ -- 561 bb",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0040",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Copy/Version",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Copy/Version (identification note) -- 562",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0041",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Binding",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Binding  -- 563",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0042",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Linking Entry",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Complemented by Linking entry: Bogus title -- 580",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0043",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Linking Entry",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Linking Entry (complexity note) -- 580",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0044",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Publications",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Publications (about described material note) -- 581",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0045",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Processing Action",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Processing Action display --583 1b",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0046",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Processing Action",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Processing Action \\\\DO NOT DISPLAY\\\\ -- 583 bb",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0047",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Exhibitions",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Exhibitions -- 585",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0048",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Awards",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Awards -- 586",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0049",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Source of Description",
+          "pr": "bf:noteType",
+          "ty": null
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Latest issue consulted: 1900/1901. -- 588 1b",
+          "pr": "rdfs:label",
+          "ty": null
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type",
+          "ty": null
+        }
+      ],
+      "id": "b12082323#1.0050",
+      "la": null,
+      "li": null,
+      "pr": "bf:note",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "440 Series ; v. number -- 440 b0",
+      "pr": "bf:seriesStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "490 Series ; v. number  -- 490 0b",
+      "pr": "bf:seriesStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Author, of series. CMA Test Records. -- 800 1b",
+      "pr": "bf:seriesStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "CMA (Cat). CMA Test Records -- 810 2b ",
+      "pr": "bf:seriesStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Contents",
+      "li": "http://www.ilibri.casalini.it/toc/07260245.pdf",
+      "pr": "bf:supplementaryContent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "http://www.ThereIsNoLabelSubfieldInThis856-42-supplementary.com/",
+      "pr": "bf:supplementaryContent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "http://www.ThereIsNoLabelSubfieldInThis856-4b-supplementary.com/",
+      "pr": "bf:supplementaryContent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "9999",
+      "pr": "dbo:dateEnd",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "999",
+      "pr": "dbo:dateStart",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2011",
+      "pr": "dbo:endDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "201",
+      "pr": "dbo:startDate",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cramer, Richard, 1948-.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cramer, Richard, 1948- ,",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cramer, Richard, 1948- ,",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bayer, Jeffrey.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bayer, Jeffrey,",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bayer, Jeffrey.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bayer, Jeffrey.",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York Public Library Database Management Group. -- 710 2b",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Conference added author.  711 2b",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Added entry (uncontrolled name) -- 7201",
+      "pr": "dc:contributor",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Gloger, Miriam.",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "BookOps. Cataloging. --110 2b ab.",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Congress (13th : 2013 : LIC, Queens) -- 111 2b (ndc)",
+      "pr": "dc:creator",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "201",
+      "pr": "dc:date",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Starving artist -- 600 00.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Artist, Starving, 1900-1999 -- Autobiography. -- 600 10 with $d $v",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing 4 testing a testing b testing c testing d testing e testing g -- testing v -- testing x -- testing y -- testing z",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Corporate body subject. --  610 20",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Secret Society of Catalogers -- Periodicals. -- 610 20 $v",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing x as first subfield -- testing v as second subfield. -- 610 10 $x$v only.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Conference subject entry. --  611 20",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Stonecutters' Annual Picnic 1995 : Springfield) -- 611 20 $n, $d, $c",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing 4 testing a testing c testing d testing e testing g -- testing v -- testing x -- testing y -- testing z",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Uniform title.",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Life is a common square. -- Criticism. -- 630 00 $l, $x",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing 4 testing a testing d testing e testing g -- testing v -- testing x -- testing y -- testing z",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Textile industry testing datetesting -- 650 b0 $z, $x -- India -- History",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing 4 testing a testing b testing c testing d testing e -- testing v -- testing x -- testing y -- testing z",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York (N.Y.) -- 21st century -- Diaries. -- 651 b0 $y, $x",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Undiscovered country. -- 651 b0",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing 4 testing a testing e testing g -- testing v -- testing x -- testing y -- testing z",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Indexed term -- 653",
+      "pr": "dc:subject",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Abrev. title -- 210 ",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Key title --  222 ",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "T tagged 240 Uniform title -- t240",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Portion of title  \\\\DO NOT DISPLAY\\\\ --  246 10",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Parallel title \\\\DO NOT DISPLAY\\\\ -- 246 11",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Portion of title 246 30",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Parallel title 246 31",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Distinctive title 246 12",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Other title 246 13",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cover title 246 14",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cover title 246 04",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Added title page title 246 15",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Running title 246 17",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Caption title 246 16",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Spine title 246 18",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "No type of title specified 246 3 blank",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "246 1 blank",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Zaglavie Russiĭi",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Added title -- 740 0b",
+      "pr": "dcterms:alternative",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "201",
+      "pr": "dcterms:created",
+      "ty": "xsd:integer"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Summary, Etc.",
+      "li": "This record was originally created as a test record in CATNYP.  It was greatly expanded in ILS-STAFF to test the public display of various MARC fields. -- 520 (first)",
+      "pr": "dcterms:description",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Summary, Etc.",
+      "li": "Use this record to test CATALOG, OPAC, ENCORE, and BIBLIOCOMMONS display of MARC fields -- 520 (second)",
+      "pr": "dcterms:description",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": "Subject Added Entry-Geographic Name",
+      "li": "Undiscovered country. -- 651 b0",
+      "pr": "dcterms:geographic",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "12082323",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "nypl:Bnumber"
+    },
+    {
+      "bn": null,
+      "id": "0123456789",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Isbn"
+    },
+    {
+      "bn": null,
+      "id": "9780123456786 (qualifier)",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Isbn"
+    },
+    {
+      "bn": null,
+      "id": "ISBN -- 020",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Isbn"
+    },
+    {
+      "bn": null,
+      "id": "ISSN -- 022",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Issn"
+    },
+    {
+      "bn": null,
+      "id": "LCCN -- 010",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "9790001138673",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "ISMN",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "Danacode",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "UPC",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "EAN",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Lccn"
+    },
+    {
+      "bn": null,
+      "id": "Report number. -- 027",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "Publisher no. -- 028 02  ",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "Standard number (old RLIN, etc.) -- 035",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "Sudoc no.  -- 086",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "GPO Item number. -- 074",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "ISBN -- 020 $z",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Complete table of contents.   -- 505 0b",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1. Incomplete table of contents. -- First instance.-- 505 1b",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2. Incomplete table of contents -- Second  instance. 505 1b",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "3. Incomplete table of contents -- Third instance entered out of order. 505 1b",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Title subfield $t and author subfield $r and miscellaneous subfield $g in enahnced contents field 505 10.",
+      "pr": "dcterms:tableOfContents",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Life is a strange circle (updated 20180627) --245 10 $a, Testing period --$g [Virtual-- 245 $h] (245-- $n) Titles, includes RDA specific fields -- 245 $p : Maintenance test record-- 245 $b, ",
+      "pr": "dcterms:title",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:mm",
+      "la": "Mid-Manhattan",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:maf",
+      "la": "Schwarzman Building - Dorot Jewish Division Room 111",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "loc:mal",
+      "la": "Schwarzman Building - Main Reading Room 315",
+      "li": null,
+      "pr": "nypl:catalogBibLocation",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Incomplete table of contents. -- First instance.-- 505 1b",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Incomplete table of contents -- Second  instance. 505 1b",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Incomplete table of contents -- Third instance entered out of order. 505 1b",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Title subfield $t and",
+      "pr": "nypl:contentsTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1234, [1] pages, x leaves : illustrations ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1234, [1] p., x leaves : ill. ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Third description instance : More 3rd instance ;",
+      "pr": "nypl:extent",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Former title -- 247 00",
+      "pr": "nypl:formerTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Genre heading.",
+      "pr": "nypl:genreForm",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Blank pages and looks – Someplace – 1990.",
+      "pr": "nypl:genreForm",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing a – testing b – testing c – testing v – testing x – testing y – testing z",
+      "pr": "nypl:genreForm",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "testing a – testing b – testing c – testing v – testing x – testing y – testing z",
+      "pr": "nypl:genreForm",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "‏כותר שאינו באותיות לטינית = зглавие руссий.",
+      "pr": "nypl:parallelTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "‏כותר שאינו באותיות לטינית = зглавие руссий.",
+      "pr": "nypl:parallelTitleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "In: -- 773 0b",
+      "pr": "nypl:partOf",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[s.l.] :",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Long Island CIty, N.Y. :",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Production -- 264 b0 (RDA) ",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Publisher -- 264 b1 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Distributor -- 264 b2 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Manufacturer -- 264 b3 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Copyright Date -- 264 b4 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Publisher -- 264 21 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Distributor -- 264 22 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Manufacturer -- 264 23 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Copyright Date -- 264 24 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Publisher -- 264 31 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Distributor -- 264 32 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Manufacturer -- 264 33 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Copyright Date -- 264 34 (RDA)",
+      "pr": "nypl:placeOfPublication",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "[s.l.] : Specious Publ. [prev.pub.-- 260.2b], 2001. ",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Long Island CIty, N.Y. : CopyCat pub. co. -- 260 bb, 2011.",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Production -- 264 b0 (RDA) ",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Publisher -- 264 b1 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Distributor -- 264 b2 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Manufacturer -- 264 b3 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Copyright Date -- 264 b4 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Publisher -- 264 21 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Distributor -- 264 22 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Manufacturer -- 264 23 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Earlier Copyright Date -- 264 24 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Publisher -- 264 31 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Distributor -- 264 32 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Manufacturer -- 264 33 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Latest Copyright Date -- 264 34 (RDA)",
+      "pr": "nypl:publicationStatement",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Specious Publ. [prev.pub.-- 260.2b],",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "CopyCat pub. co. -- 260 bb,",
+      "pr": "nypl:role-publisher",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Publication Date  (unformated) -- 362 1b",
+      "pr": "nypl:serialPublicationDates",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Q-TAG (852 8b q tag.  Staff call in bib.)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Life is a strange circle (updated 20180627) --245 10 $a, Test record --$k current April 19, 2013 --$f, Testing period --$g [Virtual-- 245 $h] (245-- $n) Titles, includes RDA specific fields -- 245 $p : Maintenance test record-- 245 $b,  Version--$s / CMA division -- 245 $c.",
+      "pr": "nypl:titleDisplay",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "T tagged 240 Uniform title -- t240",
+      "pr": "nypl:uniformTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Added title -- 730 0b",
+      "pr": "nypl:uniformTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "CMA Test Records -- 830 b0",
+      "pr": "nypl:uniformTitle",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cramer, Richard, 1948-.",
+      "pr": "role:aut",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cramer, Richard, 1948- ,",
+      "pr": "role:aut",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Bayer, Jeffrey,",
+      "pr": "role:prt",
+      "ty": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "44455533322211",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "bf:Barcode"
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "li": null,
+      "pr": "nypl:accessMessage",
+      "ty": null
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "urn:bnum:b12082323",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "loc:rcmf2",
+      "la": "Offsite",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "orgs:1103",
+      "la": "Dorot Jewish Division",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i36007311",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    },
+    {
+      "s": "i12082323-e",
+      "bn": null,
+      "id": null,
+      "la": "856 40",
+      "li": "http://blogs.nypl.org/rcramer/",
+      "pr": "bf:electronicLocator",
+      "ty": null
+    },
+    {
+      "s": "i12082323-e",
+      "bn": null,
+      "id": null,
+      "la": "Yizkor Book  (NYPL resource) 856 41",
+      "li": "http://yizkor.nypl.org/index.php?id=2936",
+      "pr": "bf:electronicLocator",
+      "ty": null
+    },
+    {
+      "s": "i12082323-e",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "http://www.ThereIsNoLabelSubfieldInThis856-40-fulltext.com/",
+      "pr": "bf:electronicLocator",
+      "ty": null
+    },
+    {
+      "s": "i12082323-e",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "http://www.ThereIsNoLabelSubfieldInThis856-41-fulltext.com/",
+      "pr": "bf:electronicLocator",
+      "ty": null
+    },
+    {
+      "s": "i12082323-e",
+      "bn": null,
+      "id": "urn:bnum:b12082323",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i12082323-e",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i12082323-e",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type",
+      "ty": null
+    },
+    {
+      "s": "i30384917",
+      "bn": null,
+      "id": "urn:bnum:b12082323",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i30384917",
+      "bn": null,
+      "id": "catalogItemType:101",
+      "la": "Book, circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i30384917",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "status:m",
+      "la": "Missing",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "urn:barcode:33433089517993",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "urn:bnum:b12082323",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "catalogItemType:2",
+      "la": "book non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "loc:mal82",
+      "la": "SASB M1 - General Research - Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "orgs:1101",
+      "la": "General Research Division",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "TESTING C-TAG (item non-MARC)",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i25575805",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "status:m",
+      "la": "Missing",
+      "li": null,
+      "pr": "bf:status",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "urn:bnum:b12082323",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "catalogItemType:2",
+      "la": "book non-circ",
+      "li": null,
+      "pr": "nypl:catalogItemType",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:maf",
+      "la": "SASB - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:mai",
+      "la": "SASB - Periodicals and Microforms Rm 100",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:mal",
+      "la": "SASB - Service Desk Rm 315",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:malw",
+      "la": "SASB - Wertheim Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:map",
+      "la": "SASB - Map Division - Rm 117",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:malc",
+      "la": "SASB - Cullman Center",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:maln",
+      "la": "SASB - Noma Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:mab",
+      "la": "SASB - Art & Architecture Rm 300",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:mag",
+      "la": "SASB - Milstein Division Rm 121",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:mala",
+      "la": "SASB - Allen Scholar Room",
+      "li": null,
+      "pr": "nypl:deliveryLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "loc:maf82",
+      "la": "SASB M1 - Dorot Jewish Division Rm 111",
+      "li": null,
+      "pr": "nypl:holdingLocation",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "orgs:1103",
+      "la": "Dorot Jewish Division",
+      "li": null,
+      "pr": "nypl:owner",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "TESTING MFG test I (C-TAG Item MARC) Unnumbered volume",
+      "pr": "nypl:shelfMark",
+      "ty": null
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "true",
+      "pr": "nypl:suppressed",
+      "ty": "xsd:boolean"
+    },
+    {
+      "s": "i25575722",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type",
+      "ty": null
+    }
+  ]
+}
