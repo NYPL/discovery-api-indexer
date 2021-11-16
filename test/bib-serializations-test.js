@@ -462,6 +462,22 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should add idOclc for identifiers with type "nypl:Oclc" on NYPL bibs', function () {
+      return Bib.byId('b10011745').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.idOclc.indexOf('4131153') >= 0)
+        })
+      })
+    })
+
+    it('should add idOclc for identifiers with type "nypl:Oclc" on partner bibs', function () {
+      return Bib.byId('hb990049360620203941').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.idOclc.indexOf('31447739') >= 0)
+        })
+      })
+    })
   })
 
   describe('items', function () {

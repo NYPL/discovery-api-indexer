@@ -289,6 +289,14 @@
     },
     {
       "bn": null,
+      "id": "31447739",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier",
+      "ty": "nypl:Oclc"
+    },
+    {
+      "bn": null,
       "id": "lang:uzb",
       "la": "Uzbek",
       "li": null,
