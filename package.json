@@ -6,7 +6,7 @@
     "@nypl/nypl-streams-client": "^0.1.2",
     "JSONStream": "^1.2.1",
     "avsc": "^5.0.0",
-    "aws-sdk": "^2.53.0",
+    "aws-sdk": "^2.814.0",
     "blessed": "^0.1.81",
     "blessed-contrib": "^3.5.5",
     "discovery-store-models": "git+https://github.com/NYPL-discovery/discovery-store-models.git#v1.3.2a",
