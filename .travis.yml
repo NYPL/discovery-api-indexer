@@ -1,6 +1,7 @@
 language: node_js
 cache: npm
 script: npm test
+before_install: git config --global url."https://".insteadOf ssh://
 before_deploy:
 - echo "All unit tests passed; Preparing to deploy $TRAVIS_BRANCH"
 deploy:
