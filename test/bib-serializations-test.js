@@ -452,6 +452,32 @@ describe('Bib Serializations', function () {
         })
       })
     })
+
+    it('should parse donor', function () {
+      return Bib.byId('b1234567').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.donor)
+          assert.equal(serialized.donor.length, 1)
+          assert.equal(serialized.donor[0], 'Mock Donor')
+        })
+      })
+    })
+
+    it('should add idOclc for identifiers with type "nypl:Oclc" on NYPL bibs', function () {
+      return Bib.byId('b10011745').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.idOclc.indexOf('4131153') >= 0)
+        })
+      })
+    })
+
+    it('should add idOclc for identifiers with type "nypl:Oclc" on partner bibs', function () {
+      return Bib.byId('hb990049360620203941').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert(serialized.idOclc.indexOf('31447739') >= 0)
+        })
+      })
+    })
   })
 
   describe('items', function () {
@@ -460,6 +486,14 @@ describe('Bib Serializations', function () {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.items[0].holdingLocation[0].id, 'loc:rc2ma')
           assert.equal(serialized.items[0].holdingLocation[0].label, 'Offsite')
+        })
+      })
+    })
+
+    it('should have recap customer code', function () {
+      return Bib.byId('b10781594').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.items[0].recapCustomerCode[0], 'abc')
         })
       })
     })
