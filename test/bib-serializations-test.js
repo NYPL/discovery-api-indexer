@@ -490,6 +490,14 @@ describe('Bib Serializations', function () {
       })
     })
 
+    it('should have recap customer code', function () {
+      return Bib.byId('b10781594').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.items[0].recapCustomerCode[0], 'abc')
+        })
+      })
+    })
+
     it('should have catalog item type', function () {
       return Bib.byId('b10781594').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
