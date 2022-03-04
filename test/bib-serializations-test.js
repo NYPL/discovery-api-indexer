@@ -453,6 +453,58 @@ describe('Bib Serializations', function () {
       })
     })
 
+    it('should extract other parallel fields', () => {
+      return Bib.byId('bParallels').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          const expectedParallelDisplayField = [
+            { fieldName: 'publicationStatement',
+               index: undefined,
+               value: ' ' },
+           { fieldName: 'publicationStatement',
+             index: undefined,
+             value: ' ' },
+           { fieldName: 'publicationStatement',
+             index: undefined,
+             value: ' ' },
+           { fieldName: 'publicationStatement',
+             index: undefined,
+             value: ' ' },
+           { fieldName: 'publicationStatement',
+             index: undefined,
+             value: 'Parallel Place 1' },
+           { fieldName: 'publicationStatement',
+             index: undefined,
+             value: 'Parallel Place 4' },
+           { fieldName: 'publicationStatement',
+             index: undefined,
+             value: 'Parallel Place 5' },
+           { fieldName: 'publicationStatement',
+             index: undefined,
+             value: '长沙市 : 湖南人民出版社 : 湖南省新華書店发行, 1982.' },
+           { fieldName: 'editionStatement', index: undefined, value: ' ' },
+           { fieldName: 'note', index: undefined, value: ' ' },
+           { fieldName: 'placeOfPublication', index: undefined, value: ' ' },
+           { fieldName: 'placeOfPublication', index: undefined, value: ' ' },
+           { fieldName: 'placeOfPublication', index: undefined, value: ' ' },
+           { fieldName: 'placeOfPublication', index: undefined, value: ' ' },
+           { fieldName: 'placeOfPublication',
+             index: undefined,
+             value: 'Parallel Place 1' },
+           { fieldName: 'placeOfPublication',
+             index: undefined,
+             value: 'Parallel Place 4' },
+           { fieldName: 'placeOfPublication',
+             index: undefined,
+             value: 'Parallel Place 5' },
+           { fieldName: 'placeOfPublication',
+             index: undefined,
+             value: '长沙市 :' }
+          ]
+          assert.deepEqual(expectedParallelDisplayField, serialized.parallelDisplayField)
+        })
+      })
+    })
+
     it('should parse donor', function () {
       return Bib.byId('b1234567').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
