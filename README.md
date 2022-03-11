@@ -28,12 +28,6 @@ To run the app locally against `event.json`
 node-lambda run -f config/qa.env
 ```
 
-### Deploying
-
-1. Copy sample environment-specific by running:  `cp ./config/sample.env ./config/production.env && cp ./config/sample.env ./config/qa.env`
-1. Fill in missing secrets in both environment files (talk to a coworker)
-1. `npm run deploy-[qa|production]`
-
 ### Updating a single record
 
 To update a specific bib or item, you have options:
@@ -114,3 +108,11 @@ node jobs/update-test-fixtures --id b17678033 --profile [aws profile] --envfile 
 ## Contributing
 
 This repo follows a [git workflow](https://github.com/NYPL/engineering-general/blob/master/standards/git-workflow.md#prs-target-main-merge-to-deployment-branches) where PRs are cut from `main` and then `main` is merged into each deployment branch.
+
+### Deploying
+
+This repo is not directly deployed as a Lambda. It is brought in as a module in [DiscoveryHybridIndexer](https://github.com/NYPL/discovery-hybrid-indexer). After your PR has been approved and merged to `main`:
+ * Bump the `version` in this app's `package.json`
+ * Run `git tag -a v1.0.2` (or whatever the new version is)
+ * `git push --tags`
+ * Create a PR that edits the [discovery-hybrid-indexer](https://github.com/NYPL/discovery-hybrid-indexer)'s `package.json` to use the new version of `discovery-api-indexer`
