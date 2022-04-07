@@ -16,6 +16,7 @@
     "fast-deep-equal": "^1.1.0",
     "highland": "^2.10.0",
     "loglevel": "^1.4.1",
+    "lru-cache": "^7.7.3",
     "mongodb": "^2.2.10",
     "optimist": "^0.6.1",
     "pg-promise": "^5.5.0",
