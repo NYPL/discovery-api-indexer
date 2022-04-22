@@ -1,0 +1,310 @@
+{
+  "subject_id": "b10392955",
+  "bib_statements": [
+    {
+      "bn": null,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "li": null,
+      "pr": "bf:carrier"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "20 cm.",
+      "pr": "bf:dimensions"
+    },
+    {
+      "bn": null,
+      "id": "urn:biblevel:m",
+      "la": "monograph/item",
+      "li": null,
+      "pr": "bf:issuance"
+    },
+    {
+      "bn": null,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "li": null,
+      "pr": "bf:media"
+    },
+    {
+      "bn": [
+        {
+          "id": null,
+          "la": null,
+          "li": "Note",
+          "pr": "bf:noteType"
+        },
+        {
+          "id": null,
+          "la": null,
+          "li": "Translation of Cyrano de Bergerac.",
+          "pr": "rdfs:label"
+        },
+        {
+          "id": "bf:Note",
+          "la": null,
+          "li": null,
+          "pr": "rdf:type"
+        }
+      ],
+      "id": "b10392955#1.0000",
+      "la": null,
+      "li": null,
+      "pr": "bf:note"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1975",
+      "pr": "dbo:startDate"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fry, Christopher, 1907-2005,",
+      "pr": "dc:contributor"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Rostand, Edmond, 1868-1918.",
+      "pr": "dc:creator"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1975",
+      "pr": "dc:date"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cyrano de Bergerac, 1619-1655 -- In literature.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "French drama -- Translations into English.",
+      "pr": "dc:subject"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "1975",
+      "pr": "dcterms:created"
+    },
+    {
+      "bn": null,
+      "id": "urn:bnum:10392955",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "bn": null,
+      "id": "urn:isbn:019-211-386X (wow):",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "bn": null,
+      "id": "urn:lccn:76352314",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "bn": null,
+      "id": "lang:eng",
+      "la": "English",
+      "li": null,
+      "pr": "dcterms:language"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cyrano de Bergerac : a heroic comedy in five acts / by Edmond Rostand ; translated by Christopher Fry.",
+      "pr": "dcterms:title"
+    },
+    {
+      "bn": null,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "li": null,
+      "pr": "dcterms:type"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "146 p. ;",
+      "pr": "nypl:extent"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "PQ2635.O7 C92 1975",
+      "pr": "nypl:lccClassification"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "London :",
+      "pr": "nypl:placeOfPublication"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "London : New York : Oxford University Press, 1975.",
+      "pr": "nypl:publicationStatement"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "New York : Oxford University Press,",
+      "pr": "nypl:role-publisher"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFC 77-539",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Cyrano de Bergerac : a heroic comedy in five acts / by Edmond Rostand ; translated by Christopher Fry.",
+      "pr": "nypl:titleDisplay"
+    },
+    {
+      "bn": null,
+      "id": "nypl:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdfs:type"
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "Fry, Christopher, 1907-2005,",
+      "pr": "role:trl"
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "status:a",
+      "la": "Available ",
+      "li": null,
+      "pr": "bf:status"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "urn:barcode:33433043060981",
+      "la": null,
+      "li": null,
+      "pr": "dcterms:identifier"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "li": null,
+      "pr": "nypl:accessMessage"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "urn:bnum:b10392955",
+      "la": null,
+      "li": null,
+      "pr": "nypl:bnum"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "catalogItemType:55",
+      "la": "book, limited circ, MaRLI",
+      "li": null,
+      "pr": "nypl:catalogItemType"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "loc:mal92",
+      "la": "Schwarzman Building M2 - General Research Room 315",
+      "li": null,
+      "pr": "nypl:holdingLocation"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "li": null,
+      "pr": "nypl:owner"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:requestable"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "JFC 77-539",
+      "pr": "nypl:shelfMark"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "false",
+      "pr": "nypl:suppressed"
+    },
+    {
+      "s": "i12968797",
+      "bn": null,
+      "id": "bf:Item",
+      "la": null,
+      "li": null,
+      "pr": "rdf:type"
+    }
+  ]
+}

@@ -96,6 +96,22 @@ describe('Bib Serializations', function () {
       })
     })
 
+    it('should remove extraneous colons from isbn', () => {
+      return Bib.byId('bCrazyIsbn').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.idIsbn[0], '019-211-386X (wow)')
+        })
+      })
+    })
+
+    it('should create idIsbn_clean with only numbers and x', () => {
+      return Bib.byId('bCrazyIsbn').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.idIsbn_clean[0], '019211386X')
+        })
+      })
+    })
+
     it('should have title', function () {
       return Bib.byId('b10681848').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
@@ -457,48 +473,72 @@ describe('Bib Serializations', function () {
       return Bib.byId('bParallels').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           const expectedParallelDisplayField = [
-            { fieldName: 'publicationStatement',
-               index: 1,
-               value: ' ' },
-           { fieldName: 'publicationStatement',
-             index: 1,
-             value: ' ' },
-           { fieldName: 'publicationStatement',
-             index: 1,
-             value: ' ' },
-           { fieldName: 'publicationStatement',
-             index: 1,
-             value: ' ' },
-           { fieldName: 'publicationStatement',
-             index: 2,
-             value: 'Parallel Place 1' },
-           { fieldName: 'publicationStatement',
-             index: 5,
-             value: 'Parallel Place 4' },
-           { fieldName: 'publicationStatement',
-             index: 6,
-             value: 'Parallel Place 5' },
-           { fieldName: 'publicationStatement',
-             index: 0,
-             value: '长沙市 : 湖南人民出版社 : 湖南省新華書店发行, 1982.' },
-           { fieldName: 'editionStatement', index: 0, value: ' ' },
-           { fieldName: 'note', index: 0, value: ' ' },
-           { fieldName: 'placeOfPublication', index: 1, value: ' ' },
-           { fieldName: 'placeOfPublication', index: 1, value: ' ' },
-           { fieldName: 'placeOfPublication', index: 1, value: ' ' },
-           { fieldName: 'placeOfPublication', index: 1, value: ' ' },
-           { fieldName: 'placeOfPublication',
-             index: 2,
-             value: 'Parallel Place 1' },
-           { fieldName: 'placeOfPublication',
-             index: 5,
-             value: 'Parallel Place 4' },
-           { fieldName: 'placeOfPublication',
-             index: 6,
-             value: 'Parallel Place 5' },
-           { fieldName: 'placeOfPublication',
-             index: 0,
-             value: '长沙市 :' }
+            {
+              fieldName: 'publicationStatement',
+              index: 1,
+              value: ' '
+            },
+            {
+              fieldName: 'publicationStatement',
+              index: 1,
+              value: ' '
+            },
+            {
+              fieldName: 'publicationStatement',
+              index: 1,
+              value: ' '
+            },
+            {
+              fieldName: 'publicationStatement',
+              index: 1,
+              value: ' '
+            },
+            {
+              fieldName: 'publicationStatement',
+              index: 2,
+              value: 'Parallel Place 1'
+            },
+            {
+              fieldName: 'publicationStatement',
+              index: 5,
+              value: 'Parallel Place 4'
+            },
+            {
+              fieldName: 'publicationStatement',
+              index: 6,
+              value: 'Parallel Place 5'
+            },
+            {
+              fieldName: 'publicationStatement',
+              index: 0,
+              value: '长沙市 : 湖南人民出版社 : 湖南省新華書店发行, 1982.'
+            },
+            { fieldName: 'editionStatement', index: 0, value: ' ' },
+            { fieldName: 'note', index: 0, value: ' ' },
+            { fieldName: 'placeOfPublication', index: 1, value: ' ' },
+            { fieldName: 'placeOfPublication', index: 1, value: ' ' },
+            { fieldName: 'placeOfPublication', index: 1, value: ' ' },
+            { fieldName: 'placeOfPublication', index: 1, value: ' ' },
+            {
+              fieldName: 'placeOfPublication',
+              index: 2,
+              value: 'Parallel Place 1'
+            },
+            {
+              fieldName: 'placeOfPublication',
+              index: 5,
+              value: 'Parallel Place 4'
+            },
+            {
+              fieldName: 'placeOfPublication',
+              index: 6,
+              value: 'Parallel Place 5'
+            },
+            {
+              fieldName: 'placeOfPublication',
+              index: 0,
+              value: '长沙市 :'
+            }
           ]
           assert.deepEqual(expectedParallelDisplayField, serialized.parallelDisplayField)
         })
