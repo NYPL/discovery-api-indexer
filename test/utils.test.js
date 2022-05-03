@@ -88,4 +88,12 @@ describe('Utils', function () {
       assert.equal(explodedSubjectLiterals[0], 'Arabian Peninsula')
     })
   })
+
+  describe('removeLeadingPunctuation', function () {
+    it('should remove leading punction', function () {
+      const removePunctuation = utils.removePunctuation
+      assert.equal(removePunctuation('"Five Itchy Aardvarks"'), 'Five Itchy Aardvarks')
+      assert.equal(removePunctuation('   Hello, world!'), 'Hello world')
+    })
+  })
 })

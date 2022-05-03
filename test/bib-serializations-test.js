@@ -120,6 +120,14 @@ describe('Bib Serializations', function () {
       })
     })
 
+    it('should have title_sort with punctuation removed', function () {
+      return Bib.byId('b10681848').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.title_sort[0], 'victor pasmore  a catalogue raisonn of the paintings constructions and graph')
+        })
+      })
+    })
+
     it('should have alternative title', function () {
       return Bib.byId('b10011745').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
