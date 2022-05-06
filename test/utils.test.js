@@ -89,11 +89,36 @@ describe('Utils', function () {
     })
   })
 
-  describe('removeLeadingPunctuation', function () {
+  describe('titleSortTransform', function () {
+    const titleSortTransform = utils.titleSortTransform
     it('should remove leading punction', function () {
-      const removePunctuation = utils.removePunctuation
-      assert.equal(removePunctuation('"Five Itchy Aardvarks"'), 'Five Itchy Aardvarks')
-      assert.equal(removePunctuation('   Hello, world!'), 'Hello world')
+      assert.equal(titleSortTransform('"five itchy aardvarks"'), 'five itchy aardvarks')
+    })
+
+    it('should remove internal punctuation', function () {
+      assert.equal(titleSortTransform('hello, world!'), 'hello world')
+    })
+
+    it('should remove leading spaces', function () {
+      assert.equal(titleSortTransform('    hello world'), 'hello world')
+      assert.equal(titleSortTransform(' hello world'), 'hello world')
+    })
+
+    it('should lowercase', function () {
+      assert.equal(titleSortTransform('HeLlO wOrLd'), 'hello world')
+    })
+
+    it('should condense contiguous whitespace', function () {
+      assert.equal(titleSortTransform('hello      world'), 'hello world')
+    })
+
+    it('should replace / and - with spaces', function () {
+      assert.equal(titleSortTransform('he//o-world'), 'he o world')
+      assert.equal(titleSortTransform('--he//o-world'), 'he o world')
+    })
+
+    it('should apply char folding', function () {
+      assert.equal(titleSortTransform('naïve'), 'naive')
     })
   })
 })
