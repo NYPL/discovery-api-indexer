@@ -95,6 +95,10 @@ describe('Utils', function () {
       assert.equal(titleSortTransform('"five itchy aardvarks"'), 'five itchy aardvarks')
     })
 
+    it('should remove leading underscores', function () {
+      assert.equal(titleSortTransform('___etc__'), 'etc__')
+    })
+
     it('should remove internal punctuation', function () {
       assert.equal(titleSortTransform('hello, world!'), 'hello world')
     })
