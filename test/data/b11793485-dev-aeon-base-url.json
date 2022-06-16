@@ -1524,6 +1524,14 @@
       "li": null,
       "pr": "rdfs:type",
       "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "https://aeon-test-domain.com/aeon/Aeon.dll?Action=10&Form=30&Title=[Vocal+and+instrumental+music+/&Site=SCHMA&CallNumber=Sc+Scores+Waller&Author=Waller,+Fats,&Date=1924-1955.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b117934859&ReferenceNumber=b117934859&ItemInfo1=USE+IN+LIBRARY&ItemISxN=i332995847&Genre=Score&Location=Schomburg+Center",
+      "pr": "nypl:aeonUrl",
+      "ty": null
     }
   ],
   "item_statements": [
@@ -1624,6 +1632,14 @@
       "la": null,
       "li": null,
       "pr": "rdfs:type",
+      "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "SCHMA",
+      "pr": "nypl:aeonSiteCode",
       "ty": null
     }
   ],

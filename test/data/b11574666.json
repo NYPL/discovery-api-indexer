@@ -240,7 +240,16 @@
       "li": null,
       "pr": "rdfs:type",
       "ty": null
+    },
+    {
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=The+problem+of+human+destiny++or,+The+end+of+Providence+in+the+world+and+man,&Site=SCHRB&CallNumber=Sc+Rare+124-D+(Dewey,+O.+Problem+of+human+destiny)&Author=Dewey,+Orville,&ItemPlace=New+York,&ItemPublisher=J.+Miller,&Date=1864.&ItemInfo3=https://nypl-sierra-test.nypl.org/record=b115746663&ReferenceNumber=b115746663&ItemInfo1=USE+IN+LIBRARY&ItemNumber=33433034100226&ItemISxN=i103641531&Genre=Book-text&Location=Schomburg+Center",
+      "pr": "nypl:aeonUrl",
+      "ty": null
     }
+
   ],
   "item_statements": [
     {
@@ -583,6 +592,15 @@
       "la": null,
       "li": null,
       "pr": "rdf:type",
+      "ty": null
+    },
+    {
+      "s": "i10364153",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "SCHRB",
+      "pr": "nypl:aeonSiteCode",
       "ty": null
     }
   ],

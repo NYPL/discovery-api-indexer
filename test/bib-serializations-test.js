@@ -751,6 +751,14 @@ describe('Bib Serializations', function () {
           })
         })
       })
+
+      it('should not set aeonUrl if no URL found in bib', () => {
+        return Bib.byId('b11793485-no-aeon-url-in-bib').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            assert.equal(serialized.items[0].aeonUrl, null)
+          })
+        })
+      })
     })
   })
 
