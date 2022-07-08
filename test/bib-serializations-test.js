@@ -96,7 +96,7 @@ describe('Bib Serializations', function () {
       })
     })
 
-    it.only('should create a numItemsElectronic property', () => {
+    it('should create a numItemsElectronic property', () => {
       return Bib.byId('b10001936').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           assert.equal(serialized.numItemsElectronic, 1)
