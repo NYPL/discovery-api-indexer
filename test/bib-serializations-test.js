@@ -96,6 +96,14 @@ describe('Bib Serializations', function () {
       })
     })
 
+    it('should create a numElectronicResources property', () => {
+      return Bib.byId('b10011374').then((bib) => {
+        return ResourceSerializer.serialize(bib).then((serialized) => {
+          assert.equal(serialized.numElectronicResources, 4)
+        })
+      })
+    })
+
     it('should remove extraneous colons from isbn', () => {
       return Bib.byId('bCrazyIsbn').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
