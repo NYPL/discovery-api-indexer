@@ -17,6 +17,8 @@ const kmsHelper = require('../lib/kms-helper')
 
 const bibFieldMapper = require('../lib/field-mapper')('bib')
 
+const expect = require('chai').expect
+
 function bibFixturePath (id) {
   return path.join(__dirname, `./data/${id}.json`)
 }
@@ -901,6 +903,29 @@ describe('Bib Serializations', function () {
           return item.uri < itemsWithOutShelfMark[i + 1].uri
         }))
       })
+    })
+  })
+
+  describe('item dueDate', () => {
+    it('handles missing dueDate', () => {
+      return Bib.byId('b10001936')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const item = bib.items[0]
+
+          expect(item.dueDate).to.be.a('undefined')
+        })
+    })
+
+    it('handles set dueDate', () => {
+      return Bib.byId('bib-having-item-with-duedate')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const item = bib.items[0]
+
+          expect(item.dueDate).to.be.a('array')
+          expect(item.dueDate[0]).to.equal('2022-09-26')
+        })
     })
   })
 })
