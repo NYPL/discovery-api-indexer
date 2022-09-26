@@ -1,0 +1,14 @@
+{
+  "subject_id": "b1234",
+  "bib_statements": [],
+  "item_statements": [
+    {
+      "s": "i987",
+      "bn": null,
+      "id": null,
+      "la": null,
+      "li": "2022-09-26",
+      "pr": "nypl:dueDate"
+    }
+  ]
+}
