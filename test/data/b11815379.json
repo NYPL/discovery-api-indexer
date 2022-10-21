@@ -1,0 +1,5511 @@
+{
+  "subject_id": "b11815379",
+  "bib_statements": [
+    {
+      "s": "b11815379",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "11815379",
+      "ty": "nypl:Bnumber",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:catalogBibLocation",
+      "index": 0,
+      "id": "loc:mal",
+      "la": "Schwarzman Building - Main Reading Room 315",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dbo:startDate",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1956",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:created",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1956",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dc:date",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1956",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dbo:endDate",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1993",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:alternative",
+      "index": 0,
+      "li": "Est & Ouest",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:alternative",
+      "index": 1,
+      "li": "Est et ouest",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:alternative",
+      "index": 2,
+      "li": "Est et ouest",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:alternative",
+      "index": 3,
+      "li": "Horizons nouveaux, juin 1992-mars 1993",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dc:contributor",
+      "index": 0,
+      "li": "Association d'études et d'informations politiques internationales.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dc:contributor",
+      "index": 1,
+      "li": "Association d'études politiques internationales.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dc:contributor",
+      "index": 2,
+      "li": "Institut d'histoire sociale (Paris, France)",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:serialPublicationDates",
+      "index": 0,
+      "li": "8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:dimensions",
+      "index": 0,
+      "li": "30-32 cm.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:donor",
+      "index": 0,
+      "li": "Gift of the DeWitt Wallace Endowment Fund, named in honor of the founder of Reader's Digest",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:extent",
+      "index": 0,
+      "li": "v. ill.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:lccClassification",
+      "index": 0,
+      "li": "D839 .A822",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:placeOfPublication",
+      "index": 0,
+      "li": "Paris.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:publicationStatement",
+      "index": 0,
+      "li": "Paris.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:title",
+      "index": 0,
+      "li": "Est & ouest.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:titleDisplay",
+      "index": 0,
+      "li": "Est & ouest.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:note",
+      "index": 0,
+      "id": "b11815379#1.0000",
+      "bn": [
+        {
+          "s": "b11815379#1.0000",
+          "pr": "rdf:type",
+          "index": 0,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0000",
+          "pr": "bf:noteType",
+          "index": 0,
+          "li": "Numbering",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0000",
+          "pr": "rdfs:label",
+          "index": 0,
+          "li": "Vol. 8-35 (no 146-674) called also nouvelle série.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:note",
+      "index": 1,
+      "id": "b11815379#1.0001",
+      "bn": [
+        {
+          "s": "b11815379#1.0001",
+          "pr": "rdf:type",
+          "index": 1,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0001",
+          "pr": "bf:noteType",
+          "index": 1,
+          "li": "Supplement",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0001",
+          "pr": "rdfs:label",
+          "index": 1,
+          "li": "Separately paged supplements accompany some numbers.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:note",
+      "index": 2,
+      "id": "b11815379#1.0002",
+      "bn": [
+        {
+          "s": "b11815379#1.0002",
+          "pr": "rdf:type",
+          "index": 2,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0002",
+          "pr": "bf:noteType",
+          "index": 2,
+          "li": "Issued By",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0002",
+          "pr": "rdfs:label",
+          "index": 2,
+          "li": "Issued by Association d'études et d'informations politiques internationales, 1956-May/June 1983; jointly by Association d'études politiques internationales and Institut d'histoire sociale, <1984>-Mar. 1993.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:note",
+      "index": 3,
+      "id": "b11815379#1.0003",
+      "bn": [
+        {
+          "s": "b11815379#1.0003",
+          "pr": "rdf:type",
+          "index": 3,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0003",
+          "pr": "bf:noteType",
+          "index": 3,
+          "li": "Linking Entry",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0003",
+          "pr": "rdfs:label",
+          "index": 3,
+          "li": "Spanish ed., which began publication in 1962, has title: Este & oeste.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:note",
+      "index": 4,
+      "id": "b11815379#1.0004",
+      "bn": [
+        {
+          "s": "b11815379#1.0004",
+          "pr": "rdf:type",
+          "index": 4,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0004",
+          "pr": "bf:noteType",
+          "index": 4,
+          "li": "Linking Entry",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0004",
+          "pr": "rdfs:label",
+          "index": 4,
+          "li": "Has separately cataloged supplement: Supplément de Est & ouest; [brochure].",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:note",
+      "index": 5,
+      "id": "b11815379#1.0005",
+      "bn": [
+        {
+          "s": "b11815379#1.0005",
+          "pr": "rdf:type",
+          "index": 5,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0005",
+          "pr": "bf:noteType",
+          "index": 5,
+          "li": "Linking Entry",
+          "bn": null
+        },
+        {
+          "s": "b11815379#1.0005",
+          "pr": "rdfs:label",
+          "index": 5,
+          "li": "Continues: B.E.I.P.I.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:identifier",
+      "index": 1,
+      "id": "0014-1267",
+      "ty": "bf:Issn",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:identifier",
+      "index": 2,
+      "id": "53032862 //r56",
+      "ty": "bf:Lccn",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:identifier",
+      "index": 3,
+      "id": "NYPG84-S407",
+      "ty": "nypl:Oclc",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:identifier",
+      "index": 4,
+      "id": "(WaOLN)nyp1824101",
+      "ty": "bf:Identifier",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dc:subject",
+      "index": 0,
+      "li": "World politics -- Periodicals.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dc:subject",
+      "index": 1,
+      "li": "Communism -- Periodicals.",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:language",
+      "index": 0,
+      "id": "lang:fre",
+      "la": "French",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:issuance",
+      "index": 0,
+      "id": "urn:biblevel:s",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "dcterms:type",
+      "index": 0,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:media",
+      "index": 0,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "bf:carrier",
+      "index": 0,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "bn": null
+    },
+    {
+      "s": "b11815379",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "nypl:Collection",
+      "bn": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i10436153",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048642",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 10 July-Dec. 1958",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 10 July-Dec. 1958",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        10,
+        10
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1958",
+        "1958"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436153",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048634",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 10 Jan.-June 1958",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 10 Jan.-June 1958",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        10,
+        10
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1958",
+        "1958"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436152",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048444",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 14 1962",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 14 1962",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        14,
+        14
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1962",
+        "1962"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436157",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048493",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 19 1967",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 19 1967",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        19,
+        19
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1967",
+        "1967"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436162",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991826",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 38-49 Jan.-Dec. 1987",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 38-49 Jan.-Dec. 1987",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        38,
+        49
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1987",
+        "1987"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436183",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048477",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 17 1965",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 17 1965",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        17,
+        17
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1965",
+        "1965"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436160",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048469",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 16 1964",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 16 1964",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        16,
+        16
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1964",
+        "1964"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436159",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048451",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 15 1963",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 15 1963",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        15,
+        15
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1963",
+        "1963"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436158",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048485",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 18 1966",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 18 1966",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        18,
+        18
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1966",
+        "1966"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436161",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991867",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 85-95 1991",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 85-95 1991",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        85,
+        95
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1991",
+        "1991"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436187",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991875",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 96-110 Jan. 1992-Mar. 1993",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 96-110 Jan. 1992-Mar. 1993",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        96,
+        110
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1992",
+        "1992"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436188",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991982",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 28 1976",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 28 1976",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        28,
+        28
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1976",
+        "1976"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436175",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991990",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 29 1977",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 29 1977",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        29,
+        29
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1977",
+        "1977"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436176",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991909",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 21 Sept. 1969 & Suppl.",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 21 Sept. 1969 & Suppl.",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        21,
+        21
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1969",
+        "1969"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1969",
+        "1969"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436167",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991891",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 21 July-Dec. 1969",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 21 July-Dec. 1969",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        21,
+        21
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1969",
+        "1969"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436166",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991941",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 24 1972",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 24 1972",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        24,
+        24
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1972",
+        "1972"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436171",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991974",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 27 1975",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 27 1975",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        27,
+        27
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1975",
+        "1975"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436174",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991834",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 50-60 Jan.-Dec. 1988",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 50-60 Jan.-Dec. 1988",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        50,
+        60
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1988",
+        "1988"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436184",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991842",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 61-72 1989",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 61-72 1989",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        61,
+        72
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1989",
+        "1989"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436185",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991859",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 73-84 1990",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 73-84 1990",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        73,
+        84
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1990",
+        "1990"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436186",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048618",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 9 Jan.-June 1957",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 9 Jan.-June 1957",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        9,
+        9
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1957",
+        "1957"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436150",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991933",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 23 1971",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 23 1971",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        23,
+        23
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1971",
+        "1971"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436170",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048626",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 9 July-Dec. 1957",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 9 July-Dec. 1957",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        9,
+        9
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1957",
+        "1957"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436151",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048519",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 20 July-Dec. 1968",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 20 July-Dec. 1968",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        20,
+        20
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1968",
+        "1968"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436164",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048527",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 21 Jan.-June 1969",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 21 Jan.-June 1969",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        21,
+        21
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1969",
+        "1969"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436165",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048501",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 20 Jan.-June 1968",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 20 Jan.-June 1968",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        20,
+        20
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1968",
+        "1968"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436163",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991958",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 25 1973",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 25 1973",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        25,
+        25
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1973",
+        "1973"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436172",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991800",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Ns. 1-25 1983-85",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). Ns. 1-25 1983-85",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [],
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1983",
+        "1983"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436181",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991818",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 26-37 Jan.-Dec. 1986",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 26-37 Jan.-Dec. 1986",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        26,
+        37
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:volumeRaw",
+      "index": 0,
+      "li": "This is faked volumeRaw because it's not yet emitted by discovery-store-poster",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1986",
+        "1986"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:dateRaw",
+      "index": 0,
+      "li": "This is faked dateRaw because it's not yet emitted by discovery-store-poster",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436182",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048410",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 11 1959",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 11 1959",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        11,
+        11
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1959",
+        "1959"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436154",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048436",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 13 1961",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 13 1961",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        13,
+        13
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1961",
+        "1961"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436156",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048428",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 12 1960",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 12 1960",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        12,
+        12
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1960",
+        "1960"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436155",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991966",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 26 1974",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 26 1974",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        26,
+        26
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1974",
+        "1974"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436173",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991784",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 32-33 1980-81",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 32-33 1980-81",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        32,
+        33
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1980",
+        "1980"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436179",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006992006",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 30 1978",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 30 1978",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        30,
+        30
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1978",
+        "1978"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436177",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991776",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 31 1979",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 31 1979",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        31,
+        31
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1979",
+        "1979"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436178",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991792",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 34-35 Jan. 1982-June 1983",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 34-35 Jan. 1982-June 1983",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        34,
+        35
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1982",
+        "1982"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436180",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433007048600",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 8 1956",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 8 1956",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        8,
+        8
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1956",
+        "1956"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436149",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991925",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 22 July-Dec. 1970",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 22 July-Dec. 1970",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        22,
+        22
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1970",
+        "1970"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436169",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b11815379",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433006991917",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete).",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "v. 22 Jan.-June 1970",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "N-10 249|zLibrary has: 8.-35. année (no 143-674), 1956-mai/juin 1983; nouv. sér., 1.-10. année (no 1-110), déc. 1983-mars 1993 (incomplete). v. 22 Jan.-June 1970",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        22,
+        22
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1970",
+        "1970"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i10436168",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    }
+  ],
+  "holding_statements": []
+}
