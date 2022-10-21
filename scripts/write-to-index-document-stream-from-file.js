@@ -20,7 +20,7 @@
 const fs = require('fs')
 const minimist = require('minimist')
 const NyplStreamsClient = require('@nypl/nypl-streams-client')
-var log = require('loglevel')
+const log = require('loglevel')
 
 const envConfigHelper = require('../lib/env-config-helper')
 
@@ -35,7 +35,7 @@ const argv = minimist(process.argv, {
   }
 })
 
-const streamsClient = new NyplStreamsClient({ nyplDataApiClientBase: process.env['NYPL_API_BASE_URL'], logLevel: 'error' })
+const streamsClient = new NyplStreamsClient({ nyplDataApiClientBase: process.env.NYPL_API_BASE_URL, logLevel: 'error' })
 
 /**
  * Write {records} to {streamName} after encoding them against {schemaName}
@@ -44,9 +44,9 @@ const writeToStreamsClient = (streamName, records, schemaName) => {
   return streamsClient.write(streamName, records, { avroSchemaName: schemaName })
     .then((response) => {
       if (response.FailedRecordCount > 0) {
-        var responseRecords = response.Records
-        var failedRecords = []
-        for (var i = 0; i < responseRecords.length; i++) {
+        const responseRecords = response.Records
+        const failedRecords = []
+        for (let i = 0; i < responseRecords.length; i++) {
           if (responseRecords[i].ErrorCode) {
             failedRecords.push(records[i])
           }

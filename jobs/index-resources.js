@@ -11,9 +11,9 @@ const DiscoveryModels = require('discovery-store-models')
 
 const { Bib } = DiscoveryModels
 
-var cluster = require('cluster')
+const cluster = require('cluster')
 
-var VALID_TYPES = ['all', 'collection', 'component', 'item']
+const VALID_TYPES = ['all', 'collection', 'component', 'item']
 
 /*
  *  node jobs/index-resources --threads 3 [--index resources-scratch]
@@ -21,7 +21,7 @@ var VALID_TYPES = ['all', 'collection', 'component', 'item']
  */
 
 // Parsc cmd line opts:
-var argv = require('optimist')
+const argv = require('optimist')
   .usage('Index resources index with various types\nUsage: $0 -type TYPE')
   // .demand('type')
   .describe('type', 'Specify type to index (' + VALID_TYPES.join(', ') + ')')
@@ -36,14 +36,14 @@ var argv = require('optimist')
   .describe('index', 'Specify index name')
   .argv
 
-  // don't do this because it's not passed to workers
-  // .describe('loglevel', 'Specify log level (default info)')
+// don't do this because it's not passed to workers
+// .describe('loglevel', 'Specify log level (default info)')
 
 // TODO Need to resolve whether or not to index resources according to their domain type: collection, container, item, capture
 // For now, not doing this. Seems to add more trouble than benefit atm
 // This flag controls a couple local decision points,
 // but making it `true` will not necessarily fully enable it
-var INDEX_DISTINCT_RESOURCE_TYPES = false
+const INDEX_DISTINCT_RESOURCE_TYPES = false
 if (INDEX_DISTINCT_RESOURCE_TYPES && VALID_TYPES.indexOf(argv.type) < 0) {
   console.log('Invalid type. Should be one of: ' + VALID_TYPES.join(', '))
   process.exit()
@@ -63,6 +63,7 @@ if (argv.bnum) {
       return resourcesIndexer.processStreamOfBibs(_([bib]))
         .map((counts) => {
           console.log('Done: ', counts)
+          return null
         })
         .done(() => {
         })
@@ -70,21 +71,21 @@ if (argv.bnum) {
 
 // Master script:
 } else if (cluster.isMaster) {
-  var useScreen = !argv.disablescreen
-  var rebuild = argv.rebuild
+  const useScreen = !argv.disablescreen
+  const rebuild = argv.rebuild
 
-  var buildByQuery = function (query) {
-    var limit = parseInt(argv.limit) || null
+  const buildByQuery = function (query) {
+    let limit = parseInt(argv.limit) || null
     // FIXME this is hardcoded for now until getting a distinct resources count isn't an expensive query..
     if (!limit) limit = 1000000
 
-    var offset = parseInt(argv.offset) || null
+    let offset = parseInt(argv.offset) || null
     if (!offset) offset = 0
 
     return new Promise((resolve, reject) => {
-      var runner = new IndexerRunner('resources', query, cluster, {
+      const runner = new IndexerRunner('resources', query, cluster, {
         botCount: argv.threads,
-        useScreen: useScreen,
+        useScreen,
         onComplete: resolve,
         limit,
         offset
@@ -93,11 +94,11 @@ if (argv.bnum) {
     })
   }
 
-  var tasks = []
+  const tasks = []
   // tasks.push(() => index.resources.prepare(indexName, rebuild))
   tasks.push(() => buildByQuery({}))
 
-  var buildNext = function () {
+  const buildNext = function () {
     if (tasks.length > 0) {
       return tasks.shift()()
         .then(buildNext)
@@ -130,13 +131,13 @@ if (argv.bnum) {
   process.on('message', (msg) => {
     if (typeof msg.start !== 'number') return
 
-    var _received = false
+    let _received = false
 
-    var processStream = (stream) => {
-      var s = _(stream)
+    const processStream = (stream) => {
+      const s = _(stream)
         .map((rec) => {
           if (!_received) {
-            process.send({log: 'received first record'})
+            process.send({ log: 'received first record' })
             _received = true
           }
           return rec
@@ -155,14 +156,15 @@ if (argv.bnum) {
             process.send({ totalUpdate: 1 })
           }
         })
-        .map((counts) => {
-          // This gives us counts.savedCount & counds.suppressedCount
-          // if we care. We don't.
-        })
-        .done((s) => {
-          log.info('Done')
-          resolve(null)
-        })
+          .map((counts) => {
+            // This gives us counts.savedCount & counds.suppressedCount
+            // if we care. We don't.
+            return null
+          })
+          .done((s) => {
+            log.info('Done')
+            resolve(null)
+          })
       })
     }
 
@@ -174,7 +176,7 @@ if (argv.bnum) {
       .then(processStream)
       .then(DiscoveryModels.disconnect)
       .then(() => {
-        process.send({log: 'released DB'})
+        process.send({ log: 'released DB' })
         process.exit()
       })
       .catch((e) => {
@@ -183,4 +185,3 @@ if (argv.bnum) {
       })
   })
 }
-

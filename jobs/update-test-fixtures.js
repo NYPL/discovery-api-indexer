@@ -20,7 +20,7 @@ const fs = require('fs')
 const DiscoveryModels = require('discovery-store-models')
 const envConfigHelper = require('../lib/env-config-helper')
 
-var argv = require('optimist')
+const argv = require('optimist')
   .argv
 
 function bibFixturePath (id) {
@@ -45,7 +45,7 @@ function updateAllBibs () {
     fs.readdir(path.join('test/data'), (err, paths) => {
       if (err) console.error(err)
 
-      let bibIds = paths
+      const bibIds = paths
         .filter((path) => /(\w+).json/.test(path))
         .map((path) => path.match(/(\w+).json/)[1])
 

@@ -9,7 +9,7 @@ const nestedFilterQuery = (path, filters, sort) => {
   }
   query.body.query.nested.path = path
   query.body.query.nested.query.constant_score.filter.bool.should = filters
-  if (sort) query.body.sort = [ sort ]
+  if (sort) query.body.sort = [sort]
   return query
 }
 
@@ -46,7 +46,7 @@ const filterQuery = (filters, sort) => {
     body: JSON.parse(fs.readFileSync('./test/query-tests/query-templates/filter-query.json', 'utf8'))
   }
   query.body.query.bool.filter = filters
-  if (sort) query.body.sort = [ sort ]
+  if (sort) query.body.sort = [sort]
   return query
 }
 

@@ -7,4 +7,3 @@ before(function () {
   // Initialize connections
   return envConfigHelper.init({ index })
 })
-

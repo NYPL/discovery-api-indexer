@@ -4,7 +4,7 @@
   then runs the index job with the document URI
 */
 
-var log = null
+let log = null
 
 const _ = require('highland')
 
@@ -15,20 +15,20 @@ const kmsHelper = require('./lib/kms-helper')
 const avroHelper = require('./lib/avro-helper')
 const resourcesIndexer = require('./lib/resource-indexer')
 
-const INCOMING_SCHEMA_TYPE = process.env['INCOMING_SCHEMA_TYPE'] || 'IndexDocument'
+const INCOMING_SCHEMA_TYPE = process.env.INCOMING_SCHEMA_TYPE || 'IndexDocument'
 
 // kinesis stream handler
 exports.kinesisHandler = function (records, context, callback) {
   log.info('Processing ' + records.length + ' record(s)')
 
-  var incomingSchema = null
+  let incomingSchema = null
 
   // map to records objects as needed
   function parseData (payload) {
     // decode base64
-    var buf = new Buffer(payload.kinesis.data, 'base64')
+    const buf = Buffer.from(payload.kinesis.data, 'base64')
     // decode avro
-    var record = incomingSchema.fromBuffer(buf)
+    const record = incomingSchema.fromBuffer(buf)
     return record
   }
 
@@ -60,14 +60,14 @@ exports.kinesisHandler = function (records, context, callback) {
       incomingSchema = schemas[INCOMING_SCHEMA_TYPE]
 
       // process kinesis records
-      var data = records
+      const data = records
         .map(parseData)
 
-      var totalProcessed = 0
-      var totalSuppressed = 0
+      let totalProcessed = 0
+      let totalSuppressed = 0
 
       // index each document
-      var stream = _(data)
+      const stream = _(data)
         // Just need the uri:
         .map((r) => r.uri)
         // Flatten stream to array:
@@ -86,6 +86,7 @@ exports.kinesisHandler = function (records, context, callback) {
         .map((counts) => {
           totalProcessed = counts.savedCount
           totalSuppressed = counts.suppressedCount
+          return null
         })
         .stopOnError((e) => {
           callback(e)
@@ -131,14 +132,14 @@ exports.handler = function (event, context, callback) {
   context.callbackWaitsForEmptyEventLoop = false
 
   log = require('loglevel')
-  log.setLevel(process.env['LOGLEVEL'] || 'info')
+  log.setLevel(process.env.LOGLEVEL || 'info')
 
   log.info('Loading Document Stream Listener')
 
   log.debug('Root Handler got data: ', event)
-  Promise.all([ dbConnect(), elasticConnect() ])
+  Promise.all([dbConnect(), elasticConnect()])
     .then(() => {
-      var record = event.Records[0]
+      const record = event.Records[0]
       if (record.kinesis) {
         exports.kinesisHandler(event.Records, context, callback)
       }

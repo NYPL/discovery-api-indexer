@@ -4,12 +4,12 @@ const envConfigHelper = require('../lib/env-config-helper')
 const index = require('../lib/index')
 
 // Parsc cmd line opts:
-var argv = require('optimist')
+const argv = require('optimist')
   .usage('Index Administration\nUsage: $0 COMMAND')
   .boolean('force')
   .argv
 
-var command = argv._[0]
+const command = argv._[0]
 
 const validCommands = ['list', 'activate', 'delete', 'prepare', 'reindex', 'reindex-status', 'check', 'mapping-check']
 if (validCommands.indexOf(command) < 0) console.error('Specify command: ' + validCommands.join(', '))
@@ -32,7 +32,7 @@ envConfigHelper.init({ index }).then((opts) => {
   } else if (command === 'activate') {
     if (!argv.index || !argv.index.match(/-*/)) throw new Error('Invalid index given')
 
-    var alias = argv.index.replace(/-.*/, '')
+    const alias = argv.index.replace(/-.*/, '')
     console.info('Activating "' + argv.index + '" by assigning it alias "' + alias + '"...')
     index.admin.setAlias({ index: argv.index, alias, force: argv.force }).then((success) => {
       if (success) console.log('Activated alias.')
