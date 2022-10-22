@@ -97,7 +97,8 @@ describe('Bib Serializations', function () {
         })
       })
     })
-    describe('numElectronicResources', () => {
+
+    describe('Item counts', () => {
       it('should create a numElectronicResources property', () => {
         return Bib.byId('b10011374').then((bib) => {
           return ResourceSerializer.serialize(bib).then((serialized) => {
@@ -105,10 +106,21 @@ describe('Bib Serializations', function () {
           })
         })
       })
+
       it('should subtract items with electronic resources from numItems', () => {
         return Bib.byId('b10011374').then((bib) => {
           return ResourceSerializer.serialize(bib).then((serialized) => {
             assert.equal(serialized.numItems, 4)
+          })
+        })
+      })
+
+      it('should calculate numItemsTotal', () => {
+        return Bib.byId('b10011374').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            // Note that numItemsTotal is the sum of numItems and numCheckinCardItems (which is zero)
+            assert.equal(serialized.numCheckinCardItems, 0)
+            assert.equal(serialized.numItemsTotal, 4)
           })
         })
       })
