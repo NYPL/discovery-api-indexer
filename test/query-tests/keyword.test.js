@@ -67,7 +67,7 @@ const keywordQuery = (term, searchScope = 'all') => {
 
   if (['all', 'identifier'].indexOf(searchScope) >= 0) {
     const extraShouldClausesRaw = fs.readFileSync('./test/query-tests/query-templates/_identifier-matches.json', 'utf8')
-        .replace(/%%TERM%%/g, term.replace(/"/g, '\\"'))
+      .replace(/%%TERM%%/g, term.replace(/"/g, '\\"'))
     extraShouldClauses = JSON.parse(extraShouldClausesRaw)
   }
   if (customFields) query.body.query.function_score.query.bool.should[0].query_string.fields = customFields

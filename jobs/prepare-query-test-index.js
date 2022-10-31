@@ -37,7 +37,7 @@ function fixtures () {
             if (err) return reject(err)
 
             const data = JSON.parse(content)
-            let bib = Bib.fromDbJsonResult(data)
+            const bib = Bib.fromDbJsonResult(data)
             return resolve(bib)
           })
         })
@@ -49,28 +49,24 @@ function fixtures () {
 const prepareIndex = () => {
   process.env.ELASTIC_RESOURCES_INDEX_NAME = 'resources-test-index'
 
-  if (false) return Promise.resolve()
-  else {
-    return index.resources.prepare(process.env.ELASTIC_RESOURCES_INDEX_NAME, true).then((resp) => {
-      console.log('Created ' + process.env.ELASTIC_RESOURCES_INDEX_NAME)
-      return resp
-    })
-  }
+  return index.resources.prepare(process.env.ELASTIC_RESOURCES_INDEX_NAME, true).then((resp) => {
+    console.log('Created ' + process.env.ELASTIC_RESOURCES_INDEX_NAME)
+    return resp
+  })
 }
 
 const seedIndex = () => {
-  if (false) return Promise.resolve()
-  else {
-    return fixtures().then((bibs) => {
-      console.log(`Seeding ${process.env.ELASTIC_RESOURCES_INDEX_NAME} with ${bibs.length} bibs`)
+  return fixtures().then((bibs) => {
+    console.log(`Seeding ${process.env.ELASTIC_RESOURCES_INDEX_NAME} with ${bibs.length} bibs`)
 
-      const streamOfBibs = highland(bibs)
+    const streamOfBibs = highland(bibs)
 
-      resourcesIndexer.processStreamOfBibs(streamOfBibs, {
-        notifyDocumentProcessed: false
-      })
+    resourcesIndexer.processStreamOfBibs(streamOfBibs, {
+      notifyDocumentProcessed: false
+    })
       .map((counts) => {
         console.log(`Saved ${counts.savedCount}, suppressed ${counts.suppressedCount} to ${process.env.ELASTIC_RESOURCES_INDEX_NAME}`)
+        return null
       })
       .stopOnError((e) => {
         console.log('Error: ', e)
@@ -78,8 +74,7 @@ const seedIndex = () => {
       .done(() => {
         console.log('Done.')
       })
-    })
-  }
+  })
 }
 
 // Initialize connections
@@ -89,7 +84,7 @@ envConfigHelper.init({ index }).then((opts) => {
       console.log('all done')
     })
   })
-  .catch((e) => {
-    console.error('Error: ', e)
-  })
+    .catch((e) => {
+      console.error('Error: ', e)
+    })
 })

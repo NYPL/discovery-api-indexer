@@ -1,0 +1,754 @@
+{
+  "subject_id": "b15934472",
+  "bib_statements": [
+    {
+      "s": "b15934472",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "15934472",
+      "ty": "nypl:Bnumber",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:catalogBibLocation",
+      "index": 0,
+      "id": "loc:mar",
+      "la": "Schwarzman Building - Rare Book Collection Room 328",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dbo:startDate",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1790",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dcterms:created",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1790",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dc:date",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1790",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dbo:endDate",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1792",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dc:contributor",
+      "index": 0,
+      "li": "Bérard de Favas, J.-F.",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:serialPublicationDates",
+      "index": 0,
+      "li": "Began July 7, 1790; ceased Aug. 10, 1792.",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:dimensions",
+      "index": 0,
+      "li": "27 cm. (4to)",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:extent",
+      "index": 0,
+      "li": "v. ;",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:placeOfPublication",
+      "index": 0,
+      "li": "A Paris",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:publicationStatement",
+      "index": 0,
+      "li": "A Paris : De l'imprimerie du Journal ...",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:role-publisher",
+      "index": 0,
+      "li": "De l'imprimerie du Journal ...",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dcterms:title",
+      "index": 0,
+      "li": "Journal général de politique, de littérature et de commerce.",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:titleDisplay",
+      "index": 0,
+      "li": "Journal général de politique, de littérature et de commerce.",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 0,
+      "id": "b15934472#1.0000",
+      "bn": [
+        {
+          "s": "b15934472#1.0000",
+          "pr": "rdf:type",
+          "index": 0,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0000",
+          "pr": "bf:noteType",
+          "index": 0,
+          "li": "Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0000",
+          "pr": "rdfs:label",
+          "index": 0,
+          "li": "Description based on: Seconde année, no. 156 (1er juillet 1791); title from caption.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 1,
+      "id": "b15934472#1.0001",
+      "bn": [
+        {
+          "s": "b15934472#1.0001",
+          "pr": "rdf:type",
+          "index": 1,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0001",
+          "pr": "bf:noteType",
+          "index": 1,
+          "li": "Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0001",
+          "pr": "rdfs:label",
+          "index": 1,
+          "li": "Latest issue consulted: Seconde année, no. 282 (25 novembre 1791).",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 2,
+      "id": "b15934472#1.0002",
+      "bn": [
+        {
+          "s": "b15934472#1.0002",
+          "pr": "rdf:type",
+          "index": 2,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0002",
+          "pr": "bf:noteType",
+          "index": 2,
+          "li": "Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0002",
+          "pr": "rdfs:label",
+          "index": 2,
+          "li": "\"Les lettres et argent doivent être adressés ... a M. J.F. Berard\"--Colophon. Tourneux gives name of publisher as \"J.-F. Bérard de Favas.\"",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 3,
+      "id": "b15934472#1.0003",
+      "bn": [
+        {
+          "s": "b15934472#1.0003",
+          "pr": "rdf:type",
+          "index": 3,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0003",
+          "pr": "bf:noteType",
+          "index": 3,
+          "li": "Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0003",
+          "pr": "rdfs:label",
+          "index": 3,
+          "li": "Hatin states that publication continued to \"an 6\" (1797/1798).",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 4,
+      "id": "b15934472#1.0004",
+      "bn": [
+        {
+          "s": "b15934472#1.0004",
+          "pr": "rdf:type",
+          "index": 4,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0004",
+          "pr": "bf:noteType",
+          "index": 4,
+          "li": "Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0004",
+          "pr": "rdfs:label",
+          "index": 4,
+          "li": "Imprint from colophon.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 5,
+      "id": "b15934472#1.0005",
+      "bn": [
+        {
+          "s": "b15934472#1.0005",
+          "pr": "rdf:type",
+          "index": 5,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0005",
+          "pr": "bf:noteType",
+          "index": 5,
+          "li": "Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0005",
+          "pr": "rdfs:label",
+          "index": 5,
+          "li": "Woodcut vignette in caption, with motto: La loi et le Roi.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 6,
+      "id": "b15934472#1.0006",
+      "bn": [
+        {
+          "s": "b15934472#1.0006",
+          "pr": "rdf:type",
+          "index": 6,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0006",
+          "pr": "bf:noteType",
+          "index": 6,
+          "li": "Indexed In",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0006",
+          "pr": "rdfs:label",
+          "index": 6,
+          "li": "Hatin, L.E.  Presse périodique française,",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 7,
+      "id": "b15934472#1.0007",
+      "bn": [
+        {
+          "s": "b15934472#1.0007",
+          "pr": "rdf:type",
+          "index": 7,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0007",
+          "pr": "bf:noteType",
+          "index": 7,
+          "li": "Indexed In",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0007",
+          "pr": "rdfs:label",
+          "index": 7,
+          "li": "Martin & Walter,",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:note",
+      "index": 8,
+      "id": "b15934472#1.0008",
+      "bn": [
+        {
+          "s": "b15934472#1.0008",
+          "pr": "rdf:type",
+          "index": 8,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0008",
+          "pr": "bf:noteType",
+          "index": 8,
+          "li": "Indexed In",
+          "bn": null
+        },
+        {
+          "s": "b15934472#1.0008",
+          "pr": "rdfs:label",
+          "index": 8,
+          "li": "Tourneux, M.  Paris pendant la Révolution française,",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b15934472",
+      "pr": "dcterms:identifier",
+      "index": 1,
+      "id": "NYPG92-S6526",
+      "ty": "nypl:Oclc",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dcterms:identifier",
+      "index": 2,
+      "id": "(WaOLN)xxx0000176",
+      "ty": "bf:Identifier",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "*KVR Serial 04-162",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dc:subject",
+      "index": 0,
+      "li": "France -- History -- Revolution, 1789-1799 -- Newspapers.",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dc:subject",
+      "index": 1,
+      "li": "Paris (France) -- Newspapers.",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "nypl:aeonUrl",
+      "index": 0,
+      "li": "https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=Journal+général+de+politique,+de+littérature+et+de+commerce.&Site=SASRB&CallNumber=*KVR+Serial+04-162&ItemPlace=A+Paris+:&ItemPublisher=De+l'imprimerie+du+Journal+...&ItemInfo3=https://catalog.nypl.org/record=b15934472&ReferenceNumber=b159344724&ItemISxN=i147110403&Genre=Book-text&Location=Schwarzman+Rare+Book+Division",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dcterms:language",
+      "index": 0,
+      "id": "lang:fre",
+      "la": "French",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:issuance",
+      "index": 0,
+      "id": "urn:biblevel:s",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "dcterms:type",
+      "index": 0,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:media",
+      "index": 0,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "bf:carrier",
+      "index": 0,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "bn": null
+    },
+    {
+      "s": "b15934472",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "nypl:Collection",
+      "bn": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i15934472-e",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i15934472-e",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b15934472",
+      "bn": null
+    },
+    {
+      "s": "i15934472-e",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i15934472-e",
+      "pr": "bf:electronicLocator",
+      "index": 0,
+      "li": "https://specialcollections.nypl.org/aeon/Aeon.dll?Action=10&Form=30&Title=Journal+général+de+politique,+de+littérature+et+de+commerce.&Site=SASRB&CallNumber=*KVR+Serial+04-162&ItemPlace=A+Paris+:&ItemPublisher=De+l'imprimerie+du+Journal+...&ItemInfo3=https://catalog.nypl.org/record=b15934472&ReferenceNumber=b159344724&ItemISxN=i147110403&Genre=Book-text&Location=Schwarzman+Rare+Book+Division",
+      "la": "Request access to this item in the Schwarzman Rare Books Collection",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b15934472",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "*KVR Serial 04-162",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Seconde annee, no. 156 (1er juillet 1791)-seconde annee, no. 186 (5 aout 1791); seconde annee, no. 188 (8 aout 1791)-seconde annee, no. 242 (10 oct. 1791); seconde annee, no. 244 (12 oct. 1791)-seconde annee, no. 248 (25 nov. 1791)",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "*KVR Serial 04-162 Seconde annee, no. 156 (1er juillet 1791)-seconde annee, no. 186 (5 aout 1791); seconde annee, no. 188 (8 aout 1791)-seconde annee, no. 242 (10 oct. 1791); seconde annee, no. 244 (12 oct. 1791)-seconde annee, no. 248 (25 nov. 1791)",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [
+        156,
+        156
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:volumeRange",
+      "index": 1,
+      "li": [
+        186,
+        186
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:volumeRange",
+      "index": 2,
+      "li": [
+        188,
+        188
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:volumeRange",
+      "index": 3,
+      "li": [
+        242,
+        242
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:volumeRange",
+      "index": 4,
+      "li": [
+        244,
+        244
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:volumeRange",
+      "index": 5,
+      "li": [
+        248,
+        248
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:volumeRange",
+      "index": 6,
+      "li": [],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 1,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 2,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 3,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 4,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 5,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 6,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:dateRange",
+      "index": 7,
+      "li": [
+        "1791",
+        "1791"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:marr2",
+      "la": "Schwarzman Building - Rare Book Collection Room 328",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:4",
+      "la": "Restricted use",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:aeonSiteCode",
+      "index": 0,
+      "li": "SASRB",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1108",
+      "la": "Rare Book Division",
+      "bn": null
+    },
+    {
+      "s": "i14711040",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    }
+  ],
+  "holding_statements": []
+}

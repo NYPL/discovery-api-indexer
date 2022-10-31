@@ -32,7 +32,7 @@ const params = {
         }
       }
     },
-    sort: [ 'uri' ],
+    sort: ['uri'],
     size: PER_PAGE,
     _source: false
   }
@@ -92,7 +92,7 @@ envConfigHelper.init({ index })
           cb: 'recap-cul'
         }[idParts[1]]
         const id = idParts[2]
-        return [ 'bib', nyplSource, id, uri ]
+        return ['bib', nyplSource, id, uri]
       })
 
       fs.writeFileSync(outpath, result.join('\n'))

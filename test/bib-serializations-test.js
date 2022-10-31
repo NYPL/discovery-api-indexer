@@ -23,10 +23,10 @@ function bibFixturePath (id) {
   return path.join(__dirname, `./data/${id}.json`)
 }
 
-let getBibByFixture = function (id) {
+const getBibByFixture = function (id) {
   if (fs.existsSync(bibFixturePath(id))) {
-    let data = JSON.parse(fs.readFileSync(bibFixturePath(id)))
-    let bib = Bib.fromDbJsonResult(data)
+    const data = JSON.parse(fs.readFileSync(bibFixturePath(id)))
+    const bib = Bib.fromDbJsonResult(data)
     return Promise.resolve(bib)
   } else console.log(id + ' not found on disk')
 }
@@ -34,7 +34,7 @@ let getBibByFixture = function (id) {
 const getPlatformEndpointByFixture = function (path) {
   const fixturePath = `./test/data/platform-endpoint-${md5(path)}.json`
   if (fs.existsSync(fixturePath)) {
-    let data = JSON.parse(fs.readFileSync(fixturePath))
+    const data = JSON.parse(fs.readFileSync(fixturePath))
     return Promise.resolve(data)
   } else console.log(`Fixture ${fixturePath} (for ${path}) not found on disk`)
 }
@@ -97,7 +97,8 @@ describe('Bib Serializations', function () {
         })
       })
     })
-    describe('numElectronicResources', () => {
+
+    describe('Item counts', () => {
       it('should create a numElectronicResources property', () => {
         return Bib.byId('b10011374').then((bib) => {
           return ResourceSerializer.serialize(bib).then((serialized) => {
@@ -105,10 +106,21 @@ describe('Bib Serializations', function () {
           })
         })
       })
+
       it('should subtract items with electronic resources from numItems', () => {
         return Bib.byId('b10011374').then((bib) => {
           return ResourceSerializer.serialize(bib).then((serialized) => {
             assert.equal(serialized.numItems, 4)
+          })
+        })
+      })
+
+      it('should calculate numItemsTotal', () => {
+        return Bib.byId('b10011374').then((bib) => {
+          return ResourceSerializer.serialize(bib).then((serialized) => {
+            // Note that numItemsTotal is the sum of numItems and numCheckinCardItems (which is zero)
+            assert.equal(serialized.numCheckinCardItems, 0)
+            assert.equal(serialized.numItemsTotal, 4)
           })
         })
       })
@@ -248,7 +260,7 @@ describe('Bib Serializations', function () {
     it('should have publisherLiteral', function () {
       return Bib.byId('b10001936').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
-          assert.equal(serialized.publisherLiteral[0], 'Tparan Hovhannu Tēr-Abrahamian,')
+          assert.equal(serialized.publisherLiteral[0], 'Tparan Hovhannu Tēr-Abrahamian')
         })
       })
     })
@@ -256,7 +268,7 @@ describe('Bib Serializations', function () {
     it('should have place of publication', function () {
       return Bib.byId('b10001936').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
-          assert.equal(serialized.placeOfPublication[0], 'Ṛostov (Doni Vra) :')
+          assert.equal(serialized.placeOfPublication[0], 'Ṛostov (Doni Vra)')
         })
       })
     })
@@ -282,7 +294,7 @@ describe('Bib Serializations', function () {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           // This property has changed its indexed property over time, so make
           // sure we're reading the right ES property:
-          let prop = bibFieldMapper.getMapping('Note').indexPropertyName || bibFieldMapper.getMapping('Note').jsonLdKey
+          const prop = bibFieldMapper.getMapping('Note').indexPropertyName || bibFieldMapper.getMapping('Note').jsonLdKey
 
           assert(serialized[prop])
           assert.equal(serialized[prop].length, 5)
@@ -397,7 +409,7 @@ describe('Bib Serializations', function () {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           // This property has changed its indexed property over time, so make
           // sure we're reading the right ES property:
-          let prop = bibFieldMapper.getMapping('Note').indexPropertyName || bibFieldMapper.getMapping('Note').jsonLdKey
+          const prop = bibFieldMapper.getMapping('Note').indexPropertyName || bibFieldMapper.getMapping('Note').jsonLdKey
 
           assert(serialized[prop])
           assert.equal(serialized[prop].length, 9)
@@ -666,7 +678,7 @@ describe('Bib Serializations', function () {
       return Bib.byId('b10011374').then((bib) => {
         return ResourceSerializer.serialize(bib).then((serialized) => {
           // Grab electronic item from among many other non-electronic items:
-          var electronicItem = serialized.items.filter((item) => item.uri === 'i10011374-e').pop()
+          const electronicItem = serialized.items.filter((item) => item.uri === 'i10011374-e').pop()
 
           // Check first and last electronicLocators properties:
           assert.equal(electronicItem.electronicLocator[0].url, 'http://hdl.handle.net/2027/nyp.33433057532081')
@@ -716,7 +728,7 @@ describe('Bib Serializations', function () {
           // This bib has 6 items at writing. Four are suppressed by icode2 rules.
           // Two have itype 132 and should not be suppressed
           // Confirm the bib has them:
-          let itemsWithHighItype = serialized.items.filter((item) => item.catalogItemType[0].id === 'catalogItemType:132')
+          const itemsWithHighItype = serialized.items.filter((item) => item.catalogItemType[0].id === 'catalogItemType:132')
           assert(itemsWithHighItype.length > 0)
         })
       })
@@ -841,7 +853,7 @@ describe('Bib Serializations', function () {
     })
 
     it('ResourceSerializer.sortableShelfMark zero-pads numbers at end of string', function () {
-      let sortable = ResourceSerializer.sortableShelfMark
+      const sortable = ResourceSerializer.sortableShelfMark
 
       // Test numbers that *terminate* a call number:
       assert.equal(sortable('T-Mss 1991-010 27'), 'T-Mss 1991-010 000027')
@@ -849,7 +861,7 @@ describe('Bib Serializations', function () {
     })
 
     it('ResourceSerializer.sortableShelfMark makes sortable vol/reel/box/tube numbers wherever they appear', function () {
-      let sortable = ResourceSerializer.sortableShelfMark
+      const sortable = ResourceSerializer.sortableShelfMark
 
       // Test numbers that appear anywhere within a call number:
       // Test box/Box/BOX:
@@ -889,7 +901,7 @@ describe('Bib Serializations', function () {
       })
 
       it('should sort items with shelfMark by shelfMark', () => {
-        let itemsWithShelfMark = bib.items.slice(0, 8)
+        const itemsWithShelfMark = bib.items.slice(0, 8)
         assert(itemsWithShelfMark.every((item, i) => {
           if (i === 7) return true
           return item.shelfMark[0] < itemsWithShelfMark[i + 1].shelfMark[0]
@@ -897,7 +909,7 @@ describe('Bib Serializations', function () {
       })
 
       it('should sort items with no shelf mark by id', () => {
-        let itemsWithOutShelfMark = bib.items.slice(8, 11)
+        const itemsWithOutShelfMark = bib.items.slice(8, 11)
         assert(itemsWithOutShelfMark.every((item, i) => {
           if (i === 2) return true
           return item.uri < itemsWithOutShelfMark[i + 1].uri
@@ -925,6 +937,152 @@ describe('Bib Serializations', function () {
 
           expect(item.dueDate).to.be.a('array')
           expect(item.dueDate[0]).to.equal('2022-09-26')
+        })
+    })
+  })
+
+  describe('item date properties', () => {
+    it('sets item dateRange', () => {
+      return Bib.byId('b11815379')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const itemWithDateRange = bib.items
+            .find((i) => i.uri === 'i10436182')
+          expect(itemWithDateRange.dateRange).to.deep.equal([['1986', '1986']])
+        })
+    })
+
+    it('sets item dateRaw', () => {
+      return Bib.byId('b11815379')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const itemWithDateRange = bib.items
+            .find((i) => i.uri === 'i10436182')
+          expect(itemWithDateRange.dateRaw).to.deep
+            .equal(['This is faked dateRaw because it\'s not yet emitted by discovery-store-poster'])
+        })
+    })
+
+    describe('bib.numItemDatesParsed', () => {
+      it('sets bib.numItemDatesParsed', () => {
+        return Bib.byId('b11815379')
+          .then(ResourceSerializer.serialize)
+          .then((bib) => {
+            const itemsWithDateRanges = bib.items
+              .filter((i) => i.dateRange)
+              .length
+            // This bib has 40 items and all have dates:
+            expect(itemsWithDateRanges).to.eq(40)
+            expect(bib.numItemDatesParsed).to.deep.eq([itemsWithDateRanges])
+          })
+      })
+    })
+  })
+
+  describe('item volume properties', () => {
+    it('sets item volumeRange', () => {
+      return Bib.byId('b11815379')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const itemWithoutVolumeRange = bib.items
+            .find((i) => i.uri === 'i10436181')
+          expect(itemWithoutVolumeRange.volumeRange).to.be.a('undefined')
+
+          const itemWithVolumeRange = bib.items
+            .find((i) => i.uri === 'i10436182')
+          expect(itemWithVolumeRange.volumeRange).to.deep.equal([[26, 37]])
+        })
+    })
+
+    it('sets item volumeRaw', () => {
+      return Bib.byId('b11815379')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const itemWithoutVolume = bib.items
+            .find((i) => i.uri === 'i10436181')
+          expect(itemWithoutVolume.volumeRaw).to.be.a('undefined')
+
+          const itemWithVolume = bib.items
+            .find((i) => i.uri === 'i10436182')
+          expect(itemWithVolume.volumeRaw).to.deep
+            .equal(['This is faked volumeRaw because it\'s not yet emitted by discovery-store-poster'])
+        })
+    })
+
+    describe('bib.numItemVolumesParsed', () => {
+      it('sets bib.numItemVolumesParsed', () => {
+        return Bib.byId('b11815379')
+          .then(ResourceSerializer.serialize)
+          .then((bib) => {
+            const itemsWithVolumeRanges = bib.items
+              .filter((i) => i.volumeRange)
+              .length
+            // This bib has 40 items and all but one have parsable volumes:
+            expect(itemsWithVolumeRanges).to.eq(39)
+            expect(bib.numItemVolumesParsed).to.deep.eq([itemsWithVolumeRanges])
+          })
+      })
+    })
+  })
+
+  describe('item enumerationChronology', () => {
+    describe('item enumerationChronology_sort', () => {
+      it('sets item.enumerationChronology_sort', () => {
+        return Bib.byId('b11815379')
+          .then(ResourceSerializer.serialize)
+          .then((bib) => {
+            const itemWithVolume = bib.items
+              .find((i) => i.uri === 'i10436182')
+            // This has volumeRange [26,37] and dateRange ['1986', '1986']
+            // so we expect an enumerationChronology_sort containing the lower
+            // vol (26) and the lower date (1986)
+            expect(itemWithVolume.enumerationChronology_sort).to.deep
+              .equal(['        26-1986'])
+          })
+      })
+
+      it('sets item.enumeration...', () => {
+        return Bib.byId('b15934472')
+          .then(ResourceSerializer.serialize)
+          .then((bib) => {
+            const item = bib.items
+              .find((i) => i.uri === 'i14711040')
+            // This item has the following volume ranges:
+            //   [ 156, 156 ], [ 186, 186 ], [ 188, 188 ],
+            //   [ 242, 242 ], [ 244, 244 ], [ 248, 248 ]
+            // and only 1791 as a distinct date, so we expect
+            // enumerationChronology_sort to consist of the lowest vol (156)
+            // and 1791:
+            expect(item.enumerationChronology_sort).to.deep
+              .equal(['       156-1791'])
+          })
+      })
+    })
+  })
+
+  describe('item type', () => {
+    it('sets item.type', () => {
+      return Bib.byId('b11815379')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const item = bib.items
+            .shift()
+
+          expect(item.type).to.deep.equal(['bf:Item'])
+        })
+    })
+  })
+
+  describe('item formatLiteral', () => {
+    it('sets item.formatLiteral using bib.materialType', () => {
+      return Bib.byId('b11815379')
+        .then(ResourceSerializer.serialize)
+        .then((bib) => {
+          const item = bib.items
+            .shift()
+          // Expect the item's format to be taken from the bib's materialType:
+          const expectedFormatLiteral = bib.materialType.shift().label
+          expect(item.formatLiteral).to.deep.equal([expectedFormatLiteral])
         })
     })
   })

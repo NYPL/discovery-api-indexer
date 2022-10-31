@@ -13,7 +13,7 @@ const ResourceSerializer = require('../lib/serializers/resource-serializer')
 const envConfigHelper = require('../lib/env-config-helper')
 
 // Parsc cmd line opts:
-var argv = require('optimist')
+const argv = require('optimist')
   .usage('Index resources index with various types\nUsage: $0 -type TYPE')
   .default({
     bnum: null
