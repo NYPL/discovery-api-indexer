@@ -189,5 +189,33 @@ describe('Utils', function () {
       expect(utils.arrayToEsRangeObject([10, 1]))
         .to.deep.equal({ gte: 1, lte: 10 })
     })
+
+    it('should correct misordered array without also being broken by Node\'s regretable default comparator', function () {
+      // "The default sort order is ascending, built upon converting the elements into strings"
+      expect(utils.arrayToEsRangeObject([1000, 2]))
+        .to.deep.equal({ gte: 2, lte: 1000 })
+    })
+  })
+
+  describe('fixMisorderedRange', function () {
+    it('fixes misordered range', function () {
+      expect(utils.fixMisorderedRange([3, 1])).to.deep.eq([1, 3])
+      expect(utils.fixMisorderedRange([10000, 1])).to.deep.eq([1, 10000])
+    })
+
+    it('fixes misordered range without mutation', function () {
+      const orig = [3, 1]
+      expect(utils.fixMisorderedRange(orig)).to.deep.eq([1, 3])
+      expect(orig).to.deep.eq([3, 1])
+    })
+  })
+
+  describe('lowestRangeValue', function () {
+    it('identifies lowest value in range', function () {
+      expect(utils.lowestRangeValue([[1, 2], [3, 6]])).to.eq(1)
+      expect(utils.lowestRangeValue([[9, 10], [6, 7]])).to.eq(6)
+      // Relying on the function to auto correct bad ranges:
+      expect(utils.lowestRangeValue([[90, 1], [6, 7]])).to.eq(1)
+    })
   })
 })
