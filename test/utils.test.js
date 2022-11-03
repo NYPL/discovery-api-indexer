@@ -182,5 +182,12 @@ describe('Utils', function () {
       expect(() => utils.arrayToEsRangeObject([[0, 1]]))
         .to.throw()
     })
+
+    it('should correct misordered array', function () {
+      expect(utils.arrayToEsRangeObject([0, -1]))
+        .to.deep.equal({ gte: -1, lte: 0 })
+      expect(utils.arrayToEsRangeObject([10, 1]))
+        .to.deep.equal({ gte: 1, lte: 10 })
+    })
   })
 })
