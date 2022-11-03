@@ -167,4 +167,20 @@ describe('Utils', function () {
       expect(utils.leftPad(true, 5, ' ')).to.equal(' true')
     })
   })
+
+  describe('arrayToEsRangeObject', function () {
+    it('should convert single range', function () {
+      expect(utils.arrayToEsRangeObject([0, 1]))
+        .to.deep.equal({ gte: 0, lte: 1 })
+    })
+
+    it('should reject invalid array', function () {
+      expect(() => utils.arrayToEsRangeObject([0]))
+        .to.throw()
+      expect(() => utils.arrayToEsRangeObject([]))
+        .to.throw()
+      expect(() => utils.arrayToEsRangeObject([[0, 1]]))
+        .to.throw()
+    })
+  })
 })
