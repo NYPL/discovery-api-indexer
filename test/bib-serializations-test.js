@@ -1069,9 +1069,9 @@ describe('Bib Serializations', function () {
             //   [ "1998-03", "1998-03" ],
             //   [ "2000-11", "2001-12" ]
             // So we expect the sort to be constructued using the lowest volume
-            // ('') and the lowest date year (1998) without the month:
+            // ('') and the lowest date (1998-03):
             expect(item.enumerationChronology_sort).to.deep
-              .equal(['          -1998'])
+              .equal(['          -1998-03'])
           })
       })
     })
