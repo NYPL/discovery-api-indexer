@@ -96,13 +96,13 @@ See the [Index Administration documentation](docs/index-admin.md) for notes on E
 npm test
 ```
 
-All tests rely on local fixtures. When adding new tests, a script is included for generating fixtures based on existing QA/Production data. See [jobs/update-test-fixtures.js](jobs/update-test-fixtures.js) for details.
+All tests rely on local fixtures. When adding new tests, a script is included for generating fixtures based on existing QA/Production data.
 
 ### Updating fixtures
 
-To update a fixture:
+To add/update a fixture file for b1234 based on QA data:
 ```
-node jobs/update-test-fixtures --id b17678033 --profile [aws profile] --envfile config/[envfile name]
+node scripts/generate-fixture-for-bib --envfile config/qa.env --uri b1234
 ```
 
 ## Contributing

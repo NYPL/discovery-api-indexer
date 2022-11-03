@@ -948,7 +948,7 @@ describe('Bib Serializations', function () {
         .then((bib) => {
           const itemWithDateRange = bib.items
             .find((i) => i.uri === 'i10436182')
-          expect(itemWithDateRange.dateRange).to.deep.equal([['1986', '1986']])
+          expect(itemWithDateRange.dateRange).to.deep.equal([{ gte: '1986', lte: '1986' }])
         })
     })
 
@@ -990,7 +990,7 @@ describe('Bib Serializations', function () {
 
           const itemWithVolumeRange = bib.items
             .find((i) => i.uri === 'i10436182')
-          expect(itemWithVolumeRange.volumeRange).to.deep.equal([[26, 37]])
+          expect(itemWithVolumeRange.volumeRange).to.deep.equal([{ gte: 26, lte: 37 }])
         })
     })
 
@@ -1041,7 +1041,7 @@ describe('Bib Serializations', function () {
           })
       })
 
-      it('sets item.enumeration...', () => {
+      it('sets item.enumerationChronology_sort', () => {
         return Bib.byId('b15934472')
           .then(ResourceSerializer.serialize)
           .then((bib) => {
@@ -1055,6 +1055,23 @@ describe('Bib Serializations', function () {
             // and 1791:
             expect(item.enumerationChronology_sort).to.deep
               .equal(['       156-1791'])
+          })
+      })
+
+      it('sets item.enumerationChronology_sort for item with granular dates', () => {
+        return Bib.byId('b12959619')
+          .then(ResourceSerializer.serialize)
+          .then((bib) => {
+            const item = bib.items
+              .find((i) => i.uri === 'i14347358')
+            // This item has no volumeRanges, but does have dateRanges
+            // This item in particular has the following dateRanges:
+            //   [ "1998-03", "1998-03" ],
+            //   [ "2000-11", "2001-12" ]
+            // So we expect the sort to be constructued using the lowest volume
+            // ('') and the lowest date (1998-03):
+            expect(item.enumerationChronology_sort).to.deep
+              .equal(['          -1998-03'])
           })
       })
     })

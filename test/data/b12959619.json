@@ -1,0 +1,1864 @@
+{
+  "subject_id": "b12959619",
+  "bib_statements": [
+    {
+      "s": "b12959619",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "12959619",
+      "ty": "nypl:Bnumber",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:catalogBibLocation",
+      "index": 0,
+      "id": "loc:scf",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:catalogBibLocation",
+      "index": 1,
+      "id": "loc:mal",
+      "la": "Schwarzman Building - Main Reading Room 315",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dbo:startDate",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1994",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dcterms:created",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1994",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dc:date",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "1994",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dbo:endDate",
+      "index": 0,
+      "ty": "xsd:integer",
+      "li": "9999",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dc:contributor",
+      "index": 0,
+      "li": "Afro-American Historical and Genealogical Society (Washington, D.C.)",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dc:contributor",
+      "index": 1,
+      "li": "New York Genealogical and Biographical Society Collection.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:serialPublicationDates",
+      "index": 0,
+      "li": "Jan/Feb. 1994-",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "bf:dimensions",
+      "index": 0,
+      "li": "28 cm.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:donor",
+      "index": 0,
+      "li": "Gift of New York Genealogical and Biographical Society.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:extent",
+      "index": 0,
+      "li": "v. ;",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:placeOfPublication",
+      "index": 0,
+      "li": "Washington, D.C.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:publicationStatement",
+      "index": 0,
+      "li": "Washington, D.C. : The Society, 1994-",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:role-publisher",
+      "index": 0,
+      "li": "The Society",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dcterms:title",
+      "index": 0,
+      "li": "AAHGS news : the bi-monthly newsletter of the Afro-American Historical and Genealogical Society, Inc.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:titleDisplay",
+      "index": 0,
+      "li": "AAHGS news : the bi-monthly newsletter of the Afro-American Historical and Genealogical Society, Inc.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "bf:note",
+      "index": 0,
+      "id": "b12959619#1.0000",
+      "bn": [
+        {
+          "s": "b12959619#1.0000",
+          "pr": "rdf:type",
+          "index": 0,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b12959619#1.0000",
+          "pr": "bf:noteType",
+          "index": 0,
+          "li": "Note",
+          "bn": null
+        },
+        {
+          "s": "b12959619#1.0000",
+          "pr": "rdfs:label",
+          "index": 0,
+          "li": "Caption title.",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b12959619",
+      "pr": "bf:note",
+      "index": 1,
+      "id": "b12959619#1.0001",
+      "bn": [
+        {
+          "s": "b12959619#1.0001",
+          "pr": "rdf:type",
+          "index": 1,
+          "id": "bf:Note",
+          "bn": null
+        },
+        {
+          "s": "b12959619#1.0001",
+          "pr": "bf:noteType",
+          "index": 1,
+          "li": "Source",
+          "bn": null
+        },
+        {
+          "s": "b12959619#1.0001",
+          "pr": "rdfs:label",
+          "index": 1,
+          "li": "New York Genealogical and Biographical Society;",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "b12959619",
+      "pr": "dcterms:identifier",
+      "index": 1,
+      "id": "30264923",
+      "ty": "nypl:Oclc",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dc:subject",
+      "index": 0,
+      "li": "Afro-American Historical and Genealogical Society (Washington, D.C.) -- Periodicals.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dc:subject",
+      "index": 1,
+      "li": "African Americans -- History -- Periodicals.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dc:subject",
+      "index": 2,
+      "li": "African Americans -- Genealogy -- Periodicals.",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dcterms:language",
+      "index": 0,
+      "id": "lang:eng",
+      "la": "English",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "bf:issuance",
+      "index": 0,
+      "id": "urn:biblevel:s",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "dcterms:type",
+      "index": 0,
+      "id": "resourcetypes:txt",
+      "la": "Text",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "bf:media",
+      "index": 0,
+      "id": "mediatypes:n",
+      "la": "unmediated",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "bf:carrier",
+      "index": 0,
+      "id": "carriertypes:nc",
+      "la": "volume",
+      "bn": null
+    },
+    {
+      "s": "b12959619",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "nypl:Collection",
+      "bn": null
+    }
+  ],
+  "item_statements": [
+    {
+      "s": "i28294176",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433089120236",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "2011",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 2011",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2011",
+        "2011"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i28294176",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433017857628",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "2002",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 2002",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2002",
+        "2002"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i12290725",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433058989447",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Jan./Feb.-July/Aug., Nov./Dec. 2003",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 Jan./Feb.-July/Aug., Nov./Dec. 2003",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2003",
+        "2003"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:dateRange",
+      "index": 1,
+      "li": [
+        "2003-11",
+        "2003-11"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i14347356",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433061003772",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Jan. 1997-Feb. 1998",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 Jan. 1997-Feb. 1998",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1997-01",
+        "1998-02"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i14347357",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433061040048",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Mar./Apr. 1998, Nov./Dec. 2000-Nov./Dec. 2001",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 Mar./Apr. 1998, Nov./Dec. 2000-Nov./Dec. 2001",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:volumeRange",
+      "index": 0,
+      "li": [],
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:volumeRange",
+      "index": 1,
+      "li": [],
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1998-03",
+        "1998-03"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:dateRange",
+      "index": 1,
+      "li": [
+        "2000-11",
+        "2001-12"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i14347358",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433064380201",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Jan./Feb.-Nov./Dec. 2004, inc.",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 Jan./Feb.-Nov./Dec. 2004, inc.",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2004-01",
+        "2004-12"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:dateRange",
+      "index": 1,
+      "li": [
+        "2004",
+        "2004"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i15152335",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433072857430",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "2005",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 2005",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2005",
+        "2005"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i15152336",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433086856287",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "NYGB E I85.89 A351",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Sep./Oct. 1994, Jan./Feb. 1997-Jan./Feb. 1998",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "NYGB E I85.89 A351 Sep./Oct. 1994, Jan./Feb. 1997-Jan./Feb. 1998",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "1994-09",
+        "1994-09"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:dateRange",
+      "index": 1,
+      "li": [
+        "1997-01",
+        "1998-02"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:rcma2",
+      "la": "Offsite",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:2",
+      "la": "Request in advance",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:recapCustomerCode",
+      "index": 0,
+      "li": "NA",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1000",
+      "la": "Stephen A. Schwarzman Building",
+      "bn": null
+    },
+    {
+      "s": "i24714721",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "true",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433074059571",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Mar./Apr.-Nov./Dec. 2007",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 Mar./Apr.-Nov./Dec. 2007",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2007-03",
+        "2007-12"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i17552931",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433089294239",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "2010",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 2010",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2010",
+        "2010"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i25916378",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433089272664",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Jan.-Apr. 2008, May-Dec. 2009",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 Jan.-Apr. 2008, May-Dec. 2009",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2008-01",
+        "2008-04"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:dateRange",
+      "index": 1,
+      "li": [
+        "2009-05",
+        "2009-12"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i25773904",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "bf:Item",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:catalogItemType",
+      "index": 0,
+      "id": "catalogItemType:3",
+      "la": "serial",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "dcterms:identifier",
+      "index": 0,
+      "id": "33433083508048",
+      "ty": "bf:Barcode",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "bf:enumerationAndChronology",
+      "index": 0,
+      "li": "Jan./Feb.-Mar./Apr., July/Aug.-Nov./Dec. 2006",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489 Jan./Feb.-Mar./Apr., July/Aug.-Nov./Dec. 2006",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:dateRange",
+      "index": 0,
+      "li": [
+        "2006",
+        "2006"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:dateRange",
+      "index": 1,
+      "li": [
+        "2006-07",
+        "2006-12"
+      ],
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "bf:status",
+      "index": 0,
+      "id": "status:a",
+      "la": "Available",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scff2",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:accessMessage",
+      "index": 0,
+      "id": "accessMessage:1",
+      "la": "Use in library",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:owner",
+      "index": 0,
+      "id": "orgs:1114",
+      "la": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",
+      "bn": null
+    },
+    {
+      "s": "i24132367",
+      "pr": "nypl:requestable",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    }
+  ],
+  "holding_statements": [
+    {
+      "s": "h1032862",
+      "pr": "rdfs:type",
+      "index": 0,
+      "id": "nypl:Holding",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "nypl:bnum",
+      "index": 0,
+      "id": "urn:bnum:b12959619",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "nypl:suppressed",
+      "index": 0,
+      "ty": "xsd:boolean",
+      "li": "false",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "nypl:shelfMark",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "bf:physicalLocation",
+      "index": 0,
+      "li": "Sc Ser.-M .N489",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "nypl:holdingLocation",
+      "index": 0,
+      "id": "loc:scf",
+      "la": "Schomburg Center - Research & Reference",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "dcterms:coverage",
+      "index": 0,
+      "li": "Jan 1997-2011. INCOMPLETE",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "dcterms:format",
+      "index": 0,
+      "li": "PRINT",
+      "bn": null
+    },
+    {
+      "s": "h1032862",
+      "pr": "dcterms:hasPart",
+      "index": 0,
+      "id": "h1032862#1.0000",
+      "bn": [
+        {
+          "s": "h1032862#1.0000",
+          "pr": "rdf:type",
+          "index": 0,
+          "id": "nypl:CheckInBox",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0000",
+          "pr": "dcterms:coverage",
+          "index": 0,
+          "li": "Jan. 2012",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0000",
+          "pr": "bf:status",
+          "index": 0,
+          "li": "Arrived",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0000",
+          "pr": "bf:count",
+          "index": 0,
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0000",
+          "pr": "bf:part",
+          "index": 0,
+          "li": "1",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "h1032862",
+      "pr": "dcterms:hasPart",
+      "index": 1,
+      "id": "h1032862#1.0001",
+      "bn": [
+        {
+          "s": "h1032862#1.0001",
+          "pr": "rdf:type",
+          "index": 1,
+          "id": "nypl:CheckInBox",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0001",
+          "pr": "dcterms:coverage",
+          "index": 1,
+          "li": "Mar. 2012",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0001",
+          "pr": "bf:status",
+          "index": 1,
+          "li": "Arrived",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0001",
+          "pr": "bf:count",
+          "index": 1,
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0001",
+          "pr": "bf:part",
+          "index": 1,
+          "li": "2",
+          "bn": null
+        }
+      ]
+    },
+    {
+      "s": "h1032862",
+      "pr": "dcterms:hasPart",
+      "index": 2,
+      "id": "h1032862#1.0002",
+      "bn": [
+        {
+          "s": "h1032862#1.0002",
+          "pr": "rdf:type",
+          "index": 2,
+          "id": "nypl:CheckInBox",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0002",
+          "pr": "dcterms:coverage",
+          "index": 2,
+          "li": "May. 2012",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0002",
+          "pr": "bf:status",
+          "index": 2,
+          "li": "Expected",
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0002",
+          "pr": "bf:count",
+          "index": 2,
+          "bn": null
+        },
+        {
+          "s": "h1032862#1.0002",
+          "pr": "bf:part",
+          "index": 2,
+          "li": "3",
+          "bn": null
+        }
+      ]
+    }
+  ]
+}
