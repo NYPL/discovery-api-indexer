@@ -1,3 +1,7 @@
+# Archived 10/27/2023
+
+This app's role has been made redundant with the retirement of the Discovery Hybrid Indexer. The new indexer can be found [here](https://github.com/NYPL/research-catalog-indexer).
+
 # Discovery API Indexer
 
 This app pulls data from the Discovery store (aka PCDM Store) and pushes it into the Elasticsearch index that powers the Discovery API.
